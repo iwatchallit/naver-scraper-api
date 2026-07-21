@@ -1,9 +1,17 @@
+import { existsSync } from "node:fs";
 import { chromium, type Browser, type BrowserContext, type Page, type Response } from "playwright-core";
 import { createEmptyCaptureResult, type NaverCaptureResult } from "../domain/capture";
 import { ERROR_CODES, type ApiErrorShape } from "../domain/errors";
 import type { NaverProductUrlInfo } from "../domain/naver-url";
 
-const PRODUCT_DETAILS_REGEX = /\/i\/v2\/channels\/([^/]+)\/products\/(\d+)(?:\?|$)/;
+const SMARTSTORE_PRODUCT_DETAILS_REGEX = /\/i\/v2\/channels\/([^/]+)\/products\/(\d+)(?:\?|$)/;
+const BRAND_PRODUCT_DETAILS_REGEX = /\/n\/v2\/channels\/([^/]+)\/products\/(\d+)(?:\?|$)/;
+const SHOPPING_PRODUCT_DETAILS_REGEX = /\/product-detail\/v2\/channels\/([^/]+)\/products\/(\d+)(?:\?|$)/;
+const BRAND_PRODUCT_CONTENT_REGEX = /\/n\/v2\/channels\/([^/]+)\/products\/(\d+)\/contents\/(\d+)\/PC(?:\?|$)/;
+const SHOPPING_PRODUCT_CONTENT_REGEX = /\/product-detail\/v2\/channels\/([^/]+)\/products\/(\d+)\/contents\/(\d+)\/PC(?:\?|$)/;
+const SMARTSTORE_BENEFITS_REGEX = /\/benefits\/by-product(?:s)?(?:\/(\d+))?(?:\?|$)/;
+const BRAND_BENEFITS_REGEX = /\/n\/v2\/channels\/([^/]+)\/product-benefits(?:\/(\d+))?(?:\?|$)/;
+const SHOPPING_BENEFITS_REGEX = /\/product-detail\/v2\/channels\/([^/]+)\/product-benefits(?:\/(\d+))?(?:\?|$)/;
 const CHANNEL_UID_IN_HTML_REGEX = /"channelUid"\s*:\s*"([^"]+)"/;
 
 let sidecarBrowser: Browser | null = null;
@@ -85,6 +93,7 @@ export interface CaptureOptions {
   fingerprintProfiles: FingerprintProfile[];
   ipSamplingEnabled: boolean;
   ipSampleMinIntervalMs: number;
+  storageStatePath: string | null;
 }
 
 export interface CaptureSuccess {
@@ -159,7 +168,8 @@ export function getCaptureOptionsFromEnv(): CaptureOptions {
     jitterMaxMs: toNonNegativeInt(process.env.REQUEST_JITTER_MAX_MS, 900),
     fingerprintProfiles: getFingerprintProfilesFromEnv(),
     ipSamplingEnabled: (process.env.IP_SAMPLING_ENABLED ?? "false").toLowerCase() === "true",
-    ipSampleMinIntervalMs: toPositiveInt(process.env.IP_SAMPLE_MIN_INTERVAL_MS, 60000)
+    ipSampleMinIntervalMs: toPositiveInt(process.env.IP_SAMPLE_MIN_INTERVAL_MS, 60000),
+    storageStatePath: normalizeOptionalString(process.env.NAVER_STORAGE_STATE_PATH)
   };
 }
 
@@ -229,17 +239,45 @@ export async function captureProductPayloads(
 
     const capture = createEmptyCaptureResult();
     const diagnostics = createCaptureDiagnostics();
-    attachResponseCapture(page, productUrl.productId, capture, diagnostics);
+    attachResponseCapture(page, productUrl, capture, diagnostics);
 
     await page.goto(productUrl.sourceUrl, {
       waitUntil: "domcontentloaded",
       timeout: options.navigationTimeoutMs
     });
 
+    await sleep(1000);
+
+    const pageNotice = detectUpstreamPageNoticeText((await page.textContent("body")) ?? "");
+    if (pageNotice) {
+      return {
+        ok: false,
+        error: {
+          code: pageNotice.code,
+          message: pageNotice.message
+        }
+      };
+    }
+
     await waitForCapture(capture, options.captureGraceMs);
 
+    const noticeAfterCaptureWait = detectUpstreamPageNoticeText((await page.textContent("body")) ?? "");
+    if (noticeAfterCaptureWait) {
+      return {
+        ok: false,
+        error: {
+          code: noticeAfterCaptureWait.code,
+          message: noticeAfterCaptureWait.message
+        }
+      };
+    }
+
     if (capture.productDetails.state !== "captured") {
-      await fallbackFetchProductDetails(page, productUrl.productId, capture, diagnostics, options);
+      await fallbackFetchProductDetails(page, productUrl, capture, diagnostics, options);
+    }
+
+    if (capture.productDetails.state !== "captured") {
+      await captureProductDetailsFromPageState(page, productUrl, capture, diagnostics);
     }
 
     if (capture.benefits.state === "not-captured") {
@@ -295,18 +333,44 @@ export async function captureProductPayloads(
 interface CaptureDiagnostics {
   observedProductDetailsUrls: string[];
   observedChannelUid: string | null;
+  observedBrandContentUrl: string | null;
+  observedShoppingContentUrl: string | null;
+  fallbackFetchAttempted: boolean;
+  fallbackFetchStatus: number | null;
+  pageStateAttempted: boolean;
+  pageStateMarkerFound: boolean;
+  pageStateParsed: boolean;
+  pageStateHasProductDetail: boolean;
+  pageStateProductId: string | null;
+  pageStateChannelUid: string | null;
+  pageStateMatchedTargetProduct: boolean;
+  pageStateCaptured: boolean;
+  pageStateError: string | null;
 }
 
 function createCaptureDiagnostics(): CaptureDiagnostics {
   return {
     observedProductDetailsUrls: [],
-    observedChannelUid: null
+    observedChannelUid: null,
+    observedBrandContentUrl: null,
+    observedShoppingContentUrl: null,
+    fallbackFetchAttempted: false,
+    fallbackFetchStatus: null,
+    pageStateAttempted: false,
+    pageStateMarkerFound: false,
+    pageStateParsed: false,
+    pageStateHasProductDetail: false,
+    pageStateProductId: null,
+    pageStateChannelUid: null,
+    pageStateMatchedTargetProduct: false,
+    pageStateCaptured: false,
+    pageStateError: null
   };
 }
 
 function attachResponseCapture(
   page: Page,
-  requestedProductId: string,
+  productUrl: NaverProductUrlInfo,
   capture: NaverCaptureResult,
   diagnostics: CaptureDiagnostics
 ) {
@@ -321,6 +385,38 @@ function attachResponseCapture(
     if (capture.productDetails.state !== "captured") {
       const detailsMatch = matchProductDetailsUrl(url);
       if (!detailsMatch) {
+        const brandContentMatch = matchBrandProductContentUrl(url);
+        if (!brandContentMatch) {
+          const shoppingContentMatch = matchShoppingProductContentUrl(url);
+          if (!shoppingContentMatch) {
+            return;
+          }
+
+          pushObservedProductDetailsUrl(diagnostics, url);
+
+          const [, channelUid, productId] = shoppingContentMatch;
+          diagnostics.observedChannelUid = channelUid;
+          diagnostics.observedShoppingContentUrl = url;
+
+          if (productId !== productUrl.productId) {
+            return;
+          }
+
+          await captureProductDetailsResponse(response, capture, channelUid);
+          return;
+        }
+
+        pushObservedProductDetailsUrl(diagnostics, url);
+
+        const [, channelUid, productId] = brandContentMatch;
+        diagnostics.observedChannelUid = channelUid;
+        diagnostics.observedBrandContentUrl = url;
+
+        if (productId !== productUrl.productId) {
+          return;
+        }
+
+        await captureProductDetailsResponse(response, capture, channelUid);
         return;
       }
 
@@ -329,7 +425,7 @@ function attachResponseCapture(
       const [, channelUid, productId] = detailsMatch;
       diagnostics.observedChannelUid = channelUid;
 
-      if (productId !== requestedProductId) {
+      if (productId !== productUrl.productId) {
         return;
       }
 
@@ -340,11 +436,13 @@ function attachResponseCapture(
 
 async function fallbackFetchProductDetails(
   page: Page,
-  requestedProductId: string,
+  productUrl: NaverProductUrlInfo,
   capture: NaverCaptureResult,
   diagnostics: CaptureDiagnostics,
   options: CaptureOptions
 ) {
+  diagnostics.fallbackFetchAttempted = true;
+
   const channelUid =
     diagnostics.observedChannelUid ?? (await extractChannelUidFromPage(page)).channelUid ?? null;
 
@@ -352,7 +450,7 @@ async function fallbackFetchProductDetails(
     return;
   }
 
-  const detailsUrl = `https://smartstore.naver.com/i/v2/channels/${channelUid}/products/${requestedProductId}?withWindow=false`;
+  const detailsUrl = buildFallbackDetailsUrl(productUrl, channelUid, diagnostics.observedBrandContentUrl);
 
   try {
     const response = await page.request.get(detailsUrl, {
@@ -362,6 +460,7 @@ async function fallbackFetchProductDetails(
       }
     });
 
+    diagnostics.fallbackFetchStatus = response.status();
     capture.productDetails.status = response.status();
     capture.productDetails.channelUid = channelUid;
 
@@ -379,6 +478,65 @@ async function fallbackFetchProductDetails(
     }
   } catch {
     // Ignore fallback fetch failures; timeout handling continues upstream.
+  }
+}
+
+async function captureProductDetailsFromPageState(
+  page: Page,
+  productUrl: NaverProductUrlInfo,
+  capture: NaverCaptureResult,
+  diagnostics: CaptureDiagnostics
+) {
+  diagnostics.pageStateAttempted = true;
+
+  try {
+    const html = await page.content();
+    diagnostics.pageStateMarkerFound = html.includes("window.__PRELOADED_STATE__=");
+
+    const state = extractPreloadedStateFromHtml(html);
+    diagnostics.pageStateParsed = state !== null;
+
+    const productDetail =
+      state && typeof state === "object" ? (state as { productDetail?: unknown }).productDetail : extractProductDetailFromHtml(html);
+
+    diagnostics.pageStateHasProductDetail = Boolean(productDetail && typeof productDetail === "object");
+
+    if (!productDetail || typeof productDetail !== "object") {
+      return;
+    }
+
+    const normalizedProductDetail = productDetail as {
+      _id?: unknown;
+      productNo?: unknown;
+      channel?: { channelUid?: unknown };
+    };
+    const pageProductId = normalizePageStateProductId(normalizedProductDetail._id ?? normalizedProductDetail.productNo);
+    diagnostics.pageStateProductId = pageProductId;
+
+    if (pageProductId !== productUrl.productId) {
+      diagnostics.pageStateMatchedTargetProduct = false;
+      return;
+    }
+
+    diagnostics.pageStateMatchedTargetProduct = true;
+
+    const channelUid = normalizePageStateProductId(normalizedProductDetail.channel?.channelUid);
+    diagnostics.pageStateChannelUid = channelUid;
+
+    if (!channelUid) {
+      return;
+    }
+
+    capture.productDetails = {
+      state: "captured",
+      status: 200,
+      channelUid,
+      raw: productDetail
+    };
+    diagnostics.pageStateCaptured = true;
+  } catch {
+    diagnostics.pageStateError = "page-state-capture-threw";
+    // Page-state capture is best-effort and only used when network capture misses.
   }
 }
 
@@ -405,11 +563,55 @@ function pushObservedProductDetailsUrl(diagnostics: CaptureDiagnostics, url: str
 }
 
 function buildCaptureTimeoutMessage(diagnostics: CaptureDiagnostics): string {
+  const fallbackSummary = diagnostics.fallbackFetchAttempted
+    ? `fallbackFetch(status=${diagnostics.fallbackFetchStatus ?? "none"})`
+    : "fallbackFetch(not-attempted)";
+
+  const pageStateSummary = diagnostics.pageStateAttempted
+    ? `pageState(marker=${diagnostics.pageStateMarkerFound}, parsed=${diagnostics.pageStateParsed}, productDetail=${diagnostics.pageStateHasProductDetail}, productId=${diagnostics.pageStateProductId ?? "none"}, targetMatch=${diagnostics.pageStateMatchedTargetProduct}, channelUid=${diagnostics.pageStateChannelUid ?? "none"}, captured=${diagnostics.pageStateCaptured}${diagnostics.pageStateError ? `, error=${diagnostics.pageStateError}` : ""})`
+    : "pageState(not-attempted)";
+
   if (diagnostics.observedProductDetailsUrls.length === 0) {
-    return "Could not capture product details payload within timeout; no matching product-details responses were observed";
+    return `Could not capture product details payload within timeout; no matching product-details responses were observed; ${fallbackSummary}; ${pageStateSummary}`;
   }
 
-  return `Could not capture product details payload within timeout; observed candidates: ${diagnostics.observedProductDetailsUrls.join(" | ")}`;
+  return `Could not capture product details payload within timeout; observed candidates: ${diagnostics.observedProductDetailsUrls.join(" | ")}; ${fallbackSummary}; ${pageStateSummary}`;
+}
+
+interface UpstreamPageNotice {
+  code: ApiErrorShape["code"];
+  message: string;
+}
+
+function detectUpstreamPageNoticeText(bodyText: string): UpstreamPageNotice | null {
+  const normalized = bodyText.toLowerCase();
+
+  if (
+    normalized.includes("please complete the security verification") ||
+    normalized.includes("security verification") ||
+    normalized.includes("this procedure will help you secure your account") ||
+    normalized.includes("audio guide will play") ||
+    normalized.includes("음성으로 안내되고 있습니다")
+  ) {
+    return {
+      code: ERROR_CODES.NAVER_UPSTREAM_CHALLENGE,
+      message: "Upstream security verification page detected instead of the product page"
+    };
+  }
+
+  if (
+    normalized.includes("operations have been suspended due to the seller's circumstances") ||
+    normalized.includes("판매자의 사정에 따라 운영이 중지되었습니다") ||
+    normalized.includes("현재 서비스 접속이 불가합니다") ||
+    normalized.includes("service access is currently unavailable")
+  ) {
+    return {
+      code: ERROR_CODES.NAVER_TARGET_UNAVAILABLE,
+      message: "Target page is temporarily unavailable or seller operations are suspended"
+    };
+  }
+
+  return null;
 }
 
 async function captureBenefitsResponse(response: Response, capture: NaverCaptureResult) {
@@ -451,11 +653,55 @@ async function captureProductDetailsResponse(
 }
 
 function isBenefitsUrl(url: string): boolean {
-  return url.includes("/benefits/by-product");
+  return SMARTSTORE_BENEFITS_REGEX.test(url) || BRAND_BENEFITS_REGEX.test(url) || SHOPPING_BENEFITS_REGEX.test(url);
 }
 
 function matchProductDetailsUrl(url: string): RegExpMatchArray | null {
-  return url.match(PRODUCT_DETAILS_REGEX);
+  return (
+    url.match(SMARTSTORE_PRODUCT_DETAILS_REGEX) ??
+    url.match(BRAND_PRODUCT_DETAILS_REGEX) ??
+    url.match(SHOPPING_PRODUCT_DETAILS_REGEX)
+  );
+}
+
+function matchBrandProductContentUrl(url: string): RegExpMatchArray | null {
+  return url.match(BRAND_PRODUCT_CONTENT_REGEX);
+}
+
+function matchShoppingProductContentUrl(url: string): RegExpMatchArray | null {
+  return url.match(SHOPPING_PRODUCT_CONTENT_REGEX);
+}
+
+function buildFallbackDetailsUrl(
+  productUrl: NaverProductUrlInfo,
+  channelUid: string,
+  observedBrandContentUrl: string | null
+): string {
+  if (isBrandUrl(productUrl.sourceUrl) && observedBrandContentUrl) {
+    return observedBrandContentUrl;
+  }
+
+  if (isShoppingWindowUrl(productUrl.sourceUrl) && observedBrandContentUrl) {
+    return observedBrandContentUrl;
+  }
+
+  if (isShoppingWindowUrl(productUrl.sourceUrl) && observedBrandContentUrl === null) {
+    return `https://shopping.naver.com/product-detail/v2/channels/${channelUid}/products/${productUrl.productId}?withWindow=false`;
+  }
+
+  if (isBrandUrl(productUrl.sourceUrl)) {
+    return `https://brand.naver.com/n/v2/channels/${channelUid}/products/${productUrl.productId}?withWindow=false`;
+  }
+
+  return `https://smartstore.naver.com/i/v2/channels/${channelUid}/products/${productUrl.productId}?withWindow=false`;
+}
+
+function isBrandUrl(url: string): boolean {
+  return url.includes("brand.naver.com");
+}
+
+function isShoppingWindowUrl(url: string): boolean {
+  return url.includes("shopping.naver.com/window-products/");
 }
 
 async function createContext(
@@ -463,6 +709,7 @@ async function createContext(
   fingerprintProfile: FingerprintProfile
 ): Promise<BrowserContext> {
   const browser = await getOrCreateBrowser(options);
+  const storageState = getAvailableStorageStatePath(options.storageStatePath);
 
   if (options.proxyServer) {
     return browser.newContext({
@@ -471,6 +718,7 @@ async function createContext(
         username: options.proxyUsername ?? undefined,
         password: options.proxyPassword ?? undefined
       },
+      storageState: storageState ?? undefined,
       userAgent: fingerprintProfile.userAgent,
       locale: fingerprintProfile.locale,
       timezoneId: fingerprintProfile.timezoneId,
@@ -480,6 +728,7 @@ async function createContext(
   }
 
   return browser.newContext({
+    storageState: storageState ?? undefined,
     userAgent: fingerprintProfile.userAgent,
     locale: fingerprintProfile.locale,
     timezoneId: fingerprintProfile.timezoneId,
@@ -647,6 +896,135 @@ function normalizeOptionalString(value: string | undefined): string | null {
   return trimmed.length > 0 ? trimmed : null;
 }
 
+function normalizePageStateProductId(value: unknown): string | null {
+  if (typeof value === "number" && Number.isFinite(value)) {
+    return String(value);
+  }
+
+  if (typeof value === "string") {
+    const trimmed = value.trim();
+    return trimmed.length > 0 ? trimmed : null;
+  }
+
+  return null;
+}
+
+function extractPreloadedStateFromHtml(html: string): Record<string, unknown> | null {
+  const marker = "window.__PRELOADED_STATE__=";
+  const markerIndex = html.indexOf(marker);
+  if (markerIndex < 0) {
+    return null;
+  }
+
+  const startIndex = html.indexOf("{", markerIndex + marker.length);
+  if (startIndex < 0) {
+    return null;
+  }
+
+  let depth = 0;
+  let inString = false;
+  let escaped = false;
+
+  for (let index = startIndex; index < html.length; index += 1) {
+    const char = html[index];
+
+    if (inString) {
+      if (escaped) {
+        escaped = false;
+      } else if (char === "\\") {
+        escaped = true;
+      } else if (char === '"') {
+        inString = false;
+      }
+
+      continue;
+    }
+
+    if (char === '"') {
+      inString = true;
+      continue;
+    }
+
+    if (char === "{") {
+      depth += 1;
+      continue;
+    }
+
+    if (char === "}") {
+      depth -= 1;
+      if (depth === 0) {
+        const rawJson = html.slice(startIndex, index + 1);
+
+        try {
+          return JSON.parse(rawJson) as Record<string, unknown>;
+        } catch {
+          return null;
+        }
+      }
+    }
+  }
+
+  return null;
+}
+
+function extractProductDetailFromHtml(html: string): Record<string, unknown> | null {
+  const marker = '"productDetail":';
+  const markerIndex = html.indexOf(marker);
+  if (markerIndex < 0) {
+    return null;
+  }
+
+  const startIndex = html.indexOf("{", markerIndex + marker.length);
+  if (startIndex < 0) {
+    return null;
+  }
+
+  let depth = 0;
+  let inString = false;
+  let escaped = false;
+
+  for (let index = startIndex; index < html.length; index += 1) {
+    const char = html[index];
+
+    if (inString) {
+      if (escaped) {
+        escaped = false;
+      } else if (char === "\\") {
+        escaped = true;
+      } else if (char === '"') {
+        inString = false;
+      }
+
+      continue;
+    }
+
+    if (char === '"') {
+      inString = true;
+      continue;
+    }
+
+    if (char === "{") {
+      depth += 1;
+      continue;
+    }
+
+    if (char === "}") {
+      depth -= 1;
+      if (depth === 0) {
+        const rawJson = html.slice(startIndex, index + 1);
+
+        try {
+          return JSON.parse(rawJson) as Record<string, unknown>;
+        } catch {
+          return null;
+        }
+      }
+    }
+  }
+
+  return null;
+}
+
 function classifyCaptureError(message: string): ApiErrorShape["code"] {
   const lower = message.toLowerCase();
 
@@ -654,7 +1032,22 @@ function classifyCaptureError(message: string): ApiErrorShape["code"] {
     return ERROR_CODES.NAVER_PROXY_AUTH_FAILED;
   }
 
-  if (lower.includes("proxy")) {
+  if (
+    lower.includes("auth_303") ||
+    lower.includes("credential verification failed") ||
+    lower.includes("credential parameter error")
+  ) {
+    return ERROR_CODES.NAVER_PROXY_AUTH_FAILED;
+  }
+
+  if (
+    lower.includes("proxy") ||
+    lower.includes("tunnel connection failed") ||
+    lower.includes("err_tunnel_connection_failed") ||
+    lower.includes("err_proxy_connection_failed") ||
+    lower.includes("ssl protocol error") ||
+    lower.includes("err_ssl_protocol_error")
+  ) {
     return ERROR_CODES.NAVER_PROXY_UNAVAILABLE;
   }
 
@@ -703,7 +1096,8 @@ export const cdpInternalsForTest = {
   matchProductDetailsUrl,
   classifyCaptureError,
   redactSecrets,
-  getFingerprintProfilesFromEnv
+  getFingerprintProfilesFromEnv,
+  detectUpstreamPageNoticeText
 };
 
 async function applyResourceBlocking(page: Page, blockedResourceTypes: string[]) {
@@ -748,6 +1142,14 @@ function getFingerprintProfilesFromEnv(): FingerprintProfile[] {
   } catch {
     return DEFAULT_FINGERPRINT_PROFILES;
   }
+}
+
+function getAvailableStorageStatePath(storageStatePath: string | null): string | null {
+  if (!storageStatePath) {
+    return null;
+  }
+
+  return existsSync(storageStatePath) ? storageStatePath : null;
 }
 
 function isValidFingerprintProfile(profile: FingerprintProfile | undefined): profile is FingerprintProfile {
