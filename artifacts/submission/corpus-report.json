@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-07-21T00:00:00.000Z",
+  "summary": {
+    "uniqueProducts": 0,
+    "total": 0,
+    "success": 0,
+    "failures": 0,
+    "errorRatePct": 100,
+    "latencyAvgMs": 0
+  },
+  "notes": "Populate with corpus benchmark output before running submission:check"
+}

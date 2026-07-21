@@ -12,7 +12,8 @@
     "test:integration": "node --test --import tsx \"tests/integration/**/*.test.ts\"",
     "benchmark:baseline": "tsx scripts/perf/baseline.ts",
     "benchmark:corpus": "tsx scripts/perf/corpus.ts",
-    "benchmark:soak": "tsx scripts/perf/soak.ts"
+    "benchmark:soak": "tsx scripts/perf/soak.ts",
+    "submission:check": "tsx scripts/submission/check.ts"
   },
   "keywords": [],
   "author": "",

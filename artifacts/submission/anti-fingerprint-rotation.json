@@ -1,0 +1,9 @@
+{
+  "generatedAt": "2026-07-21T00:00:00.000Z",
+  "summary": {
+    "distinctProfiles": 0,
+    "baselineRequestCount": 0,
+    "profileIds": []
+  },
+  "notes": "Provide profile rotation proof across baseline run"
+}

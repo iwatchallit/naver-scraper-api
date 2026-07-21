@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-07-21T00:00:00.000Z",
+  "summary": {
+    "mode": "unknown",
+    "rotationObserved": 0,
+    "stickySessionStableForSoak": false,
+    "errorRatePct": 100,
+    "observedIps": []
+  },
+  "notes": "Provide IP rotation or sticky-session stability proof"
+}

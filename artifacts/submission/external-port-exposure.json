@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-07-21T00:00:00.000Z",
+  "summary": {
+    "publicApiReachable": false,
+    "cdp9222PubliclyReachable": false,
+    "redisPubliclyReachable": false,
+    "probeHost": ""
+  },
+  "notes": "Provide external probe evidence showing only API is reachable"
+}

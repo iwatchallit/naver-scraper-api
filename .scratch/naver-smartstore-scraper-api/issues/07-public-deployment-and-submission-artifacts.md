@@ -24,3 +24,5 @@ Package deployment and delivery assets for evaluator access. Provide a public AP
 - 2026-07-21: Added Tencent private-sidecar deployment artifacts: `docs/deployment/tencent-private-sidecar.md` and `docs/deployment/tencent-compose.private.yml` with explicit no-public-CDP boundary.
 - 2026-07-21: Added `docs/benchmark-summary.md` with baseline/corpus/soak harness outcomes section and execution commands; marked as preliminary pending evaluator dataset execution.
 - 2026-07-21: Added `docs/security-secret-scan-checklist.md` and completed repo scan pass showing no embedded credentials in source or docs (outside placeholder/env-key names).
+- 2026-07-21: Implemented mandatory no-override submission gate with canonical artifact bundle at `artifacts/submission/`, fixed evidence filenames, machine-readable manifest `gate-status.json`, and executable fail-fast validator `npm run submission:check`.
+- 2026-07-21: Locked fail-fast order and explicit numeric thresholds in gate validation: security -> anti-detection -> performance -> documentation, with hard block on any unmet criterion.

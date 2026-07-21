@@ -1,0 +1,9 @@
+{
+  "generatedAt": "2026-07-21T00:00:00.000Z",
+  "summary": {
+    "delayMinMs": 0,
+    "delayMaxMs": 0,
+    "violations": 0
+  },
+  "notes": "Provide request pacing and randomized jitter compliance proof"
+}

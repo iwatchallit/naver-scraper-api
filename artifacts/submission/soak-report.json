@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-07-21T00:00:00.000Z",
+  "summary": {
+    "durationSec": 0,
+    "errorRatePct": 100,
+    "longestConsecutiveReadyFailureSec": 0,
+    "memoryGrowthPct": 0,
+    "tailSlopeBytesPerMin": 0
+  },
+  "notes": "Populate with one-hour soak output before running submission:check"
+}

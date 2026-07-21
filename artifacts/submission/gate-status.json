@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "policy": {
+    "noManualOverride": true,
+    "failFastOrder": [
+      "security",
+      "anti-detection",
+      "performance",
+      "documentation"
+    ],
+    "generatedAt": "2026-07-21T00:00:00.000Z"
+  },
+  "gates": {
+    "security": {
+      "externalPortExposure": {
+        "required": {
+          "publicApiReachable": true,
+          "cdp9222PubliclyReachable": false,
+          "redisPubliclyReachable": false
+        },
+        "measured": {
+          "publicApiReachable": false,
+          "cdp9222PubliclyReachable": false,
+          "redisPubliclyReachable": false
+        },
+        "pass": false,
+        "evidenceFile": "external-port-exposure.json",
+        "timestamp": "2026-07-21T00:00:00.000Z"
+      },
+      "secretScan": {
+        "required": {
+          "realSecretFindings": 0,
+          "manualReviewCompleted": true
+        },
+        "measured": {
+          "realSecretFindings": 0,
+          "manualReviewCompleted": false
+        },
+        "pass": false,
+        "evidenceFile": "secret-scan-report.json",
+        "timestamp": "2026-07-21T00:00:00.000Z"
+      }
+    },
+    "anti-detection": {
+      "fingerprintRotation": {
+        "required": {
+          "distinctProfilesMin": 3,
+          "baselineRequestCountMin": 100
+        },
+        "measured": {
+          "distinctProfiles": 0,
+          "baselineRequestCount": 0
+        },
+        "pass": false,
+        "evidenceFile": "anti-fingerprint-rotation.json",
+        "timestamp": "2026-07-21T00:00:00.000Z"
+      },
+      "ipBehavior": {
+        "required": {
+          "mode": "rotation-or-sticky",
+          "rotationObservedMin": 2,
+          "stickySessionStableForSoak": true
+        },
+        "measured": {
+          "mode": "unknown",
+          "rotationObserved": 0,
+          "stickySessionStableForSoak": false,
+          "errorRatePct": 100
+        },
+        "pass": false,
+        "evidenceFile": "anti-ip-behavior.json",
+        "timestamp": "2026-07-21T00:00:00.000Z"
+      },
+      "throttlingJitter": {
+        "required": {
+          "delayMinMs": 150,
+          "delayMaxMs": 900,
+          "violationsMax": 0
+        },
+        "measured": {
+          "delayMinMs": 0,
+          "delayMaxMs": 0,
+          "violations": 0
+        },
+        "pass": false,
+        "evidenceFile": "anti-throttle-jitter.json",
+        "timestamp": "2026-07-21T00:00:00.000Z"
+      }
+    },
+    "performance": {
+      "baseline": {
+        "required": {
+          "latencyAvgMsMax": 6000,
+          "errorRatePctMax": 5
+        },
+        "measured": {
+          "latencyAvgMs": 0,
+          "errorRatePct": 100
+        },
+        "pass": false,
+        "evidenceFile": "baseline-report.json",
+        "timestamp": "2026-07-21T00:00:00.000Z"
+      },
+      "corpus": {
+        "required": {
+          "uniqueProductsMin": 1000
+        },
+        "measured": {
+          "uniqueProducts": 0
+        },
+        "pass": false,
+        "evidenceFile": "corpus-report.json",
+        "timestamp": "2026-07-21T00:00:00.000Z"
+      },
+      "soak": {
+        "required": {
+          "durationSecMin": 3600,
+          "errorRatePctMax": 5,
+          "longestConsecutiveReadyFailureSecMax": 119,
+          "memoryGrowthPctMax": 25,
+          "tailSlopeBytesPerMinMax": 0
+        },
+        "measured": {
+          "durationSec": 0,
+          "errorRatePct": 100,
+          "longestConsecutiveReadyFailureSec": 0,
+          "memoryGrowthPct": 0,
+          "tailSlopeBytesPerMin": 0
+        },
+        "pass": false,
+        "evidenceFile": "soak-report.json",
+        "timestamp": "2026-07-21T00:00:00.000Z"
+      }
+    },
+    "documentation": {
+      "publicSmoke": {
+        "required": {
+          "readyPass": true,
+          "naverPassAll": true,
+          "smokeUrlsCountMin": 10
+        },
+        "measured": {
+          "readyPass": false,
+          "naverPassAll": false,
+          "smokeUrlsCount": 0
+        },
+        "pass": false,
+        "evidenceFile": "public-smoke.json",
+        "timestamp": "2026-07-21T00:00:00.000Z"
+      },
+      "documentationAttestation": {
+        "required": {
+          "readmeUpdated": true,
+          "deploymentDocsUpdated": true,
+          "benchmarkSummaryUpdated": true
+        },
+        "measured": {
+          "readmeUpdated": false,
+          "deploymentDocsUpdated": false,
+          "benchmarkSummaryUpdated": false
+        },
+        "pass": false,
+        "evidenceFile": "documentation-attestation.json",
+        "timestamp": "2026-07-21T00:00:00.000Z"
+      }
+    }
+  }
+}

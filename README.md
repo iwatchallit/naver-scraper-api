@@ -142,6 +142,43 @@ Environment knobs:
 
 Benchmark evidence is tracked in `docs/benchmark-summary.md`.
 
+## Mandatory Submission Gate (No Exceptions)
+
+Submission is blocked until all required gate artifacts are present and passing.
+
+Canonical artifact location:
+- `artifacts/submission/`
+
+Required fixed filenames:
+- `gate-status.json`
+- `baseline-report.json`
+- `corpus-report.json`
+- `soak-report.json`
+- `anti-fingerprint-rotation.json`
+- `anti-ip-behavior.json`
+- `anti-throttle-jitter.json`
+- `public-smoke.json`
+- `external-port-exposure.json`
+- `secret-scan-report.json`
+- `documentation-attestation.json`
+
+Execution order is fail-fast and mandatory:
+1. security
+2. anti-detection
+3. performance
+4. documentation
+
+Run the gate:
+
+```powershell
+npm run submission:check
+```
+
+Policy:
+- No manual override.
+- Any failed gate blocks submission.
+- Only a fresh passing artifact set can unblock submission.
+
 ## Architecture
 
 ```mermaid
