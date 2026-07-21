@@ -11,7 +11,12 @@ const captureOptions: CaptureOptions = {
   proxyPassword: "pass-secret",
   cdpConnectRetries: 2,
   cdpRetryDelayMs: 250,
-  blockedResourceTypes: ["image", "font", "media"]
+  blockedResourceTypes: ["image", "font", "media"],
+  jitterMinMs: 150,
+  jitterMaxMs: 900,
+  fingerprintProfiles: [],
+  ipSamplingEnabled: false,
+  ipSampleMinIntervalMs: 60000
 };
 
 test("endpoint matcher recognizes product details and benefits URLs", () => {

@@ -26,3 +26,6 @@ Package deployment and delivery assets for evaluator access. Provide a public AP
 - 2026-07-21: Added `docs/security-secret-scan-checklist.md` and completed repo scan pass showing no embedded credentials in source or docs (outside placeholder/env-key names).
 - 2026-07-21: Implemented mandatory no-override submission gate with canonical artifact bundle at `artifacts/submission/`, fixed evidence filenames, machine-readable manifest `gate-status.json`, and executable fail-fast validator `npm run submission:check`.
 - 2026-07-21: Locked fail-fast order and explicit numeric thresholds in gate validation: security -> anti-detection -> performance -> documentation, with hard block on any unmet criterion.
+- 2026-07-21: Added runtime anti-detection controls and telemetry for mandatory proof gates: rotating fingerprint profiles, randomized request jitter window, optional public IP sampling, and `/anti-detection` endpoint snapshot.
+- 2026-07-21: Added submission automation scripts `submission:capture-anti` and `submission:sync-gates` to generate anti-detection artifact files and synchronize measured/pass states into `artifacts/submission/gate-status.json`.
+- 2026-07-21: Validation run passed `build`, `test:unit`, and `test:integration`; `submission:check` correctly fails closed until real external/public evidence is populated.

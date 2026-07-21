@@ -23,6 +23,40 @@ interface DependencyHealthState {
   };
 }
 
+interface FingerprintProfile {
+  id: string;
+  userAgent: string;
+  locale: string;
+  timezoneId: string;
+  viewport: {
+    width: number;
+    height: number;
+  };
+  colorScheme: "light" | "dark";
+}
+
+export interface AntiDetectionSnapshot {
+  requestsObserved: number;
+  distinctProfiles: number;
+  profileUsage: Array<{
+    profileId: string;
+    count: number;
+  }>;
+  jitter: {
+    configuredMinMs: number;
+    configuredMaxMs: number;
+    observedMinMs: number;
+    observedMaxMs: number;
+    violations: number;
+  };
+  ipBehavior: {
+    samples: string[];
+    uniqueIps: number;
+    rotationObserved: number;
+    samplingEnabled: boolean;
+  };
+}
+
 const dependencyHealth: DependencyHealthState = {
   sidecar: {
     state: "unknown",
@@ -46,6 +80,11 @@ export interface CaptureOptions {
   cdpConnectRetries: number;
   cdpRetryDelayMs: number;
   blockedResourceTypes: string[];
+  jitterMinMs: number;
+  jitterMaxMs: number;
+  fingerprintProfiles: FingerprintProfile[];
+  ipSamplingEnabled: boolean;
+  ipSampleMinIntervalMs: number;
 }
 
 export interface CaptureSuccess {
@@ -59,6 +98,47 @@ export interface CaptureFailure {
 }
 
 export type CaptureAttemptResult = CaptureSuccess | CaptureFailure;
+
+const DEFAULT_FINGERPRINT_PROFILES: FingerprintProfile[] = [
+  {
+    id: "chrome-win-kr-1",
+    userAgent:
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    locale: "ko-KR",
+    timezoneId: "Asia/Seoul",
+    viewport: { width: 1366, height: 768 },
+    colorScheme: "light"
+  },
+  {
+    id: "chrome-win-kr-2",
+    userAgent:
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    locale: "ko-KR",
+    timezoneId: "Asia/Seoul",
+    viewport: { width: 1536, height: 864 },
+    colorScheme: "light"
+  },
+  {
+    id: "chrome-mac-kr-1",
+    userAgent:
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    locale: "ko-KR",
+    timezoneId: "Asia/Seoul",
+    viewport: { width: 1440, height: 900 },
+    colorScheme: "light"
+  }
+];
+
+const antiDetectionState = {
+  requestsObserved: 0,
+  profileUsage: new Map<string, number>(),
+  jitterObservedMinMs: Number.POSITIVE_INFINITY,
+  jitterObservedMaxMs: 0,
+  jitterViolations: 0,
+  ipSamples: [] as string[],
+  lastIpSampleAtMs: 0,
+  profileRotationIndex: 0
+};
 
 export function getCaptureOptionsFromEnv(): CaptureOptions {
   const proxyServer = normalizeOptionalString(process.env.PROXY_SERVER);
@@ -74,7 +154,44 @@ export function getCaptureOptionsFromEnv(): CaptureOptions {
     proxyPassword,
     cdpConnectRetries: toPositiveInt(process.env.CDP_CONNECT_RETRIES, 2),
     cdpRetryDelayMs: toPositiveInt(process.env.CDP_RETRY_DELAY_MS, 250),
-    blockedResourceTypes: getBlockedResourceTypesFromEnv()
+    blockedResourceTypes: getBlockedResourceTypesFromEnv(),
+    jitterMinMs: toNonNegativeInt(process.env.REQUEST_JITTER_MIN_MS, 150),
+    jitterMaxMs: toNonNegativeInt(process.env.REQUEST_JITTER_MAX_MS, 900),
+    fingerprintProfiles: getFingerprintProfilesFromEnv(),
+    ipSamplingEnabled: (process.env.IP_SAMPLING_ENABLED ?? "false").toLowerCase() === "true",
+    ipSampleMinIntervalMs: toPositiveInt(process.env.IP_SAMPLE_MIN_INTERVAL_MS, 60000)
+  };
+}
+
+export function getAntiDetectionSnapshot(options?: CaptureOptions): AntiDetectionSnapshot {
+  const resolvedOptions = options ?? getCaptureOptionsFromEnv();
+
+  const observedMin =
+    antiDetectionState.jitterObservedMinMs === Number.POSITIVE_INFINITY
+      ? 0
+      : antiDetectionState.jitterObservedMinMs;
+
+  const uniqueIps = new Set(antiDetectionState.ipSamples);
+
+  return {
+    requestsObserved: antiDetectionState.requestsObserved,
+    distinctProfiles: antiDetectionState.profileUsage.size,
+    profileUsage: Array.from(antiDetectionState.profileUsage.entries())
+      .map(([profileId, count]) => ({ profileId, count }))
+      .sort((left, right) => right.count - left.count),
+    jitter: {
+      configuredMinMs: resolvedOptions.jitterMinMs,
+      configuredMaxMs: resolvedOptions.jitterMaxMs,
+      observedMinMs: observedMin,
+      observedMaxMs: antiDetectionState.jitterObservedMaxMs,
+      violations: antiDetectionState.jitterViolations
+    },
+    ipBehavior: {
+      samples: [...antiDetectionState.ipSamples],
+      uniqueIps: uniqueIps.size,
+      rotationObserved: Math.max(0, uniqueIps.size - 1),
+      samplingEnabled: resolvedOptions.ipSamplingEnabled
+    }
   };
 }
 
@@ -100,8 +217,14 @@ export async function captureProductPayloads(
   dependencyHealth.proxy.server = options.proxyServer;
 
   try {
-    context = await createContext(options);
+    const fingerprintProfile = selectFingerprintProfile(options.fingerprintProfiles);
+    context = await createContext(options, fingerprintProfile);
     page = await context.newPage();
+
+    await applyRequestJitter(options);
+    noteFingerprintUsage(fingerprintProfile.id);
+    await maybeSamplePublicIp(context, options);
+
     await applyResourceBlocking(page, options.blockedResourceTypes);
 
     const capture = createEmptyCaptureResult();
@@ -335,7 +458,10 @@ function matchProductDetailsUrl(url: string): RegExpMatchArray | null {
   return url.match(PRODUCT_DETAILS_REGEX);
 }
 
-async function createContext(options: CaptureOptions): Promise<BrowserContext> {
+async function createContext(
+  options: CaptureOptions,
+  fingerprintProfile: FingerprintProfile
+): Promise<BrowserContext> {
   const browser = await getOrCreateBrowser(options);
 
   if (options.proxyServer) {
@@ -344,11 +470,22 @@ async function createContext(options: CaptureOptions): Promise<BrowserContext> {
         server: options.proxyServer,
         username: options.proxyUsername ?? undefined,
         password: options.proxyPassword ?? undefined
-      }
+      },
+      userAgent: fingerprintProfile.userAgent,
+      locale: fingerprintProfile.locale,
+      timezoneId: fingerprintProfile.timezoneId,
+      viewport: fingerprintProfile.viewport,
+      colorScheme: fingerprintProfile.colorScheme
     });
   }
 
-  return browser.newContext();
+  return browser.newContext({
+    userAgent: fingerprintProfile.userAgent,
+    locale: fingerprintProfile.locale,
+    timezoneId: fingerprintProfile.timezoneId,
+    viewport: fingerprintProfile.viewport,
+    colorScheme: fingerprintProfile.colorScheme
+  });
 }
 
 async function getOrCreateBrowser(options: CaptureOptions): Promise<Browser> {
@@ -407,6 +544,74 @@ function sleep(delayMs: number): Promise<void> {
   });
 }
 
+function selectFingerprintProfile(profiles: FingerprintProfile[]): FingerprintProfile {
+  if (profiles.length === 0) {
+    return DEFAULT_FINGERPRINT_PROFILES[0];
+  }
+
+  const index = antiDetectionState.profileRotationIndex % profiles.length;
+  antiDetectionState.profileRotationIndex += 1;
+  return profiles[index];
+}
+
+function noteFingerprintUsage(profileId: string) {
+  antiDetectionState.requestsObserved += 1;
+  const current = antiDetectionState.profileUsage.get(profileId) ?? 0;
+  antiDetectionState.profileUsage.set(profileId, current + 1);
+}
+
+async function applyRequestJitter(options: CaptureOptions) {
+  const normalizedMin = Math.min(options.jitterMinMs, options.jitterMaxMs);
+  const normalizedMax = Math.max(options.jitterMinMs, options.jitterMaxMs);
+  const jitter = randomIntInclusive(normalizedMin, normalizedMax);
+
+  antiDetectionState.jitterObservedMinMs = Math.min(antiDetectionState.jitterObservedMinMs, jitter);
+  antiDetectionState.jitterObservedMaxMs = Math.max(antiDetectionState.jitterObservedMaxMs, jitter);
+
+  if (jitter < normalizedMin || jitter > normalizedMax) {
+    antiDetectionState.jitterViolations += 1;
+  }
+
+  await sleep(jitter);
+}
+
+async function maybeSamplePublicIp(context: BrowserContext, options: CaptureOptions) {
+  if (!options.ipSamplingEnabled) {
+    return;
+  }
+
+  const now = Date.now();
+  const elapsed = now - antiDetectionState.lastIpSampleAtMs;
+  if (elapsed < options.ipSampleMinIntervalMs) {
+    return;
+  }
+
+  antiDetectionState.lastIpSampleAtMs = now;
+
+  try {
+    const response = await context.request.get("https://api.ipify.org?format=json", {
+      timeout: 5000,
+      headers: {
+        accept: "application/json"
+      }
+    });
+
+    const payload = (await response.json()) as { ip?: string };
+    const ip = normalizeOptionalString(payload.ip);
+    if (!ip) {
+      return;
+    }
+
+    if (antiDetectionState.ipSamples.length >= 40) {
+      antiDetectionState.ipSamples.shift();
+    }
+
+    antiDetectionState.ipSamples.push(ip);
+  } catch {
+    // IP sampling is best-effort evidence and must not break capture flow.
+  }
+}
+
 function toPositiveInt(rawValue: string | undefined, fallback: number): number {
   if (!rawValue) {
     return fallback;
@@ -414,6 +619,19 @@ function toPositiveInt(rawValue: string | undefined, fallback: number): number {
 
   const parsed = Number.parseInt(rawValue, 10);
   if (Number.isNaN(parsed) || parsed <= 0) {
+    return fallback;
+  }
+
+  return parsed;
+}
+
+function toNonNegativeInt(rawValue: string | undefined, fallback: number): number {
+  if (!rawValue) {
+    return fallback;
+  }
+
+  const parsed = Number.parseInt(rawValue, 10);
+  if (Number.isNaN(parsed) || parsed < 0) {
     return fallback;
   }
 
@@ -484,7 +702,8 @@ export const cdpInternalsForTest = {
   isBenefitsUrl,
   matchProductDetailsUrl,
   classifyCaptureError,
-  redactSecrets
+  redactSecrets,
+  getFingerprintProfilesFromEnv
 };
 
 async function applyResourceBlocking(page: Page, blockedResourceTypes: string[]) {
@@ -514,4 +733,47 @@ function getBlockedResourceTypesFromEnv(): string[] {
     .split(",")
     .map((item) => item.trim().toLowerCase())
     .filter((item) => item.length > 0);
+}
+
+function getFingerprintProfilesFromEnv(): FingerprintProfile[] {
+  const raw = normalizeOptionalString(process.env.FINGERPRINT_PROFILES_JSON);
+  if (!raw) {
+    return DEFAULT_FINGERPRINT_PROFILES;
+  }
+
+  try {
+    const parsed = JSON.parse(raw) as FingerprintProfile[];
+    const normalized = parsed.filter((item) => isValidFingerprintProfile(item));
+    return normalized.length > 0 ? normalized : DEFAULT_FINGERPRINT_PROFILES;
+  } catch {
+    return DEFAULT_FINGERPRINT_PROFILES;
+  }
+}
+
+function isValidFingerprintProfile(profile: FingerprintProfile | undefined): profile is FingerprintProfile {
+  if (!profile) {
+    return false;
+  }
+
+  if (!profile.id || !profile.userAgent || !profile.locale || !profile.timezoneId) {
+    return false;
+  }
+
+  if (!profile.viewport) {
+    return false;
+  }
+
+  if (profile.viewport.width <= 0 || profile.viewport.height <= 0) {
+    return false;
+  }
+
+  return profile.colorScheme === "light" || profile.colorScheme === "dark";
+}
+
+function randomIntInclusive(min: number, max: number): number {
+  if (min === max) {
+    return min;
+  }
+
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }

@@ -5,6 +5,7 @@ import { z } from "zod";
 import { ERROR_CODES, type ErrorCode } from "./domain/errors";
 import { parseNaverProductUrl } from "./domain/naver-url";
 import {
+  getAntiDetectionSnapshot,
   getDependencyHealthSnapshot
 } from "./services/naver-cdp";
 import { getCachedCapture, setCachedCapture } from "./services/capture-cache";
@@ -26,6 +27,7 @@ interface BuildServerDeps {
   orchestrateCapture: typeof orchestrateCapture;
   getDependencyHealthSnapshot: typeof getDependencyHealthSnapshot;
   getQueueSnapshot: typeof getQueueSnapshot;
+  getAntiDetectionSnapshot: typeof getAntiDetectionSnapshot;
 }
 
 export function buildServer(overrides?: Partial<BuildServerDeps>) {
@@ -33,7 +35,8 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
     orchestrateCapture: overrides?.orchestrateCapture ?? orchestrateCapture,
     getDependencyHealthSnapshot:
       overrides?.getDependencyHealthSnapshot ?? getDependencyHealthSnapshot,
-    getQueueSnapshot: overrides?.getQueueSnapshot ?? getQueueSnapshot
+    getQueueSnapshot: overrides?.getQueueSnapshot ?? getQueueSnapshot,
+    getAntiDetectionSnapshot: overrides?.getAntiDetectionSnapshot ?? getAntiDetectionSnapshot
   };
 
   const app = Fastify({ logger: true });
@@ -68,6 +71,15 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
       },
       queue,
       dependencies: dependencyHealth,
+      antiDetection: deps.getAntiDetectionSnapshot(),
+      timestamp: new Date().toISOString()
+    };
+  });
+
+  app.get("/anti-detection", async () => {
+    return {
+      status: "ok",
+      snapshot: deps.getAntiDetectionSnapshot(),
       timestamp: new Date().toISOString()
     };
   });

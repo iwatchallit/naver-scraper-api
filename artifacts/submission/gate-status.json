@@ -8,7 +8,7 @@
       "performance",
       "documentation"
     ],
-    "generatedAt": "2026-07-21T00:00:00.000Z"
+    "generatedAt": "2026-07-21T03:32:04.365Z"
   },
   "gates": {
     "security": {
@@ -25,7 +25,7 @@
         },
         "pass": false,
         "evidenceFile": "external-port-exposure.json",
-        "timestamp": "2026-07-21T00:00:00.000Z"
+        "timestamp": "2026-07-21T03:32:04.365Z"
       },
       "secretScan": {
         "required": {
@@ -38,7 +38,7 @@
         },
         "pass": false,
         "evidenceFile": "secret-scan-report.json",
-        "timestamp": "2026-07-21T00:00:00.000Z"
+        "timestamp": "2026-07-21T03:32:04.365Z"
       }
     },
     "anti-detection": {
@@ -53,7 +53,7 @@
         },
         "pass": false,
         "evidenceFile": "anti-fingerprint-rotation.json",
-        "timestamp": "2026-07-21T00:00:00.000Z"
+        "timestamp": "2026-07-21T03:32:04.365Z"
       },
       "ipBehavior": {
         "required": {
@@ -69,7 +69,7 @@
         },
         "pass": false,
         "evidenceFile": "anti-ip-behavior.json",
-        "timestamp": "2026-07-21T00:00:00.000Z"
+        "timestamp": "2026-07-21T03:32:04.365Z"
       },
       "throttlingJitter": {
         "required": {
@@ -84,7 +84,7 @@
         },
         "pass": false,
         "evidenceFile": "anti-throttle-jitter.json",
-        "timestamp": "2026-07-21T00:00:00.000Z"
+        "timestamp": "2026-07-21T03:32:04.365Z"
       }
     },
     "performance": {
@@ -99,7 +99,7 @@
         },
         "pass": false,
         "evidenceFile": "baseline-report.json",
-        "timestamp": "2026-07-21T00:00:00.000Z"
+        "timestamp": "2026-07-21T03:32:04.365Z"
       },
       "corpus": {
         "required": {
@@ -110,7 +110,7 @@
         },
         "pass": false,
         "evidenceFile": "corpus-report.json",
-        "timestamp": "2026-07-21T00:00:00.000Z"
+        "timestamp": "2026-07-21T03:32:04.365Z"
       },
       "soak": {
         "required": {
@@ -129,7 +129,7 @@
         },
         "pass": false,
         "evidenceFile": "soak-report.json",
-        "timestamp": "2026-07-21T00:00:00.000Z"
+        "timestamp": "2026-07-21T03:32:04.365Z"
       }
     },
     "documentation": {
@@ -146,7 +146,7 @@
         },
         "pass": false,
         "evidenceFile": "public-smoke.json",
-        "timestamp": "2026-07-21T00:00:00.000Z"
+        "timestamp": "2026-07-21T03:32:04.365Z"
       },
       "documentationAttestation": {
         "required": {
@@ -161,7 +161,7 @@
         },
         "pass": false,
         "evidenceFile": "documentation-attestation.json",
-        "timestamp": "2026-07-21T00:00:00.000Z"
+        "timestamp": "2026-07-21T03:32:04.365Z"
       }
     }
   }

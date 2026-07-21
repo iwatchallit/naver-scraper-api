@@ -13,6 +13,8 @@
     "benchmark:baseline": "tsx scripts/perf/baseline.ts",
     "benchmark:corpus": "tsx scripts/perf/corpus.ts",
     "benchmark:soak": "tsx scripts/perf/soak.ts",
+    "submission:capture-anti": "tsx scripts/submission/capture-anti-detection.ts",
+    "submission:sync-gates": "tsx scripts/submission/sync-gate-status.ts",
     "submission:check": "tsx scripts/submission/check.ts"
   },
   "keywords": [],

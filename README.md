@@ -7,6 +7,7 @@ Fastify service that captures SmartStore product payloads (`benefits` and `produ
 - Strict SmartStore URL validation
 - CDP sidecar capture with reconnect and fallback behavior
 - Optional authenticated proxy path
+- Rotating fingerprint profiles and randomized per-request jitter
 - Worker queue + retry + deadline orchestration
 - TTL success cache
 - Prometheus metrics on `/metrics`
@@ -114,6 +115,17 @@ Common error codes:
 - `NAVER_PROXY_AUTH_FAILED`
 - `NAVER_CAPTURE_TIMEOUT`
 
+### Anti-Detection Telemetry
+
+```powershell
+Invoke-RestMethod -Uri "http://127.0.0.1:3000/anti-detection" -Method Get | ConvertTo-Json -Depth 10
+```
+
+This endpoint exposes runtime proof fields used by submission artifacts:
+- profile rotation usage
+- jitter min/max and violation count
+- sampled public IP behavior when `IP_SAMPLING_ENABLED=true`
+
 ## Testing
 
 ```powershell
@@ -172,6 +184,18 @@ Run the gate:
 
 ```powershell
 npm run submission:check
+```
+
+Populate anti-detection evidence from runtime snapshot:
+
+```powershell
+npm run submission:capture-anti
+```
+
+Sync measured values and pass flags in `gate-status.json` from artifact files:
+
+```powershell
+npm run submission:sync-gates
 ```
 
 Policy:
