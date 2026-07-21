@@ -242,8 +242,12 @@ function mapErrorToStatus(code: ErrorCode): number {
       return 502;
     case ERROR_CODES.NAVER_CAPTURE_TIMEOUT:
       return 504;
+    case ERROR_CODES.NAVER_TARGET_UNAVAILABLE:
+      return 503;
     case ERROR_CODES.NAVER_QUEUE_TIMEOUT:
       return 503;
+    case ERROR_CODES.NAVER_UPSTREAM_CHALLENGE:
+      return 403;
     case ERROR_CODES.NAVER_PROXY_AUTH_FAILED:
       return 502;
     case ERROR_CODES.NAVER_PROXY_UNAVAILABLE:

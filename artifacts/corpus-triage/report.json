@@ -1,0 +1,1079 @@
+{
+  "generatedAt": "2026-07-21T05:32:15.567Z",
+  "baseUrl": "http://127.0.0.1:3000",
+  "inputFile": "testdata/corpus-candidates.txt",
+  "totals": {
+    "all": 131,
+    "live": 0,
+    "stale": 123,
+    "challenge": 0,
+    "timeout": 8,
+    "infra": 0,
+    "other": 0
+  },
+  "buckets": {
+    "live": [],
+    "stale": [
+      {
+        "url": "https://smartstore.naver.com/main/products/10003768220",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2423,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/10127156922",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3098,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/10403317587",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2853,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/10480738695",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2340,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/10635377679",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2693,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/10748085499",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2280,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/10803014806",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2296,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/10811135816",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2437,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/10829193942",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2270,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/10829211959",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2775,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/10834540233",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2568,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/10892259107",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2635,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/11034092236",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2318,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/11034271261",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2442,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/11121312339",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2461,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/11159204801",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2425,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/11162680491",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2576,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/11277947924",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2595,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/11280728046",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2523,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/11338794544",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3622,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/11438165866",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2590,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/11441578992",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2793,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/11562900787",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2553,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/11629784520",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2800,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/11697012437",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2378,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/11819730368",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2555,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12011369038",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3001,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12017642120",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3048,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12039172721",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2439,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12075277456",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2324,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12079543140",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2288,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12138048749",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2468,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12143690887",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2931,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12177275594",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2713,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12314740345",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2272,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12319459968",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3170,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12319466234",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3288,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12393255076",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2491,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12393305494",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2761,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12393305498",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3078,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12393305504",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2531,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12404675285",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2900,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12417467745",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2906,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12477665697",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2601,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12482821808",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2828,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12570606841",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2455,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12696816673",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2501,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12814037724",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2625,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12862620815",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2404,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12913317916",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2433,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12968377770",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2372,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12971906080",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2499,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12971914173",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2689,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12971978253",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2904,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12971981616",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2347,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/12971985523",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2398,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13025385208",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2376,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13031145954",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2438,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13041113170",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4399,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13058453519",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2679,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13059179688",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2851,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13059179877",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2219,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13059180048",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2417,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13059180271",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3726,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13059180605",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3024,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13059181921",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3394,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13059182825",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2425,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13059183741",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4119,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13059189741",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2668,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13069678126",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2722,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13092526086",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2273,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13099365203",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2830,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13099465592",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3201,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13100883503",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3978,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13103686932",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3867,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13110353452",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2213,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13117026346",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2586,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13161260807",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 1939,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13171219111",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 1755,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13203116113",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2428,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13227813089",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2896,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13308534875",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2959,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13380453118",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2271,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13447720706",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3807,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13458002816",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4478,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13522006688",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2951,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13522141132",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2744,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13523172557",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2803,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13544333008",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3274,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13577142699",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2537,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13641147277",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2264,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/13641197802",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2715,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/2051715856",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2811,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/235631876",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2867,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/3650484497",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3555,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/4094549653",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2931,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/4552518687",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2414,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/4618175302",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2803,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/4896808188",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2965,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/5002869102",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3976,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/5171485252",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3045,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/6133024547",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2699,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/7577061799",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2280,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/7577202745",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2959,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/7638537613",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2604,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/7757361478",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2893,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/8090231166",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3229,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/8212050011",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3197,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/8697197337",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2673,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/8747766783",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 5485,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/8829030854",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2456,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/8927827299",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2970,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/8932751738",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2990,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/8966363503",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3829,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/9126652772",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2297,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/9352594845",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2585,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/9352599329",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2578,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/9396863464",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 3230,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/9622914375",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2358,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/9652847898",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2481,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/9652868483",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2481,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/9673953627",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2300,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      },
+      {
+        "url": "https://smartstore.naver.com/main/products/9943454757",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 2527,
+        "errorCode": "NAVER_TARGET_UNAVAILABLE",
+        "bucket": "stale"
+      }
+    ],
+    "challenge": [],
+    "timeout": [
+      {
+        "url": "https://shopping.naver.com/window-products/kurlynmart/12274475704",
+        "ok": false,
+        "status": 504,
+        "latencyMs": 7576,
+        "errorCode": "NAVER_CAPTURE_TIMEOUT",
+        "bucket": "timeout"
+      },
+      {
+        "url": "https://shopping.naver.com/window-products/kurlynmart/12274708164",
+        "ok": false,
+        "status": 504,
+        "latencyMs": 8165,
+        "errorCode": "NAVER_CAPTURE_TIMEOUT",
+        "bucket": "timeout"
+      },
+      {
+        "url": "https://shopping.naver.com/window-products/kurlynmart/12283206879",
+        "ok": false,
+        "status": 504,
+        "latencyMs": 7386,
+        "errorCode": "NAVER_CAPTURE_TIMEOUT",
+        "bucket": "timeout"
+      },
+      {
+        "url": "https://shopping.naver.com/window-products/kurlynmart/13392583628",
+        "ok": false,
+        "status": 504,
+        "latencyMs": 7315,
+        "errorCode": "NAVER_CAPTURE_TIMEOUT",
+        "bucket": "timeout"
+      },
+      {
+        "url": "https://smartstore.naver.com/nowmro/products/13341559288",
+        "ok": false,
+        "status": 504,
+        "latencyMs": 8834,
+        "errorCode": "NAVER_CAPTURE_TIMEOUT",
+        "bucket": "timeout"
+      },
+      {
+        "url": "https://smartstore.naver.com/ocoo/products/4791494570",
+        "ok": false,
+        "status": 504,
+        "latencyMs": 8570,
+        "errorCode": "NAVER_CAPTURE_TIMEOUT",
+        "bucket": "timeout"
+      },
+      {
+        "url": "https://smartstore.naver.com/rainbows9030/products/11102379008",
+        "ok": false,
+        "status": 504,
+        "latencyMs": 8678,
+        "errorCode": "NAVER_CAPTURE_TIMEOUT",
+        "bucket": "timeout"
+      },
+      {
+        "url": "https://smartstore.naver.com/urvanluna/products/13644322487",
+        "ok": false,
+        "status": 504,
+        "latencyMs": 8260,
+        "errorCode": "NAVER_CAPTURE_TIMEOUT",
+        "bucket": "timeout"
+      }
+    ],
+    "infra": [],
+    "other": []
+  },
+  "notes": [
+    "live: success responses that are safe to keep in benchmark/challenge lists",
+    "stale: unavailable/suspended/invalid targets",
+    "challenge: upstream anti-bot challenge pages",
+    "timeout: scraper did not capture product details within budget",
+    "infra: sidecar/proxy/request transport failures"
+  ]
+}

@@ -1,0 +1,1564 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Submission Gate Prototype</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #07111f;
+        --panel: #0f1728;
+        --panel-2: #151f34;
+        --panel-3: #1d2942;
+        --line: rgba(155, 168, 200, 0.2);
+        --text: #edf2ff;
+        --muted: #9ba8c8;
+        --bad: #ff6b6b;
+        --warn: #ffcb66;
+        --ok: #32d296;
+        --accent: #6ea8ff;
+        --accent-2: #8b5cf6;
+        --shadow: 0 26px 72px rgba(0, 0, 0, 0.28);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html, body {
+        margin: 0;
+        min-height: 100%;
+        background:
+          radial-gradient(circle at top left, rgba(110, 168, 255, 0.14), transparent 26%),
+          radial-gradient(circle at 88% 12%, rgba(139, 92, 246, 0.12), transparent 22%),
+          linear-gradient(180deg, #06101d 0%, #0a1221 100%);
+        color: var(--text);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background:
+          linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+        background-size: 28px 28px, 28px 28px;
+        mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.65), transparent 80%);
+        opacity: 0.25;
+      }
+
+      body {
+        overflow-x: hidden;
+      }
+
+      .shell {
+        max-width: 1380px;
+        margin: 0 auto;
+        padding: 28px 20px 88px;
+      }
+
+      .topline {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px 12px;
+        margin-bottom: 18px;
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 12px;
+        border-radius: 999px;
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        background: rgba(255, 255, 255, 0.025);
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0;
+        text-transform: none;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: 1.6fr 0.95fr;
+        gap: 18px;
+        align-items: stretch;
+        margin-bottom: 18px;
+      }
+
+      .card {
+        background: linear-gradient(180deg, rgba(15, 23, 40, 0.96), rgba(9, 14, 27, 0.95));
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        box-shadow: var(--shadow);
+        overflow: hidden;
+      }
+
+      .section-panel {
+        padding: 18px;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.025);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+
+      .section-panel + .section-panel {
+        margin-top: 14px;
+      }
+
+      .card-inner {
+        padding: 22px;
+      }
+
+      .title {
+        margin: 12px 0 10px;
+        font-size: clamp(34px, 5vw, 60px);
+        line-height: 0.96;
+        letter-spacing: -0.04em;
+        font-family: Iowan Old Style, Palatino Linotype, Georgia, serif;
+        text-wrap: balance;
+      }
+
+      .subtitle {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.65;
+        max-width: 68ch;
+      }
+
+      .tag-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 18px;
+      }
+
+      .tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 12px;
+        border-radius: 999px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        background: rgba(255, 255, 255, 0.03);
+        color: var(--text);
+        font-size: 13px;
+        font-weight: 600;
+      }
+
+      .tag.bad {
+        color: var(--bad);
+        border-color: rgba(255, 107, 107, 0.28);
+        background: rgba(255, 107, 107, 0.09);
+      }
+
+      .tag.ok {
+        color: var(--ok);
+        border-color: rgba(50, 210, 150, 0.28);
+        background: rgba(50, 210, 150, 0.09);
+      }
+
+      .tag.warn {
+        color: var(--warn);
+        border-color: rgba(255, 203, 102, 0.28);
+        background: rgba(255, 203, 102, 0.08);
+      }
+
+      .hero-visual {
+        display: grid;
+        grid-template-rows: auto auto 1fr;
+      }
+
+      .big-number {
+        margin: 8px 0 4px;
+        font-size: clamp(58px, 10vw, 104px);
+        line-height: 0.9;
+        font-weight: 900;
+        letter-spacing: -0.08em;
+      }
+
+      .metric {
+        display: grid;
+        gap: 8px;
+        margin-top: 18px;
+      }
+
+      .metric-head {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 14px;
+        font-size: 14px;
+      }
+
+      .bar {
+        height: 12px;
+        border-radius: 999px;
+        background: rgba(155, 168, 200, 0.12);
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        overflow: hidden;
+      }
+
+      .bar > span {
+        display: block;
+        height: 100%;
+        border-radius: inherit;
+        background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      }
+
+      .layout {
+        display: grid;
+        gap: 18px;
+      }
+
+      .section-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 12px;
+        margin-bottom: 14px;
+      }
+
+      .section-title {
+        margin: 0 0 6px;
+        font-size: 22px;
+        letter-spacing: -0.03em;
+        font-family: Iowan Old Style, Palatino Linotype, Georgia, serif;
+        text-wrap: balance;
+      }
+
+      .section-copy {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.55;
+        font-size: 14px;
+      }
+
+      .variant-wrap {
+        position: relative;
+      }
+
+      .variant {
+        display: none;
+      }
+
+      .variant.active {
+        display: block;
+        animation: fadeIn 180ms ease-out;
+      }
+
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(6px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      .grid-4 {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .mini {
+        padding: 16px;
+        border-radius: 18px;
+        background: linear-gradient(180deg, rgba(22, 31, 54, 0.9), rgba(10, 15, 28, 0.94));
+        border: 1px solid var(--line);
+      }
+
+      .mini h3 {
+        margin: 0 0 8px;
+        font-size: 15px;
+      }
+
+      .mini .value {
+        font-size: 30px;
+        font-weight: 900;
+        letter-spacing: -0.05em;
+      }
+
+      .mini .sub {
+        margin-top: 4px;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.5;
+      }
+
+      .two-col {
+        display: grid;
+        grid-template-columns: 1.14fr 0.86fr;
+        gap: 18px;
+      }
+
+      .order {
+        display: grid;
+        gap: 10px;
+      }
+
+      .order-item {
+        display: grid;
+        grid-template-columns: 42px 1fr auto;
+        gap: 12px;
+        align-items: center;
+        padding: 14px 16px;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+
+      .step {
+        width: 42px;
+        height: 42px;
+        border-radius: 14px;
+        display: grid;
+        place-items: center;
+        font-weight: 800;
+        color: #dce9ff;
+        background: rgba(110, 168, 255, 0.14);
+      }
+
+      .order-item strong {
+        display: block;
+        margin-bottom: 4px;
+        font-size: 15px;
+      }
+
+      .order-item span {
+        display: block;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.5;
+      }
+
+      .gate-list {
+        display: grid;
+        gap: 12px;
+      }
+
+      .gate-card {
+        padding: 16px;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+
+      .gate-card h3 {
+        margin: 0 0 6px;
+        font-size: 16px;
+      }
+
+      .gate-card p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.5;
+      }
+
+      .meta-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        margin-top: 12px;
+      }
+
+      .meta {
+        padding: 10px 12px;
+        border-radius: 14px;
+        background: rgba(0, 0, 0, 0.18);
+        border: 1px solid rgba(255, 255, 255, 0.07);
+      }
+
+      .meta .label {
+        color: var(--muted);
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+      }
+
+      .meta .num {
+        margin-top: 6px;
+        font-size: 18px;
+        font-weight: 800;
+      }
+
+      .timeline {
+        display: grid;
+        grid-template-columns: 210px 1fr;
+        gap: 18px;
+      }
+
+      .rail {
+        display: grid;
+        gap: 10px;
+      }
+
+      .rail-step {
+        padding: 14px;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.07);
+        cursor: pointer;
+      }
+
+      .rail-step strong {
+        display: block;
+        margin-bottom: 4px;
+        font-size: 14px;
+      }
+
+      .rail-step span {
+        color: var(--muted);
+        font-size: 12px;
+        line-height: 1.45;
+      }
+
+      .rail-step.active {
+        border-color: rgba(110, 168, 255, 0.38);
+        background: rgba(110, 168, 255, 0.12);
+      }
+
+      .detail-panel {
+        padding: 18px;
+        border-radius: 20px;
+        background: linear-gradient(180deg, rgba(22, 31, 54, 0.92), rgba(9, 14, 27, 0.94));
+        border: 1px solid var(--line);
+        min-height: 360px;
+      }
+
+      .detail-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        align-items: baseline;
+      }
+
+      .detail-title {
+        margin: 0;
+        font-size: 28px;
+        line-height: 1;
+        letter-spacing: -0.05em;
+        font-family: Iowan Old Style, Palatino Linotype, Georgia, serif;
+      }
+
+      .detail-copy {
+        margin: 10px 0 0;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
+      .detail-metric {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+        margin-top: 18px;
+      }
+
+      .detail-box {
+        padding: 14px;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.07);
+      }
+
+      .detail-box .label {
+        color: var(--muted);
+        font-size: 11px;
+        letter-spacing: 0;
+        text-transform: none;
+      }
+
+      .detail-box .value {
+        margin-top: 8px;
+        font-size: 20px;
+        font-weight: 800;
+      }
+
+      .matrix {
+        display: grid;
+        gap: 12px;
+      }
+
+      .matrix-head,
+      .matrix-row {
+        display: grid;
+        grid-template-columns: 1.4fr repeat(4, minmax(0, 1fr));
+        gap: 12px;
+        align-items: stretch;
+      }
+
+      .matrix-head div,
+      .matrix-row div {
+        padding: 14px 12px;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.07);
+      }
+
+      .matrix-head div {
+        color: var(--muted);
+        text-transform: none;
+        letter-spacing: 0;
+        font-size: 11px;
+      }
+
+      .matrix-row .label {
+        font-family: Iowan Old Style, Palatino Linotype, Georgia, serif;
+        font-size: 18px;
+        letter-spacing: -0.03em;
+      }
+
+      .matrix-row .cell strong,
+      .artifact .file,
+      .gate-card h3,
+      .order-item strong {
+        font-family: Iowan Old Style, Palatino Linotype, Georgia, serif;
+      }
+
+      .matrix-row .cell .small,
+      .artifact .desc,
+      .gate-card p,
+      .section-copy,
+      .subtitle,
+      .order-item span,
+      .detail-copy {
+        text-wrap: pretty;
+      }
+
+      .matrix-row .label {
+        font-weight: 800;
+      }
+
+      .matrix-row .cell {
+        display: grid;
+        gap: 4px;
+      }
+
+      .cell .small {
+        color: var(--muted);
+        font-size: 12px;
+        line-height: 1.45;
+      }
+
+      .status-chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        width: fit-content;
+        padding: 6px 10px;
+        border-radius: 999px;
+        font-weight: 700;
+        font-size: 12px;
+      }
+
+      .status-chip.bad {
+        color: var(--bad);
+        background: rgba(255, 107, 107, 0.09);
+      }
+
+      .status-chip.ok {
+        color: var(--ok);
+        background: rgba(50, 210, 150, 0.09);
+      }
+
+      .status-chip.warn {
+        color: var(--warn);
+        background: rgba(255, 203, 102, 0.09);
+      }
+
+      .diagnosis-flow {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr auto 1fr;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 12px;
+      }
+
+      .diagnosis-node {
+        padding: 10px 12px;
+        border-radius: 14px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        font-size: 12px;
+        color: var(--muted);
+      }
+
+      .diagnosis-arrow {
+        color: var(--accent);
+        font-size: 16px;
+        font-weight: 800;
+      }
+
+      .artifacts {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .artifact {
+        padding: 14px;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.07);
+      }
+
+      .artifact .file {
+        word-break: break-word;
+        font-size: 13px;
+        letter-spacing: -0.02em;
+      }
+
+      .artifact .desc {
+        margin-top: 6px;
+        color: var(--muted);
+        font-size: 12px;
+        line-height: 1.45;
+      }
+
+      .foot {
+        margin-top: 18px;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.6;
+      }
+
+      .switcher {
+        position: fixed;
+        left: 50%;
+        bottom: 20px;
+        transform: translateX(-50%);
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 12px;
+        border-radius: 999px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: rgba(8, 12, 22, 0.92);
+        box-shadow: 0 22px 50px rgba(0, 0, 0, 0.38);
+        backdrop-filter: blur(18px);
+        z-index: 50;
+      }
+
+      .switcher button {
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        border: 0;
+        color: var(--text);
+        background: rgba(255, 255, 255, 0.08);
+        cursor: pointer;
+        font-size: 20px;
+        line-height: 1;
+      }
+
+      .switcher button:hover {
+        background: rgba(255, 255, 255, 0.14);
+      }
+
+      .switcher .label {
+        min-width: 230px;
+        text-align: center;
+        font-size: 13px;
+      }
+
+      .switcher .label strong {
+        display: block;
+        font-size: 11px;
+        color: var(--muted);
+        text-transform: none;
+        letter-spacing: 0;
+        margin-bottom: 3px;
+      }
+
+      .switcher .label span {
+        font-weight: 700;
+      }
+
+      .switcher.hidden {
+        display: none;
+      }
+
+      @media (max-width: 1080px) {
+        .hero,
+        .two-col,
+        .timeline,
+        .matrix-head,
+        .matrix-row,
+        .artifacts,
+        .grid-4,
+        .detail-metric {
+          grid-template-columns: 1fr;
+        }
+
+        .matrix-head {
+          display: none;
+        }
+      }
+
+      @media (max-width: 720px) {
+        .shell {
+          padding: 16px 14px 88px;
+        }
+
+        .switcher {
+          width: calc(100% - 24px);
+          justify-content: space-between;
+        }
+
+        .switcher .label {
+          min-width: 0;
+          flex: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <div class="topline">
+          <div class="eyebrow">Prototype UI skill</div>
+        <div class="eyebrow">Single route • ?variant= • floating switcher</div>
+      </div>
+
+      <section class="hero">
+        <div class="card">
+          <div class="card-inner">
+            <div class="eyebrow">Question</div>
+            <h1 class="title">What should the blocked submission gate look like when it must explain itself at a glance?</h1>
+            <p class="subtitle">
+              Three radically different presentations are mounted on one route. The variant key is part of the URL
+              so the result is shareable and reload-stable. The gate snapshot comes from
+              <code>artifacts/submission/gate-status.json</code> when available, with a baked-in fallback for offline viewing.
+            </p>
+            <div class="tag-row">
+              <div class="tag bad">No manual override</div>
+              <div class="tag warn">Fail-fast order: security first</div>
+              <div class="tag ok">Canonical bundle: artifacts/submission</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card hero-visual">
+          <div class="card-inner">
+            <div class="eyebrow">Live summary</div>
+            <div class="big-number" id="overallCount">0 / 4</div>
+            <p class="subtitle" id="overallCopy">All four gate groups are currently blocked.</p>
+            <div class="metric">
+              <div class="metric-head">
+                <span>Passing evidence files</span>
+                <strong id="evidenceCount">0 / 11</strong>
+              </div>
+              <div class="bar"><span id="evidenceBar" style="width: 0%"></span></div>
+            </div>
+            <div class="metric">
+              <div class="metric-head">
+                <span>Fail-fast status</span>
+                <strong id="failFastLabel">Security blocks first</strong>
+              </div>
+              <div class="bar"><span id="failFastBar" style="width: 100%"></span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <main class="layout">
+        <div id="variantA" class="variant card active">
+          <div class="card-inner">
+              <div class="section-head">
+              <div>
+                  <h2 class="section-title">Variant A — Control-panel dashboard</h2>
+                  <p class="section-copy">Dense executive summary for the first scan. Better when you want overall blocked state plus quick direction.</p>
+              </div>
+              <div class="tag bad">Blocked</div>
+            </div>
+
+            <div class="grid-4" id="summaryCards"></div>
+
+            <div class="two-col" style="margin-top: 18px;">
+              <div class="section-panel">
+                <div class="section-head">
+                  <div>
+                    <h2 class="section-title" style="font-size:18px;">Fail-fast order</h2>
+                    <p class="section-copy">This is the exact order the validator stops at.</p>
+                  </div>
+                </div>
+                <div class="order" id="orderList"></div>
+              </div>
+
+              <div class="section-panel">
+                <div class="section-head">
+                  <div>
+                    <h2 class="section-title" style="font-size:18px;">Artifact bundle</h2>
+                    <p class="section-copy">Each file must exist in one canonical folder.</p>
+                  </div>
+                </div>
+                <div class="artifacts" id="artifactGrid"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="variantB" class="variant card">
+          <div class="card-inner">
+              <div class="section-head">
+              <div>
+                <h2 class="section-title">Variant B — Risk timeline with diagnosis rail</h2>
+                <p class="section-copy">An editorial layout for stepwise diagnosis. Good when the sequence of blockers matters.</p>
+              </div>
+              <div class="tag warn">Sequence view</div>
+            </div>
+
+            <div class="timeline">
+              <div class="rail" id="rail"></div>
+              <div class="detail-panel" id="detailPanel"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="variantC" class="variant card">
+          <div class="card-inner">
+              <div class="section-head">
+              <div>
+                <h2 class="section-title">Variant C — Hybrid diagnosis + compliance matrix</h2>
+                <p class="section-copy">Diagnosis strip first, matrix second. This is the combined view that makes the problem source and the audit detail visible together.</p>
+              </div>
+              <div class="tag ok">Hybrid layout</div>
+            </div>
+
+            <div class="two-col" style="grid-template-columns: 0.95fr 1.05fr; align-items: start;">
+              <div class="section-panel">
+                <div class="section-head">
+                  <div>
+                    <h2 class="section-title" style="font-size:18px;">Diagnosis strip</h2>
+                    <p class="section-copy">The first failing gate is shown with measured vs required and a next step.</p>
+                  </div>
+                </div>
+                <div id="diagnosisStrip"></div>
+              </div>
+
+              <div class="section-panel">
+                <div class="section-head">
+                  <div>
+                    <h2 class="section-title" style="font-size:18px;">Compliance matrix</h2>
+                    <p class="section-copy">Required vs measured with red cells first for audit scanning.</p>
+                  </div>
+                </div>
+                <div class="matrix" id="matrix"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <div id="switcher" class="switcher">
+      <button id="prevBtn" aria-label="Previous variant">←</button>
+      <div class="label">
+        <strong>Variant</strong>
+        <span id="switcherLabel">A — Control-panel dashboard</span>
+      </div>
+      <button id="nextBtn" aria-label="Next variant">→</button>
+    </div>
+
+    <script>
+      const VARIANTS = {
+        A: "Control-panel dashboard",
+        B: "Risk timeline with diagnosis rail",
+        C: "Hybrid diagnosis + compliance matrix"
+      };
+
+      const GATE_KEYS = ["security", "anti-detection", "performance", "documentation"];
+      const ARTIFACTS = [
+        ["gate-status.json", "Manifest, thresholds, measured values, and pass flags."],
+        ["baseline-report.json", "100-run baseline summary."],
+        ["corpus-report.json", "1000+ product corpus summary."],
+        ["soak-report.json", "1-hour soak summary."],
+        ["anti-fingerprint-rotation.json", "Profile-rotation proof."],
+        ["anti-ip-behavior.json", "IP behavior proof."],
+        ["anti-throttle-jitter.json", "Jitter and pacing proof."],
+        ["public-smoke.json", "Public /ready and /naver evidence."],
+        ["external-port-exposure.json", "Port exposure evidence."],
+        ["secret-scan-report.json", "Secret scan evidence."],
+        ["documentation-attestation.json", "Documentation attestation."]
+      ];
+
+      const DEFAULT_GATE = {
+        policy: {
+          noManualOverride: true,
+          failFastOrder: ["security", "anti-detection", "performance", "documentation"],
+          generatedAt: "2026-07-21T03:32:04.365Z"
+        },
+        gates: {
+          security: {
+            externalPortExposure: {
+              required: {
+                publicApiReachable: true,
+                cdp9222PubliclyReachable: false,
+                redisPubliclyReachable: false
+              },
+              measured: {
+                publicApiReachable: false,
+                cdp9222PubliclyReachable: false,
+                redisPubliclyReachable: false
+              },
+              pass: false,
+              evidenceFile: "external-port-exposure.json"
+            },
+            secretScan: {
+              required: { realSecretFindings: 0, manualReviewCompleted: true },
+              measured: { realSecretFindings: 0, manualReviewCompleted: false },
+              pass: false,
+              evidenceFile: "secret-scan-report.json"
+            }
+          },
+          "anti-detection": {
+            fingerprintRotation: {
+              required: { distinctProfilesMin: 3, baselineRequestCountMin: 100 },
+              measured: { distinctProfiles: 0, baselineRequestCount: 0 },
+              pass: false,
+              evidenceFile: "anti-fingerprint-rotation.json"
+            },
+            ipBehavior: {
+              required: {
+                mode: "rotation-or-sticky",
+                rotationObservedMin: 2,
+                stickySessionStableForSoak: true
+              },
+              measured: {
+                mode: "unknown",
+                rotationObserved: 0,
+                stickySessionStableForSoak: false,
+                errorRatePct: 100
+              },
+              pass: false,
+              evidenceFile: "anti-ip-behavior.json"
+            },
+            throttlingJitter: {
+              required: { delayMinMs: 150, delayMaxMs: 900, violationsMax: 0 },
+              measured: { delayMinMs: 0, delayMaxMs: 0, violations: 0 },
+              pass: false,
+              evidenceFile: "anti-throttle-jitter.json"
+            }
+          },
+          performance: {
+            baseline: {
+              required: { latencyAvgMsMax: 6000, errorRatePctMax: 5 },
+              measured: { latencyAvgMs: 0, errorRatePct: 100 },
+              pass: false,
+              evidenceFile: "baseline-report.json"
+            },
+            corpus: {
+              required: { uniqueProductsMin: 1000 },
+              measured: { uniqueProducts: 0 },
+              pass: false,
+              evidenceFile: "corpus-report.json"
+            },
+            soak: {
+              required: {
+                durationSecMin: 3600,
+                errorRatePctMax: 5,
+                longestConsecutiveReadyFailureSecMax: 119,
+                memoryGrowthPctMax: 25,
+                tailSlopeBytesPerMinMax: 0
+              },
+              measured: {
+                durationSec: 0,
+                errorRatePct: 100,
+                longestConsecutiveReadyFailureSec: 0,
+                memoryGrowthPct: 0,
+                tailSlopeBytesPerMin: 0
+              },
+              pass: false,
+              evidenceFile: "soak-report.json"
+            }
+          },
+          documentation: {
+            publicSmoke: {
+              required: { readyPass: true, naverPassAll: true, smokeUrlsCountMin: 10 },
+              measured: { readyPass: false, naverPassAll: false, smokeUrlsCount: 0 },
+              pass: false,
+              evidenceFile: "public-smoke.json"
+            },
+            documentationAttestation: {
+              required: {
+                readmeUpdated: true,
+                deploymentDocsUpdated: true,
+                benchmarkSummaryUpdated: true
+              },
+              measured: {
+                readmeUpdated: false,
+                deploymentDocsUpdated: false,
+                benchmarkSummaryUpdated: false
+              },
+              pass: false,
+              evidenceFile: "documentation-attestation.json"
+            }
+          }
+        }
+      };
+
+      const state = {
+        gate: DEFAULT_GATE,
+        currentVariant: "A",
+        selectedStep: 0
+      };
+
+      const el = {
+        overallCount: document.getElementById("overallCount"),
+        overallCopy: document.getElementById("overallCopy"),
+        evidenceCount: document.getElementById("evidenceCount"),
+        evidenceBar: document.getElementById("evidenceBar"),
+        failFastLabel: document.getElementById("failFastLabel"),
+        failFastBar: document.getElementById("failFastBar"),
+        summaryCards: document.getElementById("summaryCards"),
+        orderList: document.getElementById("orderList"),
+        artifactGrid: document.getElementById("artifactGrid"),
+        rail: document.getElementById("rail"),
+        detailPanel: document.getElementById("detailPanel"),
+        matrix: document.getElementById("matrix"),
+        diagnosisStrip: document.getElementById("diagnosisStrip"),
+        switcher: document.getElementById("switcher"),
+        switcherLabel: document.getElementById("switcherLabel"),
+        prevBtn: document.getElementById("prevBtn"),
+        nextBtn: document.getElementById("nextBtn")
+      };
+
+      function isProduction() {
+        return typeof process !== "undefined" && process?.env?.NODE_ENV === "production";
+      }
+
+      function readGateFromUrl() {
+        const variant = new URLSearchParams(window.location.search).get("variant") || "A";
+        return VARIANTS[variant] ? variant : "A";
+      }
+
+      function updateUrlVariant(variant) {
+        const url = new URL(window.location.href);
+        url.searchParams.set("variant", variant);
+        window.history.replaceState({}, "", url.toString());
+      }
+
+      function countPassingEvidenceFiles(gate) {
+        const files = [
+          gate.gates.security.externalPortExposure,
+          gate.gates.security.secretScan,
+          gate.gates["anti-detection"].fingerprintRotation,
+          gate.gates["anti-detection"].ipBehavior,
+          gate.gates["anti-detection"].throttlingJitter,
+          gate.gates.performance.baseline,
+          gate.gates.performance.corpus,
+          gate.gates.performance.soak,
+          gate.gates.documentation.publicSmoke,
+          gate.gates.documentation.documentationAttestation
+        ];
+
+        return files.filter((item) => item.pass).length;
+      }
+
+      function flattenGateSummaries(gate) {
+        return [
+          {
+            label: "Security",
+            state: allSecurityPass(gate) ? "ok" : "bad",
+            value: allSecurityPass(gate) ? "Pass" : "Fail",
+            detail: "Public API must be reachable; CDP/Redis must not be public."
+          },
+          {
+            label: "Anti-detection",
+            state: allAntiPass(gate) ? "ok" : "bad",
+            value: allAntiPass(gate) ? "Pass" : "Fail",
+            detail: "Profile rotation, IP behavior, and jitter are all required."
+          },
+          {
+            label: "Performance",
+            state: allPerformancePass(gate) ? "ok" : "bad",
+            value: allPerformancePass(gate) ? "Pass" : "Fail",
+            detail: "Baseline, corpus, and soak must all clear their thresholds."
+          },
+          {
+            label: "Documentation",
+            state: allDocumentationPass(gate) ? "ok" : "bad",
+            value: allDocumentationPass(gate) ? "Pass" : "Fail",
+            detail: "README, deployment docs, benchmark summary, and smoke proof."
+          }
+        ];
+      }
+
+      function allSecurityPass(gate) {
+        return gate.gates.security.externalPortExposure.pass && gate.gates.security.secretScan.pass;
+      }
+
+      function allAntiPass(gate) {
+        const anti = gate.gates["anti-detection"];
+        return anti.fingerprintRotation.pass && anti.ipBehavior.pass && anti.throttlingJitter.pass;
+      }
+
+      function allPerformancePass(gate) {
+        const perf = gate.gates.performance;
+        return perf.baseline.pass && perf.corpus.pass && perf.soak.pass;
+      }
+
+      function allDocumentationPass(gate) {
+        const doc = gate.gates.documentation;
+        return doc.publicSmoke.pass && doc.documentationAttestation.pass;
+      }
+
+      function renderShared(gate) {
+        const passingGroups = [allSecurityPass(gate), allAntiPass(gate), allPerformancePass(gate), allDocumentationPass(gate)].filter(Boolean).length;
+        el.overallCount.textContent = `${passingGroups} / 4`;
+        el.overallCopy.textContent = passingGroups === 4 ? "The gate is fully green." : "All four gate groups are still blocked.";
+
+        const passingEvidence = countPassingEvidenceFiles(gate);
+        el.evidenceCount.textContent = `${passingEvidence} / 11`;
+        el.evidenceBar.style.width = `${Math.round((passingEvidence / 11) * 100)}%`;
+
+        el.failFastLabel.textContent = `First stop: ${gate.policy.failFastOrder[0]}`;
+        el.failFastBar.style.width = `${gate.policy.noManualOverride ? 100 : 0}%`;
+
+        el.summaryCards.innerHTML = flattenGateSummaries(gate)
+          .map(
+            (item) => `
+              <div class="mini">
+                <h3>${item.label}</h3>
+                <div class="value">${item.value}</div>
+                <div class="sub">${item.detail}</div>
+              </div>`
+          )
+          .join("");
+
+        el.orderList.innerHTML = gate.policy.failFastOrder
+          .map((group, index) => {
+            const info = orderInfo(gate, group);
+            return `
+              <div class="order-item">
+                <div class="step">${index + 1}</div>
+                <div>
+                  <strong>${prettyGroup(group)}</strong>
+                  <span>${info.copy}</span>
+                </div>
+                <div class="tag ${info.pass ? 'ok' : 'bad'}">${info.pass ? 'Passing' : 'Failing'}</div>
+              </div>`;
+          })
+          .join("");
+
+        el.artifactGrid.innerHTML = ARTIFACTS
+          .map(([file, desc]) => `
+            <div class="artifact">
+              <div class="file">${file}</div>
+              <div class="desc">${desc}</div>
+            </div>`)
+          .join("");
+
+        renderVariantB(gate);
+        renderVariantC(gate);
+      }
+
+      function prettyGroup(group) {
+        return group === "anti-detection" ? "Anti-detection" : group[0].toUpperCase() + group.slice(1);
+      }
+
+      function orderInfo(gate, group) {
+        if (group === "security") {
+          return {
+            pass: allSecurityPass(gate),
+            copy: "External API reachability, public CDP/Redis exposure, and secret scan all have to pass first."
+          };
+        }
+        if (group === "anti-detection") {
+          return {
+            pass: allAntiPass(gate),
+            copy: "The prototype requires 3+ profiles, jitter evidence, and IP behavior proof before moving on."
+          };
+        }
+        if (group === "performance") {
+          return {
+            pass: allPerformancePass(gate),
+            copy: "Baseline, corpus, and soak are all blocked until real measurements are populated."
+          };
+        }
+        return {
+          pass: allDocumentationPass(gate),
+          copy: "The docs gate checks the README, deployment docs, benchmark summary, and public smoke evidence."
+        };
+      }
+
+      function renderVariantB(gate) {
+        const steps = gate.policy.failFastOrder;
+        el.rail.innerHTML = steps
+          .map((group, index) => {
+            const info = orderInfo(gate, group);
+            return `
+              <div class="rail-step ${state.selectedStep === index ? 'active' : ''}" data-step="${index}">
+                <strong>${index + 1}. ${prettyGroup(group)}</strong>
+                <span>${info.pass ? 'Pass' : 'Fail'} - ${info.copy}</span>
+              </div>`;
+          })
+          .join("");
+
+        const group = steps[state.selectedStep];
+        const info = orderInfo(gate, group);
+        const stage = stageDetail(gate, group);
+
+        el.detailPanel.innerHTML = `
+          <div class="detail-head">
+            <div>
+              <div class="eyebrow">Selected gate</div>
+              <h3 class="detail-title">${prettyGroup(group)}</h3>
+            </div>
+            <div class="status-chip ${info.pass ? 'ok' : 'bad'}">${info.pass ? 'Passing' : 'Failing'}</div>
+          </div>
+          <p class="detail-copy">${info.copy}</p>
+          <div class="detail-metric">
+            ${stage.metrics
+              .map(
+                (metric) => `
+                <div class="detail-box">
+                  <div class="label">${metric.label}</div>
+                  <div class="value">${metric.value}</div>
+                </div>`
+              )
+              .join("")}
+          </div>
+          <div style="margin-top: 18px;">
+            <div class="eyebrow">Evidence file</div>
+            <p class="detail-copy" style="margin-top: 8px;">${stage.evidence}</p>
+          </div>`;
+
+        el.rail.querySelectorAll('.rail-step').forEach((step) => {
+          step.addEventListener('click', () => {
+            state.selectedStep = Number(step.dataset.step);
+            renderShared(state.gate);
+          });
+        });
+      }
+
+      function stageDetail(gate, group) {
+        if (group === 'security') {
+          const item = gate.gates.security.externalPortExposure;
+          return {
+            evidence: `Required: API reachable = ${item.required.publicApiReachable}, CDP public = ${item.required.cdp9222PubliclyReachable}, Redis public = ${item.required.redisPubliclyReachable}.`,
+            metrics: [
+              { label: 'API reachable', value: String(item.measured.publicApiReachable) },
+              { label: 'CDP public', value: String(item.measured.cdp9222PubliclyReachable) },
+              { label: 'Redis public', value: String(item.measured.redisPubliclyReachable) }
+            ]
+          };
+        }
+
+        if (group === 'anti-detection') {
+          const item = gate.gates['anti-detection'].fingerprintRotation;
+          const ip = gate.gates['anti-detection'].ipBehavior;
+          const jitter = gate.gates['anti-detection'].throttlingJitter;
+          return {
+            evidence: 'Rotation, IP, and jitter proof are all mandatory before the gate can move past this section.',
+            metrics: [
+              { label: 'Profiles', value: String(item.measured.distinctProfiles) },
+              { label: 'IP rotations', value: String(ip.measured.rotationObserved) },
+              { label: 'Jitter violations', value: String(jitter.measured.violations) }
+            ]
+          };
+        }
+
+        if (group === 'performance') {
+          const perf = gate.gates.performance;
+          return {
+            evidence: 'Baseline, corpus, and soak are all blocked until measured values are populated and pass thresholds.',
+            metrics: [
+              { label: 'Baseline latency', value: String(perf.baseline.measured.latencyAvgMs) + ' ms' },
+              { label: 'Corpus products', value: String(perf.corpus.measured.uniqueProducts) },
+              { label: 'Soak duration', value: String(perf.soak.measured.durationSec) + ' s' }
+            ]
+          };
+        }
+
+        const doc = gate.gates.documentation;
+        return {
+          evidence: 'Documentation evidence must match the runtime and the measurable gate results.',
+          metrics: [
+            { label: 'Ready smoke', value: String(doc.publicSmoke.measured.readyPass) },
+            { label: 'Naver smoke', value: String(doc.publicSmoke.measured.naverPassAll) },
+            { label: 'Docs synced', value: String(doc.documentationAttestation.measured.readmeUpdated && doc.documentationAttestation.measured.deploymentDocsUpdated && doc.documentationAttestation.measured.benchmarkSummaryUpdated) }
+          ]
+        };
+      }
+
+      function renderVariantC(gate) {
+        const rows = [
+          [
+            'Security',
+            gate.gates.security.externalPortExposure,
+            gate.gates.security.secretScan,
+            'No public CDP, no public Redis, and secret scan must be clean.',
+            allSecurityPass(gate)
+          ],
+          [
+            'Anti-detection',
+            gate.gates['anti-detection'].fingerprintRotation,
+            gate.gates['anti-detection'].ipBehavior,
+            '3+ profiles, IP behavior proof, and jitter evidence are mandatory.',
+            allAntiPass(gate)
+          ],
+          [
+            'Performance',
+            gate.gates.performance.baseline,
+            gate.gates.performance.soak,
+            'Baseline, corpus, and soak all need fresh measured data.',
+            allPerformancePass(gate)
+          ],
+          [
+            'Documentation',
+            gate.gates.documentation.publicSmoke,
+            gate.gates.documentation.documentationAttestation,
+            'External smoke and doc attestation need to match the runtime.',
+            allDocumentationPass(gate)
+          ]
+        ];
+
+        const diagnosis = firstFailingDiagnosis(gate);
+
+        el.diagnosisStrip.innerHTML = `
+          <div class="gate-card" style="margin-bottom: 12px;">
+            <div class="diagnosis-flow">
+              <div class="diagnosis-node">Problem source</div>
+              <div class="diagnosis-arrow">→</div>
+              <div class="diagnosis-node">Measured vs required</div>
+              <div class="diagnosis-arrow">→</div>
+              <div class="diagnosis-node">Next action</div>
+            </div>
+            <div class="gate-top">
+              <div>
+                <h3>Current failing gate</h3>
+                <p>${diagnosis.title}</p>
+              </div>
+              <span class="status-chip bad">${diagnosis.state}</span>
+            </div>
+            <div class="meta-grid">
+              <div class="meta">
+                <div class="label">Measured</div>
+                <div class="num">${diagnosis.measured}</div>
+              </div>
+              <div class="meta">
+                <div class="label">Required</div>
+                <div class="num">${diagnosis.required}</div>
+              </div>
+            </div>
+          </div>
+          <div class="gate-card">
+            <h3>What to do next</h3>
+            <p>${diagnosis.nextStep}</p>
+          </div>`;
+
+        el.matrix.innerHTML = `
+          <div class="matrix-head">
+            <div>Gate</div>
+            <div>Required</div>
+            <div>Measured</div>
+            <div>Evidence</div>
+            <div>Status</div>
+          </div>
+          ${rows.map(([label, left, right, note, pass]) => `
+            <div class="matrix-row">
+              <div class="label">${label}</div>
+              <div class="cell"><strong>${left.evidenceFile}</strong><span class="small">${requiredSummary(left.required)}</span></div>
+              <div class="cell"><strong>${measuredSummary(left.measured)}</strong><span class="small">${note}</span></div>
+              <div class="cell"><strong>${right.evidenceFile}</strong><span class="small">${requiredSummary(right.required)}</span></div>
+              <div><span class="status-chip ${pass ? 'ok' : 'bad'}">${pass ? 'Passing' : 'Failing'}</span></div>
+            </div>`).join('')}
+        `;
+      }
+
+      function firstFailingDiagnosis(gate) {
+        const security = gate.gates.security.externalPortExposure;
+        const secret = gate.gates.security.secretScan;
+
+        if (!security.pass) {
+          return {
+            state: 'Failing',
+            title: 'Security / external port exposure',
+            measured: `API ${security.measured.publicApiReachable ? 'reachable' : 'not reachable'}, CDP ${security.measured.cdp9222PubliclyReachable ? 'public' : 'private'}, Redis ${security.measured.redisPubliclyReachable ? 'public' : 'private'}`,
+            required: 'API reachable; CDP and Redis not public',
+            nextStep: 'Expose only the API port publicly, keep CDP 9222 and Redis unreachable, then rerun the external port probe.'
+          };
+        }
+
+        if (!secret.pass) {
+          return {
+            state: 'Failing',
+            title: 'Security / secret scan',
+            measured: `realSecretFindings=${secret.measured.realSecretFindings}, manualReviewCompleted=${secret.measured.manualReviewCompleted}`,
+            required: '0 real findings and manual review completed',
+            nextStep: 'Run the secret scan again, complete the manual review, and update the evidence file.'
+          };
+        }
+
+        const anti = gate.gates['anti-detection'];
+        if (!anti.fingerprintRotation.pass) {
+          return {
+            state: 'Failing',
+            title: 'Anti-detection / fingerprint rotation',
+            measured: `profiles=${anti.fingerprintRotation.measured.distinctProfiles}, requests=${anti.fingerprintRotation.measured.baselineRequestCount}`,
+            required: '3+ profiles across 100+ baseline requests',
+            nextStep: 'Run the baseline with rotating profiles and capture the profile usage proof file.'
+          };
+        }
+
+        if (!anti.ipBehavior.pass) {
+          return {
+            state: 'Failing',
+            title: 'Anti-detection / IP behavior',
+            measured: `mode=${anti.ipBehavior.measured.mode}, rotationObserved=${anti.ipBehavior.measured.rotationObserved}, sticky=${anti.ipBehavior.measured.stickySessionStableForSoak}`,
+            required: 'Rotation observed twice or sticky session stable for soak',
+            nextStep: 'Capture repeated IP samples or confirm sticky-session stability for the full soak window.'
+          };
+        }
+
+        if (!anti.throttlingJitter.pass) {
+          return {
+            state: 'Failing',
+            title: 'Anti-detection / throttling and jitter',
+            measured: `min=${anti.throttlingJitter.measured.delayMinMs}ms, max=${anti.throttlingJitter.measured.delayMaxMs}ms, violations=${anti.throttlingJitter.measured.violations}`,
+            required: '150-900 ms with zero violations',
+            nextStep: 'Keep the randomized delay window in bounds and rerun until the proof file shows zero violations.'
+          };
+        }
+
+        const perf = gate.gates.performance;
+        if (!perf.baseline.pass) {
+          return {
+            state: 'Failing',
+            title: 'Performance / baseline',
+            measured: `latency=${perf.baseline.measured.latencyAvgMs}ms, error=${perf.baseline.measured.errorRatePct}%`,
+            required: '<= 6000 ms latency and <= 5% error',
+            nextStep: 'Rerun the 100-URL baseline with the current build and capture the new metrics.'
+          };
+        }
+
+        if (!perf.corpus.pass) {
+          return {
+            state: 'Failing',
+            title: 'Performance / corpus',
+            measured: `uniqueProducts=${perf.corpus.measured.uniqueProducts}`,
+            required: '1000+ unique products',
+            nextStep: 'Run the corpus job against at least 1000 unique product URLs and save the summary.'
+          };
+        }
+
+        if (!perf.soak.pass) {
+          return {
+            state: 'Failing',
+            title: 'Performance / soak',
+            measured: `duration=${perf.soak.measured.durationSec}s, error=${perf.soak.measured.errorRatePct}%, memoryGrowth=${perf.soak.measured.memoryGrowthPct}%`,
+            required: '3600s, <=5% error, <=25% memory growth, flat tail slope',
+            nextStep: 'Complete the 1-hour soak and capture readiness plus memory evidence.'
+          };
+        }
+
+        const doc = gate.gates.documentation;
+        if (!doc.publicSmoke.pass) {
+          return {
+            state: 'Failing',
+            title: 'Documentation / public smoke',
+            measured: `ready=${doc.publicSmoke.measured.readyPass}, naver=${doc.publicSmoke.measured.naverPassAll}, count=${doc.publicSmoke.measured.smokeUrlsCount}`,
+            required: 'Ready true, all /naver smoke tests pass, 10+ URLs',
+            nextStep: 'Run the public endpoint smoke set and save the outputs in the artifact bundle.'
+          };
+        }
+
+        if (!doc.documentationAttestation.pass) {
+          return {
+            state: 'Failing',
+            title: 'Documentation / attestation',
+            measured: `README=${doc.documentationAttestation.measured.readmeUpdated}, deploy=${doc.documentationAttestation.measured.deploymentDocsUpdated}, benchmark=${doc.documentationAttestation.measured.benchmarkSummaryUpdated}`,
+            required: 'README, deployment docs, and benchmark summary updated',
+            nextStep: 'Align the docs to the runtime state and mark the attestation pass only after the files match.'
+          };
+        }
+
+        return {
+          state: 'Passing',
+          title: 'All gates satisfied',
+          measured: 'All evidence files present and passing',
+          required: 'No manual override; all gates pass',
+          nextStep: 'Submission can move forward.'
+        };
+      }
+
+      function requiredSummary(required) {
+        return Object.entries(required)
+          .map(([k, v]) => `${k}: ${String(v)}`)
+          .join(' · ');
+      }
+
+      function measuredSummary(measured) {
+        return Object.entries(measured)
+          .map(([k, v]) => `${k}: ${String(v)}`)
+          .join(' · ');
+      }
+
+      function switchVariant(nextVariant) {
+        state.currentVariant = nextVariant;
+        updateUrlVariant(nextVariant);
+        renderVisibleVariant();
+      }
+
+      function renderVisibleVariant() {
+        const next = state.currentVariant;
+        Object.keys(VARIANTS).forEach((key) => {
+          document.getElementById(`variant${key}`).classList.toggle('active', key === next);
+        });
+        el.switcherLabel.textContent = `${next} — ${VARIANTS[next]}`;
+      }
+
+      function cycle(direction) {
+        const keys = Object.keys(VARIANTS);
+        const index = keys.indexOf(state.currentVariant);
+        const next = keys[(index + direction + keys.length) % keys.length];
+        switchVariant(next);
+      }
+
+      function loadGateSnapshot() {
+        return fetch('/artifacts/submission/gate-status.json')
+          .then((response) => (response.ok ? response.json() : Promise.reject(new Error('fallback'))))
+          .catch(() => DEFAULT_GATE);
+      }
+
+      function bindGlobalShortcuts() {
+        document.addEventListener('keydown', (event) => {
+          const tag = (event.target && event.target.tagName ? event.target.tagName.toLowerCase() : '');
+          const editable = event.target && (event.target.isContentEditable || tag === 'input' || tag === 'textarea');
+          if (editable) {
+            return;
+          }
+
+          if (event.key === 'ArrowLeft') {
+            event.preventDefault();
+            cycle(-1);
+          }
+
+          if (event.key === 'ArrowRight') {
+            event.preventDefault();
+            cycle(1);
+          }
+        });
+
+        el.prevBtn.addEventListener('click', () => cycle(-1));
+        el.nextBtn.addEventListener('click', () => cycle(1));
+      }
+
+      async function start() {
+        state.currentVariant = readGateFromUrl();
+        state.gate = await loadGateSnapshot();
+        bindGlobalShortcuts();
+        renderShared(state.gate);
+        renderVisibleVariant();
+
+        if (isProduction()) {
+          el.switcher.classList.add('hidden');
+        }
+      }
+
+      start();
+    </script>
+  </body>
+</html>

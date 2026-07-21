@@ -1,0 +1,16 @@
+# non-live targets
+# generated at 2026-07-21T05:35:44.364Z
+
+# stale: 0
+
+# challenge: 0
+
+# timeout: 1
+https://shopping.naver.com/window-products/kurlynmart/12283206879 # code=NAVER_CAPTURE_TIMEOUT status=504
+
+# infra: 0
+
+# other: 2
+https://brand.naver.com/spigen/products/13059180048 # code=NAVER_INVALID_UPSTREAM_JSON status=502
+https://smartstore.naver.com/rainbows9030/products/11102379008 # code=NAVER_QUEUE_TIMEOUT status=503
+

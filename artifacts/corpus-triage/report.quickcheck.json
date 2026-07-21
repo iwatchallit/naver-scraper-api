@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-07-21T05:35:44.362Z",
+  "baseUrl": "http://127.0.0.1:3000",
+  "inputFile": "testdata/corpus-urls.quickcheck.txt",
+  "totals": {
+    "all": 3,
+    "live": 0,
+    "stale": 0,
+    "challenge": 0,
+    "timeout": 1,
+    "infra": 0,
+    "other": 2
+  },
+  "buckets": {
+    "live": [],
+    "stale": [],
+    "challenge": [],
+    "timeout": [
+      {
+        "url": "https://shopping.naver.com/window-products/kurlynmart/12283206879",
+        "ok": false,
+        "status": 504,
+        "latencyMs": 7326,
+        "errorCode": "NAVER_CAPTURE_TIMEOUT",
+        "bucket": "timeout"
+      }
+    ],
+    "infra": [],
+    "other": [
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180048",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 9284,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://smartstore.naver.com/rainbows9030/products/11102379008",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4020,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      }
+    ]
+  },
+  "notes": [
+    "live: success responses that are safe to keep in benchmark/challenge lists",
+    "stale: unavailable/suspended/invalid targets",
+    "challenge: upstream anti-bot challenge pages",
+    "timeout: scraper did not capture product details within budget",
+    "infra: sidecar/proxy/request transport failures"
+  ]
+}

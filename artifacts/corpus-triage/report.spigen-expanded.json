@@ -1,0 +1,135 @@
+{
+  "generatedAt": "2026-07-21T05:40:44.715Z",
+  "baseUrl": "http://127.0.0.1:3000",
+  "inputFile": "testdata/corpus-urls.spigen-expanded.txt",
+  "totals": {
+    "all": 13,
+    "live": 9,
+    "stale": 0,
+    "challenge": 0,
+    "timeout": 0,
+    "infra": 0,
+    "other": 4
+  },
+  "buckets": {
+    "live": [
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179688",
+        "ok": true,
+        "status": 200,
+        "latencyMs": 8,
+        "errorCode": null,
+        "bucket": "live"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179877",
+        "ok": true,
+        "status": 200,
+        "latencyMs": 12,
+        "errorCode": null,
+        "bucket": "live"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180048",
+        "ok": true,
+        "status": 200,
+        "latencyMs": 4274,
+        "errorCode": null,
+        "bucket": "live"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180271",
+        "ok": true,
+        "status": 200,
+        "latencyMs": 4,
+        "errorCode": null,
+        "bucket": "live"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180605",
+        "ok": true,
+        "status": 200,
+        "latencyMs": 1,
+        "errorCode": null,
+        "bucket": "live"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181921",
+        "ok": true,
+        "status": 200,
+        "latencyMs": 1,
+        "errorCode": null,
+        "bucket": "live"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182825",
+        "ok": true,
+        "status": 200,
+        "latencyMs": 1,
+        "errorCode": null,
+        "bucket": "live"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183741",
+        "ok": true,
+        "status": 200,
+        "latencyMs": 1,
+        "errorCode": null,
+        "bucket": "live"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189741",
+        "ok": true,
+        "status": 200,
+        "latencyMs": 2,
+        "errorCode": null,
+        "bucket": "live"
+      }
+    ],
+    "stale": [],
+    "challenge": [],
+    "timeout": [],
+    "infra": [],
+    "other": [
+      {
+        "url": "https://brand.naver.com/spigen/products/13058453519",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 11133,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13099365203",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4004,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13099465592",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4004,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13103686932",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 9332,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      }
+    ]
+  },
+  "notes": [
+    "live: success responses that are safe to keep in benchmark/challenge lists",
+    "stale: unavailable/suspended/invalid targets",
+    "challenge: upstream anti-bot challenge pages",
+    "timeout: scraper did not capture product details within budget",
+    "infra: sidecar/proxy/request transport failures"
+  ]
+}

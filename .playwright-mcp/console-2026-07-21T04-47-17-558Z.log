@@ -1,0 +1,180 @@
+[     595ms] [WARNING] setPolicyInfo {versionInfo: Object, sdkInfo: Object, sentryInfo: Object} @ https://ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js:0
+[    1590ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://nid.naver.com/nidlogin.login:0
+[    2313ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://ssl.pstatic.net') does not match the recipient window's origin ('https://nid.naver.com'). @ https://ssl.pstatic.net/tveta/libs/glad/prod/3.10.6/gfp-display-nda.js:0
+[    2322ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://ssl.pstatic.net') does not match the recipient window's origin ('https://nid.naver.com'). @ https://ssl.pstatic.net/tveta/libs/glad/prod/3.10.6/gfp-display-nda.js:0
+[    2339ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://ssl.pstatic.net') does not match the recipient window's origin ('https://nid.naver.com'). @ https://ssl.pstatic.net/tveta/libs/glad/prod/3.10.6/gfp-display-nda.js:0
+[    2355ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://ssl.pstatic.net') does not match the recipient window's origin ('https://nid.naver.com'). @ https://ssl.pstatic.net/tveta/libs/glad/prod/3.10.6/gfp-display-nda.js:0
+[    4350ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-214342601%3A1784609240518553&access_type=offline&client_id=197665704803-bm0iputhoogtmfq2ohspdf0hvqd75mtm.apps.googleusercontent.com&o2v=1&prompt=consent&redirect_uri=https%3A%2F%2Fnid.naver.com%2Foauth%2Fglobal%2FgoogleCallback.nhn&response_type=code&scope=openid+email+profile&service=lso&state=w_2203261146&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOGPOtugbLbQn4_9SXPguHAZPbJ8mPWPsOEPddLzqVoq50DCBaD3lM0AgmFLK5aLLHzwwCNnILjtIaq30tt15k3ucEkTy8bvUPAOaM2IrlVgCzoT_8jmQeUPqo96dNE03FOFj_eBwxCxGluG0kyOteuYq770VvsI5YyggP9mOm95Aj2MIO3pVWyUypmnzyGx80TVN_JCE1R9fKvyuBOHNgKMjfc1aDX1zChbuWTVzlEe5iQWRYPtZtVD6dObN6TTUPW3hZYRppK2qrLsrDJKfI7-DHrsv42ZO7yqN9XGjOLIHmc-4Uen9hIHqtBmB_lyRvVru0PK_NPjuY5W7WKmIdYyvqEu6uqtp93FkG9Oo0u8UwKEfpr_GFKOUca7OokOyMedMGk69r5wmkFmCv2epDP7VMXjBpb4RG-emI8xvD6OPGn8amC9Otp9GCRwQroIpvPQMZDF5GOgxBTUT-rSXViSDKfyQ%26flowName%3DGeneralOAuthFlow%26as%3DS-214342601%253A1784609240518553%26client_id%3D197665704803-bm0iputhoogtmfq2ohspdf0hvqd75mtm.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&app_domain=https%3A%2F%2Fnid.naver.com&rart=ANgoxcf-GG8SLIcMW4HBxZZSySbLQ76sCkXW_lnW-Zt4P_-whXY3uObaFDYqkxsIV6O2bqFVH__9C-X21lHs3PWDbSRiYchBJMpItK59YBVDEEDXm-HEvsQ:0
+[    4354ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; WARNING! @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.C2UeKe245MY.es5.O/am=EQUAAAADfSECgP__fwMAEECQ7YDvWQBNgJABAAAAAAAAAAAWAACoEUA/d=1/excm=_b,_tp,identifierview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlENRyfEggYgpnUn84v6AQ92OCOm2g/dti=1/m=_b,_tp:550
+[    4354ms] [LOG] %c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand. @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.C2UeKe245MY.es5.O/am=EQUAAAADfSECgP__fwMAEECQ7YDvWQBNgJABAAAAAAAAAAAWAACoEUA/d=1/excm=_b,_tp,identifierview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlENRyfEggYgpnUn84v6AQ92OCOm2g/dti=1/m=_b,_tp:550
+[  113687ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://accounts.google.com/v3/signin/challenge/pwd?TL=AE6Fvybys1RIRIGA9DA6F5MtKqrNWxqQdFXZKyDTj4B-knVj4yFOKrtZmXExX6pj&access_type=offline&app_domain=https%3A%2F%2Fnid.naver.com&checkConnection=youtube%3A309&checkedDomains=youtube&cid=2&client_id=197665704803-bm0iputhoogtmfq2ohspdf0hvqd75mtm.apps.googleusercontent.com&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOGPOtugbLbQn4_9SXPguHAZPbJ8mPWPsOEPddLzqVoq50DCBaD3lM0AgmFLK5aLLHzwwCNnILjtIaq30tt15k3ucEkTy8bvUPAOaM2IrlVgCzoT_8jmQeUPqo96dNE03FOFj_eBwxCxGluG0kyOteuYq770VvsI5YyggP9mOm95Aj2MIO3pVWyUypmnzyGx80TVN_JCE1R9fKvyuBOHNgKMjfc1aDX1zChbuWTVzlEe5iQWRYPtZtVD6dObN6TTUPW3hZYRppK2qrLsrDJKfI7-DHrsv42ZO7yqN9XGjOLIHmc-4Uen9hIHqtBmB_lyRvVru0PK_NPjuY5W7WKmIdYyvqEu6uqtp93FkG9Oo0u8UwKEfpr_GFKOUca7OokOyMedMGk69r5wmkFmCv2epDP7VMXjBpb4RG-emI8xvD6OPGn8amC9Otp9GCRwQroIpvPQMZDF5GOgxBTUT-rSXViSDKfyQ%26flowName%3DGeneralOAuthFlow%26as%3DS-214342601%253A1784609240518553%26client_id%3D197665704803-bm0iputhoogtmfq2ohspdf0hvqd75mtm.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&dsh=S-214342601%3A1784609240518553&flowName=GeneralOAuthFlow&o2v=1&opparams=%253F&prompt=consent&pstMsg=1&rart=ANgoxcf-GG8SLIcMW4HBxZZSySbLQ76sCkXW_lnW-Zt4P_-whXY3uObaFDYqkxsIV6O2bqFVH__9C-X21lHs3PWDbSRiYchBJMpItK59YBVDEEDXm-HEvsQ&redirect_uri=https%3A%2F%2Fnid.naver.com%2Foauth%2Fglobal%2FgoogleCallback.nhn&response_type=code&scope=openid%20email%20profile&service=lso&state=w_2203261146:0
+[    4350ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-214342601%3A1784609240518553&access_type=offline&client_id=197665704803-bm0iputhoogtmfq2ohspdf0hvqd75mtm.apps.googleusercontent.com&o2v=1&prompt=consent&redirect_uri=https%3A%2F%2Fnid.naver.com%2Foauth%2Fglobal%2FgoogleCallback.nhn&response_type=code&scope=openid+email+profile&service=lso&state=w_2203261146&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOGPOtugbLbQn4_9SXPguHAZPbJ8mPWPsOEPddLzqVoq50DCBaD3lM0AgmFLK5aLLHzwwCNnILjtIaq30tt15k3ucEkTy8bvUPAOaM2IrlVgCzoT_8jmQeUPqo96dNE03FOFj_eBwxCxGluG0kyOteuYq770VvsI5YyggP9mOm95Aj2MIO3pVWyUypmnzyGx80TVN_JCE1R9fKvyuBOHNgKMjfc1aDX1zChbuWTVzlEe5iQWRYPtZtVD6dObN6TTUPW3hZYRppK2qrLsrDJKfI7-DHrsv42ZO7yqN9XGjOLIHmc-4Uen9hIHqtBmB_lyRvVru0PK_NPjuY5W7WKmIdYyvqEu6uqtp93FkG9Oo0u8UwKEfpr_GFKOUca7OokOyMedMGk69r5wmkFmCv2epDP7VMXjBpb4RG-emI8xvD6OPGn8amC9Otp9GCRwQroIpvPQMZDF5GOgxBTUT-rSXViSDKfyQ%26flowName%3DGeneralOAuthFlow%26as%3DS-214342601%253A1784609240518553%26client_id%3D197665704803-bm0iputhoogtmfq2ohspdf0hvqd75mtm.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&app_domain=https%3A%2F%2Fnid.naver.com&rart=ANgoxcf-GG8SLIcMW4HBxZZSySbLQ76sCkXW_lnW-Zt4P_-whXY3uObaFDYqkxsIV6O2bqFVH__9C-X21lHs3PWDbSRiYchBJMpItK59YBVDEEDXm-HEvsQ:0
+[  113687ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://accounts.google.com/v3/signin/challenge/pwd?TL=AE6Fvybys1RIRIGA9DA6F5MtKqrNWxqQdFXZKyDTj4B-knVj4yFOKrtZmXExX6pj&access_type=offline&app_domain=https%3A%2F%2Fnid.naver.com&checkConnection=youtube%3A309&checkedDomains=youtube&cid=2&client_id=197665704803-bm0iputhoogtmfq2ohspdf0hvqd75mtm.apps.googleusercontent.com&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOGPOtugbLbQn4_9SXPguHAZPbJ8mPWPsOEPddLzqVoq50DCBaD3lM0AgmFLK5aLLHzwwCNnILjtIaq30tt15k3ucEkTy8bvUPAOaM2IrlVgCzoT_8jmQeUPqo96dNE03FOFj_eBwxCxGluG0kyOteuYq770VvsI5YyggP9mOm95Aj2MIO3pVWyUypmnzyGx80TVN_JCE1R9fKvyuBOHNgKMjfc1aDX1zChbuWTVzlEe5iQWRYPtZtVD6dObN6TTUPW3hZYRppK2qrLsrDJKfI7-DHrsv42ZO7yqN9XGjOLIHmc-4Uen9hIHqtBmB_lyRvVru0PK_NPjuY5W7WKmIdYyvqEu6uqtp93FkG9Oo0u8UwKEfpr_GFKOUca7OokOyMedMGk69r5wmkFmCv2epDP7VMXjBpb4RG-emI8xvD6OPGn8amC9Otp9GCRwQroIpvPQMZDF5GOgxBTUT-rSXViSDKfyQ%26flowName%3DGeneralOAuthFlow%26as%3DS-214342601%253A1784609240518553%26client_id%3D197665704803-bm0iputhoogtmfq2ohspdf0hvqd75mtm.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&dsh=S-214342601%3A1784609240518553&flowName=GeneralOAuthFlow&o2v=1&opparams=%253F&prompt=consent&pstMsg=1&rart=ANgoxcf-GG8SLIcMW4HBxZZSySbLQ76sCkXW_lnW-Zt4P_-whXY3uObaFDYqkxsIV6O2bqFVH__9C-X21lHs3PWDbSRiYchBJMpItK59YBVDEEDXm-HEvsQ&redirect_uri=https%3A%2F%2Fnid.naver.com%2Foauth%2Fglobal%2FgoogleCallback.nhn&response_type=code&scope=openid%20email%20profile&service=lso&state=w_2203261146:0
+[  157845ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; PERINGATAN! @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.OAuthUi.id.3vAjcT5zQNs.es5.O/am=EgAAAAAIAQKA__-_AQTZDtwzgAIEAAAAAAAAAAAGAIAI/d=1/excm=_b,_tp,attributesview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlEkiFO5HzA82RZnt6kXPLrZ3_jU6Q/dti=1/m=_b,_tp:537
+[  157845ms] [LOG] %c%s font-size: 18px; Menggunakan konsol ini dapat memungkinkan penyerang untuk meniru identitas dan mencuri informasi Anda melalui serangan yang disebut Self-XSS.
+Jangan masukkan atau tempelkan kode yang tidak Anda pahami. @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.OAuthUi.id.3vAjcT5zQNs.es5.O/am=EgAAAAAIAQKA__-_AQTZDtwzgAIEAAAAAAAAAAAGAIAI/d=1/excm=_b,_tp,attributesview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlEkiFO5HzA82RZnt6kXPLrZ3_jU6Q/dti=1/m=_b,_tp:537
+[  178713ms] [WARNING] setPolicyInfo {versionInfo: Object, sdkInfo: Object, sentryInfo: Object} @ https://ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js:0
+[  179960ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://shopsquare.naver.com') does not match the recipient window's origin ('https://www.naver.com'). @ https://pm.pstatic.net/resources/js/main.fdb73099.js?o=www:1
+[  179960ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://recoshopping.naver.com') does not match the recipient window's origin ('https://www.naver.com'). @ https://pm.pstatic.net/resources/js/main.fdb73099.js?o=www:1
+[  180335ms] [ERROR] [Memo] Invalid memo status. memo list is null @ https://pm.pstatic.net/resources/js/preload.7ebb5d79.js?o=www:1
+[  180576ms] [ERROR] [MyService] Fail to update mail noti. Error: Invalid response result. {"RESULT":"FAIL","COUNT":-3} @ https://pm.pstatic.net/resources/js/preload.7ebb5d79.js?o=www:1
+[  251691ms] [ERROR] Failed to load resource: the server responded with a status of 490 () @ https://smartstore.naver.com/rainbows9030/products/11102379008:0
+[  252730ms] [WARNING] The provided value 'undefined' is not a valid enum value of type XMLHttpRequestResponseType. @ https://ncpt.naver.com/v1/wcpt/m/challenge/wtm_captcha_v2.js?v=20260529:0
+[  252889ms] [WARNING] The provided value 'undefined' is not a valid enum value of type XMLHttpRequestResponseType. @ https://ncpt.naver.com/v1/wcpt/m/challenge/wtm_captcha_v2.js?v=20260529:0
+[  333051ms] [WARNING] The provided value 'undefined' is not a valid enum value of type XMLHttpRequestResponseType. @ https://ncpt.naver.com/v1/wcpt/m/challenge/wtm_captcha_v2.js?v=20260529:0
+[  334758ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at co (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:62355)
+    at xu (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:135861)
+    at bc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123273)
+    at vc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123201)
+    at yc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123064)
+    at ic (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:118168)
+    at S (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1233948)
+    at MessagePort.C (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1234482)
+[  334759ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at co (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:62475)
+    at xu (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:135861)
+    at bc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123273)
+    at vc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123201)
+    at yc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123064)
+    at ic (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:118168)
+    at S (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1233948)
+    at MessagePort.C (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1234482)
+[  334759ms] Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at xu (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:135547)
+    at bc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123273)
+    at vc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123201)
+    at yc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123064)
+    at oc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:119844)
+    at ic (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:118395)
+    at S (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1233948)
+    at MessagePort.C (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1234482)
+[  394992ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://shopsquare.naver.com') does not match the recipient window's origin ('https://www.naver.com'). @ https://pm.pstatic.net/resources/js/main.fdb73099.js?o=www:1
+[  394992ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://recoshopping.naver.com') does not match the recipient window's origin ('https://www.naver.com'). @ https://pm.pstatic.net/resources/js/main.fdb73099.js?o=www:1
+[  395219ms] [ERROR] [Memo] Invalid memo status. memo list is null @ https://pm.pstatic.net/resources/js/preload.7ebb5d79.js?o=www:1
+[  395616ms] [ERROR] [MyService] Fail to update mail noti. Error: Invalid response result. {"RESULT":"FAIL","COUNT":-3} @ https://pm.pstatic.net/resources/js/preload.7ebb5d79.js?o=www:1
+[  747428ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://shopsquare.naver.com') does not match the recipient window's origin ('https://www.naver.com'). @ https://pm.pstatic.net/resources/js/main.fdb73099.js?o=www:1
+[  747429ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://recoshopping.naver.com') does not match the recipient window's origin ('https://www.naver.com'). @ https://pm.pstatic.net/resources/js/main.fdb73099.js?o=www:1
+[  747687ms] [ERROR] [Memo] Invalid memo status. memo list is null @ https://pm.pstatic.net/resources/js/preload.7ebb5d79.js?o=www:1
+[  747873ms] [ERROR] [MyService] Fail to update mail noti. Error: Invalid response result. {"RESULT":"FAIL","COUNT":-3} @ https://pm.pstatic.net/resources/js/preload.7ebb5d79.js?o=www:1
+[  824960ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at co (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:62355)
+    at xu (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:135861)
+    at bc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123273)
+    at vc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123201)
+    at yc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123064)
+    at ic (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:118168)
+    at S (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1233948)
+    at MessagePort.C (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1234482)
+[  824960ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at co (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:62475)
+    at xu (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:135861)
+    at bc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123273)
+    at vc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123201)
+    at yc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123064)
+    at ic (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:118168)
+    at S (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1233948)
+    at MessagePort.C (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1234482)
+[  824960ms] Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at xu (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:135547)
+    at bc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123273)
+    at vc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123201)
+    at yc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123064)
+    at oc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:119844)
+    at ic (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:118395)
+    at S (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1233948)
+    at MessagePort.C (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1234482)
+[  993602ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at co (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:62355)
+    at xu (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:135861)
+    at bc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123273)
+    at vc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123201)
+    at yc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123064)
+    at ic (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:118168)
+    at S (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1233948)
+    at MessagePort.C (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1234482)
+[  993602ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at co (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:62475)
+    at xu (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:135861)
+    at bc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123273)
+    at vc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123201)
+    at yc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123064)
+    at ic (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:118168)
+    at S (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1233948)
+    at MessagePort.C (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1234482)
+[  993603ms] Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at xu (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:135547)
+    at bc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123273)
+    at vc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123201)
+    at yc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123064)
+    at oc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:119844)
+    at ic (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:118395)
+    at S (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1233948)
+    at MessagePort.C (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1234482)
+[ 1001792ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/delivery-address/verified:0
+[ 1001792ms] [ERROR] t: 해당 회원은 배송지정보 이용에 동의하지 않았습니다.
+    at throwError (https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:1:3559271) undefined @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[ 1001793ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/pay-member/check:0
+[ 1001798ms] [ERROR] o {pathname: undefined, responseTime: 133ms, thresholdTime: 500ms} @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[ 1002024ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/pay-member/check:0
+[ 1002025ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/delivery-address/verified:0
+[ 1002025ms] [ERROR] t: 해당 회원은 배송지정보 이용에 동의하지 않았습니다.
+    at throwError (https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:1:3559271) undefined @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[ 1002087ms] [ERROR] o {pathname: undefined, responseTime: 233ms, thresholdTime: 500ms} @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[ 1034747ms] [WARNING]  [33m[1m⚠[22m[39m Runtime config is deprecated and will be removed in Next.js 16. Please remove the usage of "next/config" from your project. @ https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/13-b61b5c3bf2a4c159.js:0
+[ 1127270ms] [WARNING]  [33m[1m⚠[22m[39m Runtime config is deprecated and will be removed in Next.js 16. Please remove the usage of "next/config" from your project. @ https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/13-b61b5c3bf2a4c159.js:0
+[ 1127499ms] Uncaught Error: Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rD (https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/f8a16576-20b0366a27633504.js:0:35061)
+    at rO (https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/f8a16576-20b0366a27633504.js:0:36094)
+    at <anonymous> (https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/f8a16576-20b0366a27633504.js:0:118082)
+    at ix (https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/f8a16576-20b0366a27633504.js:0:122954)
+    at ik (https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/f8a16576-20b0366a27633504.js:0:114742)
+    at <anonymous> (https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/f8a16576-20b0366a27633504.js:0:110729)
+    at iu (https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/f8a16576-20b0366a27633504.js:0:110830)
+    at iX (https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/f8a16576-20b0366a27633504.js:0:132933)
+    at w (https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/6081-e2f5f91f49baace4.js:0:5963)
+[ 1160865ms] [WARNING]  [33m[1m⚠[22m[39m Runtime config is deprecated and will be removed in Next.js 16. Please remove the usage of "next/config" from your project. @ https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/13-b61b5c3bf2a4c159.js:0
+[ 1161052ms] Uncaught Error: Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rD (https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/f8a16576-20b0366a27633504.js:0:35061)
+    at rO (https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/f8a16576-20b0366a27633504.js:0:36094)
+    at <anonymous> (https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/f8a16576-20b0366a27633504.js:0:118082)
+    at ix (https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/f8a16576-20b0366a27633504.js:0:122954)
+    at ik (https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/f8a16576-20b0366a27633504.js:0:114742)
+    at <anonymous> (https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/f8a16576-20b0366a27633504.js:0:110729)
+    at iu (https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/f8a16576-20b0366a27633504.js:0:110830)
+    at iX (https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/f8a16576-20b0366a27633504.js:0:132933)
+    at w (https://ncp-search.pstatic.net/n-static/search/1784076541294/_next/static/chunks/6081-e2f5f91f49baace4.js:0:5963)
+[ 1161619ms] [ERROR] Failed to load resource: the server responded with a status of 405 () @ https://search.shopping.naver.com/ns/v1/search/paged-composite-cards?cursor=35&pageSize=50&query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&searchMethod=all.basic&isFreshCategory=false&isOriginalQuerySearch=false&isCatalogDiversifyOff=true&listPage=2&previousSMESlotNvMids=82441331744&previousSMESlotNvMids=90457828908&categoryIdsForPromotions=50000205&hiddenNonProductCard=false&duplicatedNvMids=90603691697&duplicatedNvMids=90603691140&duplicatedNvMids=82441331744&duplicatedNvMids=90457828908&hasMoreAd=true&hasMore=true&usedVectorSearch=true:0
+[ 1161762ms] [ERROR] Failed to load resource: the server responded with a status of 418 () @ https://search.shopping.naver.com/ns/v1/coupons/all-seller-coupons?accountNo=500008320:0
+[ 1162434ms] [ERROR] Failed to load resource: the server responded with a status of 418 () @ https://search.shopping.naver.com/ns/v1/channel-products/by-ids?excludeSoldOut=true&includeNewShoppingExposureYn=true&ids=13059179877&ids=13059189354&ids=13059185621&ids=12314740345&ids=12314858979&ids=13288388682&ids=12362160258&ids=10824456186&ids=10824327160&ids=10824468741&ids=13059183741&ids=9827261594&ids=13059181921&ids=13059191096&ids=13059187267&ids=13099365203&ids=13167145824&ids=13167145826&ids=13167145827&ids=13167145825&ids=12906576023&ids=12906598686:0
+[ 1162435ms] [ERROR] Failed to load resource: the server responded with a status of 418 () @ https://search.shopping.naver.com/ns/v1/optimal-discount/multi-option-based:0
+[ 1162436ms] [ERROR] Failed to load resource: the server responded with a status of 418 () @ https://search.shopping.naver.com/ns/v1/product-keeps:0
+[ 1162437ms] [ERROR] Failed to load resource: the server responded with a status of 418 () @ https://search.shopping.naver.com/ns/v1/product-benefits/list:0
+[ 1162437ms] [ERROR] Failed to load resource: the server responded with a status of 418 () @ https://search.shopping.naver.com/ns/v1/user-product-tag:0
+[ 1211772ms] [ERROR] Failed to load resource: the server responded with a status of 418 () @ https://search.shopping.naver.com/ns/v1/product-logs/90603691697:0
+[ 1211777ms] [ERROR] Failed to load resource: the server responded with a status of 418 () @ https://search.shopping.naver.com/ns/v1/log-eye:0
+[ 1656070ms] [WARNING] MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 visible listeners added. Use emitter.setMaxListeners() to increase limit
+    at h (https://editor-static.pstatic.net/v/basic/1.73.1/se.viewer.js:6:27262)
+    at t.<anonymous> (https://editor-static.pstatic.net/v/basic/1.73.1/se.viewer.js:6:29831)
+    at new t (https://editor-static.pstatic.net/v/basic/1.73.1/se.24.6bf71b05.js:1:2126)
+    at https://editor-static.pstatic.net/v/basic/1.73.1/se.viewer.js:12:53355 @ https://static-resource-smartstore.pstatic.net/brandstore/p/static/20260721104235/js/7893.773df45b.js:0
+[ 1656070ms] [WARNING] MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 invisible listeners added. Use emitter.setMaxListeners() to increase limit
+    at h (https://editor-static.pstatic.net/v/basic/1.73.1/se.viewer.js:6:27262)
+    at t.<anonymous> (https://editor-static.pstatic.net/v/basic/1.73.1/se.viewer.js:6:29831)
+    at new t (https://editor-static.pstatic.net/v/basic/1.73.1/se.24.6bf71b05.js:1:2161)
+    at https://editor-static.pstatic.net/v/basic/1.73.1/se.viewer.js:12:53355 @ https://static-resource-smartstore.pstatic.net/brandstore/p/static/20260721104235/js/7893.773df45b.js:0
+[ 1778486ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/pay-member/check:0
+[ 1778487ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/delivery-address/verified:0
+[ 1778488ms] [ERROR] t: 해당 회원은 배송지정보 이용에 동의하지 않았습니다.
+    at throwError (https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:1:2767957) undefined @ https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:0
+[ 1778489ms] [ERROR] AxiosError: Request failed with status code 403
+    at Tt (https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:1:2605098)
+    at XMLHttpRequest.m (https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:1:2615541)
+    at e.<anonymous> (https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:1:2651440)
+    at e.<anonymous> (https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:1:2646556)
+    at Generator.<anonymous> (https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:1:2649136)
+    at Generator.throw (https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:1:2649986)
+    at hr (https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:1:2650204)
+    at s (https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:1:2651950) {pathname: undefined, responseTime: 613ms, thresholdTime: 500ms} @ https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:0
+[ 1778614ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/pay-member/check:0

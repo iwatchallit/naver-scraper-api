@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-07-21T05:38:46.402Z",
+  "baseUrl": "http://127.0.0.1:3000",
+  "inputFile": "testdata/corpus-candidates.txt",
+  "totals": {
+    "all": 9,
+    "live": 1,
+    "stale": 0,
+    "challenge": 0,
+    "timeout": 3,
+    "infra": 0,
+    "other": 5
+  },
+  "buckets": {
+    "live": [
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180048",
+        "ok": true,
+        "status": 200,
+        "latencyMs": 4405,
+        "errorCode": null,
+        "bucket": "live"
+      }
+    ],
+    "stale": [],
+    "challenge": [],
+    "timeout": [
+      {
+        "url": "https://shopping.naver.com/window-products/kurlynmart/12274475704",
+        "ok": false,
+        "status": 504,
+        "latencyMs": 7898,
+        "errorCode": "NAVER_CAPTURE_TIMEOUT",
+        "bucket": "timeout"
+      },
+      {
+        "url": "https://shopping.naver.com/window-products/kurlynmart/13392583628",
+        "ok": false,
+        "status": 504,
+        "latencyMs": 11060,
+        "errorCode": "NAVER_CAPTURE_TIMEOUT",
+        "bucket": "timeout"
+      },
+      {
+        "url": "https://smartstore.naver.com/nowmro/products/13341559288",
+        "ok": false,
+        "status": 504,
+        "latencyMs": 9813,
+        "errorCode": "NAVER_CAPTURE_TIMEOUT",
+        "bucket": "timeout"
+      }
+    ],
+    "infra": [],
+    "other": [
+      {
+        "url": "https://shopping.naver.com/window-products/kurlynmart/12274708164",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4012,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://shopping.naver.com/window-products/kurlynmart/12283206879",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4015,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://smartstore.naver.com/ocoo/products/4791494570",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4002,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://smartstore.naver.com/rainbows9030/products/11102379008",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4005,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://smartstore.naver.com/urvanluna/products/13644322487",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4005,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      }
+    ]
+  },
+  "notes": [
+    "live: success responses that are safe to keep in benchmark/challenge lists",
+    "stale: unavailable/suspended/invalid targets",
+    "challenge: upstream anti-bot challenge pages",
+    "timeout: scraper did not capture product details within budget",
+    "infra: sidecar/proxy/request transport failures"
+  ]
+}

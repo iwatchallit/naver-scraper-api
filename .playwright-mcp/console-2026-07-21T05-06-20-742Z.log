@@ -1,0 +1,14 @@
+[    2144ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/pay-member/check:0
+[    2156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/delivery-address/verified:0
+[    2157ms] [ERROR] t: 해당 회원은 배송지정보 이용에 동의하지 않았습니다.
+    at throwError (https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:1:2767957) undefined @ https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:0
+[    2158ms] [ERROR] AxiosError: Request failed with status code 403
+    at Tt (https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:1:2605098)
+    at XMLHttpRequest.m (https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:1:2615541)
+    at e.<anonymous> (https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:1:2651440)
+    at e.<anonymous> (https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:1:2646556)
+    at Generator.<anonymous> (https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:1:2649136)
+    at Generator.throw (https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:1:2649986)
+    at hr (https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:1:2650204)
+    at s (https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:1:2651950) {pathname: undefined, responseTime: 152ms, thresholdTime: 500ms} @ https://static-resource-smartstore.pstatic.net/window/p/static/pb20260721104232/js/8229.a0d25f51.js:0
+[    2264ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/pay-member/check:0

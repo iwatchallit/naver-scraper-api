@@ -149,13 +149,19 @@ export async function orchestrateCapture(
 
   const queueWaitMs = Date.now() - queuedAt;
   const deadlineAt = Date.now() + orchestrationOptions.globalRequestTimeoutMs;
+  const captureOptions = getCaptureOptionsFromEnv();
+  const minimumAttemptBudgetMs = getMinimumAttemptBudgetMs(captureOptions);
+  const budgetedAttempts = getBudgetedAttemptCount(
+    orchestrationOptions.globalRequestTimeoutMs,
+    orchestrationOptions.maxAttempts,
+    minimumAttemptBudgetMs
+  );
   let attempts = 0;
 
   try {
-    while (attempts < orchestrationOptions.maxAttempts) {
+    while (attempts < budgetedAttempts) {
       attempts += 1;
 
-      const captureOptions = getCaptureOptionsFromEnv();
       const remainingMs = deadlineAt - Date.now();
       if (remainingMs <= 0) {
         return {
@@ -171,10 +177,15 @@ export async function orchestrateCapture(
         };
       }
 
-      const perAttemptOptions = clampCaptureOptionsToRemaining(captureOptions, remainingMs);
+      const attemptBudgetMs = getAttemptBudgetMs(
+        remainingMs,
+        budgetedAttempts - attempts + 1,
+        minimumAttemptBudgetMs
+      );
+      const perAttemptOptions = clampCaptureOptionsToRemaining(captureOptions, attemptBudgetMs);
       const result = await withTimeout(
         captureProductPayloads(productUrl, perAttemptOptions),
-        remainingMs
+        attemptBudgetMs
       );
 
       if (result === "timeout") {
@@ -243,6 +254,26 @@ function clampCaptureOptionsToRemaining(
   };
 }
 
+function getMinimumAttemptBudgetMs(options: CaptureOptions): number {
+  return options.navigationTimeoutMs + options.captureGraceMs + 1000;
+}
+
+function getBudgetedAttemptCount(
+  globalRequestTimeoutMs: number,
+  maxAttempts: number,
+  minimumAttemptBudgetMs: number
+): number {
+  return Math.max(1, Math.min(maxAttempts, Math.floor(globalRequestTimeoutMs / minimumAttemptBudgetMs)));
+}
+
+function getAttemptBudgetMs(
+  remainingMs: number,
+  attemptsRemaining: number,
+  minimumAttemptBudgetMs: number
+): number {
+  return Math.max(minimumAttemptBudgetMs, Math.floor(remainingMs / attemptsRemaining));
+}
+
 async function withTimeout<T extends CaptureAttemptResult>(
   promise: Promise<T>,
   timeoutMs: number
@@ -275,3 +306,11 @@ function toPositiveInt(rawValue: string | undefined, fallback: number): number {
 
   return parsed;
 }
+
+export const requestOrchestrationInternalsForTest = {
+  getMinimumAttemptBudgetMs,
+  getBudgetedAttemptCount,
+  getAttemptBudgetMs,
+  clampCaptureOptionsToRemaining,
+  withTimeout
+};

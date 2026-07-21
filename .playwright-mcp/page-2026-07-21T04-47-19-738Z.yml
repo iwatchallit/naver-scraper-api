@@ -1,0 +1,66 @@
+- generic [ref=e2]:
+  - link "본문 바로가기" [ref=e3] [cursor=pointer]:
+    - /url: "#content"
+  - main [ref=e5]:
+    - banner [ref=e6]:
+      - link [ref=e9] [cursor=pointer]:
+        - /url: https://www.naver.com
+        - heading "네이버" [level=1] [ref=e10]
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - list [ref=e14]:
+          - listitem [ref=e15]:
+            - generic [ref=e16]:
+              - generic: ID or phone number
+              - textbox "ID or phone number" [active] [ref=e18]:
+                - /placeholder: ""
+          - listitem [ref=e20]:
+            - generic [ref=e21]:
+              - generic: Password
+              - textbox "Password" [ref=e23]
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - checkbox "Stay Signed in" [ref=e28] [cursor=pointer]
+            - generic [ref=e29] [cursor=pointer]: Stay Signed in
+          - generic [ref=e30]:
+            - generic [ref=e31]: IP Security
+            - generic [ref=e32]:
+              - switch "IP Security" [checked]
+              - generic [ref=e33] [cursor=pointer]: "ON"
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - button "Passkey" [ref=e38] [cursor=pointer]
+          - listitem [ref=e40]:
+            - button "Sign in" [ref=e41] [cursor=pointer]
+        - list [ref=e65]:
+          - listitem [ref=e66]:
+            - link "QR sign-in" [ref=e67] [cursor=pointer]:
+              - /url: "#none"
+      - list [ref=e44]:
+        - listitem [ref=e45]:
+          - link "Forgot ID" [ref=e46] [cursor=pointer]:
+            - /url: https://nid.naver.com/user2/api/route?m=routeIdInquiry&lang=en_US
+        - listitem [ref=e48]:
+          - link "Forgot password" [ref=e49] [cursor=pointer]:
+            - /url: https://nid.naver.com/user2/api/route?m=routePwInquiry&lang=en_US
+        - listitem [ref=e51]:
+          - link "Sign up" [ref=e52] [cursor=pointer]:
+            - /url: https://nid.naver.com/user2/V2Join?m=agree&lang=en_US&realname=N
+      - list [ref=e70]:
+        - listitem [ref=e71]:
+          - button "Apple" [ref=e72] [cursor=pointer]
+        - listitem [ref=e75]:
+          - button "Google" [ref=e76] [cursor=pointer]
+        - listitem [ref=e79]:
+          - button "Line" [ref=e80] [cursor=pointer]
+    - generic [ref=e54]:
+      - contentinfo [ref=e55]:
+        - listitem [ref=e56]:
+          - link "Chatbot" [ref=e57] [cursor=pointer]:
+            - /url: https://nca.naver.com/chat/account/view
+        - listitem [ref=e58]:
+          - link "Help" [ref=e59] [cursor=pointer]:
+            - /url: https://help.naver.com/service/5640/category/bookmark?lang=en
+        - listitem [ref=e60]:
+          - listbox "언어선택" [ref=e61] [cursor=pointer]: English
+      - generic [ref=e62]: © NAVER Corp.

@@ -1,0 +1,2650 @@
+- generic [ref=f115e1]:
+  - generic [ref=f115e3178]:
+    - generic [ref=f115e3185]:
+      - link "본문으로 바로가기" [ref=f115e3186] [cursor=pointer]:
+        - /url: "#content"
+      - generic [ref=f115e3190]:
+        - generic [ref=f115e3191]:
+          - generic [ref=f115e3192]:
+            - link "NAVER" [ref=f115e3193] [cursor=pointer]:
+              - /url: https://www.naver.com
+            - link "네이버페이" [ref=f115e3197] [cursor=pointer]:
+              - /url: https://pay.naver.com/pc?page=1
+          - generic [ref=f115e3202]:
+            - strong [ref=f115e3203]: 사용자 링크
+            - list [ref=f115e3204]:
+              - listitem [ref=f115e3205]:
+                - link "내 프로필 이미지 opt 내정보 보기" [ref=f115e3207] [cursor=pointer]:
+                  - /url: javascript:;
+                  - img "내 프로필 이미지" [ref=f115e3208]
+                  - generic [ref=f115e3209]: opt
+                  - emphasis [ref=f115e3210]: 내정보 보기
+              - listitem [ref=f115e3211]:
+                - link "네이버톡" [ref=f115e3212] [cursor=pointer]:
+                  - /url: https://talks.naver.com/?frm=pcgnb&anchor=&category=
+              - listitem [ref=f115e3215]:
+                - link "알림" [ref=f115e3216] [cursor=pointer]:
+                  - /url: https://m.notify.naver.com/?from=pcmain
+              - listitem [ref=f115e3219]:
+                - link "메일" [ref=f115e3220] [cursor=pointer]:
+                  - /url: https://mail.naver.com
+              - listitem [ref=f115e3223]:
+                - link "서비스 더보기" [ref=f115e3224] [cursor=pointer]:
+                  - /url: javascript:;
+        - generic [ref=f115e3227]:
+          - heading [level=1] [ref=f115e3228]:
+            - link "네이버플러스 스토어" [ref=f115e3229] [cursor=pointer]:
+              - /url: https://shopping.naver.com/ns/home
+          - generic [ref=f115e3237]:
+            - heading "검색영역" [level=2] [ref=f115e3238]
+            - generic [ref=f115e3243]:
+              - textbox "검색어 입력" [ref=f115e3244]:
+                - /placeholder: 상품명 또는 브랜드 입력
+                - text: 치약
+              - button "입력 내용 삭제" [ref=f115e3245] [cursor=pointer]
+              - button "검색레이어 펼치기" [ref=f115e3250] [cursor=pointer]
+              - button "검색" [ref=f115e3254] [cursor=pointer]
+          - link "네이버 가격비교 검색에서 더보기" [ref=f115e3259] [cursor=pointer]:
+            - /url: https://search.shopping.naver.com/search/all?query=%EC%B9%98%EC%95%BD
+            - generic [ref=f115e3265]: 네이버 가격비교
+            - text: 검색에서 더보기
+          - generic [ref=f115e3266]:
+            - button "카테고리" [ref=f115e3268] [cursor=pointer]
+            - link "마이쇼핑" [ref=f115e3272] [cursor=pointer]
+            - link "장바구니" [ref=f115e3276] [cursor=pointer]:
+              - /url: https://shopping.naver.com/cart?frm=gnb&prevUrl=https%3A%2F%2Fsearch.shopping.naver.com%2Fns%2Fsearch%3Fquery%3D%25EC%25B9%2598%25EC%2595%25BD
+    - generic [ref=f115e3282]:
+      - strong [ref=f115e3283]: 연관
+      - generic [ref=f115e3284]:
+        - list [ref=f115e3287]:
+          - listitem [ref=f115e3288]:
+            - link "잇몸치약 잇몸치약" [ref=f115e3289] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EC%9E%87%EB%AA%B8%EC%B9%98%EC%95%BD&queryType=r1
+              - img "잇몸치약" [ref=f115e3291]
+              - generic [ref=f115e3292]: 잇몸치약
+          - listitem [ref=f115e3293]:
+            - link "페리오 치약 페리오 치약" [ref=f115e3294] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%ED%8E%98%EB%A6%AC%EC%98%A4%20%EC%B9%98%EC%95%BD&queryType=r1
+              - img "페리오 치약" [ref=f115e3296]
+              - generic [ref=f115e3297]: 페리오 치약
+          - listitem [ref=f115e3298]:
+            - link "미백치약 미백치약" [ref=f115e3299] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EB%AF%B8%EB%B0%B1%EC%B9%98%EC%95%BD&queryType=r1
+              - img "미백치약" [ref=f115e3301]
+              - generic [ref=f115e3302]: 미백치약
+          - listitem [ref=f115e3303]:
+            - link "유시몰 치약 유시몰 치약" [ref=f115e3304] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EC%9C%A0%EC%8B%9C%EB%AA%B0%20%EC%B9%98%EC%95%BD&queryType=r1
+              - img "유시몰 치약" [ref=f115e3306]
+              - generic [ref=f115e3307]: 유시몰 치약
+          - listitem [ref=f115e3308]:
+            - link "암웨이 치약 암웨이 치약" [ref=f115e3309] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EC%95%94%EC%9B%A8%EC%9D%B4%20%EC%B9%98%EC%95%BD&queryType=r1
+              - img "암웨이 치약" [ref=f115e3311]
+              - generic [ref=f115e3312]: 암웨이 치약
+          - listitem [ref=f115e3313]:
+            - link "미니치약 미니치약" [ref=f115e3314] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EB%AF%B8%EB%8B%88%EC%B9%98%EC%95%BD&queryType=r1
+              - img "미니치약" [ref=f115e3316]
+              - generic [ref=f115e3317]: 미니치약
+          - listitem [ref=f115e3318]:
+            - link "프로폴리스 치약 프로폴리스 치약" [ref=f115e3319] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%ED%94%84%EB%A1%9C%ED%8F%B4%EB%A6%AC%EC%8A%A4%20%EC%B9%98%EC%95%BD&queryType=r1
+              - img "프로폴리스 치약" [ref=f115e3321]
+              - generic [ref=f115e3322]: 프로폴리스 치약
+          - listitem [ref=f115e3323]:
+            - link "잇치 치약 잇치 치약" [ref=f115e3324] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EC%9E%87%EC%B9%98%20%EC%B9%98%EC%95%BD&queryType=r1
+              - img "잇치 치약" [ref=f115e3326]
+              - generic [ref=f115e3327]: 잇치 치약
+          - listitem [ref=f115e3328]:
+            - link "불소치약 불소치약" [ref=f115e3329] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EB%B6%88%EC%86%8C%EC%B9%98%EC%95%BD&queryType=r1
+              - img "불소치약" [ref=f115e3331]
+              - generic [ref=f115e3332]: 불소치약
+          - listitem [ref=f115e3333]:
+            - link "켄트치약 켄트치약" [ref=f115e3334] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EC%BC%84%ED%8A%B8%EC%B9%98%EC%95%BD&queryType=r1
+              - img "켄트치약" [ref=f115e3336]
+              - generic [ref=f115e3337]: 켄트치약
+          - listitem [ref=f115e3338]:
+            - link "치약칫솔 치약칫솔" [ref=f115e3339] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EC%B9%98%EC%95%BD%EC%B9%AB%EC%86%94&queryType=r1
+              - img "치약칫솔" [ref=f115e3341]
+              - generic [ref=f115e3342]: 치약칫솔
+          - listitem [ref=f115e3343]:
+            - link "고체치약 고체치약" [ref=f115e3344] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EA%B3%A0%EC%B2%B4%EC%B9%98%EC%95%BD&queryType=r1
+              - img "고체치약" [ref=f115e3346]
+              - generic [ref=f115e3347]: 고체치약
+          - listitem [ref=f115e3348]:
+            - link "메디안치약 메디안치약" [ref=f115e3349] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EB%A9%94%EB%94%94%EC%95%88%EC%B9%98%EC%95%BD&queryType=r1
+              - img "메디안치약" [ref=f115e3351]
+              - generic [ref=f115e3352]: 메디안치약
+          - listitem [ref=f115e3353]:
+            - link "텐티스테 치약" [ref=f115e3354] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%ED%85%90%ED%8B%B0%EC%8A%A4%ED%85%8C%20%EC%B9%98%EC%95%BD&queryType=r1
+          - listitem [ref=f115e3356]:
+            - link "미국치약 미국치약" [ref=f115e3357] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EB%AF%B8%EA%B5%AD%EC%B9%98%EC%95%BD&queryType=r1
+              - img "미국치약" [ref=f115e3359]
+              - generic [ref=f115e3360]: 미국치약
+        - button "다음 리스트 보기" [ref=f115e3361] [cursor=pointer]
+    - generic [ref=f115e3366]:
+      - heading "치약 검색결과" [level=2] [ref=f115e3367]
+      - generic [ref=f115e3370]:
+        - heading "필터 도구" [level=3] [ref=f115e3371]
+        - generic [ref=f115e3372]:
+          - generic [ref=f115e3373]:
+            - strong [ref=f115e3375]: 공통추천
+            - list [ref=f115e3379]:
+              - listitem [ref=f115e3380]:
+                - generic [ref=f115e3382] [cursor=pointer]:
+                  - checkbox "슈퍼적립" [ref=f115e3383]
+                  - img "슈퍼적립" [ref=f115e3385]
+              - listitem [ref=f115e3386]:
+                - generic [ref=f115e3387]:
+                  - generic [ref=f115e3388] [cursor=pointer]:
+                    - checkbox "공식브랜드" [ref=f115e3389]
+                    - generic [ref=f115e3391]: 공식브랜드
+                  - button "도움말" [ref=f115e3394] [cursor=pointer]
+              - listitem [ref=f115e3399]:
+                - generic [ref=f115e3401] [cursor=pointer]:
+                  - checkbox "무료배송" [ref=f115e3402]
+                  - generic [ref=f115e3404]: 무료배송
+              - listitem [ref=f115e3405]:
+                - generic [ref=f115e3407] [cursor=pointer]:
+                  - checkbox "배송비 포함" [ref=f115e3408]
+                  - generic [ref=f115e3410]: 배송비 포함
+              - listitem [ref=f115e3411]:
+                - generic [ref=f115e3413] [cursor=pointer]:
+                  - checkbox "별점 4.8 이상" [ref=f115e3414]
+                  - generic [ref=f115e3418]: 별점
+                  - generic [ref=f115e3419]: 4.8 이상
+          - generic [ref=f115e3420]:
+            - strong [ref=f115e3422]: 공통빠른배송
+            - list [ref=f115e3426]:
+              - listitem [ref=f115e3427]:
+                - generic [ref=f115e3428]:
+                  - generic [ref=f115e3429] [cursor=pointer]:
+                    - checkbox "N배송 빠르게 받기" [ref=f115e3430]
+                    - generic [ref=f115e3432]:
+                      - generic [ref=f115e3433]: N배송
+                      - generic [ref=f115e3435]: 빠르게 받기
+                  - button "도움말" [ref=f115e3438] [cursor=pointer]
+              - listitem [ref=f115e3443]:
+                - generic [ref=f115e3445] [cursor=pointer]:
+                  - checkbox "오늘출발" [ref=f115e3446]
+                  - generic [ref=f115e3448]: 오늘출발
+          - generic [ref=f115e3449]:
+            - generic [ref=f115e3450]:
+              - strong [ref=f115e3451]: 브랜드
+              - button "도움말" [ref=f115e3454] [cursor=pointer]
+            - generic [ref=f115e3459]:
+              - generic [ref=f115e3460]:
+                - generic [ref=f115e3461]: 브랜드 검색하기
+                - textbox "브랜드 검색하기" [ref=f115e3462]:
+                  - /placeholder: 브랜드 입력
+              - generic [ref=f115e3467]: 인기 브랜드
+              - generic [ref=f115e3470]:
+                - list [ref=f115e3471]:
+                  - listitem [ref=f115e3472]:
+                    - generic [ref=f115e3474] [cursor=pointer]:
+                      - checkbox "센소다인" [ref=f115e3475]
+                      - generic [ref=f115e3477]: 센소다인
+                  - listitem [ref=f115e3478]:
+                    - generic [ref=f115e3480] [cursor=pointer]:
+                      - checkbox "콜게이트" [ref=f115e3481]
+                      - generic [ref=f115e3483]: 콜게이트
+                  - listitem [ref=f115e3484]:
+                    - generic [ref=f115e3486] [cursor=pointer]:
+                      - checkbox "2080" [ref=f115e3487]
+                      - generic [ref=f115e3489]: "2080"
+                  - listitem [ref=f115e3490]:
+                    - generic [ref=f115e3492] [cursor=pointer]:
+                      - checkbox "페리오" [ref=f115e3493]
+                      - generic [ref=f115e3495]: 페리오
+                  - listitem [ref=f115e3496]:
+                    - generic [ref=f115e3498] [cursor=pointer]:
+                      - checkbox "암웨이" [ref=f115e3499]
+                      - generic [ref=f115e3501]: 암웨이
+                  - listitem [ref=f115e3502]:
+                    - generic [ref=f115e3504] [cursor=pointer]:
+                      - checkbox "덴티스테" [ref=f115e3505]
+                      - generic [ref=f115e3507]: 덴티스테
+                  - listitem [ref=f115e3508]:
+                    - generic [ref=f115e3510] [cursor=pointer]:
+                      - checkbox "뷰카" [ref=f115e3511]
+                      - generic [ref=f115e3513]: 뷰카
+                - button "브랜드 모두보기" [ref=f115e3515] [cursor=pointer]
+          - generic [ref=f115e3518]:
+            - strong [ref=f115e3520]: 특징종류
+            - list [ref=f115e3524]:
+              - listitem [ref=f115e3525]:
+                - generic [ref=f115e3527] [cursor=pointer]:
+                  - checkbox "일반형" [ref=f115e3528]
+                  - generic [ref=f115e3530]: 일반형
+              - listitem [ref=f115e3531]:
+                - generic [ref=f115e3533] [cursor=pointer]:
+                  - checkbox "고체형" [ref=f115e3534]
+                  - generic [ref=f115e3536]: 고체형
+              - listitem [ref=f115e3537]:
+                - generic [ref=f115e3539] [cursor=pointer]:
+                  - checkbox "소금치약" [ref=f115e3540]
+                  - generic [ref=f115e3542]: 소금치약
+              - listitem [ref=f115e3543]:
+                - generic [ref=f115e3545] [cursor=pointer]:
+                  - checkbox "가루형" [ref=f115e3546]
+                  - generic [ref=f115e3548]: 가루형
+              - listitem [ref=f115e3549]:
+                - generic [ref=f115e3551] [cursor=pointer]:
+                  - checkbox "거품형" [ref=f115e3552]
+                  - generic [ref=f115e3554]: 거품형
+              - listitem [ref=f115e3555]:
+                - generic [ref=f115e3557] [cursor=pointer]:
+                  - checkbox "펌프형" [ref=f115e3558]
+                  - generic [ref=f115e3560]: 펌프형
+          - generic [ref=f115e3561]:
+            - strong [ref=f115e3563]: 특징특징
+            - generic [ref=f115e3566]:
+              - list [ref=f115e3567]:
+                - listitem [ref=f115e3568]:
+                  - generic [ref=f115e3570] [cursor=pointer]:
+                    - checkbox "무파라벤" [ref=f115e3571]
+                    - generic [ref=f115e3573]: 무파라벤
+                - listitem [ref=f115e3574]:
+                  - generic [ref=f115e3576] [cursor=pointer]:
+                    - checkbox "무CMIT,MIT" [ref=f115e3577]
+                    - generic [ref=f115e3579]: 무CMIT,MIT
+                - listitem [ref=f115e3580]:
+                  - generic [ref=f115e3582] [cursor=pointer]:
+                    - checkbox "무색소" [ref=f115e3583]
+                    - generic [ref=f115e3585]: 무색소
+                - listitem [ref=f115e3586]:
+                  - generic [ref=f115e3588] [cursor=pointer]:
+                    - checkbox "무트리클로산" [ref=f115e3589]
+                    - generic [ref=f115e3591]: 무트리클로산
+                - listitem [ref=f115e3592]:
+                  - generic [ref=f115e3594] [cursor=pointer]:
+                    - checkbox "무광물성오일" [ref=f115e3595]
+                    - generic [ref=f115e3597]: 무광물성오일
+                - listitem [ref=f115e3598]:
+                  - generic [ref=f115e3600] [cursor=pointer]:
+                    - checkbox "무사카린" [ref=f115e3601]
+                    - generic [ref=f115e3603]: 무사카린
+                - listitem [ref=f115e3604]:
+                  - generic [ref=f115e3606] [cursor=pointer]:
+                    - checkbox "무동물성원료" [ref=f115e3607]
+                    - generic [ref=f115e3609]: 무동물성원료
+              - button "특징 모두보기" [ref=f115e3611] [cursor=pointer]
+          - generic [ref=f115e3614]:
+            - strong [ref=f115e3616]: 특징기능
+            - generic [ref=f115e3619]:
+              - list [ref=f115e3620]:
+                - listitem [ref=f115e3621]:
+                  - generic [ref=f115e3623] [cursor=pointer]:
+                    - checkbox "미백" [ref=f115e3624]
+                    - generic [ref=f115e3626]: 미백
+                - listitem [ref=f115e3627]:
+                  - generic [ref=f115e3629] [cursor=pointer]:
+                    - checkbox "구취제거" [ref=f115e3630]
+                    - generic [ref=f115e3632]: 구취제거
+                - listitem [ref=f115e3633]:
+                  - generic [ref=f115e3635] [cursor=pointer]:
+                    - checkbox "구강청결" [ref=f115e3636]
+                    - generic [ref=f115e3638]: 구강청결
+                - listitem [ref=f115e3639]:
+                  - generic [ref=f115e3641] [cursor=pointer]:
+                    - checkbox "충치예방" [ref=f115e3642]
+                    - generic [ref=f115e3644]: 충치예방
+                - listitem [ref=f115e3645]:
+                  - generic [ref=f115e3647] [cursor=pointer]:
+                    - checkbox "프라그제거" [ref=f115e3648]
+                    - generic [ref=f115e3650]: 프라그제거
+                - listitem [ref=f115e3651]:
+                  - generic [ref=f115e3653] [cursor=pointer]:
+                    - checkbox "심미효과" [ref=f115e3654]
+                    - generic [ref=f115e3656]: 심미효과
+                - listitem [ref=f115e3657]:
+                  - generic [ref=f115e3659] [cursor=pointer]:
+                    - checkbox "잇몸질환예방" [ref=f115e3660]
+                    - generic [ref=f115e3662]: 잇몸질환예방
+              - button "특징 모두보기" [ref=f115e3664] [cursor=pointer]
+          - generic [ref=f115e3667]:
+            - strong [ref=f115e3669]: 행사
+            - list [ref=f115e3671]:
+              - listitem [ref=f115e3672]:
+                - generic [ref=f115e3674] [cursor=pointer]:
+                  - checkbox "슈퍼적립" [ref=f115e3675]
+                  - img "슈퍼적립" [ref=f115e3677]
+              - listitem [ref=f115e3678]:
+                - generic [ref=f115e3680] [cursor=pointer]:
+                  - checkbox "신상위크" [ref=f115e3681]
+                  - generic [ref=f115e3683]: 신상위크
+            - generic [ref=f115e3685] [cursor=pointer]:
+              - checkbox "전체선택" [ref=f115e3686]
+              - generic [ref=f115e3690]: 전체선택
+          - generic [ref=f115e3691]:
+            - generic [ref=f115e3692]:
+              - strong [ref=f115e3693]: 가격
+              - button "도움말" [ref=f115e3696] [cursor=pointer]
+            - generic [ref=f115e3701]:
+              - generic [ref=f115e3702]:
+                - generic [ref=f115e3704] [cursor=pointer]:
+                  - generic [ref=f115e3705]: 필터 최소 가격
+                  - textbox "필터 최소 가격" [ref=f115e3706]:
+                    - /placeholder: "40"
+                - generic [ref=f115e3707]: ~
+                - generic [ref=f115e3709] [cursor=pointer]:
+                  - generic [ref=f115e3710]: 필터 최대 가격
+                  - textbox "필터 최대 가격" [ref=f115e3711]:
+                    - /placeholder: 9,688,060
+                - button "검색" [disabled]
+              - list [ref=f115e3714]:
+                - listitem [ref=f115e3715]:
+                  - generic [ref=f115e3717] [cursor=pointer]:
+                    - radio "3천원 ~ 1만1천원" [ref=f115e3718]
+                    - generic [ref=f115e3720]: 3천원 ~ 1만1천원
+                - listitem [ref=f115e3721]:
+                  - generic [ref=f115e3723] [cursor=pointer]:
+                    - radio "1만원 ~ 2만원 HIT" [ref=f115e3724]
+                    - generic [ref=f115e3726]: 1만원 ~ 2만원
+                    - generic [ref=f115e3727]: HIT
+                - listitem [ref=f115e3728]:
+                  - generic [ref=f115e3730] [cursor=pointer]:
+                    - radio "2만원 ~ 3만원" [ref=f115e3731]
+                    - generic [ref=f115e3733]: 2만원 ~ 3만원
+                - listitem [ref=f115e3734]:
+                  - generic [ref=f115e3736] [cursor=pointer]:
+                    - radio "4만원 ~ 6만원" [ref=f115e3737]
+                    - generic [ref=f115e3739]: 4만원 ~ 6만원
+          - generic [ref=f115e3740]:
+            - generic [ref=f115e3741]:
+              - strong [ref=f115e3742]: 혜택
+              - button "도움말" [ref=f115e3745] [cursor=pointer]
+            - list [ref=f115e3751]:
+              - listitem [ref=f115e3752]:
+                - generic [ref=f115e3754] [cursor=pointer]:
+                  - checkbox "무료교환반품" [ref=f115e3755]
+                  - generic [ref=f115e3757]: 무료교환반품
+          - generic [ref=f115e3759]:
+            - strong [ref=f115e3761]: 카테고리
+            - menu [ref=f115e3762]:
+              - menuitem "전체" [ref=f115e3763] [cursor=pointer]
+              - menuitem "생활/건강" [ref=f115e3764] [cursor=pointer]
+              - button "하위 카테고리" [ref=f115e3765] [cursor=pointer]
+          - generic [ref=f115e3769]:
+            - strong [ref=f115e3771]: 색상
+            - generic [ref=f115e3772]:
+              - list [ref=f115e3773]:
+                - listitem [ref=f115e3774]:
+                  - generic [ref=f115e3776] [cursor=pointer]:
+                    - checkbox "블랙" [ref=f115e3777]
+                    - generic [ref=f115e3780]: 블랙
+                - listitem [ref=f115e3781]:
+                  - generic [ref=f115e3783] [cursor=pointer]:
+                    - checkbox "그레이" [ref=f115e3784]
+                    - generic [ref=f115e3787]: 그레이
+                - listitem [ref=f115e3788]:
+                  - generic [ref=f115e3790] [cursor=pointer]:
+                    - checkbox "화이트" [ref=f115e3791]
+                    - generic [ref=f115e3794]: 화이트
+                - listitem [ref=f115e3795]:
+                  - generic [ref=f115e3797] [cursor=pointer]:
+                    - checkbox "레드" [ref=f115e3798]
+                    - generic [ref=f115e3801]: 레드
+                - listitem [ref=f115e3802]:
+                  - generic [ref=f115e3804] [cursor=pointer]:
+                    - checkbox "브라운" [ref=f115e3805]
+                    - generic [ref=f115e3808]: 브라운
+                - listitem [ref=f115e3809]:
+                  - generic [ref=f115e3811] [cursor=pointer]:
+                    - checkbox "오렌지" [ref=f115e3812]
+                    - generic [ref=f115e3815]: 오렌지
+                - listitem [ref=f115e3816]:
+                  - generic [ref=f115e3818] [cursor=pointer]:
+                    - checkbox "골드" [ref=f115e3819]
+                    - generic [ref=f115e3822]: 골드
+              - button "색상 모두보기" [ref=f115e3824] [cursor=pointer]
+          - generic [ref=f115e3827]:
+            - generic [ref=f115e3828]:
+              - generic [ref=f115e3829]:
+                - strong [ref=f115e3831]: 상품타입해외직구상품
+                - list [ref=f115e3835]:
+                  - listitem [ref=f115e3836]:
+                    - generic [ref=f115e3838] [cursor=pointer]:
+                      - radio "전체" [checked] [ref=f115e3839]
+                      - generic [ref=f115e3841]: 전체
+                  - listitem [ref=f115e3842]:
+                    - generic [ref=f115e3844] [cursor=pointer]:
+                      - radio "해외직구만" [ref=f115e3845]
+                      - generic [ref=f115e3847]: 해외직구만
+                  - listitem [ref=f115e3848]:
+                    - generic [ref=f115e3850] [cursor=pointer]:
+                      - radio "해외직구 제외" [ref=f115e3851]
+                      - generic [ref=f115e3853]: 해외직구 제외
+              - generic [ref=f115e3854]:
+                - strong [ref=f115e3856]: 상품타입중고상품
+                - list [ref=f115e3860]:
+                  - listitem [ref=f115e3861]:
+                    - generic [ref=f115e3863] [cursor=pointer]:
+                      - radio "전체" [checked] [ref=f115e3864]
+                      - generic [ref=f115e3866]: 전체
+                  - listitem [ref=f115e3867]:
+                    - generic [ref=f115e3869] [cursor=pointer]:
+                      - radio "중고상품만" [ref=f115e3870]
+                      - generic [ref=f115e3872]: 중고상품만
+                  - listitem [ref=f115e3873]:
+                    - generic [ref=f115e3875] [cursor=pointer]:
+                      - radio "중고상품 제외" [ref=f115e3876]
+                      - generic [ref=f115e3878]: 중고상품 제외
+            - generic [ref=f115e3879]:
+              - generic [ref=f115e3880]:
+                - checkbox "설정한 필터를 저장합니다." [disabled] [ref=f115e3881] [cursor=pointer]
+                - generic [ref=f115e3883]: 설정한 필터를 저장합니다.
+              - button "도움말" [ref=f115e3886] [cursor=pointer]
+          - generic [ref=f115e3891]:
+            - strong [ref=f115e3893]: 배송유형
+            - list [ref=f115e3895]:
+              - listitem [ref=f115e3896]:
+                - generic [ref=f115e3898] [cursor=pointer]:
+                  - checkbox "희망일배송" [ref=f115e3899]
+                  - generic [ref=f115e3901]: 희망일배송
+              - listitem [ref=f115e3902]:
+                - generic [ref=f115e3904] [cursor=pointer]:
+                  - checkbox "정기구독" [ref=f115e3905]
+                  - generic [ref=f115e3907]: 정기구독
+          - generic [ref=f115e3908]:
+            - strong [ref=f115e3910]: 판매처
+            - list [ref=f115e3912]:
+              - listitem [ref=f115e3913]:
+                - generic [ref=f115e3915] [cursor=pointer]:
+                  - checkbox "백화점" [ref=f115e3916]
+                  - generic [ref=f115e3918]: 백화점
+              - listitem [ref=f115e3919]:
+                - generic [ref=f115e3921] [cursor=pointer]:
+                  - checkbox "네이버 지금배달" [ref=f115e3922]
+                  - generic [ref=f115e3924]: 네이버 지금배달
+              - listitem [ref=f115e3925]:
+                - generic [ref=f115e3926]:
+                  - generic [ref=f115e3927] [cursor=pointer]:
+                    - checkbox "공식인증" [ref=f115e3928]
+                    - generic [ref=f115e3930]: 공식인증
+                  - button "도움말" [ref=f115e3933] [cursor=pointer]
+      - generic [ref=f115e3938]:
+        - generic [ref=f115e3940]:
+          - generic [ref=f115e3941]:
+            - heading "컬리N마트,매일 필요한 만큼 장보기" [level=3] [ref=f115e3942]
+            - button "배송지 설정" [ref=f115e3943] [cursor=pointer]
+          - generic [ref=f115e3950]:
+            - generic [ref=f115e3951]: 네이버플러스멤버십
+            - generic [ref=f115e3969]: 회원만 구매 가능한 컬리N마트
+            - button "도움말" [ref=f115e3972] [cursor=pointer]
+            - link "시작하기 새 창에서 열림" [ref=f115e3977] [cursor=pointer]:
+              - /url: https://nid.naver.com/membership/join?evt=KURLYNMART&dtm_source=naver_shopsearch&dtm_medium=nudge&dtm_campaign=kurlynmart&scrollTo=kurlynmart&rurl=https%3A%2F%2Fsearch.shopping.naver.com%2Fns%2Fsearch%3Fquery%3D%25EC%25B9%2598%25EC%2595%25BD
+              - generic [ref=f115e3978]: 시작하기
+              - generic [ref=f115e3981]: 새 창에서 열림
+          - generic [ref=f115e3983]:
+            - list [ref=f115e3986]:
+              - listitem [ref=f115e3987]:
+                - generic [ref=f115e3988]:
+                  - link "[콜게이트] 캐비티 프로텍션 불소치약 100g 4종 (택1) 할인 전 판매가 4,300원~ 16% 할인 3,600 원~ 배송비 별도 새벽배송 새 창에서 열림" [active] [ref=f115e3989] [cursor=pointer]:
+                    - /url: https://shopping.naver.com/window-products/kurlynmart/12283206879?nl-query=%EC%B9%98%EC%95%BD&nl-au=03c2ec9a20d94bada36c4639a3f98d5f&NaPm=ci%3D03c2ec9a20d94bada36c4639a3f98d5f%7Cct%3Dmru6xmny%7Ctr%3Dnslknm%7Csn%3DCC02%7Chk%3D767206b6bfde569a7c6dcd46c9f8d71b31e50caf
+                    - generic [ref=f115e3990]: 새 창에서 열림
+                  - button "[콜게이트] 캐비티 프로텍션 불소치약 100g 4종 (택1) 찜하기" [ref=f115e3994] [cursor=pointer]
+                  - generic [ref=f115e3999]:
+                    - strong [ref=f115e4000]: "[콜게이트] 캐비티 프로텍션 불소치약 100g 4종 (택1)"
+                    - generic [ref=f115e4002]:
+                      - generic [ref=f115e4004]:
+                        - generic [ref=f115e4005]: 할인 전 판매가
+                        - text: 4,300원~
+                      - generic [ref=f115e4006]:
+                        - generic [ref=f115e4008]:
+                          - generic [ref=f115e4009]:
+                            - text: 16%
+                            - generic [ref=f115e4010]: 할인
+                          - generic [ref=f115e4011]: 3,600
+                          - generic [ref=f115e4012]: 원~
+                        - button "배송비 별도" [ref=f115e4015] [cursor=pointer]
+                    - generic [ref=f115e4021]: 새벽배송
+              - listitem [ref=f115e4022]:
+                - generic [ref=f115e4023]:
+                  - link "[센소다인] 시린이 예방&완화를 위한 치약 6종 (택1) 할인 전 판매가 6,500원~ 17% 할인 5,390 원~ 배송비 별도 새벽배송 새 창에서 열림" [ref=f115e4024] [cursor=pointer]:
+                    - /url: https://shopping.naver.com/window-products/kurlynmart/12274708164?nl-query=%EC%B9%98%EC%95%BD&nl-au=0c1ca7fc3912400fa6a5f94ae700e64e&NaPm=ci%3D0c1ca7fc3912400fa6a5f94ae700e64e%7Cct%3Dmru6xmnz%7Ctr%3Dnslknm%7Csn%3DCC02%7Chk%3D6ba584f27149b9f1d1d2ce9ba33b29cb82472056
+                    - generic [ref=f115e4025]: 새 창에서 열림
+                  - button "[센소다인] 시린이 예방&완화를 위한 치약 6종 (택1) 찜하기" [ref=f115e4029] [cursor=pointer]
+                  - generic [ref=f115e4034]:
+                    - strong [ref=f115e4035]: "[센소다인] 시린이 예방&완화를 위한 치약 6종 (택1)"
+                    - generic [ref=f115e4037]:
+                      - generic [ref=f115e4039]:
+                        - generic [ref=f115e4040]: 할인 전 판매가
+                        - text: 6,500원~
+                      - generic [ref=f115e4041]:
+                        - generic [ref=f115e4043]:
+                          - generic [ref=f115e4044]:
+                            - text: 17%
+                            - generic [ref=f115e4045]: 할인
+                          - generic [ref=f115e4046]: 5,390
+                          - generic [ref=f115e4047]: 원~
+                        - button "배송비 별도" [ref=f115e4050] [cursor=pointer]
+                    - generic [ref=f115e4056]: 새벽배송
+              - listitem [ref=f115e4057]:
+                - generic [ref=f115e4058]:
+                  - link "장보기특가 [페리오] 히말라야 핑크솔트 치약(100gX3개입) 2종 (택1) 할인 전 판매가 18,500원~ 62% 할인 6,950 원~ 배송비 별도 새벽배송 새 창에서 열림" [ref=f115e4059] [cursor=pointer]:
+                    - /url: https://shopping.naver.com/window-products/kurlynmart/12274475704?nl-query=%EC%B9%98%EC%95%BD&nl-au=a10f5898d5d14999916f704fffd2215c&NaPm=ci%3Da10f5898d5d14999916f704fffd2215c%7Cct%3Dmru6xmo0%7Ctr%3Dnslknm%7Csn%3DCC02%7Chk%3D58f6f38e56c0f029ecf91a1464b41cfbaad59757
+                    - generic [ref=f115e4060]: 새 창에서 열림
+                  - generic [ref=f115e4061]:
+                    - generic: 장보기특가
+                    - button "[페리오] 히말라야 핑크솔트 치약(100gX3개입) 2종 (택1) 찜하기" [ref=f115e4067] [cursor=pointer]
+                  - generic [ref=f115e4072]:
+                    - strong [ref=f115e4073]: "[페리오] 히말라야 핑크솔트 치약(100gX3개입) 2종 (택1)"
+                    - generic [ref=f115e4075]:
+                      - generic [ref=f115e4077]:
+                        - generic [ref=f115e4078]: 할인 전 판매가
+                        - text: 18,500원~
+                      - generic [ref=f115e4079]:
+                        - generic [ref=f115e4081]:
+                          - generic [ref=f115e4082]:
+                            - text: 62%
+                            - generic [ref=f115e4083]: 할인
+                          - generic [ref=f115e4084]: 6,950
+                          - generic [ref=f115e4085]: 원~
+                        - button "배송비 별도" [ref=f115e4088] [cursor=pointer]
+                    - generic [ref=f115e4094]: 새벽배송
+              - listitem [ref=f115e4095]:
+                - generic [ref=f115e4096]:
+                  - link "Kurly Only [뷰카] 클래식 고불소 구취케어 비건 치약 아쿠아민트향 70g/120g 2종 (택1) 할인 전 판매가 3,900원~ 7% 할인 3,600 원~ 배송비 별도 새벽배송 새 창에서 열림" [ref=f115e4097] [cursor=pointer]:
+                    - /url: https://shopping.naver.com/window-products/kurlynmart/13392583628?nl-query=%EC%B9%98%EC%95%BD&nl-au=bb004f97241f4a37b76ecc06efc8eb3a&NaPm=ci%3Dbb004f97241f4a37b76ecc06efc8eb3a%7Cct%3Dmru6xmo0%7Ctr%3Dnslknm%7Csn%3DCC02%7Chk%3Dc2429d07450bbb7d341c45bd0dc3f30a8aef6782
+                    - generic [ref=f115e4098]: 새 창에서 열림
+                  - button "[뷰카] 클래식 고불소 구취케어 비건 치약 아쿠아민트향 70g/120g 2종 (택1) 찜하기" [ref=f115e4102] [cursor=pointer]
+                  - generic [ref=f115e4107]:
+                    - list [ref=f115e4110]:
+                      - listitem [ref=f115e4111]: Kurly Only
+                    - strong [ref=f115e4112]: "[뷰카] 클래식 고불소 구취케어 비건 치약 아쿠아민트향 70g/120g 2종 (택1)"
+                    - generic [ref=f115e4114]:
+                      - generic [ref=f115e4116]:
+                        - generic [ref=f115e4117]: 할인 전 판매가
+                        - text: 3,900원~
+                      - generic [ref=f115e4118]:
+                        - generic [ref=f115e4120]:
+                          - generic [ref=f115e4121]:
+                            - text: 7%
+                            - generic [ref=f115e4122]: 할인
+                          - generic [ref=f115e4123]: 3,600
+                          - generic [ref=f115e4124]: 원~
+                        - button "배송비 별도" [ref=f115e4127] [cursor=pointer]
+                    - generic [ref=f115e4133]: 새벽배송
+            - button "다음 리스트 보기" [ref=f115e4134] [cursor=pointer]
+          - link "컬리N마트 검색결과 더보기 새 창에서 열림" [ref=f115e4139] [cursor=pointer]:
+            - /url: https://shopping.naver.com/kurlynmart/search?q=%EC%B9%98%EC%95%BD
+            - generic [ref=f115e4140]:
+              - generic [ref=f115e4141]: 컬리N마트
+              - text: 검색결과 더보기
+            - generic [ref=f115e4144]: 새 창에서 열림
+          - generic [ref=f115e4145]: 23시 전 주문 시 내일 아침 7시 전 배송됩니다.
+        - generic [ref=f115e4149]:
+          - list [ref=f115e4150]:
+            - listitem [ref=f115e4151]:
+              - generic [ref=f115e4152]:
+                - generic [ref=f115e4153]:
+                  - text: 추천순
+                  - generic [ref=f115e4154]: 선택됨
+                - button "추천순도움말" [ref=f115e4157] [cursor=pointer]
+              - button "추천순 선택됨" [ref=f115e4162] [cursor=pointer]
+            - listitem [ref=f115e4163]:
+              - generic [ref=f115e4164]: 낮은 가격순
+              - button "낮은 가격순" [ref=f115e4166] [cursor=pointer]
+            - listitem [ref=f115e4167]:
+              - generic [ref=f115e4168]: 높은 가격순
+              - button "높은 가격순" [ref=f115e4170] [cursor=pointer]
+            - listitem [ref=f115e4171]:
+              - generic [ref=f115e4172]: 판매 많은순
+              - button "판매 많은순" [ref=f115e4174] [cursor=pointer]
+            - listitem [ref=f115e4175]:
+              - generic [ref=f115e4176]:
+                - generic [ref=f115e4177]: 리뷰 많은순
+                - button "리뷰 많은순도움말" [ref=f115e4180] [cursor=pointer]
+              - button "리뷰 많은순" [ref=f115e4185] [cursor=pointer]
+            - listitem [ref=f115e4186]:
+              - generic [ref=f115e4187]:
+                - generic [ref=f115e4188]: 신상품순
+                - button "신상품순도움말" [ref=f115e4191] [cursor=pointer]
+              - button "신상품순" [ref=f115e4196] [cursor=pointer]
+          - generic [ref=f115e4199]:
+            - generic [ref=f115e4200]:
+              - generic [ref=f115e4201]: 배송지
+              - strong [ref=f115e4205]: 서울시 강남구
+              - generic [ref=f115e4206]: 도착기준
+            - button "주소등록" [ref=f115e4207] [cursor=pointer]
+        - generic [ref=f115e4212]:
+          - heading "상품목록" [level=3] [ref=f115e4213]
+          - generic [ref=f115e4214]:
+            - list [ref=f115e4215]:
+              - listitem [ref=f115e4216]:
+                - generic [ref=f115e4217]:
+                  - link "슈퍼적립 광고 센소다인 공식스토어 공식 새 창에서 열림 센소다인 센서티비티 앤 검케어 치약 100g, 3개 할인 전 판매가 36,000원 19% 할인 28,900 원 (10g당 963원) 멤버십 시작 시 최대 4,335원 포인트 적립 N내일배송 7.22.(수) 도착 무료배송 별점 4.88 리뷰 5,027 새 창에서 열림" [ref=f115e4218] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/VIglDxR7EjBF4M4txX3biqZp7bAe6oK03rxTSWclX2aK5jlrCyU0oS05hrjVyFvVWuzGss3WKQcvIrMwPI6PIr0ieM8R7c6bsbYAWf9L1w7OcBcLndxttVJE62GwXO2Csf36qrgVCl5NfGBIHbwOFpxON61wbfqTJhZHNU2UXDSxBMDeKYiH0nbieAvBrgMaL1MVAk8kDmsaSx3iNN3v4CISR9vIkv3KvkPA55TFpz5Hw6slWW0lMGsWuz4KZgF7af47eiP5TtXZEckWRDV9wB7M77dKK8MUjDBJDoOhVWpV06E2CowjZT-n3eoW8w-ifU0Q01jahgLy_Inxe7U6UfZc8Z_abYFX0iumpv5FYncESSjO8bVI_O7KGPXaxYbQotST193_QQ8WQWFWs25tWy-1YE5RbrLkxFFFZH-nLZc3e0Ku8sDmwHmGtr058Z_Lu-G9Hum8q7sgqxyTCPTDwYZ6r49f2-uPiXacpAGNBcU0PMDbTvqn2xMmrNA4z8irbNbi_YzatL0mh7vLcn6_zg==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f115e4219]: 새 창에서 열림
+                  - generic [ref=f115e4220]:
+                    - img "슈퍼적립" [ref=f115e4224]
+                    - button "센소다인 센서티비티 앤 검케어 치약 100g, 3개 찜하기" [ref=f115e4226] [cursor=pointer]
+                  - generic [ref=f115e4231]:
+                    - generic [ref=f115e4232]:
+                      - button "광고" [ref=f115e4235] [cursor=pointer]
+                      - link "센소다인 공식스토어 공식 새 창에서 열림" [ref=f115e4242] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/VIglDxR7EjBF4M4txX3biqZp7bAe6oK03rxTSWclX2aK5jlrCyU0oS05hrjVyFvVWuzGss3WKQcvIrMwPI6PIr0ieM8R7c6bsbYAWf9L1w7OcBcLndxttVJE62GwXO2Csf36qrgVCl5NfGBIHbwOFpxON61wbfqTJhZHNU2UXDSxBMDeKYiH0nbieAvBrgMaL1MVAk8kDmsaSx3iNN3v4CISR9vIkv3KvkPA55TFpz5Hw6slWW0lMGsWuz4KZgF7af47eiP5TtXZEckWRDV9wB7M77dKK8MUjDBJDoOhVWpV06E2CowjZT-n3eoW8w-ifU0Q01jahgLy_Inxe7U6UfZc8Z_abYFX0iumpv5FYncESSjO8bVI_O7KGPXaxYbQotST193_QQ8WQWFWs25tWy-1YE5RbrLkxFFFZH-nLZc3e0Ku8sDmwHmGtr058Z_Lu-G9Hum8q7sgqxyTCPTDwYZ6r49f2-uPiXacpAGNBcU0PMDbTvqn2xMmrNA4z8irbNbi_YzatL0mh7vLcn6_zg==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f115e4243]: 센소다인 공식스토어
+                        - generic [ref=f115e4244]: 공식
+                        - generic [ref=f115e4248]: 새 창에서 열림
+                    - strong [ref=f115e4249]: 센소다인 센서티비티 앤 검케어 치약 100g, 3개
+                    - generic [ref=f115e4251]:
+                      - generic [ref=f115e4253]:
+                        - generic [ref=f115e4254]: 할인 전 판매가
+                        - text: 36,000원
+                      - generic [ref=f115e4255]:
+                        - generic [ref=f115e4257]:
+                          - generic [ref=f115e4258]:
+                            - text: 19%
+                            - generic [ref=f115e4259]: 할인
+                          - generic [ref=f115e4260]: 28,900
+                          - generic [ref=f115e4261]: 원
+                        - generic [ref=f115e4262]:
+                          - generic [ref=f115e4263]: (10g당
+                          - generic [ref=f115e4264]: 963원)
+                    - generic [ref=f115e4265]:
+                      - generic [ref=f115e4266]: 멤버십 시작 시
+                      - generic [ref=f115e4267]:
+                        - generic [ref=f115e4268]: 최대 4,335원
+                        - generic [ref=f115e4269]: 포인트 적립
+                    - generic [ref=f115e4271]:
+                      - generic [ref=f115e4272]: N내일배송
+                      - generic [ref=f115e4274]: 7.22.(수) 도착
+                    - generic [ref=f115e4275]: 무료배송
+                    - generic [ref=f115e4278]:
+                      - generic [ref=f115e4279]:
+                        - generic [ref=f115e4282]: 별점
+                        - text: "4.88"
+                      - generic [ref=f115e4283]: 리뷰 5,027
+              - listitem [ref=f115e4284]:
+                - generic [ref=f115e4285]:
+                  - link "광고 오스템 뷰센몰 공식 새 창에서 열림 뷰센C 충치케어 치약 120g, 5개 할인 전 판매가 55,000원 40% 할인 33,000 원 (10g당 550원) N내일배송 7.22.(수) 도착 무료배송 별점 4.89 리뷰 6,306 새 창에서 열림" [ref=f115e4286] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/KHdCX9eSyfdzE1Gl2nDSptu8gFX6q35BkULZzgGsxl_LQd00sH3hTCIZ5qOQZFALh-HppYaQ5yxhxtxpZYLPb2301nOc1PIrsE_C8zH7dMEqOQovJVqk_IFc68ct7Ii5TELDbDkSuJ6nZUut9gv-78YmNG9Ed9Hd2G3Ha3OTggkvwcitDBPCa7Qo4jzxVxaM9LwYLwGSwi1bH4u0vKNCmdtAgqgDbfo7UltAsHe4zd5pDQGzyWOLRiilH5VWHTzzIWPx_in6ZGjW41wUVyj3UZm4XQ4z-2x1sXk4xOeN4igEW9pYRyA9vthNDAYfHIYXpz2Ahn9yFLnirxDV-ZFSJhijBOWdugyEQGZpe7nvDl83InzKcQTAmQvzt6aCFmLvKMgxm_MQUOb99Pia6W2515E-G7ZSWiMWQZdIt_7gQV0y4bRIrGbWFg06YXAAYkUkeliWUTOiMa5VmUrJ0e71s7tMXg8EJ0zdai361rEBRXeMDPkgZaaRHxmdqZh5x6WLDfT4SCb6vXt836DQ-Jh4hQ==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f115e4287]: 새 창에서 열림
+                  - button "뷰센C 충치케어 치약 120g, 5개 찜하기" [ref=f115e4291] [cursor=pointer]
+                  - generic [ref=f115e4296]:
+                    - generic [ref=f115e4297]:
+                      - button "광고" [ref=f115e4300] [cursor=pointer]
+                      - link "오스템 뷰센몰 공식 새 창에서 열림" [ref=f115e4307] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/KHdCX9eSyfdzE1Gl2nDSptu8gFX6q35BkULZzgGsxl_LQd00sH3hTCIZ5qOQZFALh-HppYaQ5yxhxtxpZYLPb2301nOc1PIrsE_C8zH7dMEqOQovJVqk_IFc68ct7Ii5TELDbDkSuJ6nZUut9gv-78YmNG9Ed9Hd2G3Ha3OTggkvwcitDBPCa7Qo4jzxVxaM9LwYLwGSwi1bH4u0vKNCmdtAgqgDbfo7UltAsHe4zd5pDQGzyWOLRiilH5VWHTzzIWPx_in6ZGjW41wUVyj3UZm4XQ4z-2x1sXk4xOeN4igEW9pYRyA9vthNDAYfHIYXpz2Ahn9yFLnirxDV-ZFSJhijBOWdugyEQGZpe7nvDl83InzKcQTAmQvzt6aCFmLvKMgxm_MQUOb99Pia6W2515E-G7ZSWiMWQZdIt_7gQV0y4bRIrGbWFg06YXAAYkUkeliWUTOiMa5VmUrJ0e71s7tMXg8EJ0zdai361rEBRXeMDPkgZaaRHxmdqZh5x6WLDfT4SCb6vXt836DQ-Jh4hQ==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f115e4308]: 오스템 뷰센몰
+                        - generic [ref=f115e4309]: 공식
+                        - generic [ref=f115e4313]: 새 창에서 열림
+                    - strong [ref=f115e4314]: 뷰센C 충치케어 치약 120g, 5개
+                    - generic [ref=f115e4316]:
+                      - generic [ref=f115e4318]:
+                        - generic [ref=f115e4319]: 할인 전 판매가
+                        - text: 55,000원
+                      - generic [ref=f115e4320]:
+                        - generic [ref=f115e4322]:
+                          - generic [ref=f115e4323]:
+                            - text: 40%
+                            - generic [ref=f115e4324]: 할인
+                          - generic [ref=f115e4325]: 33,000
+                          - generic [ref=f115e4326]: 원
+                        - generic [ref=f115e4327]:
+                          - generic [ref=f115e4328]: (10g당
+                          - generic [ref=f115e4329]: 550원)
+                    - generic [ref=f115e4331]:
+                      - generic [ref=f115e4332]: N내일배송
+                      - generic [ref=f115e4334]: 7.22.(수) 도착
+                    - generic [ref=f115e4335]: 무료배송
+                    - generic [ref=f115e4338]:
+                      - generic [ref=f115e4339]:
+                        - generic [ref=f115e4342]: 별점
+                        - text: "4.89"
+                      - generic [ref=f115e4343]: 리뷰 6,306
+              - listitem [ref=f115e4344]:
+                - generic [ref=f115e4345]:
+                  - link "광고 화이니카 공식 새 창에서 열림 화이니카 치탄플러스 분말치약 20g, 1개 할인 전 판매가 44,100원 4% 할인 41,900 원 (20g당 41,900원) N내일배송 7.22.(수) 도착 무료배송 새 창에서 열림" [ref=f115e4346] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/3dn7Pr6nt-4RyL81ZlGxHgyIAEPQYpw_GFC5Iffw6qkxtU2kmTlvOI62fq_DBt3r5zkreMfXQ_08ZuiSfubTeG-nfdhXOcpkcr7BXxOFxRqVhbdm6rtC38vMXdm9jPHvg2ZIwy8JidMxJb5U9P9PW1C5j57Wh10i5UcNRh09lWWjnX3_fRYuJcrHCypfMmvIoapp29lffbIP-XbosOfFJ3Ts4Nytt5HUAU0mmZqqa0b2uK1-n54hQSOdd-ioX5OUt6kT4toGQRv3pVTlUMeScrvm485jJg6hXY2pwAQpGwEm8ga9tK_DzvJ2YILIbvYEnkISthUmVQDIhTGSC_Qkb1NegnEYTX__w-jDlu36DdD5dhrqvsd9Qs0TcqrCZRqEEqYtjFybEqYTbCMNsZTK23SsN9itbAAFdU9mZRBMUTuby7lxqh4y4_6odNfvhnj2IQted4QgbjG2U86ZhW3CXMymsaHNwjiWJFREufin_wIh8e41JmaihP5fC0MXOxQKV6rL-q1p-buuOSUUYutUjA==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f115e4347]: 새 창에서 열림
+                  - button "화이니카 치탄플러스 분말치약 20g, 1개 찜하기" [ref=f115e4351] [cursor=pointer]
+                  - generic [ref=f115e4356]:
+                    - generic [ref=f115e4357]:
+                      - button "광고" [ref=f115e4360] [cursor=pointer]
+                      - link "화이니카 공식 새 창에서 열림" [ref=f115e4367] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/3dn7Pr6nt-4RyL81ZlGxHgyIAEPQYpw_GFC5Iffw6qkxtU2kmTlvOI62fq_DBt3r5zkreMfXQ_08ZuiSfubTeG-nfdhXOcpkcr7BXxOFxRqVhbdm6rtC38vMXdm9jPHvg2ZIwy8JidMxJb5U9P9PW1C5j57Wh10i5UcNRh09lWWjnX3_fRYuJcrHCypfMmvIoapp29lffbIP-XbosOfFJ3Ts4Nytt5HUAU0mmZqqa0b2uK1-n54hQSOdd-ioX5OUt6kT4toGQRv3pVTlUMeScrvm485jJg6hXY2pwAQpGwEm8ga9tK_DzvJ2YILIbvYEnkISthUmVQDIhTGSC_Qkb1NegnEYTX__w-jDlu36DdD5dhrqvsd9Qs0TcqrCZRqEEqYtjFybEqYTbCMNsZTK23SsN9itbAAFdU9mZRBMUTuby7lxqh4y4_6odNfvhnj2IQted4QgbjG2U86ZhW3CXMymsaHNwjiWJFREufin_wIh8e41JmaihP5fC0MXOxQKV6rL-q1p-buuOSUUYutUjA==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f115e4368]: 화이니카
+                        - generic [ref=f115e4369]: 공식
+                        - generic [ref=f115e4373]: 새 창에서 열림
+                    - strong [ref=f115e4374]: 화이니카 치탄플러스 분말치약 20g, 1개
+                    - generic [ref=f115e4376]:
+                      - generic [ref=f115e4378]:
+                        - generic [ref=f115e4379]: 할인 전 판매가
+                        - text: 44,100원
+                      - generic [ref=f115e4380]:
+                        - generic [ref=f115e4382]:
+                          - generic [ref=f115e4383]:
+                            - text: 4%
+                            - generic [ref=f115e4384]: 할인
+                          - generic [ref=f115e4385]: 41,900
+                          - generic [ref=f115e4386]: 원
+                        - generic [ref=f115e4387]:
+                          - generic [ref=f115e4388]: (20g당
+                          - generic [ref=f115e4389]: 41,900원)
+                    - generic [ref=f115e4391]:
+                      - generic [ref=f115e4392]: N내일배송
+                      - generic [ref=f115e4394]: 7.22.(수) 도착
+                    - generic [ref=f115e4395]: 무료배송
+              - listitem [ref=f115e4398]:
+                - generic [ref=f115e4399]:
+                  - link "광고 오스템 뷰센몰 공식 새 창에서 열림 뷰센28 미백치약 치아미백제 80g,4개 묶음 할인 전 판매가 44,000원 35% 할인 28,600 원 (10g당 894원) N내일배송 7.22.(수) 도착 무료배송 별점 4.77 리뷰 5,028 새 창에서 열림" [ref=f115e4400] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/tmIuAA0r1Gkefgtx20ysKHH-MHe0_nd9194tIZukOaPC2wadkz29qjGyMCoNA4QL6Idar1iRHcMMifFxaUFwPepXkTrdk89-0LNBgniTIL4jVIYJJWSqjI3NPajxIiUmOU2lMywpO1ivXObZxFfr8NfZ13pVm-aBIonuzXY0oLH_7uFjVbwVid529U3eenCQE_5L15JfjIIqthKrwJY6t9r2qBzJ5t7OpG4PbMRK9bq_IPreUDn4vSh1SqaOCncb8G4W9nDlzCmdlSACzYHRLuT2z8FdDDvNhGfqaGyHx9_jpeG5RRrvizvGlTgAd63plR-_QXppQE61vonwljfEu4HENpclGrAVvg9tpJRfuQ64wBKb16qsB4Oz7cBdOUOsSqjvCcoHasfjBFGe4eyMdDYlukVjGBvvRZDqoRAQ9MOY3laW8yom79lDuvUU5cvwR3qzcnfa6nLWR3K6ThEve3oPMM9QHRujokq1Xz-dPNIRibpIcYEkpGK8J2sOwEg5ph6ffywUeXuEXfXptiRKXQ==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f115e4401]: 새 창에서 열림
+                  - button "뷰센28 미백치약 치아미백제 80g,4개 묶음 찜하기" [ref=f115e4405] [cursor=pointer]
+                  - generic [ref=f115e4410]:
+                    - generic [ref=f115e4411]:
+                      - button "광고" [ref=f115e4414] [cursor=pointer]
+                      - link "오스템 뷰센몰 공식 새 창에서 열림" [ref=f115e4421] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/tmIuAA0r1Gkefgtx20ysKHH-MHe0_nd9194tIZukOaPC2wadkz29qjGyMCoNA4QL6Idar1iRHcMMifFxaUFwPepXkTrdk89-0LNBgniTIL4jVIYJJWSqjI3NPajxIiUmOU2lMywpO1ivXObZxFfr8NfZ13pVm-aBIonuzXY0oLH_7uFjVbwVid529U3eenCQE_5L15JfjIIqthKrwJY6t9r2qBzJ5t7OpG4PbMRK9bq_IPreUDn4vSh1SqaOCncb8G4W9nDlzCmdlSACzYHRLuT2z8FdDDvNhGfqaGyHx9_jpeG5RRrvizvGlTgAd63plR-_QXppQE61vonwljfEu4HENpclGrAVvg9tpJRfuQ64wBKb16qsB4Oz7cBdOUOsSqjvCcoHasfjBFGe4eyMdDYlukVjGBvvRZDqoRAQ9MOY3laW8yom79lDuvUU5cvwR3qzcnfa6nLWR3K6ThEve3oPMM9QHRujokq1Xz-dPNIRibpIcYEkpGK8J2sOwEg5ph6ffywUeXuEXfXptiRKXQ==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f115e4422]: 오스템 뷰센몰
+                        - generic [ref=f115e4423]: 공식
+                        - generic [ref=f115e4427]: 새 창에서 열림
+                    - strong [ref=f115e4428]: 뷰센28 미백치약 치아미백제 80g,4개 묶음
+                    - generic [ref=f115e4430]:
+                      - generic [ref=f115e4432]:
+                        - generic [ref=f115e4433]: 할인 전 판매가
+                        - text: 44,000원
+                      - generic [ref=f115e4434]:
+                        - generic [ref=f115e4436]:
+                          - generic [ref=f115e4437]:
+                            - text: 35%
+                            - generic [ref=f115e4438]: 할인
+                          - generic [ref=f115e4439]: 28,600
+                          - generic [ref=f115e4440]: 원
+                        - generic [ref=f115e4441]:
+                          - generic [ref=f115e4442]: (10g당
+                          - generic [ref=f115e4443]: 894원)
+                    - generic [ref=f115e4445]:
+                      - generic [ref=f115e4446]: N내일배송
+                      - generic [ref=f115e4448]: 7.22.(수) 도착
+                    - generic [ref=f115e4449]: 무료배송
+                    - generic [ref=f115e4452]:
+                      - generic [ref=f115e4453]:
+                        - generic [ref=f115e4456]: 별점
+                        - text: "4.77"
+                      - generic [ref=f115e4457]: 리뷰 5,028
+              - listitem [ref=f115e4458]:
+                - generic [ref=f115e4459]:
+                  - link "슈퍼적립 슈퍼적립 광고 콜게이트코리아 공식 새 창에서 열림 콜게이트 맥시멈 캐비티 프로텍션 쿨민트 치약 100g, 8개 24% 할인 할인 전 판매가 34,400원 최저가 25,900 원 (10g당 324원) 멤버십 시작 시 최대 3,885원 포인트 적립 N내일배송 7.22.(수) 도착 무료배송 별점 4.88 리뷰 11,939 새 창에서 열림" [ref=f115e4460] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/10635377679?nl-query=%EC%B9%98%EC%95%BD&nl-au=f765755221ca425c8104853f647ab50a&NaPm=ci%3Df765755221ca425c8104853f647ab50a%7Cct%3Dmru6xmo1%7Ctr%3Dnslctg%7Csn%3D1026378%7Chk%3Dc7d2c56af50103f86f41f08649a12abac313869d
+                    - generic [ref=f115e4461]: 새 창에서 열림
+                  - generic [ref=f115e4462]:
+                    - img "슈퍼적립" [ref=f115e4466]
+                    - button "콜게이트 맥시멈 캐비티 프로텍션 쿨민트 치약 100g, 8개 찜하기" [ref=f115e4468] [cursor=pointer]
+                  - generic [ref=f115e4473]:
+                    - generic [ref=f115e4474]:
+                      - button "슈퍼적립 광고" [ref=f115e4477] [cursor=pointer]
+                      - link "콜게이트코리아 공식 새 창에서 열림" [ref=f115e4482] [cursor=pointer]:
+                        - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fcolgatekorea&tr=nslctg
+                        - generic [ref=f115e4483]: 콜게이트코리아
+                        - generic [ref=f115e4484]: 공식
+                        - generic [ref=f115e4488]: 새 창에서 열림
+                    - strong [ref=f115e4489]: 콜게이트 맥시멈 캐비티 프로텍션 쿨민트 치약 100g, 8개
+                    - generic [ref=f115e4491]:
+                      - generic [ref=f115e4492]:
+                        - generic [ref=f115e4493]:
+                          - text: 24%
+                          - generic [ref=f115e4494]: 할인
+                        - generic [ref=f115e4495]:
+                          - generic [ref=f115e4496]: 할인 전 판매가
+                          - text: 34,400원
+                      - generic [ref=f115e4497]:
+                        - generic [ref=f115e4499]:
+                          - generic [ref=f115e4500]: 최저가
+                          - generic [ref=f115e4501]: 25,900
+                          - generic [ref=f115e4502]: 원
+                        - generic [ref=f115e4503]:
+                          - generic [ref=f115e4504]: (10g당
+                          - generic [ref=f115e4505]: 324원)
+                    - generic [ref=f115e4506]:
+                      - generic [ref=f115e4507]: 멤버십 시작 시
+                      - generic [ref=f115e4508]:
+                        - generic [ref=f115e4509]: 최대 3,885원
+                        - generic [ref=f115e4510]: 포인트 적립
+                    - generic [ref=f115e4512]:
+                      - generic [ref=f115e4513]: N내일배송
+                      - generic [ref=f115e4515]: 7.22.(수) 도착
+                    - generic [ref=f115e4516]: 무료배송
+                    - generic [ref=f115e4519]:
+                      - generic [ref=f115e4520]:
+                        - generic [ref=f115e4523]: 별점
+                        - text: "4.88"
+                      - generic [ref=f115e4524]: 리뷰 11,939
+                  - button "전체판매자 상품 3 개 더보기" [ref=f115e4526] [cursor=pointer]:
+                    - generic [ref=f115e4527]:
+                      - text: 전체판매자
+                      - generic [ref=f115e4528]: 상품
+                    - generic [ref=f115e4529]:
+                      - generic [ref=f115e4530]: "3"
+                      - generic [ref=f115e4531]: 개
+                    - generic [ref=f115e4534]: 더보기
+              - listitem [ref=f115e4535]:
+                - generic [ref=f115e4536]:
+                  - link "슈퍼적립 슈퍼적립 광고 콜게이트코리아 공식 새 창에서 열림 슈퍼적립 [175g] 콜게이트 캐비티 프로텍션 불소치약 8개 할인 전 판매가 43,200원 33% 할인 28,900 원 (10g당 206원) 멤버십 시작 시 최대 4,335원 포인트 적립 N내일배송 7.22.(수) 도착 무료배송 별점 4.91 리뷰 48,031 새 창에서 열림" [ref=f115e4537] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/5171485252?nl-query=%EC%B9%98%EC%95%BD&nl-au=42f9f2ff055d4a1ca190d12954676a54&NaPm=ci%3D42f9f2ff055d4a1ca190d12954676a54%7Cct%3Dmru6xmo1%7Ctr%3Dnslspp%7Csn%3D1026378%7Chk%3Dc4e2904f9fbff52b7f884fac737ac1eb2fe1e374
+                    - generic [ref=f115e4538]: 새 창에서 열림
+                  - generic [ref=f115e4539]:
+                    - img "슈퍼적립" [ref=f115e4543]
+                    - button "슈퍼적립 [175g] 콜게이트 캐비티 프로텍션 불소치약 8개 찜하기" [ref=f115e4545] [cursor=pointer]
+                  - generic [ref=f115e4550]:
+                    - generic [ref=f115e4551]:
+                      - button "슈퍼적립 광고" [ref=f115e4554] [cursor=pointer]
+                      - link "콜게이트코리아 공식 새 창에서 열림" [ref=f115e4559] [cursor=pointer]:
+                        - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fcolgatekorea&tr=nslspp
+                        - generic [ref=f115e4560]: 콜게이트코리아
+                        - generic [ref=f115e4561]: 공식
+                        - generic [ref=f115e4565]: 새 창에서 열림
+                    - strong [ref=f115e4566]: 슈퍼적립 [175g] 콜게이트 캐비티 프로텍션 불소치약 8개
+                    - generic [ref=f115e4568]:
+                      - generic [ref=f115e4570]:
+                        - generic [ref=f115e4571]: 할인 전 판매가
+                        - text: 43,200원
+                      - generic [ref=f115e4572]:
+                        - generic [ref=f115e4574]:
+                          - generic [ref=f115e4575]:
+                            - text: 33%
+                            - generic [ref=f115e4576]: 할인
+                          - generic [ref=f115e4577]: 28,900
+                          - generic [ref=f115e4578]: 원
+                        - generic [ref=f115e4579]:
+                          - generic [ref=f115e4580]: (10g당
+                          - generic [ref=f115e4581]: 206원)
+                    - generic [ref=f115e4582]:
+                      - generic [ref=f115e4583]: 멤버십 시작 시
+                      - generic [ref=f115e4584]:
+                        - generic [ref=f115e4585]: 최대 4,335원
+                        - generic [ref=f115e4586]: 포인트 적립
+                    - generic [ref=f115e4588]:
+                      - generic [ref=f115e4589]: N내일배송
+                      - generic [ref=f115e4591]: 7.22.(수) 도착
+                    - generic [ref=f115e4592]: 무료배송
+                    - generic [ref=f115e4595]:
+                      - generic [ref=f115e4596]:
+                        - generic [ref=f115e4599]: 별점
+                        - text: "4.91"
+                      - generic [ref=f115e4600]: 리뷰 48,031
+              - listitem [ref=f115e4601]:
+                - generic [ref=f115e4602]:
+                  - link "LG생활건강 공식 스토어 우수셀러 새 창에서 열림 엘지생활건강 죽염 잇몸고 치약 120g, 5개 21% 할인 할인 전 판매가 22,160원 최저가 17,450 원 (10g당 291원) N내일배송 7.22.(수) 도착 무료배송 별점 4.88 리뷰 7,657 새 창에서 열림" [ref=f115e4603] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/9652847898?nl-query=%EC%B9%98%EC%95%BD&nl-au=199ecaaacf534afeab0d19fe1bf749b0&NaPm=ci%3D199ecaaacf534afeab0d19fe1bf749b0%7Cct%3Dmru6xmo2%7Ctr%3Dnslctg%7Csn%3D186622%7Chk%3D9c84923a338658f8711a1481e5e3153be750a6c9
+                    - generic [ref=f115e4604]: 새 창에서 열림
+                  - button "엘지생활건강 죽염 잇몸고 치약 120g, 5개 찜하기" [ref=f115e4608] [cursor=pointer]
+                  - generic [ref=f115e4613]:
+                    - link "LG생활건강 공식 스토어 우수셀러 새 창에서 열림" [ref=f115e4615] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Flgcaremall&tr=nslctg
+                      - generic [ref=f115e4616]: LG생활건강 공식 스토어
+                      - generic [ref=f115e4617]: 우수셀러
+                      - generic [ref=f115e4621]: 새 창에서 열림
+                    - strong [ref=f115e4622]: 엘지생활건강 죽염 잇몸고 치약 120g, 5개
+                    - generic [ref=f115e4624]:
+                      - generic [ref=f115e4625]:
+                        - generic [ref=f115e4626]:
+                          - text: 21%
+                          - generic [ref=f115e4627]: 할인
+                        - generic [ref=f115e4628]:
+                          - generic [ref=f115e4629]: 할인 전 판매가
+                          - text: 22,160원
+                      - generic [ref=f115e4630]:
+                        - generic [ref=f115e4632]:
+                          - generic [ref=f115e4633]: 최저가
+                          - generic [ref=f115e4634]: 17,450
+                          - generic [ref=f115e4635]: 원
+                        - generic [ref=f115e4636]:
+                          - generic [ref=f115e4637]: (10g당
+                          - generic [ref=f115e4638]: 291원)
+                    - generic [ref=f115e4640]:
+                      - generic [ref=f115e4641]: N내일배송
+                      - generic [ref=f115e4643]: 7.22.(수) 도착
+                    - generic [ref=f115e4644]: 무료배송
+                    - generic [ref=f115e4647]:
+                      - generic [ref=f115e4648]:
+                        - generic [ref=f115e4651]: 별점
+                        - text: "4.88"
+                      - generic [ref=f115e4652]: 리뷰 7,657
+                  - button "전체판매자 상품 11 개 더보기" [ref=f115e4654] [cursor=pointer]:
+                    - generic [ref=f115e4655]:
+                      - text: 전체판매자
+                      - generic [ref=f115e4656]: 상품
+                    - generic [ref=f115e4657]:
+                      - generic [ref=f115e4658]: "11"
+                      - generic [ref=f115e4659]: 개
+                    - generic [ref=f115e4662]: 더보기
+              - listitem [ref=f115e4663]:
+                - generic [ref=f115e4664]:
+                  - link "센소다인 공식스토어 공식 우수셀러 새 창에서 열림 NEOCOSMED 센소다인 오리지날 플러스 치약 100g, 3개 28% 할인 할인 전 판매가 19,500원 최저가 13,900 원 (10g당 463원) N내일배송 7.22.(수) 도착 무료배송 별점 4.89 리뷰 99,999+ 새 창에서 열림" [ref=f115e4665] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/7577061799?nl-query=%EC%B9%98%EC%95%BD&nl-au=25c28148e82747de903924c3f740f721&NaPm=ci%3D25c28148e82747de903924c3f740f721%7Cct%3Dmru6xmo2%7Ctr%3Dnslctg%7Csn%3D629507%7Chk%3D249713351e8f8e7e323c40ca48ab7b198a789886
+                    - generic [ref=f115e4666]: 새 창에서 열림
+                  - button "NEOCOSMED 센소다인 오리지날 플러스 치약 100g, 3개 찜하기" [ref=f115e4670] [cursor=pointer]
+                  - generic [ref=f115e4675]:
+                    - link "센소다인 공식스토어 공식 우수셀러 새 창에서 열림" [ref=f115e4677] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fsensodynemall&tr=nslctg
+                      - generic [ref=f115e4678]: 센소다인 공식스토어
+                      - generic [ref=f115e4679]:
+                        - generic [ref=f115e4680]: 공식
+                        - generic [ref=f115e4681]: 우수셀러
+                      - generic [ref=f115e4684]: 새 창에서 열림
+                    - strong [ref=f115e4685]: NEOCOSMED 센소다인 오리지날 플러스 치약 100g, 3개
+                    - generic [ref=f115e4687]:
+                      - generic [ref=f115e4688]:
+                        - generic [ref=f115e4689]:
+                          - text: 28%
+                          - generic [ref=f115e4690]: 할인
+                        - generic [ref=f115e4691]:
+                          - generic [ref=f115e4692]: 할인 전 판매가
+                          - text: 19,500원
+                      - generic [ref=f115e4693]:
+                        - generic [ref=f115e4695]:
+                          - generic [ref=f115e4696]: 최저가
+                          - generic [ref=f115e4697]: 13,900
+                          - generic [ref=f115e4698]: 원
+                        - generic [ref=f115e4699]:
+                          - generic [ref=f115e4700]: (10g당
+                          - generic [ref=f115e4701]: 463원)
+                    - generic [ref=f115e4703]:
+                      - generic [ref=f115e4704]: N내일배송
+                      - generic [ref=f115e4706]: 7.22.(수) 도착
+                    - generic [ref=f115e4707]: 무료배송
+                    - generic [ref=f115e4710]:
+                      - generic [ref=f115e4711]:
+                        - generic [ref=f115e4714]: 별점
+                        - text: "4.89"
+                      - generic [ref=f115e4715]: 리뷰 99,999+
+                  - button "전체판매자 상품 31 개 더보기" [ref=f115e4717] [cursor=pointer]:
+                    - generic [ref=f115e4718]:
+                      - text: 전체판매자
+                      - generic [ref=f115e4719]: 상품
+                    - generic [ref=f115e4720]:
+                      - generic [ref=f115e4721]: "31"
+                      - generic [ref=f115e4722]: 개
+                    - generic [ref=f115e4725]: 더보기
+              - listitem [ref=f115e4726]:
+                - generic [ref=f115e4727]:
+                  - link "광고 닥터아브 새 창에서 열림 녹키토 약국치약 입냄세 구취제거 화이트닝 기능성 220g 할인 전 판매가 15,000원 34% 할인 9,900 원 (10g당 450원) 무료배송 별점 4.72 리뷰 18 새 창에서 열림" [ref=f115e4728] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/nP4TptMz2LvMkdVZpBSkIvHj77B4mTCYP4VnjxWUwvwcZ1nsE7n7Z5sHkQLy5BjoIjAK25f7MD0i6Xc_VKmc7igtvJYW9v-eZIrb1KmT651mqTw-qE9uSzYG5opCU-m_HACUQOMwF8sMqRCYxoKkZIR6Q5O3dWgp-De8lqVqdvRCIVu74Z2PmlBMED4qO36KyXVcq7ov_Sb71dUeN0I3vIqa0RbcEiezHUOZvRZQbBsaCsGWTcKCAxTu2DXNnifMPZIGRMTQRVKEvm-j2qKjU1C2GGvw0JG-xmdDmUzrcNnd0utlBh5LruRGRQziB9KeZ9nvW2Jy1m_1A0IDbubna525pMMaRrkSrNB1Tzbgbh6yLSAnROwNIajyxjAC9IKWAxSK5WkcMaHn8Lzsfg73M5W5VtXG0A9-CkXK0oJSTN7tKSa_ohZu-PblBmsDdcfueTcEBN53_j2NmyhaKbvsocBKPog6VtSxYEcu8fHJSbAa0ciKDIHIvgdtALPIuirmkdC9aYJUIdJFrELXnbek8g==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f115e4729]: 새 창에서 열림
+                  - button "녹키토 약국치약 입냄세 구취제거 화이트닝 기능성 220g 찜하기" [ref=f115e4733] [cursor=pointer]
+                  - generic [ref=f115e4738]:
+                    - generic [ref=f115e4739]:
+                      - button "광고" [ref=f115e4742] [cursor=pointer]
+                      - link "닥터아브 새 창에서 열림" [ref=f115e4749] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/nP4TptMz2LvMkdVZpBSkIvHj77B4mTCYP4VnjxWUwvwcZ1nsE7n7Z5sHkQLy5BjoIjAK25f7MD0i6Xc_VKmc7igtvJYW9v-eZIrb1KmT651mqTw-qE9uSzYG5opCU-m_HACUQOMwF8sMqRCYxoKkZIR6Q5O3dWgp-De8lqVqdvRCIVu74Z2PmlBMED4qO36KyXVcq7ov_Sb71dUeN0I3vIqa0RbcEiezHUOZvRZQbBsaCsGWTcKCAxTu2DXNnifMPZIGRMTQRVKEvm-j2qKjU1C2GGvw0JG-xmdDmUzrcNnd0utlBh5LruRGRQziB9KeZ9nvW2Jy1m_1A0IDbubna525pMMaRrkSrNB1Tzbgbh6yLSAnROwNIajyxjAC9IKWAxSK5WkcMaHn8Lzsfg73M5W5VtXG0A9-CkXK0oJSTN7tKSa_ohZu-PblBmsDdcfueTcEBN53_j2NmyhaKbvsocBKPog6VtSxYEcu8fHJSbAa0ciKDIHIvgdtALPIuirmkdC9aYJUIdJFrELXnbek8g==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f115e4750]: 닥터아브
+                        - generic [ref=f115e4753]: 새 창에서 열림
+                    - strong [ref=f115e4754]: 녹키토 약국치약 입냄세 구취제거 화이트닝 기능성 220g
+                    - generic [ref=f115e4756]:
+                      - generic [ref=f115e4758]:
+                        - generic [ref=f115e4759]: 할인 전 판매가
+                        - text: 15,000원
+                      - generic [ref=f115e4760]:
+                        - generic [ref=f115e4762]:
+                          - generic [ref=f115e4763]:
+                            - text: 34%
+                            - generic [ref=f115e4764]: 할인
+                          - generic [ref=f115e4765]: 9,900
+                          - generic [ref=f115e4766]: 원
+                        - generic [ref=f115e4767]:
+                          - generic [ref=f115e4768]: (10g당
+                          - generic [ref=f115e4769]: 450원)
+                    - generic [ref=f115e4770]: 무료배송
+                    - generic [ref=f115e4773]:
+                      - generic [ref=f115e4774]:
+                        - generic [ref=f115e4777]: 별점
+                        - text: "4.72"
+                      - generic [ref=f115e4778]: 리뷰 18
+              - listitem [ref=f115e4779]:
+                - generic [ref=f115e4780]:
+                  - link "슈퍼적립 아모레퍼시픽몰 헤어바디 공식 우수셀러 새 창에서 열림 메디안 대용량 1450 고불소 치약 불소 충치 백태 프레쉬민트향 160g 3입 국내 생산 할인 전 판매가 20,000원 40% 할인 11,900 원 (100g당 2,479원) 멤버십 시작 시 최대 1,785원 포인트 적립 N새벽배송 내일(수) 05시 전 도착 무료배송 별점 4.85 리뷰 9,013 새 창에서 열림" [ref=f115e4781] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/12404675285?nl-query=%EC%B9%98%EC%95%BD&nl-au=3b0b65c5f76c440998547bd5c2ad8824&NaPm=ci%3D3b0b65c5f76c440998547bd5c2ad8824%7Cct%3Dmru6xmo3%7Ctr%3Dnslsl%7Csn%3D386039%7Chk%3D79737fb3f230ecd06d94f9a353cda5dfa295eb36
+                    - generic [ref=f115e4782]: 새 창에서 열림
+                  - generic [ref=f115e4783]:
+                    - img "슈퍼적립" [ref=f115e4787]
+                    - button "메디안 대용량 1450 고불소 치약 불소 충치 백태 프레쉬민트향 160g 3입 국내 생산 찜하기" [ref=f115e4789] [cursor=pointer]
+                  - generic [ref=f115e4794]:
+                    - link "아모레퍼시픽몰 헤어바디 공식 우수셀러 새 창에서 열림" [ref=f115e4796] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fap_dailybeauty&tr=nslsl
+                      - generic [ref=f115e4797]: 아모레퍼시픽몰 헤어바디
+                      - generic [ref=f115e4798]:
+                        - generic [ref=f115e4799]: 공식
+                        - generic [ref=f115e4800]: 우수셀러
+                      - generic [ref=f115e4803]: 새 창에서 열림
+                    - strong [ref=f115e4804]: 메디안 대용량 1450 고불소 치약 불소 충치 백태 프레쉬민트향 160g 3입 국내 생산
+                    - generic [ref=f115e4806]:
+                      - generic [ref=f115e4808]:
+                        - generic [ref=f115e4809]: 할인 전 판매가
+                        - text: 20,000원
+                      - generic [ref=f115e4810]:
+                        - generic [ref=f115e4812]:
+                          - generic [ref=f115e4813]:
+                            - text: 40%
+                            - generic [ref=f115e4814]: 할인
+                          - generic [ref=f115e4815]: 11,900
+                          - generic [ref=f115e4816]: 원
+                        - generic [ref=f115e4817]:
+                          - generic [ref=f115e4818]: (100g당
+                          - generic [ref=f115e4819]: 2,479원)
+                    - generic [ref=f115e4820]:
+                      - generic [ref=f115e4821]: 멤버십 시작 시
+                      - generic [ref=f115e4822]:
+                        - generic [ref=f115e4823]: 최대 1,785원
+                        - generic [ref=f115e4824]: 포인트 적립
+                    - generic [ref=f115e4826]:
+                      - generic [ref=f115e4827]: N새벽배송
+                      - generic [ref=f115e4829]: 내일(수) 05시 전 도착
+                    - generic [ref=f115e4830]: 무료배송
+                    - generic [ref=f115e4833]:
+                      - generic [ref=f115e4834]:
+                        - generic [ref=f115e4837]: 별점
+                        - text: "4.85"
+                      - generic [ref=f115e4838]: 리뷰 9,013
+              - listitem [ref=f115e4839]:
+                - generic [ref=f115e4840]:
+                  - link "애경본사직영몰 공식 우수셀러 새 창에서 열림 애경산업 2080 닥터크리닉 치석 치약 140g, 5개 54% 할인 할인 전 판매가 24,900원 최저가 11,400 원 (10g당 163원) N내일배송 7.22.(수) 도착 무료배송 별점 4.86 리뷰 2,533 새 창에서 열림" [ref=f115e4841] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/11819730368?nl-query=%EC%B9%98%EC%95%BD&nl-au=61f34263232e4f8b9387de0a1b39434c&NaPm=ci%3D61f34263232e4f8b9387de0a1b39434c%7Cct%3Dmru6xmo3%7Ctr%3Dnslctg%7Csn%3D1485316%7Chk%3Dfec48442275046fced5a7a30fee35ad306af90ac
+                    - generic [ref=f115e4842]: 새 창에서 열림
+                  - button "애경산업 2080 닥터크리닉 치석 치약 140g, 5개 찜하기" [ref=f115e4846] [cursor=pointer]
+                  - generic [ref=f115e4851]:
+                    - link "애경본사직영몰 공식 우수셀러 새 창에서 열림" [ref=f115e4853] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fakofficial&tr=nslctg
+                      - generic [ref=f115e4854]: 애경본사직영몰
+                      - generic [ref=f115e4855]:
+                        - generic [ref=f115e4856]: 공식
+                        - generic [ref=f115e4857]: 우수셀러
+                      - generic [ref=f115e4860]: 새 창에서 열림
+                    - strong [ref=f115e4861]: 애경산업 2080 닥터크리닉 치석 치약 140g, 5개
+                    - generic [ref=f115e4863]:
+                      - generic [ref=f115e4864]:
+                        - generic [ref=f115e4865]:
+                          - text: 54%
+                          - generic [ref=f115e4866]: 할인
+                        - generic [ref=f115e4867]:
+                          - generic [ref=f115e4868]: 할인 전 판매가
+                          - text: 24,900원
+                      - generic [ref=f115e4869]:
+                        - generic [ref=f115e4871]:
+                          - generic [ref=f115e4872]: 최저가
+                          - generic [ref=f115e4873]: 11,400
+                          - generic [ref=f115e4874]: 원
+                        - generic [ref=f115e4875]:
+                          - generic [ref=f115e4876]: (10g당
+                          - generic [ref=f115e4877]: 163원)
+                    - generic [ref=f115e4879]:
+                      - generic [ref=f115e4880]: N내일배송
+                      - generic [ref=f115e4882]: 7.22.(수) 도착
+                    - generic [ref=f115e4883]: 무료배송
+                    - generic [ref=f115e4886]:
+                      - generic [ref=f115e4887]:
+                        - generic [ref=f115e4890]: 별점
+                        - text: "4.86"
+                      - generic [ref=f115e4891]: 리뷰 2,533
+                  - button "전체판매자 상품 39 개 더보기" [ref=f115e4893] [cursor=pointer]:
+                    - generic [ref=f115e4894]:
+                      - text: 전체판매자
+                      - generic [ref=f115e4895]: 상품
+                    - generic [ref=f115e4896]:
+                      - generic [ref=f115e4897]: "39"
+                      - generic [ref=f115e4898]: 개
+                    - generic [ref=f115e4901]: 더보기
+              - listitem [ref=f115e4902]:
+                - generic [ref=f115e4903]:
+                  - link "애경본사직영몰 공식 우수셀러 새 창에서 열림 애경산업 2080 진지발리스 유칼립투스 후레쉬민트향 치약 150g, 10개 할인 전 판매가 22,300원 37% 할인 13,900 원 (10g당 93원) N내일배송 7.22.(수) 도착 무료배송 별점 4.85 리뷰 18,465 새 창에서 열림" [ref=f115e4904] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/10480738695?nl-query=%EC%B9%98%EC%95%BD&nl-au=00f429605c9f4630921bec26e378db9a&NaPm=ci%3D00f429605c9f4630921bec26e378db9a%7Cct%3Dmru6xmo4%7Ctr%3Dnslctg%7Csn%3D1485316%7Chk%3D7885c6dbce53bbd25719573f589e1d254782f5ac
+                    - generic [ref=f115e4905]: 새 창에서 열림
+                  - button "애경산업 2080 진지발리스 유칼립투스 후레쉬민트향 치약 150g, 10개 찜하기" [ref=f115e4909] [cursor=pointer]
+                  - generic [ref=f115e4914]:
+                    - link "애경본사직영몰 공식 우수셀러 새 창에서 열림" [ref=f115e4916] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fakofficial&tr=nslctg
+                      - generic [ref=f115e4917]: 애경본사직영몰
+                      - generic [ref=f115e4918]:
+                        - generic [ref=f115e4919]: 공식
+                        - generic [ref=f115e4920]: 우수셀러
+                      - generic [ref=f115e4923]: 새 창에서 열림
+                    - strong [ref=f115e4924]: 애경산업 2080 진지발리스 유칼립투스 후레쉬민트향 치약 150g, 10개
+                    - generic [ref=f115e4926]:
+                      - generic [ref=f115e4928]:
+                        - generic [ref=f115e4929]: 할인 전 판매가
+                        - text: 22,300원
+                      - generic [ref=f115e4930]:
+                        - generic [ref=f115e4932]:
+                          - generic [ref=f115e4933]:
+                            - text: 37%
+                            - generic [ref=f115e4934]: 할인
+                          - generic [ref=f115e4935]: 13,900
+                          - generic [ref=f115e4936]: 원
+                        - generic [ref=f115e4937]:
+                          - generic [ref=f115e4938]: (10g당
+                          - generic [ref=f115e4939]: 93원)
+                    - generic [ref=f115e4941]:
+                      - generic [ref=f115e4942]: N내일배송
+                      - generic [ref=f115e4944]: 7.22.(수) 도착
+                    - generic [ref=f115e4945]: 무료배송
+                    - generic [ref=f115e4948]:
+                      - generic [ref=f115e4949]:
+                        - generic [ref=f115e4952]: 별점
+                        - text: "4.85"
+                      - generic [ref=f115e4953]: 리뷰 18,465
+                  - button "전체판매자 상품 22 개 더보기" [ref=f115e4955] [cursor=pointer]:
+                    - generic [ref=f115e4956]:
+                      - text: 전체판매자
+                      - generic [ref=f115e4957]: 상품
+                    - generic [ref=f115e4958]:
+                      - generic [ref=f115e4959]: "22"
+                      - generic [ref=f115e4960]: 개
+                    - generic [ref=f115e4963]: 더보기
+              - listitem [ref=f115e4964]:
+                - generic [ref=f115e4965]:
+                  - link "광고 오스템 뷰센몰 공식 새 창에서 열림 뷰센28 미백치약 치아미백제 80g,5개 묶음 할인 전 판매가 55,000원 38% 할인 34,000 원 (10g당 850원) N내일배송 7.22.(수) 도착 무료배송 별점 4.77 리뷰 5,028 새 창에서 열림" [ref=f115e4966] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/D9SQmqTsdZgHMeXc1GZf8ik30TAM1fjw40H8V083opW_Tsm6w9C5PkZnCkBgyl2w3IaJ7RrFaU8WKC3FD2YiH7M7Dm-7Bh2UU6tZPGRy3lwT907dvVkCWGzzpWGNgWgKIi2iLaKxA0AF35yU3GEKjGuTw0fLS5GlOtyLgC36I84VqFNWST1EtJJ7EjgxxLMJfQSBS2Tynt6HM-DJyv6C5LmNSBQ-QhNq_se7JLgsVcjXL8bRgYprfqnhFUB8KhSV7hYm-MGcAi0TDg4KX_lfHXjMlDiX1OzeUz8yC7TlwYEQM35x9tYgKYP7C_hyZ3FsLPkMpbZSW57K509p4QDHCi84ukC5XaVP_dH_u7SKEK5oBzq9vlmZ70kE1v97RGbUA5sEdO8TY6iv7UGLxw1nNfPs1bJVsE69YvpsCXIrzh_2x7vJ8swpbfhaL3ec-XwUY2Jl4xFi0_LKBzBZaPYqG-wLQQxzFLb7b5HpLt61XQoCeFpHILlsD3izW1qX6kNdM3O-JQWxkvTwe6yLv6mkjQ==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f115e4967]: 새 창에서 열림
+                  - button "뷰센28 미백치약 치아미백제 80g,5개 묶음 찜하기" [ref=f115e4971] [cursor=pointer]
+                  - generic [ref=f115e4976]:
+                    - generic [ref=f115e4977]:
+                      - button "광고" [ref=f115e4980] [cursor=pointer]
+                      - link "오스템 뷰센몰 공식 새 창에서 열림" [ref=f115e4987] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/D9SQmqTsdZgHMeXc1GZf8ik30TAM1fjw40H8V083opW_Tsm6w9C5PkZnCkBgyl2w3IaJ7RrFaU8WKC3FD2YiH7M7Dm-7Bh2UU6tZPGRy3lwT907dvVkCWGzzpWGNgWgKIi2iLaKxA0AF35yU3GEKjGuTw0fLS5GlOtyLgC36I84VqFNWST1EtJJ7EjgxxLMJfQSBS2Tynt6HM-DJyv6C5LmNSBQ-QhNq_se7JLgsVcjXL8bRgYprfqnhFUB8KhSV7hYm-MGcAi0TDg4KX_lfHXjMlDiX1OzeUz8yC7TlwYEQM35x9tYgKYP7C_hyZ3FsLPkMpbZSW57K509p4QDHCi84ukC5XaVP_dH_u7SKEK5oBzq9vlmZ70kE1v97RGbUA5sEdO8TY6iv7UGLxw1nNfPs1bJVsE69YvpsCXIrzh_2x7vJ8swpbfhaL3ec-XwUY2Jl4xFi0_LKBzBZaPYqG-wLQQxzFLb7b5HpLt61XQoCeFpHILlsD3izW1qX6kNdM3O-JQWxkvTwe6yLv6mkjQ==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f115e4988]: 오스템 뷰센몰
+                        - generic [ref=f115e4989]: 공식
+                        - generic [ref=f115e4993]: 새 창에서 열림
+                    - strong [ref=f115e4994]: 뷰센28 미백치약 치아미백제 80g,5개 묶음
+                    - generic [ref=f115e4996]:
+                      - generic [ref=f115e4998]:
+                        - generic [ref=f115e4999]: 할인 전 판매가
+                        - text: 55,000원
+                      - generic [ref=f115e5000]:
+                        - generic [ref=f115e5002]:
+                          - generic [ref=f115e5003]:
+                            - text: 38%
+                            - generic [ref=f115e5004]: 할인
+                          - generic [ref=f115e5005]: 34,000
+                          - generic [ref=f115e5006]: 원
+                        - generic [ref=f115e5007]:
+                          - generic [ref=f115e5008]: (10g당
+                          - generic [ref=f115e5009]: 850원)
+                    - generic [ref=f115e5011]:
+                      - generic [ref=f115e5012]: N내일배송
+                      - generic [ref=f115e5014]: 7.22.(수) 도착
+                    - generic [ref=f115e5015]: 무료배송
+                    - generic [ref=f115e5018]:
+                      - generic [ref=f115e5019]:
+                        - generic [ref=f115e5022]: 별점
+                        - text: "4.77"
+                      - generic [ref=f115e5023]: 리뷰 5,028
+              - listitem [ref=f115e5024]:
+                - generic [ref=f115e5025]:
+                  - link "LG생활건강 공식 스토어 공식 우수셀러 새 창에서 열림 엘지생활건강 페리오 토탈 7 인텐스 프리징쿨링 치약 120g, 8개 23% 할인 할인 전 판매가 20,900원 최저가 15,900 원 (10g당 166원) N내일배송 7.22.(수) 도착 무료배송 별점 4.82 리뷰 2,942 새 창에서 열림" [ref=f115e5026] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/9622914375?nl-query=%EC%B9%98%EC%95%BD&nl-au=11bbe39fb2b641a5899f2d0fb4825047&NaPm=ci%3D11bbe39fb2b641a5899f2d0fb4825047%7Cct%3Dmru6xmo4%7Ctr%3Dnslctg%7Csn%3D186622%7Chk%3D881f78817cf0ef9ca8e63f9e084099a1f6039b42
+                    - generic [ref=f115e5027]: 새 창에서 열림
+                  - button "엘지생활건강 페리오 토탈 7 인텐스 프리징쿨링 치약 120g, 8개 찜하기" [ref=f115e5031] [cursor=pointer]
+                  - generic [ref=f115e5036]:
+                    - link "LG생활건강 공식 스토어 공식 우수셀러 새 창에서 열림" [ref=f115e5038] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Flgcaremall&tr=nslctg
+                      - generic [ref=f115e5039]: LG생활건강 공식 스토어
+                      - generic [ref=f115e5040]:
+                        - generic [ref=f115e5041]: 공식
+                        - generic [ref=f115e5042]: 우수셀러
+                      - generic [ref=f115e5045]: 새 창에서 열림
+                    - strong [ref=f115e5046]: 엘지생활건강 페리오 토탈 7 인텐스 프리징쿨링 치약 120g, 8개
+                    - generic [ref=f115e5048]:
+                      - generic [ref=f115e5049]:
+                        - generic [ref=f115e5050]:
+                          - text: 23%
+                          - generic [ref=f115e5051]: 할인
+                        - generic [ref=f115e5052]:
+                          - generic [ref=f115e5053]: 할인 전 판매가
+                          - text: 20,900원
+                      - generic [ref=f115e5054]:
+                        - generic [ref=f115e5056]:
+                          - generic [ref=f115e5057]: 최저가
+                          - generic [ref=f115e5058]: 15,900
+                          - generic [ref=f115e5059]: 원
+                        - generic [ref=f115e5060]:
+                          - generic [ref=f115e5061]: (10g당
+                          - generic [ref=f115e5062]: 166원)
+                    - generic [ref=f115e5064]:
+                      - generic [ref=f115e5065]: N내일배송
+                      - generic [ref=f115e5067]: 7.22.(수) 도착
+                    - generic [ref=f115e5068]: 무료배송
+                    - generic [ref=f115e5071]:
+                      - generic [ref=f115e5072]:
+                        - generic [ref=f115e5075]: 별점
+                        - text: "4.82"
+                      - generic [ref=f115e5076]: 리뷰 2,942
+                  - button "전체판매자 상품 2 개 더보기" [ref=f115e5078] [cursor=pointer]:
+                    - generic [ref=f115e5079]:
+                      - text: 전체판매자
+                      - generic [ref=f115e5080]: 상품
+                    - generic [ref=f115e5081]:
+                      - generic [ref=f115e5082]: "2"
+                      - generic [ref=f115e5083]: 개
+                    - generic [ref=f115e5086]: 더보기
+              - listitem [ref=f115e5087]:
+                - generic [ref=f115e5088]:
+                  - link "센소다인 공식스토어 공식 우수셀러 새 창에서 열림 센소다인 센서티비티 앤 검케어 치약 100g, 6개 29% 할인 할인 전 판매가 72,000원 최저가 50,900 원 (10g당 848원) N내일배송 7.22.(수) 도착 무료배송 별점 4.88 리뷰 5,027 새 창에서 열림" [ref=f115e5089] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13447720706?nl-query=%EC%B9%98%EC%95%BD&nl-au=32baf5e8cb9841e28ee216b2f2261c9e&NaPm=ci%3D32baf5e8cb9841e28ee216b2f2261c9e%7Cct%3Dmru6xmo4%7Ctr%3Dnslctg%7Csn%3D629507%7Chk%3D3d15dd74ebfd7e206c4f71078113269cde707e46
+                    - generic [ref=f115e5090]: 새 창에서 열림
+                  - button "센소다인 센서티비티 앤 검케어 치약 100g, 6개 찜하기" [ref=f115e5094] [cursor=pointer]
+                  - generic [ref=f115e5099]:
+                    - link "센소다인 공식스토어 공식 우수셀러 새 창에서 열림" [ref=f115e5101] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fsensodynemall&tr=nslctg
+                      - generic [ref=f115e5102]: 센소다인 공식스토어
+                      - generic [ref=f115e5103]:
+                        - generic [ref=f115e5104]: 공식
+                        - generic [ref=f115e5105]: 우수셀러
+                      - generic [ref=f115e5108]: 새 창에서 열림
+                    - strong [ref=f115e5109]: 센소다인 센서티비티 앤 검케어 치약 100g, 6개
+                    - generic [ref=f115e5111]:
+                      - generic [ref=f115e5112]:
+                        - generic [ref=f115e5113]:
+                          - text: 29%
+                          - generic [ref=f115e5114]: 할인
+                        - generic [ref=f115e5115]:
+                          - generic [ref=f115e5116]: 할인 전 판매가
+                          - text: 72,000원
+                      - generic [ref=f115e5117]:
+                        - generic [ref=f115e5119]:
+                          - generic [ref=f115e5120]: 최저가
+                          - generic [ref=f115e5121]: 50,900
+                          - generic [ref=f115e5122]: 원
+                        - generic [ref=f115e5123]:
+                          - generic [ref=f115e5124]: (10g당
+                          - generic [ref=f115e5125]: 848원)
+                    - generic [ref=f115e5127]:
+                      - generic [ref=f115e5128]: N내일배송
+                      - generic [ref=f115e5130]: 7.22.(수) 도착
+                    - generic [ref=f115e5131]: 무료배송
+                    - generic [ref=f115e5134]:
+                      - generic [ref=f115e5135]:
+                        - generic [ref=f115e5138]: 별점
+                        - text: "4.88"
+                      - generic [ref=f115e5139]: 리뷰 5,027
+                  - button "전체판매자 상품 3 개 더보기" [ref=f115e5141] [cursor=pointer]:
+                    - generic [ref=f115e5142]:
+                      - text: 전체판매자
+                      - generic [ref=f115e5143]: 상품
+                    - generic [ref=f115e5144]:
+                      - generic [ref=f115e5145]: "3"
+                      - generic [ref=f115e5146]: 개
+                    - generic [ref=f115e5149]: 더보기
+              - listitem [ref=f115e5150]
+              - listitem [ref=f115e5152]:
+                - generic [ref=f115e5153]:
+                  - link "LG생활건강 공식 스토어 우수셀러 새 창에서 열림 히말라야핑크솔트 바이옴 튜브치약 130g 8개 할인 전 판매가 34,900원 40% 할인 20,900 원 (10g당 201원) N내일배송 7.22.(수) 도착 무료배송 별점 4.88 리뷰 33,472 새 창에서 열림" [ref=f115e5154] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/10003768220?nl-query=%EC%B9%98%EC%95%BD&nl-au=5a782918bbdd4e59998f5581a65bc176&NaPm=ci%3D5a782918bbdd4e59998f5581a65bc176%7Cct%3Dmru6xmo5%7Ctr%3Dnslsl%7Csn%3D186622%7Chk%3D757761ca63c20e651d831e28d763e22556571d29
+                    - generic [ref=f115e5155]: 새 창에서 열림
+                  - button "히말라야핑크솔트 바이옴 튜브치약 130g 8개 찜하기" [ref=f115e5159] [cursor=pointer]
+                  - generic [ref=f115e5164]:
+                    - link "LG생활건강 공식 스토어 우수셀러 새 창에서 열림" [ref=f115e5166] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Flgcaremall&tr=nslsl
+                      - generic [ref=f115e5167]: LG생활건강 공식 스토어
+                      - generic [ref=f115e5168]: 우수셀러
+                      - generic [ref=f115e5172]: 새 창에서 열림
+                    - strong [ref=f115e5173]: 히말라야핑크솔트 바이옴 튜브치약 130g 8개
+                    - generic [ref=f115e5175]:
+                      - generic [ref=f115e5177]:
+                        - generic [ref=f115e5178]: 할인 전 판매가
+                        - text: 34,900원
+                      - generic [ref=f115e5179]:
+                        - generic [ref=f115e5181]:
+                          - generic [ref=f115e5182]:
+                            - text: 40%
+                            - generic [ref=f115e5183]: 할인
+                          - generic [ref=f115e5184]: 20,900
+                          - generic [ref=f115e5185]: 원
+                        - generic [ref=f115e5186]:
+                          - generic [ref=f115e5187]: (10g당
+                          - generic [ref=f115e5188]: 201원)
+                    - generic [ref=f115e5190]:
+                      - generic [ref=f115e5191]: N내일배송
+                      - generic [ref=f115e5193]: 7.22.(수) 도착
+                    - generic [ref=f115e5194]: 무료배송
+                    - generic [ref=f115e5197]:
+                      - generic [ref=f115e5198]:
+                        - generic [ref=f115e5201]: 별점
+                        - text: "4.88"
+                      - generic [ref=f115e5202]: 리뷰 33,472
+              - listitem [ref=f115e5203]:
+                - generic [ref=f115e5204]:
+                  - link "센소다인 공식스토어 공식 우수셀러 새 창에서 열림 센소다인 컴플리트 프로텍션 플러스 치약 100g, 6개 할인 전 판매가 57,000원 30% 할인 39,900 원 (10g당 665원) N내일배송 7.22.(수) 도착 무료배송 별점 4.88 리뷰 37,725 새 창에서 열림" [ref=f115e5205] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/10834540233?nl-query=%EC%B9%98%EC%95%BD&nl-au=7ef0e5f8e6df44f4b1c8b5e42c19358a&NaPm=ci%3D7ef0e5f8e6df44f4b1c8b5e42c19358a%7Cct%3Dmru6xmo5%7Ctr%3Dnslctg%7Csn%3D629507%7Chk%3D7e6fd1b6b49ec0e13df58fe14dd72cfe599c0e41
+                    - generic [ref=f115e5206]: 새 창에서 열림
+                  - button "센소다인 컴플리트 프로텍션 플러스 치약 100g, 6개 찜하기" [ref=f115e5210] [cursor=pointer]
+                  - generic [ref=f115e5215]:
+                    - link "센소다인 공식스토어 공식 우수셀러 새 창에서 열림" [ref=f115e5217] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fsensodynemall&tr=nslctg
+                      - generic [ref=f115e5218]: 센소다인 공식스토어
+                      - generic [ref=f115e5219]:
+                        - generic [ref=f115e5220]: 공식
+                        - generic [ref=f115e5221]: 우수셀러
+                      - generic [ref=f115e5224]: 새 창에서 열림
+                    - strong [ref=f115e5225]: 센소다인 컴플리트 프로텍션 플러스 치약 100g, 6개
+                    - generic [ref=f115e5227]:
+                      - generic [ref=f115e5229]:
+                        - generic [ref=f115e5230]: 할인 전 판매가
+                        - text: 57,000원
+                      - generic [ref=f115e5231]:
+                        - generic [ref=f115e5233]:
+                          - generic [ref=f115e5234]:
+                            - text: 30%
+                            - generic [ref=f115e5235]: 할인
+                          - generic [ref=f115e5236]: 39,900
+                          - generic [ref=f115e5237]: 원
+                        - generic [ref=f115e5238]:
+                          - generic [ref=f115e5239]: (10g당
+                          - generic [ref=f115e5240]: 665원)
+                    - generic [ref=f115e5242]:
+                      - generic [ref=f115e5243]: N내일배송
+                      - generic [ref=f115e5245]: 7.22.(수) 도착
+                    - generic [ref=f115e5246]: 무료배송
+                    - generic [ref=f115e5249]:
+                      - generic [ref=f115e5250]:
+                        - generic [ref=f115e5253]: 별점
+                        - text: "4.88"
+                      - generic [ref=f115e5254]: 리뷰 37,725
+                  - button "전체판매자 상품 16 개 더보기" [ref=f115e5256] [cursor=pointer]:
+                    - generic [ref=f115e5257]:
+                      - text: 전체판매자
+                      - generic [ref=f115e5258]: 상품
+                    - generic [ref=f115e5259]:
+                      - generic [ref=f115e5260]: "16"
+                      - generic [ref=f115e5261]: 개
+                    - generic [ref=f115e5264]: 더보기
+              - listitem [ref=f115e5265]:
+                - generic [ref=f115e5266]:
+                  - link "광고 살림백서 공식 새 창에서 열림 살림백서 하루세번 덴탈 케어 대용량 치약 구취제거 입냄새제거 잇몸 250g, 12개 할인 전 판매가 59,400원 44% 할인 32,700 원 (10g당 109원) N내일배송 7.22.(수) 도착 무료배송 무료교환반품 새 창에서 열림" [ref=f115e5267] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/AKlblrCbUuCyQrYMeMO1Gtw4VIGFiokdy79r49JNFmRr53J30RCwCcQVHa9x6WTgK2dghlnTUp0NPnEqLhqJwRnUw86RMt3eDnE_lD5uacr_K3bX5dQfG0zmD2m1-uOO3lfuHXbmHYBPfPgEZJDcgHUQJFb_qmgJtu_mrsRR2R3MK6SIlehYTUKasWF69PK694WeFrR71X-Zi1JUnOhSbqTy9pieEpPkOj0wbxRGOIKQdzpGh3z2GfCkHZpd2moIEzUXkAqW3lYIW2SJozCgmK-7XOkpC9yumu4UBtVARllI3quLk-aOAZBY2XZi7Oxk8mpn6iYTIrF_NdP-hgoAfqZpDHbQ3LRM98_Lh9C0WevmjSFTo_qNtzCWjUaELF8H?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f115e5268]: 새 창에서 열림
+                  - button "살림백서 하루세번 덴탈 케어 대용량 치약 구취제거 입냄새제거 잇몸 250g, 12개 찜하기" [ref=f115e5272] [cursor=pointer]
+                  - generic [ref=f115e5277]:
+                    - generic [ref=f115e5278]:
+                      - button "광고" [ref=f115e5281] [cursor=pointer]
+                      - link "살림백서 공식 새 창에서 열림" [ref=f115e5288] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/AKlblrCbUuCyQrYMeMO1Gtw4VIGFiokdy79r49JNFmRr53J30RCwCcQVHa9x6WTgK2dghlnTUp0NPnEqLhqJwRnUw86RMt3eDnE_lD5uacr_K3bX5dQfG0zmD2m1-uOO3lfuHXbmHYBPfPgEZJDcgHUQJFb_qmgJtu_mrsRR2R3MK6SIlehYTUKasWF69PK694WeFrR71X-Zi1JUnOhSbqTy9pieEpPkOj0wbxRGOIKQdzpGh3z2GfCkHZpd2moIEzUXkAqW3lYIW2SJozCgmK-7XOkpC9yumu4UBtVARllI3quLk-aOAZBY2XZi7Oxk8mpn6iYTIrF_NdP-hgoAfqZpDHbQ3LRM98_Lh9C0WevmjSFTo_qNtzCWjUaELF8H?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f115e5289]: 살림백서
+                        - generic [ref=f115e5290]: 공식
+                        - generic [ref=f115e5294]: 새 창에서 열림
+                    - strong [ref=f115e5295]: 살림백서 하루세번 덴탈 케어 대용량 치약 구취제거 입냄새제거 잇몸 250g, 12개
+                    - generic [ref=f115e5297]:
+                      - generic [ref=f115e5299]:
+                        - generic [ref=f115e5300]: 할인 전 판매가
+                        - text: 59,400원
+                      - generic [ref=f115e5301]:
+                        - generic [ref=f115e5303]:
+                          - generic [ref=f115e5304]:
+                            - text: 44%
+                            - generic [ref=f115e5305]: 할인
+                          - generic [ref=f115e5306]: 32,700
+                          - generic [ref=f115e5307]: 원
+                        - generic [ref=f115e5308]:
+                          - generic [ref=f115e5309]: (10g당
+                          - generic [ref=f115e5310]: 109원)
+                    - generic [ref=f115e5312]:
+                      - generic [ref=f115e5313]: N내일배송
+                      - generic [ref=f115e5315]: 7.22.(수) 도착
+                    - generic [ref=f115e5317]:
+                      - generic [ref=f115e5318]: 무료배송
+                      - generic [ref=f115e5319]: 무료교환반품
+              - listitem [ref=f115e5320]:
+                - generic [ref=f115e5321]:
+                  - link "센소다인 공식스토어 공식 우수셀러 새 창에서 열림 센소다인 오리지날 플러스 민감성 치약 100g, 6개 할인 전 판매가 39,000원 34% 할인 25,690 원 (10g당 428원) N내일배송 7.22.(수) 도착 무료배송 별점 4.89 리뷰 99,999+ 새 창에서 열림" [ref=f115e5322] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/7577202745?nl-query=%EC%B9%98%EC%95%BD&nl-au=99efd835d80b4456b814ab81cea50bf6&NaPm=ci%3D99efd835d80b4456b814ab81cea50bf6%7Cct%3Dmru6xmo5%7Ctr%3Dnslsl%7Csn%3D629507%7Chk%3D968b36eadc83546e3d31191aadf2259f2fb281ee
+                    - generic [ref=f115e5323]: 새 창에서 열림
+                  - button "센소다인 오리지날 플러스 민감성 치약 100g, 6개 찜하기" [ref=f115e5327] [cursor=pointer]
+                  - generic [ref=f115e5332]:
+                    - link "센소다인 공식스토어 공식 우수셀러 새 창에서 열림" [ref=f115e5334] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fsensodynemall&tr=nslsl
+                      - generic [ref=f115e5335]: 센소다인 공식스토어
+                      - generic [ref=f115e5336]:
+                        - generic [ref=f115e5337]: 공식
+                        - generic [ref=f115e5338]: 우수셀러
+                      - generic [ref=f115e5341]: 새 창에서 열림
+                    - strong [ref=f115e5342]: 센소다인 오리지날 플러스 민감성 치약 100g, 6개
+                    - generic [ref=f115e5344]:
+                      - generic [ref=f115e5346]:
+                        - generic [ref=f115e5347]: 할인 전 판매가
+                        - text: 39,000원
+                      - generic [ref=f115e5348]:
+                        - generic [ref=f115e5350]:
+                          - generic [ref=f115e5351]:
+                            - text: 34%
+                            - generic [ref=f115e5352]: 할인
+                          - generic [ref=f115e5353]: 25,690
+                          - generic [ref=f115e5354]: 원
+                        - generic [ref=f115e5355]:
+                          - generic [ref=f115e5356]: (10g당
+                          - generic [ref=f115e5357]: 428원)
+                    - generic [ref=f115e5359]:
+                      - generic [ref=f115e5360]: N내일배송
+                      - generic [ref=f115e5362]: 7.22.(수) 도착
+                    - generic [ref=f115e5363]: 무료배송
+                    - generic [ref=f115e5366]:
+                      - generic [ref=f115e5367]:
+                        - generic [ref=f115e5370]: 별점
+                        - text: "4.89"
+                      - generic [ref=f115e5371]: 리뷰 99,999+
+                  - button "다른 옵션 상품보기" [ref=f115e5373] [cursor=pointer]
+              - listitem [ref=f115e5376]:
+                - generic [ref=f115e5377]:
+                  - link "LG생활건강 공식 스토어 우수셀러 새 창에서 열림 엘지생활건강 죽염 시린고 치약 120g, 5개 19% 할인 할인 전 판매가 22,160원 최저가 17,900 원 (10g당 298원) N내일배송 7.22.(수) 도착 무료배송 별점 4.86 리뷰 1,322 새 창에서 열림" [ref=f115e5378] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/9652868483?nl-query=%EC%B9%98%EC%95%BD&nl-au=2a5c31469b664b9ca449c09b0f57404a&NaPm=ci%3D2a5c31469b664b9ca449c09b0f57404a%7Cct%3Dmru6xmo6%7Ctr%3Dnslctg%7Csn%3D186622%7Chk%3D852affe446db25c94e3f98200cc5b47b77a555d1
+                    - generic [ref=f115e5379]: 새 창에서 열림
+                  - button "엘지생활건강 죽염 시린고 치약 120g, 5개 찜하기" [ref=f115e5383] [cursor=pointer]
+                  - generic [ref=f115e5388]:
+                    - link "LG생활건강 공식 스토어 우수셀러 새 창에서 열림" [ref=f115e5390] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Flgcaremall&tr=nslctg
+                      - generic [ref=f115e5391]: LG생활건강 공식 스토어
+                      - generic [ref=f115e5392]: 우수셀러
+                      - generic [ref=f115e5396]: 새 창에서 열림
+                    - strong [ref=f115e5397]: 엘지생활건강 죽염 시린고 치약 120g, 5개
+                    - generic [ref=f115e5399]:
+                      - generic [ref=f115e5400]:
+                        - generic [ref=f115e5401]:
+                          - text: 19%
+                          - generic [ref=f115e5402]: 할인
+                        - generic [ref=f115e5403]:
+                          - generic [ref=f115e5404]: 할인 전 판매가
+                          - text: 22,160원
+                      - generic [ref=f115e5405]:
+                        - generic [ref=f115e5407]:
+                          - generic [ref=f115e5408]: 최저가
+                          - generic [ref=f115e5409]: 17,900
+                          - generic [ref=f115e5410]: 원
+                        - generic [ref=f115e5411]:
+                          - generic [ref=f115e5412]: (10g당
+                          - generic [ref=f115e5413]: 298원)
+                    - generic [ref=f115e5415]:
+                      - generic [ref=f115e5416]: N내일배송
+                      - generic [ref=f115e5418]: 7.22.(수) 도착
+                    - generic [ref=f115e5419]: 무료배송
+                    - generic [ref=f115e5422]:
+                      - generic [ref=f115e5423]:
+                        - generic [ref=f115e5426]: 별점
+                        - text: "4.86"
+                      - generic [ref=f115e5427]: 리뷰 1,322
+                  - button "전체판매자 상품 3 개 더보기" [ref=f115e5429] [cursor=pointer]:
+                    - generic [ref=f115e5430]:
+                      - text: 전체판매자
+                      - generic [ref=f115e5431]: 상품
+                    - generic [ref=f115e5432]:
+                      - generic [ref=f115e5433]: "3"
+                      - generic [ref=f115e5434]: 개
+                    - generic [ref=f115e5437]: 더보기
+              - listitem [ref=f115e5438]:
+                - generic [ref=f115e5439]:
+                  - link "센소다인 공식스토어 공식 우수셀러 새 창에서 열림 센소다인 후레쉬 치약 100g, 6개 34% 할인 할인 전 판매가 39,000원 최저가 25,690 원 (10g당 428원) N내일배송 7.22.(수) 도착 무료배송 별점 4.86 리뷰 39,658 새 창에서 열림" [ref=f115e5440] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/6133024547?nl-query=%EC%B9%98%EC%95%BD&nl-au=4f3b9b75305e4971ab9d9c0ae7ae9f76&NaPm=ci%3D4f3b9b75305e4971ab9d9c0ae7ae9f76%7Cct%3Dmru6xmoo%7Ctr%3Dnslctg%7Csn%3D629507%7Chk%3D37602cd182c3c90a1ef055105532af725b6c1d5b
+                    - generic [ref=f115e5441]: 새 창에서 열림
+                  - button "센소다인 후레쉬 치약 100g, 6개 찜하기" [ref=f115e5445] [cursor=pointer]
+                  - generic [ref=f115e5450]:
+                    - link "센소다인 공식스토어 공식 우수셀러 새 창에서 열림" [ref=f115e5452] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fsensodynemall&tr=nslctg
+                      - generic [ref=f115e5453]: 센소다인 공식스토어
+                      - generic [ref=f115e5454]:
+                        - generic [ref=f115e5455]: 공식
+                        - generic [ref=f115e5456]: 우수셀러
+                      - generic [ref=f115e5459]: 새 창에서 열림
+                    - strong [ref=f115e5460]: 센소다인 후레쉬 치약 100g, 6개
+                    - generic [ref=f115e5462]:
+                      - generic [ref=f115e5463]:
+                        - generic [ref=f115e5464]:
+                          - text: 34%
+                          - generic [ref=f115e5465]: 할인
+                        - generic [ref=f115e5466]:
+                          - generic [ref=f115e5467]: 할인 전 판매가
+                          - text: 39,000원
+                      - generic [ref=f115e5468]:
+                        - generic [ref=f115e5470]:
+                          - generic [ref=f115e5471]: 최저가
+                          - generic [ref=f115e5472]: 25,690
+                          - generic [ref=f115e5473]: 원
+                        - generic [ref=f115e5474]:
+                          - generic [ref=f115e5475]: (10g당
+                          - generic [ref=f115e5476]: 428원)
+                    - generic [ref=f115e5478]:
+                      - generic [ref=f115e5479]: N내일배송
+                      - generic [ref=f115e5481]: 7.22.(수) 도착
+                    - generic [ref=f115e5482]: 무료배송
+                    - generic [ref=f115e5485]:
+                      - generic [ref=f115e5486]:
+                        - generic [ref=f115e5489]: 별점
+                        - text: "4.86"
+                      - generic [ref=f115e5490]: 리뷰 39,658
+                  - button "전체판매자 상품 36 개 더보기" [ref=f115e5492] [cursor=pointer]:
+                    - generic [ref=f115e5493]:
+                      - text: 전체판매자
+                      - generic [ref=f115e5494]: 상품
+                    - generic [ref=f115e5495]:
+                      - generic [ref=f115e5496]: "36"
+                      - generic [ref=f115e5497]: 개
+                    - generic [ref=f115e5500]: 더보기
+              - listitem [ref=f115e5501]:
+                - generic [ref=f115e5502]:
+                  - link "광고 아모레퍼시픽몰 헤어바디 공식 새 창에서 열림 메디안 대용량 치석 화이트 불소 치약 충치 잇몸 멘톨 210g 5입 국내 생산 할인 전 판매가 29,800원 50% 할인 14,900 원 (100g당 1,419원) N새벽배송 내일(수) 05시 전 도착 무료배송 별점 4.83 리뷰 6,064 새 창에서 열림" [ref=f115e5503] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/Ilscy2_6dDJebPsFZPy1w6Ca2SfCDYTEDZ1KqyBkOQtx0LPJ4u2DdgkgcBhdNgHoykmdIwyk_F-DwF_49zyRJ36nIkNW_PcRdEB_HrHGeRGpuihzSWtc11er_vDk4GhI_dz5mLiDKvD4_p97zN1WGMFYpLRRNtTQYSNuyvvw6RWkSsejJC6bGjJMWMvthoZVgevuqIiUtAco2kxY4oLbtUQwwT7VGnuwszs9KmYB5G2jZvvEB76csR3rqkeSxZgPq-u4Kj0Wrj_UcPAI-g1d1gImUA_AmqmJY_y6EOTCT0XK89OwMC4SsI1hds9xmeMEQtnkFBScbLHfnzLilb7xiMHEEqcsdFsKVx_42HMd5zPXkepjH6d288Dw5srtP8cJh9-g0vN5kMHWdM8hFpi6PdBWx-hetBjVF_fcSvlekhdhf5SsSlf2_jyEsuYwki4dtLxBRdKc3k2DwwIClO0cYjYDGSnke8jq_AEI8zbQYLJV0Xk6ZOfrzaJ9RjizW5b5XJ6GGZ4xtGsncikhO1zuoA==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f115e5504]: 새 창에서 열림
+                  - button "메디안 대용량 치석 화이트 불소 치약 충치 잇몸 멘톨 210g 5입 국내 생산 찜하기" [ref=f115e5508] [cursor=pointer]
+                  - generic [ref=f115e5513]:
+                    - generic [ref=f115e5514]:
+                      - button "광고" [ref=f115e5517] [cursor=pointer]
+                      - link "아모레퍼시픽몰 헤어바디 공식 새 창에서 열림" [ref=f115e5524] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/Ilscy2_6dDJebPsFZPy1w6Ca2SfCDYTEDZ1KqyBkOQtx0LPJ4u2DdgkgcBhdNgHoykmdIwyk_F-DwF_49zyRJ36nIkNW_PcRdEB_HrHGeRGpuihzSWtc11er_vDk4GhI_dz5mLiDKvD4_p97zN1WGMFYpLRRNtTQYSNuyvvw6RWkSsejJC6bGjJMWMvthoZVgevuqIiUtAco2kxY4oLbtUQwwT7VGnuwszs9KmYB5G2jZvvEB76csR3rqkeSxZgPq-u4Kj0Wrj_UcPAI-g1d1gImUA_AmqmJY_y6EOTCT0XK89OwMC4SsI1hds9xmeMEQtnkFBScbLHfnzLilb7xiMHEEqcsdFsKVx_42HMd5zPXkepjH6d288Dw5srtP8cJh9-g0vN5kMHWdM8hFpi6PdBWx-hetBjVF_fcSvlekhdhf5SsSlf2_jyEsuYwki4dtLxBRdKc3k2DwwIClO0cYjYDGSnke8jq_AEI8zbQYLJV0Xk6ZOfrzaJ9RjizW5b5XJ6GGZ4xtGsncikhO1zuoA==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f115e5525]: 아모레퍼시픽몰 헤어바디
+                        - generic [ref=f115e5526]: 공식
+                        - generic [ref=f115e5530]: 새 창에서 열림
+                    - strong [ref=f115e5531]: 메디안 대용량 치석 화이트 불소 치약 충치 잇몸 멘톨 210g 5입 국내 생산
+                    - generic [ref=f115e5533]:
+                      - generic [ref=f115e5535]:
+                        - generic [ref=f115e5536]: 할인 전 판매가
+                        - text: 29,800원
+                      - generic [ref=f115e5537]:
+                        - generic [ref=f115e5539]:
+                          - generic [ref=f115e5540]:
+                            - text: 50%
+                            - generic [ref=f115e5541]: 할인
+                          - generic [ref=f115e5542]: 14,900
+                          - generic [ref=f115e5543]: 원
+                        - generic [ref=f115e5544]:
+                          - generic [ref=f115e5545]: (100g당
+                          - generic [ref=f115e5546]: 1,419원)
+                    - generic [ref=f115e5548]:
+                      - generic [ref=f115e5549]: N새벽배송
+                      - generic [ref=f115e5551]: 내일(수) 05시 전 도착
+                    - generic [ref=f115e5552]: 무료배송
+                    - generic [ref=f115e5555]:
+                      - generic [ref=f115e5556]:
+                        - generic [ref=f115e5559]: 별점
+                        - text: "4.83"
+                      - generic [ref=f115e5560]: 리뷰 6,064
+              - listitem [ref=f115e5561]:
+                - link "기획전 살림백서 월간 생필품 l 상시 행사장 02.01.~12.31. 기획전 바로가기 새 창에서 열림" [ref=f115e5562] [cursor=pointer]:
+                  - /url: https://shopping.naver.com/festa/onsale/living/6971909ad25704064025f630
+                  - generic [ref=f115e5563]: 기획전
+                  - generic [ref=f115e5566]:
+                    - generic [ref=f115e5567]: 살림백서
+                    - strong [ref=f115e5568]: 월간 생필품 l 상시 행사장
+                    - generic [ref=f115e5569]: 02.01.~12.31.
+                    - generic [ref=f115e5570]: 기획전 바로가기
+                  - generic [ref=f115e5574]: 새 창에서 열림
+              - listitem [ref=f115e5575]:
+                - generic [ref=f115e5576]:
+                  - link "닥스메디 공식 새 창에서 열림 동일제약 닥스메디 닥트러스트 2X 치약 100g, 5개 30% 할인 할인 전 판매가 50,000원 최저가 35,000 원 (10g당 700원) N내일배송 7.22.(수) 도착 무료배송 무료교환반품 별점 4.86 리뷰 9,124 새 창에서 열림" [ref=f115e5577] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/7757361478?nl-query=%EC%B9%98%EC%95%BD&nl-au=e0269b2759ad41fb8b4484f6c2e0a318&NaPm=ci%3De0269b2759ad41fb8b4484f6c2e0a318%7Cct%3Dmru6xmoo%7Ctr%3Dnslctg%7Csn%3D427516%7Chk%3D82511c74b12ffa86d05196a70dafb139dad7bcea
+                    - generic [ref=f115e5578]: 새 창에서 열림
+                  - button "동일제약 닥스메디 닥트러스트 2X 치약 100g, 5개 찜하기" [ref=f115e5582] [cursor=pointer]
+                  - generic [ref=f115e5587]:
+                    - link "닥스메디 공식 새 창에서 열림" [ref=f115e5589] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fdocsmedi&tr=nslctg
+                      - generic [ref=f115e5590]: 닥스메디
+                      - generic [ref=f115e5591]: 공식
+                      - generic [ref=f115e5595]: 새 창에서 열림
+                    - strong [ref=f115e5596]: 동일제약 닥스메디 닥트러스트 2X 치약 100g, 5개
+                    - generic [ref=f115e5598]:
+                      - generic [ref=f115e5599]:
+                        - generic [ref=f115e5600]:
+                          - text: 30%
+                          - generic [ref=f115e5601]: 할인
+                        - generic [ref=f115e5602]:
+                          - generic [ref=f115e5603]: 할인 전 판매가
+                          - text: 50,000원
+                      - generic [ref=f115e5604]:
+                        - generic [ref=f115e5606]:
+                          - generic [ref=f115e5607]: 최저가
+                          - generic [ref=f115e5608]: 35,000
+                          - generic [ref=f115e5609]: 원
+                        - generic [ref=f115e5610]:
+                          - generic [ref=f115e5611]: (10g당
+                          - generic [ref=f115e5612]: 700원)
+                    - generic [ref=f115e5614]:
+                      - generic [ref=f115e5615]: N내일배송
+                      - generic [ref=f115e5617]: 7.22.(수) 도착
+                    - generic [ref=f115e5619]:
+                      - generic [ref=f115e5620]: 무료배송
+                      - generic [ref=f115e5621]: 무료교환반품
+                    - generic [ref=f115e5622]:
+                      - generic [ref=f115e5623]:
+                        - generic [ref=f115e5626]: 별점
+                        - text: "4.86"
+                      - generic [ref=f115e5627]: 리뷰 9,124
+                  - button "전체판매자 상품 4 개 더보기" [ref=f115e5629] [cursor=pointer]:
+                    - generic [ref=f115e5630]:
+                      - text: 전체판매자
+                      - generic [ref=f115e5631]: 상품
+                    - generic [ref=f115e5632]:
+                      - generic [ref=f115e5633]: "4"
+                      - generic [ref=f115e5634]: 개
+                    - generic [ref=f115e5637]: 더보기
+              - listitem [ref=f115e5638]:
+                - generic [ref=f115e5639]:
+                  - link "광고 아모레퍼시픽몰 헤어바디 공식 새 창에서 열림 메디안 대용량 치석 화이트 불소 치약 충치 잇몸 멘톨 210g 5입 국내 생산 할인 전 판매가 29,800원 50% 할인 14,900 원 (100g당 1,419원) N새벽배송 내일(수) 05시 전 도착 무료배송 별점 4.83 리뷰 6,064 새 창에서 열림" [ref=f115e5640] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/11562900787?nl-query=%EC%B9%98%EC%95%BD&nl-au=489ab5bafffc43f4b6dc381ac613812e&NaPm=ci%3D489ab5bafffc43f4b6dc381ac613812e%7Cct%3Dmru6xmoo%7Ctr%3Dnslsl%7Csn%3D386039%7Chk%3D21a6db1052aab345b82fae471c70091c2aeb88fe
+                    - generic [ref=f115e5641]: 새 창에서 열림
+                  - button "메디안 대용량 치석 화이트 불소 치약 충치 잇몸 멘톨 210g 5입 국내 생산 찜하기" [ref=f115e5645] [cursor=pointer]
+                  - generic [ref=f115e5650]:
+                    - link "아모레퍼시픽몰 헤어바디 공식 우수셀러 새 창에서 열림" [ref=f115e5652] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fap_dailybeauty&tr=nslsl
+                      - generic [ref=f115e5653]: 아모레퍼시픽몰 헤어바디
+                      - generic [ref=f115e5654]:
+                        - generic [ref=f115e5655]: 공식
+                        - generic [ref=f115e5656]: 우수셀러
+                      - generic [ref=f115e5659]: 새 창에서 열림
+                    - strong [ref=f115e5660]: 메디안 대용량 치석 화이트 불소 치약 충치 잇몸 멘톨 210g 5입 국내 생산
+                    - generic [ref=f115e5662]:
+                      - generic [ref=f115e5664]:
+                        - generic [ref=f115e5665]: 할인 전 판매가
+                        - text: 29,800원
+                      - generic [ref=f115e5666]:
+                        - generic [ref=f115e5668]:
+                          - generic [ref=f115e5669]:
+                            - text: 50%
+                            - generic [ref=f115e5670]: 할인
+                          - generic [ref=f115e5671]: 14,900
+                          - generic [ref=f115e5672]: 원
+                        - generic [ref=f115e5673]:
+                          - generic [ref=f115e5674]: (100g당
+                          - generic [ref=f115e5675]: 1,419원)
+                    - generic [ref=f115e5677]:
+                      - generic [ref=f115e5678]: N새벽배송
+                      - generic [ref=f115e5680]: 내일(수) 05시 전 도착
+                    - generic [ref=f115e5681]: 무료배송
+                    - generic [ref=f115e5684]:
+                      - generic [ref=f115e5685]:
+                        - generic [ref=f115e5688]: 별점
+                        - text: "4.83"
+                      - generic [ref=f115e5689]: 리뷰 6,064
+              - listitem [ref=f115e5690]
+              - listitem [ref=f115e5692]:
+                - generic [ref=f115e5693]:
+                  - link "슈퍼적립 LG생활건강 공식 스토어 공식 우수셀러 새 창에서 열림 N단독기획 페리오 고불소 효소의발견 치약 120g 5입 시그니처민트향 입냄새 구취케어 치석케어 할인 전 판매가 31,800원 18% 할인 25,800 원 (10g당 430원) 멤버십 시작 시 최대 3,870원 포인트 적립 N내일배송 7.22.(수) 도착 무료배송 별점 4.89 리뷰 5,448 새 창에서 열림" [ref=f115e5694] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13161260807?nl-query=%EC%B9%98%EC%95%BD&nl-au=01abd3c86db04415b034f81ef2c37466&NaPm=ci%3D01abd3c86db04415b034f81ef2c37466%7Cct%3Dmru6xmop%7Ctr%3Dnslsl%7Csn%3D186622%7Chk%3Dca678cd02416dd96fe02cf54dd216fd770e29da0
+                    - generic [ref=f115e5695]: 새 창에서 열림
+                  - generic [ref=f115e5696]:
+                    - img "슈퍼적립" [ref=f115e5700]
+                    - button "N단독기획 페리오 고불소 효소의발견 치약 120g 5입 시그니처민트향 입냄새 구취케어 치석케어 찜하기" [ref=f115e5702] [cursor=pointer]
+                  - generic [ref=f115e5707]:
+                    - link "LG생활건강 공식 스토어 공식 우수셀러 새 창에서 열림" [ref=f115e5709] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Flgcaremall&tr=nslsl
+                      - generic [ref=f115e5710]: LG생활건강 공식 스토어
+                      - generic [ref=f115e5711]:
+                        - generic [ref=f115e5712]: 공식
+                        - generic [ref=f115e5713]: 우수셀러
+                      - generic [ref=f115e5716]: 새 창에서 열림
+                    - strong [ref=f115e5717]: N단독기획 페리오 고불소 효소의발견 치약 120g 5입 시그니처민트향 입냄새 구취케어 치석케어
+                    - generic [ref=f115e5719]:
+                      - generic [ref=f115e5721]:
+                        - generic [ref=f115e5722]: 할인 전 판매가
+                        - text: 31,800원
+                      - generic [ref=f115e5723]:
+                        - generic [ref=f115e5725]:
+                          - generic [ref=f115e5726]:
+                            - text: 18%
+                            - generic [ref=f115e5727]: 할인
+                          - generic [ref=f115e5728]: 25,800
+                          - generic [ref=f115e5729]: 원
+                        - generic [ref=f115e5730]:
+                          - generic [ref=f115e5731]: (10g당
+                          - generic [ref=f115e5732]: 430원)
+                    - generic [ref=f115e5733]:
+                      - generic [ref=f115e5734]: 멤버십 시작 시
+                      - generic [ref=f115e5735]:
+                        - generic [ref=f115e5736]: 최대 3,870원
+                        - generic [ref=f115e5737]: 포인트 적립
+                    - generic [ref=f115e5739]:
+                      - generic [ref=f115e5740]: N내일배송
+                      - generic [ref=f115e5742]: 7.22.(수) 도착
+                    - generic [ref=f115e5743]: 무료배송
+                    - generic [ref=f115e5746]:
+                      - generic [ref=f115e5747]:
+                        - generic [ref=f115e5750]: 별점
+                        - text: "4.89"
+                      - generic [ref=f115e5751]: 리뷰 5,448
+              - listitem [ref=f115e5752]:
+                - generic [ref=f115e5753]:
+                  - link "광고 오스템 뷰센몰 공식 새 창에서 열림 뷰센 C 충치케어 치약 120g, 4개 할인 전 판매가 44,000원 35% 할인 28,600 원 (10g당 596원) N내일배송 7.22.(수) 도착 무료배송 별점 4.89 리뷰 6,306 새 창에서 열림" [ref=f115e5754] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/quBECnlPc4W5kqQ_aKUVYRydFmxL2psB8H7kAFErZveCql09SC5nkDjMbhOMabEYWXwM2_m02yahQbBG9nE8DI3oA3hDa-de160kRHwZRICW2V25Oi7w2sI1YUE5lbz-ocuiH62IHmg327ZCDhSmodG9JygHj65pKoD90pKyovwFWU_i6sh5I9qenuj7q3zEo_hGY4KZ97klM7_MNFd-4F3tIfJNFa6NMp4PXPuXjVE-tmfRz6_QthOG7NKHU_ti-szY5xDp_amaKoHvfToyqx7pQR17YxKfe0TwJXgaUrxUA3gqnDguIS5kwfUUkbCnrpK-MIHPLBaWsnYbDajedQuRlTE-VsHZIJarpeuTeBHHF21Tr2dA5zSrCe02wOfaWwJbdgSd6FwLGept2XPSRS3e4T5TFvzB405iDSkOUWfhIITLzmYYU5DuCsiDo3-P1CUKjxAvujioxXToKTjbTqH2GXHXTQFO8RccpZnUKS8z3mwBpwNVDgsOzVSuvEQ4kdxRkjk_wPRIT3p3UhzafA==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f115e5755]: 새 창에서 열림
+                  - button "뷰센 C 충치케어 치약 120g, 4개 찜하기" [ref=f115e5759] [cursor=pointer]
+                  - generic [ref=f115e5764]:
+                    - generic [ref=f115e5765]:
+                      - button "광고" [ref=f115e5768] [cursor=pointer]
+                      - link "오스템 뷰센몰 공식 새 창에서 열림" [ref=f115e5775] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/quBECnlPc4W5kqQ_aKUVYRydFmxL2psB8H7kAFErZveCql09SC5nkDjMbhOMabEYWXwM2_m02yahQbBG9nE8DI3oA3hDa-de160kRHwZRICW2V25Oi7w2sI1YUE5lbz-ocuiH62IHmg327ZCDhSmodG9JygHj65pKoD90pKyovwFWU_i6sh5I9qenuj7q3zEo_hGY4KZ97klM7_MNFd-4F3tIfJNFa6NMp4PXPuXjVE-tmfRz6_QthOG7NKHU_ti-szY5xDp_amaKoHvfToyqx7pQR17YxKfe0TwJXgaUrxUA3gqnDguIS5kwfUUkbCnrpK-MIHPLBaWsnYbDajedQuRlTE-VsHZIJarpeuTeBHHF21Tr2dA5zSrCe02wOfaWwJbdgSd6FwLGept2XPSRS3e4T5TFvzB405iDSkOUWfhIITLzmYYU5DuCsiDo3-P1CUKjxAvujioxXToKTjbTqH2GXHXTQFO8RccpZnUKS8z3mwBpwNVDgsOzVSuvEQ4kdxRkjk_wPRIT3p3UhzafA==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f115e5776]: 오스템 뷰센몰
+                        - generic [ref=f115e5777]: 공식
+                        - generic [ref=f115e5781]: 새 창에서 열림
+                    - strong [ref=f115e5782]: 뷰센 C 충치케어 치약 120g, 4개
+                    - generic [ref=f115e5784]:
+                      - generic [ref=f115e5786]:
+                        - generic [ref=f115e5787]: 할인 전 판매가
+                        - text: 44,000원
+                      - generic [ref=f115e5788]:
+                        - generic [ref=f115e5790]:
+                          - generic [ref=f115e5791]:
+                            - text: 35%
+                            - generic [ref=f115e5792]: 할인
+                          - generic [ref=f115e5793]: 28,600
+                          - generic [ref=f115e5794]: 원
+                        - generic [ref=f115e5795]:
+                          - generic [ref=f115e5796]: (10g당
+                          - generic [ref=f115e5797]: 596원)
+                    - generic [ref=f115e5799]:
+                      - generic [ref=f115e5800]: N내일배송
+                      - generic [ref=f115e5802]: 7.22.(수) 도착
+                    - generic [ref=f115e5803]: 무료배송
+                    - generic [ref=f115e5806]:
+                      - generic [ref=f115e5807]:
+                        - generic [ref=f115e5810]: 별점
+                        - text: "4.89"
+                      - generic [ref=f115e5811]: 리뷰 6,306
+              - listitem [ref=f115e5812]:
+                - generic [ref=f115e5813]:
+                  - link "애경본사직영몰 공식 우수셀러 새 창에서 열림 2080 퓨어 치약 핑크솔트 마일드 민트향 150gX6입 2개(총 12입) +치약 50g 할인 전 판매가 28,400원 36% 할인 17,900 원 (10g당 99원) N내일배송 7.22.(수) 도착 무료배송 별점 4.86 리뷰 1,360 새 창에서 열림" [ref=f115e5814] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13110353452?nl-query=%EC%B9%98%EC%95%BD&nl-au=8ff13ca4b1624d58aebb90c602c70f69&NaPm=ci%3D8ff13ca4b1624d58aebb90c602c70f69%7Cct%3Dmru6xmov%7Ctr%3Dnslsl%7Csn%3D1485316%7Chk%3D267dc4102eec0cc400d43a62283d848830e21a7e
+                    - generic [ref=f115e5815]: 새 창에서 열림
+                  - button "2080 퓨어 치약 핑크솔트 마일드 민트향 150gX6입 2개(총 12입) +치약 50g 찜하기" [ref=f115e5819] [cursor=pointer]
+                  - generic [ref=f115e5824]:
+                    - link "애경본사직영몰 공식 우수셀러 새 창에서 열림" [ref=f115e5826] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fakofficial&tr=nslsl
+                      - generic [ref=f115e5827]: 애경본사직영몰
+                      - generic [ref=f115e5828]:
+                        - generic [ref=f115e5829]: 공식
+                        - generic [ref=f115e5830]: 우수셀러
+                      - generic [ref=f115e5833]: 새 창에서 열림
+                    - strong [ref=f115e5834]: 2080 퓨어 치약 핑크솔트 마일드 민트향 150gX6입 2개(총 12입) +치약 50g
+                    - generic [ref=f115e5836]:
+                      - generic [ref=f115e5838]:
+                        - generic [ref=f115e5839]: 할인 전 판매가
+                        - text: 28,400원
+                      - generic [ref=f115e5840]:
+                        - generic [ref=f115e5842]:
+                          - generic [ref=f115e5843]:
+                            - text: 36%
+                            - generic [ref=f115e5844]: 할인
+                          - generic [ref=f115e5845]: 17,900
+                          - generic [ref=f115e5846]: 원
+                        - generic [ref=f115e5847]:
+                          - generic [ref=f115e5848]: (10g당
+                          - generic [ref=f115e5849]: 99원)
+                    - generic [ref=f115e5851]:
+                      - generic [ref=f115e5852]: N내일배송
+                      - generic [ref=f115e5854]: 7.22.(수) 도착
+                    - generic [ref=f115e5855]: 무료배송
+                    - generic [ref=f115e5858]:
+                      - generic [ref=f115e5859]:
+                        - generic [ref=f115e5862]: 별점
+                        - text: "4.86"
+                      - generic [ref=f115e5863]: 리뷰 1,360
+              - listitem [ref=f115e5864]:
+                - generic [ref=f115e5865]:
+                  - link "애경본사직영몰 공식 우수셀러 새 창에서 열림 2080 닥터크리닉 대용량 고불소 치석 치약 190g 5입 국내생산+치약칫솔세트 할인 전 판매가 35,800원 55% 할인 15,900 원 (10g당 167원) N내일배송 7.22.(수) 도착 무료배송 별점 4.88 리뷰 9,909 새 창에서 열림" [ref=f115e5866] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/12143690887?nl-query=%EC%B9%98%EC%95%BD&nl-au=29d02ac259404e0cb89674f5e4eaa3ad&NaPm=ci%3D29d02ac259404e0cb89674f5e4eaa3ad%7Cct%3Dmru6xmow%7Ctr%3Dnslsl%7Csn%3D1485316%7Chk%3D264ab31547fd45c428dbf0d557f8ae07d1b89736
+                    - generic [ref=f115e5867]: 새 창에서 열림
+                  - button "2080 닥터크리닉 대용량 고불소 치석 치약 190g 5입 국내생산+치약칫솔세트 찜하기" [ref=f115e5871] [cursor=pointer]
+                  - generic [ref=f115e5876]:
+                    - link "애경본사직영몰 공식 우수셀러 새 창에서 열림" [ref=f115e5878] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fakofficial&tr=nslsl
+                      - generic [ref=f115e5879]: 애경본사직영몰
+                      - generic [ref=f115e5880]:
+                        - generic [ref=f115e5881]: 공식
+                        - generic [ref=f115e5882]: 우수셀러
+                      - generic [ref=f115e5885]: 새 창에서 열림
+                    - strong [ref=f115e5886]: 2080 닥터크리닉 대용량 고불소 치석 치약 190g 5입 국내생산+치약칫솔세트
+                    - generic [ref=f115e5888]:
+                      - generic [ref=f115e5890]:
+                        - generic [ref=f115e5891]: 할인 전 판매가
+                        - text: 35,800원
+                      - generic [ref=f115e5892]:
+                        - generic [ref=f115e5894]:
+                          - generic [ref=f115e5895]:
+                            - text: 55%
+                            - generic [ref=f115e5896]: 할인
+                          - generic [ref=f115e5897]: 15,900
+                          - generic [ref=f115e5898]: 원
+                        - generic [ref=f115e5899]:
+                          - generic [ref=f115e5900]: (10g당
+                          - generic [ref=f115e5901]: 167원)
+                    - generic [ref=f115e5903]:
+                      - generic [ref=f115e5904]: N내일배송
+                      - generic [ref=f115e5906]: 7.22.(수) 도착
+                    - generic [ref=f115e5907]: 무료배송
+                    - generic [ref=f115e5910]:
+                      - generic [ref=f115e5911]:
+                        - generic [ref=f115e5914]: 별점
+                        - text: "4.88"
+                      - generic [ref=f115e5915]: 리뷰 9,909
+              - listitem [ref=f115e5916]:
+                - generic [ref=f115e5917]:
+                  - link "자연팩토리 우수셀러 새 창에서 열림 엔치약 잇몸 케어 천연 생약추출 알란토인 임산부 불소 없는 좋은 치약 N 앤치약 12,000 원 (10g당 923원) 배송비 3,000원 오늘출발 15:00까지 주문 시 별점 4.79 리뷰 99,999+ 새 창에서 열림" [ref=f115e5918] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/4094549653?nl-query=%EC%B9%98%EC%95%BD&nl-au=1e728a5cc6d74177ab8ce5b34150203b&NaPm=ci%3D1e728a5cc6d74177ab8ce5b34150203b%7Cct%3Dmru6xmow%7Ctr%3Dnslsl%7Csn%3D851698%7Chk%3D03a01f24fd657a86c7dbaabb775222729821d7b8
+                    - generic [ref=f115e5919]: 새 창에서 열림
+                  - button "엔치약 잇몸 케어 천연 생약추출 알란토인 임산부 불소 없는 좋은 치약 N 앤치약 찜하기" [ref=f115e5923] [cursor=pointer]
+                  - generic [ref=f115e5928]:
+                    - link "자연팩토리 우수셀러 새 창에서 열림" [ref=f115e5930] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fnaturalfactory&tr=nslsl
+                      - generic [ref=f115e5931]: 자연팩토리
+                      - generic [ref=f115e5932]: 우수셀러
+                      - generic [ref=f115e5936]: 새 창에서 열림
+                    - strong [ref=f115e5937]: 엔치약 잇몸 케어 천연 생약추출 알란토인 임산부 불소 없는 좋은 치약 N 앤치약
+                    - generic [ref=f115e5940]:
+                      - generic [ref=f115e5942]:
+                        - generic [ref=f115e5943]: 12,000
+                        - generic [ref=f115e5944]: 원
+                      - generic [ref=f115e5945]:
+                        - generic [ref=f115e5946]: (10g당
+                        - generic [ref=f115e5947]: 923원)
+                      - generic [ref=f115e5948]:
+                        - generic [ref=f115e5949]: 배송비
+                        - generic [ref=f115e5954]: 3,000원
+                    - generic [ref=f115e5956]:
+                      - generic [ref=f115e5957]: 오늘출발
+                      - generic [ref=f115e5958]: 15:00까지 주문 시
+                    - generic [ref=f115e5959]:
+                      - generic [ref=f115e5960]:
+                        - generic [ref=f115e5963]: 별점
+                        - text: "4.79"
+                      - generic [ref=f115e5964]: 리뷰 99,999+
+              - listitem [ref=f115e5965]:
+                - generic [ref=f115e5966]:
+                  - link "광고 투스노트 새 창에서 열림 투스노트 센티드치약 베르가못향 100g x 3개 할인 전 판매가 76,000원 60% 할인 29,800 원 (10g당 993원) 오늘출발 14:30까지 주문 시 무료배송 새 창에서 열림" [ref=f115e5967] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/LnPouKGCsZSt4pNZUXHs7rj_5IqgEkftz6WdIPHgH-Nx3bKtUoHZl-zGi-smKxzebz_v2-XR-iv_93fNUcAr4Kq5peQvU2UQU1e22bRQaSYThAuZnHmJuy_WNWNPp-uZXW1ggy1kTQLl3jgld2ZKGxaqd89Cd7xOqqqhbtW54tFBmLE-bKi-Vx4UqG9NxH2FyQidTmtXPPj_gozuSZgKkrbS0ItbJHXiVLdFGPvFQr849d5hkQyyP9A_xP8u84j81BlB9BlPgeDXz3cSo7FYVj9FYDXZL6nCyW2nlX9opKmSxm4tTUZHoIHu5Xs8i6ABCxnWq61bBsH36anh4okndSrXq9iW7xFSAdLokNd-OyIjID8N7ziwKctOqqUzFXbHk8ehi0KnXtu58m7CYsVqoVbKAqbAcSbD9UHe6rsbPrm47ZWCcIKdvWDpy-3dB_4WBObDef2W5IV82zW6Se9lg-BY02QrBV1Gi6hLjDGtaCv7dqRxe-nt1dAL8YjhJ6MZQtUHmJ1_p82SA3vCF9R1-g==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f115e5968]: 새 창에서 열림
+                  - button "투스노트 센티드치약 베르가못향 100g x 3개 찜하기" [ref=f115e5972] [cursor=pointer]
+                  - generic [ref=f115e5977]:
+                    - generic [ref=f115e5978]:
+                      - button "광고" [ref=f115e5981] [cursor=pointer]
+                      - link "투스노트 새 창에서 열림" [ref=f115e5988] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/LnPouKGCsZSt4pNZUXHs7rj_5IqgEkftz6WdIPHgH-Nx3bKtUoHZl-zGi-smKxzebz_v2-XR-iv_93fNUcAr4Kq5peQvU2UQU1e22bRQaSYThAuZnHmJuy_WNWNPp-uZXW1ggy1kTQLl3jgld2ZKGxaqd89Cd7xOqqqhbtW54tFBmLE-bKi-Vx4UqG9NxH2FyQidTmtXPPj_gozuSZgKkrbS0ItbJHXiVLdFGPvFQr849d5hkQyyP9A_xP8u84j81BlB9BlPgeDXz3cSo7FYVj9FYDXZL6nCyW2nlX9opKmSxm4tTUZHoIHu5Xs8i6ABCxnWq61bBsH36anh4okndSrXq9iW7xFSAdLokNd-OyIjID8N7ziwKctOqqUzFXbHk8ehi0KnXtu58m7CYsVqoVbKAqbAcSbD9UHe6rsbPrm47ZWCcIKdvWDpy-3dB_4WBObDef2W5IV82zW6Se9lg-BY02QrBV1Gi6hLjDGtaCv7dqRxe-nt1dAL8YjhJ6MZQtUHmJ1_p82SA3vCF9R1-g==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f115e5989]: 투스노트
+                        - generic [ref=f115e5992]: 새 창에서 열림
+                    - strong [ref=f115e5993]: 투스노트 센티드치약 베르가못향 100g x 3개
+                    - generic [ref=f115e5995]:
+                      - generic [ref=f115e5997]:
+                        - generic [ref=f115e5998]: 할인 전 판매가
+                        - text: 76,000원
+                      - generic [ref=f115e5999]:
+                        - generic [ref=f115e6001]:
+                          - generic [ref=f115e6002]:
+                            - text: 60%
+                            - generic [ref=f115e6003]: 할인
+                          - generic [ref=f115e6004]: 29,800
+                          - generic [ref=f115e6005]: 원
+                        - generic [ref=f115e6006]:
+                          - generic [ref=f115e6007]: (10g당
+                          - generic [ref=f115e6008]: 993원)
+                    - generic [ref=f115e6010]:
+                      - generic [ref=f115e6011]: 오늘출발
+                      - generic [ref=f115e6012]: 14:30까지 주문 시
+                    - generic [ref=f115e6013]: 무료배송
+              - listitem [ref=f115e6016]:
+                - generic [ref=f115e6017]:
+                  - link "LG생활건강 공식 스토어 우수셀러 새 창에서 열림 엘지생활건강 히말라야 핑크솔트 담은 치약 아이스 카밍 민트 100g, 8개 5% 할인 할인 전 판매가 19,900원 최저가 18,900 원 (10g당 236원) 배송비 2,500원 N내일배송 7.22.(수) 도착 별점 4.86 리뷰 3,916 새 창에서 열림" [ref=f115e6018] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/3650484497?nl-query=%EC%B9%98%EC%95%BD&nl-au=24c661667af849afaa3f0e3e5044ab42&NaPm=ci%3D24c661667af849afaa3f0e3e5044ab42%7Cct%3Dmru6xmow%7Ctr%3Dnslctg%7Csn%3D186622%7Chk%3D339451872575e3b6a10c21ae50c5a675fcd86bf2
+                    - generic [ref=f115e6019]: 새 창에서 열림
+                  - button "엘지생활건강 히말라야 핑크솔트 담은 치약 아이스 카밍 민트 100g, 8개 찜하기" [ref=f115e6023] [cursor=pointer]
+                  - generic [ref=f115e6028]:
+                    - link "LG생활건강 공식 스토어 우수셀러 새 창에서 열림" [ref=f115e6030] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Flgcaremall&tr=nslctg
+                      - generic [ref=f115e6031]: LG생활건강 공식 스토어
+                      - generic [ref=f115e6032]: 우수셀러
+                      - generic [ref=f115e6036]: 새 창에서 열림
+                    - strong [ref=f115e6037]: 엘지생활건강 히말라야 핑크솔트 담은 치약 아이스 카밍 민트 100g, 8개
+                    - generic [ref=f115e6039]:
+                      - generic [ref=f115e6040]:
+                        - generic [ref=f115e6041]:
+                          - text: 5%
+                          - generic [ref=f115e6042]: 할인
+                        - generic [ref=f115e6043]:
+                          - generic [ref=f115e6044]: 할인 전 판매가
+                          - text: 19,900원
+                      - generic [ref=f115e6045]:
+                        - generic [ref=f115e6047]:
+                          - generic [ref=f115e6048]: 최저가
+                          - generic [ref=f115e6049]: 18,900
+                          - generic [ref=f115e6050]: 원
+                        - generic [ref=f115e6051]:
+                          - generic [ref=f115e6052]: (10g당
+                          - generic [ref=f115e6053]: 236원)
+                        - generic [ref=f115e6054]:
+                          - generic [ref=f115e6055]: 배송비
+                          - generic [ref=f115e6060]: 2,500원
+                    - generic [ref=f115e6062]:
+                      - generic [ref=f115e6063]: N내일배송
+                      - generic [ref=f115e6065]: 7.22.(수) 도착
+                    - generic [ref=f115e6066]:
+                      - generic [ref=f115e6067]:
+                        - generic [ref=f115e6070]: 별점
+                        - text: "4.86"
+                      - generic [ref=f115e6071]: 리뷰 3,916
+                  - button "전체판매자 상품 2 개 더보기" [ref=f115e6073] [cursor=pointer]:
+                    - generic [ref=f115e6074]:
+                      - text: 전체판매자
+                      - generic [ref=f115e6075]: 상품
+                    - generic [ref=f115e6076]:
+                      - generic [ref=f115e6077]: "2"
+                      - generic [ref=f115e6078]: 개
+                    - generic [ref=f115e6081]: 더보기
+              - listitem [ref=f115e6082]:
+                - generic [ref=f115e6083]:
+                  - link "켄트오랄스 공식 우수셀러 새 창에서 열림 켄트 오리지널 치약 120g, 3개 26% 할인 할인 전 판매가 21,000원 최저가 15,500 원 (120g당 5,167원) N내일배송 7.22.(수) 도착 무료배송 별점 4.89 리뷰 586 새 창에서 열림" [ref=f115e6084] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13458002816?nl-query=%EC%B9%98%EC%95%BD&nl-au=8a7794754ea04a9981620676fa2555e3&NaPm=ci%3D8a7794754ea04a9981620676fa2555e3%7Cct%3Dmru6xmox%7Ctr%3Dnslctg%7Csn%3D393852%7Chk%3D70bf02e3c50f478997b157e477a3c31a91aefc8a
+                    - generic [ref=f115e6085]: 새 창에서 열림
+                  - button "켄트 오리지널 치약 120g, 3개 찜하기" [ref=f115e6089] [cursor=pointer]
+                  - generic [ref=f115e6094]:
+                    - link "켄트오랄스 공식 우수셀러 새 창에서 열림" [ref=f115e6096] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fkentorals&tr=nslctg
+                      - generic [ref=f115e6097]: 켄트오랄스
+                      - generic [ref=f115e6098]:
+                        - generic [ref=f115e6099]: 공식
+                        - generic [ref=f115e6100]: 우수셀러
+                      - generic [ref=f115e6103]: 새 창에서 열림
+                    - strong [ref=f115e6104]: 켄트 오리지널 치약 120g, 3개
+                    - generic [ref=f115e6106]:
+                      - generic [ref=f115e6107]:
+                        - generic [ref=f115e6108]:
+                          - text: 26%
+                          - generic [ref=f115e6109]: 할인
+                        - generic [ref=f115e6110]:
+                          - generic [ref=f115e6111]: 할인 전 판매가
+                          - text: 21,000원
+                      - generic [ref=f115e6112]:
+                        - generic [ref=f115e6114]:
+                          - generic [ref=f115e6115]: 최저가
+                          - generic [ref=f115e6116]: 15,500
+                          - generic [ref=f115e6117]: 원
+                        - generic [ref=f115e6118]:
+                          - generic [ref=f115e6119]: (120g당
+                          - generic [ref=f115e6120]: 5,167원)
+                    - generic [ref=f115e6122]:
+                      - generic [ref=f115e6123]: N내일배송
+                      - generic [ref=f115e6125]: 7.22.(수) 도착
+                    - generic [ref=f115e6126]: 무료배송
+                    - generic [ref=f115e6129]:
+                      - generic [ref=f115e6130]:
+                        - generic [ref=f115e6133]: 별점
+                        - text: "4.89"
+                      - generic [ref=f115e6134]: 리뷰 586
+                  - button "전체판매자 상품 2 개 더보기" [ref=f115e6136] [cursor=pointer]:
+                    - generic [ref=f115e6137]:
+                      - text: 전체판매자
+                      - generic [ref=f115e6138]: 상품
+                    - generic [ref=f115e6139]:
+                      - generic [ref=f115e6140]: "2"
+                      - generic [ref=f115e6141]: 개
+                    - generic [ref=f115e6144]: 더보기
+              - listitem [ref=f115e6145]:
+                - link "기획전 에코버 공식스토어 월간CRM_상품POOL 05.26.~12.31. 기획전 바로가기 새 창에서 열림" [ref=f115e6146] [cursor=pointer]:
+                  - /url: https://shopping.naver.com/festa/onsale/6a15673b21eb71525c8a175b
+                  - generic [ref=f115e6147]: 기획전
+                  - generic [ref=f115e6150]:
+                    - generic [ref=f115e6151]: 에코버 공식스토어
+                    - strong [ref=f115e6152]: 월간CRM_상품POOL
+                    - generic [ref=f115e6153]: 05.26.~12.31.
+                    - generic [ref=f115e6154]: 기획전 바로가기
+                  - generic [ref=f115e6158]: 새 창에서 열림
+              - listitem [ref=f115e6159]:
+                - generic [ref=f115e6160]:
+                  - link "다나아팜 우수셀러 새 창에서 열림 [약국판매] 최신 대용량 리뉴얼 3개세트 센소다인 후레쉬 플러스 120g 민감 치아 민트 치약 14,490 원 (10g당 403원) 배송비 3,000원 N내일배송 7.22.(수) 도착 별점 5.0 리뷰 22 새 창에서 열림" [ref=f115e6161] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13577142699?nl-query=%EC%B9%98%EC%95%BD&nl-au=855a714d538348c0b6cb1b454e9dfc5a&NaPm=ci%3D855a714d538348c0b6cb1b454e9dfc5a%7Cct%3Dmru6xmox%7Ctr%3Dnslsme%7Csn%3D878713%7Chk%3D1c3854f94c4853f70cfd47124ccfd0597f6f96e4
+                    - generic [ref=f115e6162]: 새 창에서 열림
+                  - button "[약국판매] 최신 대용량 리뉴얼 3개세트 센소다인 후레쉬 플러스 120g 민감 치아 민트 치약 찜하기" [ref=f115e6166] [cursor=pointer]
+                  - generic [ref=f115e6171]:
+                    - link "다나아팜 우수셀러 새 창에서 열림" [ref=f115e6173] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fdanaapharm&tr=nslsme
+                      - generic [ref=f115e6174]: 다나아팜
+                      - generic [ref=f115e6175]: 우수셀러
+                      - generic [ref=f115e6179]: 새 창에서 열림
+                    - strong [ref=f115e6180]: "[약국판매] 최신 대용량 리뉴얼 3개세트 센소다인 후레쉬 플러스 120g 민감 치아 민트 치약"
+                    - generic [ref=f115e6183]:
+                      - generic [ref=f115e6185]:
+                        - generic [ref=f115e6186]: 14,490
+                        - generic [ref=f115e6187]: 원
+                      - generic [ref=f115e6188]:
+                        - generic [ref=f115e6189]: (10g당
+                        - generic [ref=f115e6190]: 403원)
+                      - generic [ref=f115e6191]:
+                        - generic [ref=f115e6192]: 배송비
+                        - generic [ref=f115e6197]: 3,000원
+                    - generic [ref=f115e6199]:
+                      - generic [ref=f115e6200]: N내일배송
+                      - generic [ref=f115e6202]: 7.22.(수) 도착
+                    - generic [ref=f115e6203]:
+                      - generic [ref=f115e6204]:
+                        - generic [ref=f115e6207]: 별점
+                        - text: "5.0"
+                      - generic [ref=f115e6208]: 리뷰 22
+              - listitem [ref=f115e6209]
+              - listitem [ref=f115e6211]:
+                - generic [ref=f115e6212]:
+                  - link "슈퍼적립 광고 닥터그루트 브랜드스토어 우수셀러 새 창에서 열림 [네이버단독 기획제품] 유시몰 기능성 화이트닝 치약 106g 2개+미백치약 20g+오리지널 20g 할인 전 판매가 31,800원 18% 할인 25,800 원 (10g당 1,767원) 멤버십 시작 시 최대 3,870원 포인트 적립 N내일배송 7.22.(수) 도착 무료배송 별점 4.72 리뷰 789 새 창에서 열림" [ref=f115e6213] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/__hA2fWDeFR5auhOaiixeMiQkuy668CBVsuz7RUdyL0yb4cUpOvudCjxPwFZfZ7R8_BxZzRQa0tMOaj0MQYJP2134l21ZwbQYANQepi18dUGnPP_AhLLryu9VFzxOCX1cDBj0AazraRQ9OPPUzO_J34CqdgRRXQ0Oj83uObUZBO3oB52WQdvh189Maq-TIZIXiaCAhGHZvaF81G6Vas70wxORl2ueaJ_-N4CyPPtdNufFGtMXeiV6RC5gA5D2fUt1tfrb579gw5RadNKvqHDOLlBcMVxo0oGeFDBoo1PwaVzcM549OCkXfbtg7c_PLIqs17uLlTb_s21BwAviWUXmLR3GcVNqZWLU1ZAbXBfouq4Cx-qKl2H_qjgowq5FqSE?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f115e6214]: 새 창에서 열림
+                  - generic [ref=f115e6215]:
+                    - img "슈퍼적립" [ref=f115e6219]
+                    - button "[네이버단독 기획제품] 유시몰 기능성 화이트닝 치약 106g 2개+미백치약 20g+오리지널 20g 찜하기" [ref=f115e6221] [cursor=pointer]
+                  - generic [ref=f115e6226]:
+                    - generic [ref=f115e6227]:
+                      - button "광고" [ref=f115e6230] [cursor=pointer]
+                      - link "닥터그루트 브랜드스토어 우수셀러 새 창에서 열림" [ref=f115e6237] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/__hA2fWDeFR5auhOaiixeMiQkuy668CBVsuz7RUdyL0yb4cUpOvudCjxPwFZfZ7R8_BxZzRQa0tMOaj0MQYJP2134l21ZwbQYANQepi18dUGnPP_AhLLryu9VFzxOCX1cDBj0AazraRQ9OPPUzO_J34CqdgRRXQ0Oj83uObUZBO3oB52WQdvh189Maq-TIZIXiaCAhGHZvaF81G6Vas70wxORl2ueaJ_-N4CyPPtdNufFGtMXeiV6RC5gA5D2fUt1tfrb579gw5RadNKvqHDOLlBcMVxo0oGeFDBoo1PwaVzcM549OCkXfbtg7c_PLIqs17uLlTb_s21BwAviWUXmLR3GcVNqZWLU1ZAbXBfouq4Cx-qKl2H_qjgowq5FqSE?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f115e6238]: 닥터그루트 브랜드스토어
+                        - generic [ref=f115e6239]: 우수셀러
+                        - generic [ref=f115e6243]: 새 창에서 열림
+                    - strong [ref=f115e6244]: "[네이버단독 기획제품] 유시몰 기능성 화이트닝 치약 106g 2개+미백치약 20g+오리지널 20g"
+                    - generic [ref=f115e6246]:
+                      - generic [ref=f115e6248]:
+                        - generic [ref=f115e6249]: 할인 전 판매가
+                        - text: 31,800원
+                      - generic [ref=f115e6250]:
+                        - generic [ref=f115e6252]:
+                          - generic [ref=f115e6253]:
+                            - text: 18%
+                            - generic [ref=f115e6254]: 할인
+                          - generic [ref=f115e6255]: 25,800
+                          - generic [ref=f115e6256]: 원
+                        - generic [ref=f115e6257]:
+                          - generic [ref=f115e6258]: (10g당
+                          - generic [ref=f115e6259]: 1,767원)
+                    - generic [ref=f115e6260]:
+                      - generic [ref=f115e6261]: 멤버십 시작 시
+                      - generic [ref=f115e6262]:
+                        - generic [ref=f115e6263]: 최대 3,870원
+                        - generic [ref=f115e6264]: 포인트 적립
+                    - generic [ref=f115e6266]:
+                      - generic [ref=f115e6267]: N내일배송
+                      - generic [ref=f115e6269]: 7.22.(수) 도착
+                    - generic [ref=f115e6270]: 무료배송
+                    - generic [ref=f115e6273]:
+                      - generic [ref=f115e6274]:
+                        - generic [ref=f115e6277]: 별점
+                        - text: "4.72"
+                      - generic [ref=f115e6278]: 리뷰 789
+              - listitem [ref=f115e6279]:
+                - generic [ref=f115e6280]:
+                  - link "티에스shop 우수셀러 새 창에서 열림 센소다인 멀티케어 치약 100g5개 불소 시린이 코스트코 대용량 19,990 원 (10g당 400원) 배송비 3,000원 N내일배송 7.22.(수) 도착 별점 4.86 리뷰 4,761 새 창에서 열림" [ref=f115e6281] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/9396863464?nl-query=%EC%B9%98%EC%95%BD&nl-au=e64039942d9a4da98ca85af6ffe2ae6e&NaPm=ci%3De64039942d9a4da98ca85af6ffe2ae6e%7Cct%3Dmru6xmox%7Ctr%3Dnslsme%7Csn%3D223487%7Chk%3D8c2ee493a3c6a436fe1c0757338360467f091ea0
+                    - generic [ref=f115e6282]: 새 창에서 열림
+                  - button "센소다인 멀티케어 치약 100g5개 불소 시린이 코스트코 대용량 찜하기" [ref=f115e6286] [cursor=pointer]
+                  - generic [ref=f115e6291]:
+                    - link "티에스shop 우수셀러 새 창에서 열림" [ref=f115e6293] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Ftsshop1&tr=nslsme
+                      - generic [ref=f115e6294]: 티에스shop
+                      - generic [ref=f115e6295]: 우수셀러
+                      - generic [ref=f115e6299]: 새 창에서 열림
+                    - strong [ref=f115e6300]: 센소다인 멀티케어 치약 100g5개 불소 시린이 코스트코 대용량
+                    - generic [ref=f115e6303]:
+                      - generic [ref=f115e6305]:
+                        - generic [ref=f115e6306]: 19,990
+                        - generic [ref=f115e6307]: 원
+                      - generic [ref=f115e6308]:
+                        - generic [ref=f115e6309]: (10g당
+                        - generic [ref=f115e6310]: 400원)
+                      - generic [ref=f115e6311]:
+                        - generic [ref=f115e6312]: 배송비
+                        - generic [ref=f115e6317]: 3,000원
+                    - generic [ref=f115e6319]:
+                      - generic [ref=f115e6320]: N내일배송
+                      - generic [ref=f115e6322]: 7.22.(수) 도착
+                    - generic [ref=f115e6323]:
+                      - generic [ref=f115e6324]:
+                        - generic [ref=f115e6327]: 별점
+                        - text: "4.86"
+                      - generic [ref=f115e6328]: 리뷰 4,761
+              - listitem [ref=f115e6329]:
+                - generic [ref=f115e6330]:
+                  - link "센소다인 공식스토어 공식 우수셀러 새 창에서 열림 글락소스미스클라인 센소다인 리페어 앤 프로텍트 치약 100g, 6개 21% 할인 할인 전 판매가 66,000원 최저가 51,700 원 (10g당 862원) N내일배송 7.22.(수) 도착 무료배송 별점 4.86 리뷰 43,553 새 창에서 열림" [ref=f115e6331] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/8927827299?nl-query=%EC%B9%98%EC%95%BD&nl-au=d5927fcb4369473a96e2ade1837712db&NaPm=ci%3Dd5927fcb4369473a96e2ade1837712db%7Cct%3Dmru6xmoy%7Ctr%3Dnslctg%7Csn%3D629507%7Chk%3Dad44d5226bc879a2a7f6956f9374900fe84d911a
+                    - generic [ref=f115e6332]: 새 창에서 열림
+                  - button "글락소스미스클라인 센소다인 리페어 앤 프로텍트 치약 100g, 6개 찜하기" [ref=f115e6336] [cursor=pointer]
+                  - generic [ref=f115e6341]:
+                    - link "센소다인 공식스토어 공식 우수셀러 새 창에서 열림" [ref=f115e6343] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fsensodynemall&tr=nslctg
+                      - generic [ref=f115e6344]: 센소다인 공식스토어
+                      - generic [ref=f115e6345]:
+                        - generic [ref=f115e6346]: 공식
+                        - generic [ref=f115e6347]: 우수셀러
+                      - generic [ref=f115e6350]: 새 창에서 열림
+                    - strong [ref=f115e6351]: 글락소스미스클라인 센소다인 리페어 앤 프로텍트 치약 100g, 6개
+                    - generic [ref=f115e6353]:
+                      - generic [ref=f115e6354]:
+                        - generic [ref=f115e6355]:
+                          - text: 21%
+                          - generic [ref=f115e6356]: 할인
+                        - generic [ref=f115e6357]:
+                          - generic [ref=f115e6358]: 할인 전 판매가
+                          - text: 66,000원
+                      - generic [ref=f115e6359]:
+                        - generic [ref=f115e6361]:
+                          - generic [ref=f115e6362]: 최저가
+                          - generic [ref=f115e6363]: 51,700
+                          - generic [ref=f115e6364]: 원
+                        - generic [ref=f115e6365]:
+                          - generic [ref=f115e6366]: (10g당
+                          - generic [ref=f115e6367]: 862원)
+                    - generic [ref=f115e6369]:
+                      - generic [ref=f115e6370]: N내일배송
+                      - generic [ref=f115e6372]: 7.22.(수) 도착
+                    - generic [ref=f115e6373]: 무료배송
+                    - generic [ref=f115e6376]:
+                      - generic [ref=f115e6377]:
+                        - generic [ref=f115e6380]: 별점
+                        - text: "4.86"
+                      - generic [ref=f115e6381]: 리뷰 43,553
+                  - button "전체판매자 상품 9 개 더보기" [ref=f115e6383] [cursor=pointer]:
+                    - generic [ref=f115e6384]:
+                      - text: 전체판매자
+                      - generic [ref=f115e6385]: 상품
+                    - generic [ref=f115e6386]:
+                      - generic [ref=f115e6387]: "9"
+                      - generic [ref=f115e6388]: 개
+                    - generic [ref=f115e6391]: 더보기
+              - listitem [ref=f115e6392]:
+                - generic [ref=f115e6393]:
+                  - link "애경본사직영몰 공식 우수셀러 새 창에서 열림 2080 닥터크리닉 미백치약 120g, 4개 51% 할인 할인 전 판매가 28,900원 최저가 13,900 원 (10g당 290원) 무료배송 별점 4.81 리뷰 1,093 새 창에서 열림" [ref=f115e6394] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/7638537613?nl-query=%EC%B9%98%EC%95%BD&nl-au=f7f468ce31d841e7a813e651229458ac&NaPm=ci%3Df7f468ce31d841e7a813e651229458ac%7Cct%3Dmru6xmoy%7Ctr%3Dnslctg%7Csn%3D1485316%7Chk%3D92294df1f20212eaded9a4dcf0d561cdfa6b4cab
+                    - generic [ref=f115e6395]: 새 창에서 열림
+                  - button "2080 닥터크리닉 미백치약 120g, 4개 찜하기" [ref=f115e6399] [cursor=pointer]
+                  - generic [ref=f115e6404]:
+                    - link "애경본사직영몰 공식 우수셀러 새 창에서 열림" [ref=f115e6406] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fakofficial&tr=nslctg
+                      - generic [ref=f115e6407]: 애경본사직영몰
+                      - generic [ref=f115e6408]:
+                        - generic [ref=f115e6409]: 공식
+                        - generic [ref=f115e6410]: 우수셀러
+                      - generic [ref=f115e6413]: 새 창에서 열림
+                    - strong [ref=f115e6414]: 2080 닥터크리닉 미백치약 120g, 4개
+                    - generic [ref=f115e6416]:
+                      - generic [ref=f115e6417]:
+                        - generic [ref=f115e6418]:
+                          - text: 51%
+                          - generic [ref=f115e6419]: 할인
+                        - generic [ref=f115e6420]:
+                          - generic [ref=f115e6421]: 할인 전 판매가
+                          - text: 28,900원
+                      - generic [ref=f115e6422]:
+                        - generic [ref=f115e6424]:
+                          - generic [ref=f115e6425]: 최저가
+                          - generic [ref=f115e6426]: 13,900
+                          - generic [ref=f115e6427]: 원
+                        - generic [ref=f115e6428]:
+                          - generic [ref=f115e6429]: (10g당
+                          - generic [ref=f115e6430]: 290원)
+                    - generic [ref=f115e6431]: 무료배송
+                    - generic [ref=f115e6434]:
+                      - generic [ref=f115e6435]:
+                        - generic [ref=f115e6438]: 별점
+                        - text: "4.81"
+                      - generic [ref=f115e6439]: 리뷰 1,093
+                  - button "전체판매자 상품 20 개 더보기" [ref=f115e6441] [cursor=pointer]:
+                    - generic [ref=f115e6442]:
+                      - text: 전체판매자
+                      - generic [ref=f115e6443]: 상품
+                    - generic [ref=f115e6444]:
+                      - generic [ref=f115e6445]: "20"
+                      - generic [ref=f115e6446]: 개
+                    - generic [ref=f115e6449]: 더보기
+              - listitem [ref=f115e6450]:
+                - generic [ref=f115e6451]:
+                  - link "광고 덴티마마 새 창에서 열림 [치과의사 직접 개발] 덴티마마 토탈케어 치약 고불소 1450ppm 110g, 2개 할인 전 판매가 57,800원 62% 할인 21,800 원 (10g당 991원) 오늘출발 14:00까지 주문 시 무료배송 새 창에서 열림" [ref=f115e6452] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/JOwMtYegIe1np3nABDVo3DqWMOegd0w0yjcATK5h3iXRprNDTrXuZMI56sySBf9FWbud4B4kFAOprsCXpLgqSsvzExsrSihM1JwRXhvVhUUiw18XwFqtUi9tmEGNnY-6c4Khf0aWsP0n4DtfoUQ2PTKZEzA_HJVQoi1t5SiH3oSFJruMEF6-lGDTub9oxVX-oH1btUIOba4NUQHRTz19MgGxDg8B8-n-mRKD-gs4iUyuTthxuwiRZmyXs6lQTxXk8n-ukRjS9oQNlgpMCnTBcSLAdsrbHhvzWDRsQlfTbP1559qduEQ6H43QJ-OM6Kc2w7NBOdj8t4RVoqpPGpyLsqvz5NwDzXnFh4FrJ-fudGDsejFi3xNYthorTmHB7_XaVxHyg-pZwlAvxSIbHB-B6kIEM4cAKCqqV5Fq2Ee4bfUsRcjKQwF3Ricg5_AHV3amt8zPKKEl4ytE4yN3mtXh7Dlp88r6IIQnv8bnegm9ljg063cFXIfQj0XunmnBYwodROxwR_F7qB6enh8pyxaAkA==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f115e6453]: 새 창에서 열림
+                  - button "[치과의사 직접 개발] 덴티마마 토탈케어 치약 고불소 1450ppm 110g, 2개 찜하기" [ref=f115e6457] [cursor=pointer]
+                  - generic [ref=f115e6462]:
+                    - generic [ref=f115e6463]:
+                      - button "광고" [ref=f115e6466] [cursor=pointer]
+                      - link "덴티마마 새 창에서 열림" [ref=f115e6473] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/JOwMtYegIe1np3nABDVo3DqWMOegd0w0yjcATK5h3iXRprNDTrXuZMI56sySBf9FWbud4B4kFAOprsCXpLgqSsvzExsrSihM1JwRXhvVhUUiw18XwFqtUi9tmEGNnY-6c4Khf0aWsP0n4DtfoUQ2PTKZEzA_HJVQoi1t5SiH3oSFJruMEF6-lGDTub9oxVX-oH1btUIOba4NUQHRTz19MgGxDg8B8-n-mRKD-gs4iUyuTthxuwiRZmyXs6lQTxXk8n-ukRjS9oQNlgpMCnTBcSLAdsrbHhvzWDRsQlfTbP1559qduEQ6H43QJ-OM6Kc2w7NBOdj8t4RVoqpPGpyLsqvz5NwDzXnFh4FrJ-fudGDsejFi3xNYthorTmHB7_XaVxHyg-pZwlAvxSIbHB-B6kIEM4cAKCqqV5Fq2Ee4bfUsRcjKQwF3Ricg5_AHV3amt8zPKKEl4ytE4yN3mtXh7Dlp88r6IIQnv8bnegm9ljg063cFXIfQj0XunmnBYwodROxwR_F7qB6enh8pyxaAkA==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f115e6474]: 덴티마마
+                        - generic [ref=f115e6477]: 새 창에서 열림
+                    - strong [ref=f115e6478]: "[치과의사 직접 개발] 덴티마마 토탈케어 치약 고불소 1450ppm 110g, 2개"
+                    - generic [ref=f115e6480]:
+                      - generic [ref=f115e6482]:
+                        - generic [ref=f115e6483]: 할인 전 판매가
+                        - text: 57,800원
+                      - generic [ref=f115e6484]:
+                        - generic [ref=f115e6486]:
+                          - generic [ref=f115e6487]:
+                            - text: 62%
+                            - generic [ref=f115e6488]: 할인
+                          - generic [ref=f115e6489]: 21,800
+                          - generic [ref=f115e6490]: 원
+                        - generic [ref=f115e6491]:
+                          - generic [ref=f115e6492]: (10g당
+                          - generic [ref=f115e6493]: 991원)
+                    - generic [ref=f115e6495]:
+                      - generic [ref=f115e6496]: 오늘출발
+                      - generic [ref=f115e6497]: 14:00까지 주문 시
+                    - generic [ref=f115e6498]: 무료배송
+              - listitem [ref=f115e6501]:
+                - generic [ref=f115e6502]:
+                  - link "에스바디44 우수셀러 새 창에서 열림 암웨이 글리스터 르미낙트 플로라이드 치약 200g, 4개 최저가 24,500 원 (10g당 306원) 배송비 3,000원 오늘출발 15:00까지 주문 시 별점 4.86 리뷰 8,913 새 창에서 열림" [ref=f115e6503] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/8697197337?nl-query=%EC%B9%98%EC%95%BD&nl-au=d64bcae903b14fc4ac413010a723c6f4&NaPm=ci%3Dd64bcae903b14fc4ac413010a723c6f4%7Cct%3Dmru6xmoy%7Ctr%3Dnslctg%7Csn%3D177197%7Chk%3Dcc0a5f3391810701f3e7dc1f7d661688a42e0387
+                    - generic [ref=f115e6504]: 새 창에서 열림
+                  - button "암웨이 글리스터 르미낙트 플로라이드 치약 200g, 4개 찜하기" [ref=f115e6508] [cursor=pointer]
+                  - generic [ref=f115e6513]:
+                    - link "에스바디44 우수셀러 새 창에서 열림" [ref=f115e6515] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fsbody44&tr=nslctg
+                      - generic [ref=f115e6516]: 에스바디44
+                      - generic [ref=f115e6517]: 우수셀러
+                      - generic [ref=f115e6521]: 새 창에서 열림
+                    - strong [ref=f115e6522]: 암웨이 글리스터 르미낙트 플로라이드 치약 200g, 4개
+                    - generic [ref=f115e6525]:
+                      - generic [ref=f115e6527]:
+                        - generic [ref=f115e6528]: 최저가
+                        - generic [ref=f115e6529]: 24,500
+                        - generic [ref=f115e6530]: 원
+                      - generic [ref=f115e6531]:
+                        - generic [ref=f115e6532]: (10g당
+                        - generic [ref=f115e6533]: 306원)
+                      - generic [ref=f115e6534]:
+                        - generic [ref=f115e6535]: 배송비
+                        - generic [ref=f115e6540]: 3,000원
+                    - generic [ref=f115e6542]:
+                      - generic [ref=f115e6543]: 오늘출발
+                      - generic [ref=f115e6544]: 15:00까지 주문 시
+                    - generic [ref=f115e6545]:
+                      - generic [ref=f115e6546]:
+                        - generic [ref=f115e6549]: 별점
+                        - text: "4.86"
+                      - generic [ref=f115e6550]: 리뷰 8,913
+                  - button "전체판매자 상품 26 개 더보기" [ref=f115e6552] [cursor=pointer]:
+                    - generic [ref=f115e6553]:
+                      - text: 전체판매자
+                      - generic [ref=f115e6554]: 상품
+                    - generic [ref=f115e6555]:
+                      - generic [ref=f115e6556]: "26"
+                      - generic [ref=f115e6557]: 개
+                    - generic [ref=f115e6560]: 더보기
+              - listitem [ref=f115e6561]:
+                - generic [ref=f115e6562]:
+                  - link "광고 화이니카 공식 새 창에서 열림 화이니카 치탄플러스 분말치약 20g, 1개 할인 전 판매가 44,100원 4% 할인 41,900 원 (20g당 41,900원) N내일배송 7.22.(수) 도착 무료배송 새 창에서 열림" [ref=f115e6563] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/11438165866?nl-query=%EC%B9%98%EC%95%BD&nl-au=8f12606d022d4d518b820ab849e46d68&NaPm=ci%3D8f12606d022d4d518b820ab849e46d68%7Cct%3Dmru6xmoz%7Ctr%3Dnslsl%7Csn%3D7989324%7Chk%3D1046601bcf103e2c76682baa659ca76f480ff424
+                    - generic [ref=f115e6564]: 새 창에서 열림
+                  - button "(+앵커프리칫솔 1개) 화이니카 치탄플러스 분말치약 20g, 1개 찜하기" [ref=f115e6568] [cursor=pointer]
+                  - generic [ref=f115e6573]:
+                    - link "화이니카 공식 우수셀러 새 창에서 열림" [ref=f115e6575] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fwhinica&tr=nslsl
+                      - generic [ref=f115e6576]: 화이니카
+                      - generic [ref=f115e6577]:
+                        - generic [ref=f115e6578]: 공식
+                        - generic [ref=f115e6579]: 우수셀러
+                      - generic [ref=f115e6582]: 새 창에서 열림
+                    - strong [ref=f115e6583]: (+앵커프리칫솔 1개) 화이니카 치탄플러스 분말치약 20g, 1개
+                    - generic [ref=f115e6585]:
+                      - generic [ref=f115e6587]:
+                        - generic [ref=f115e6588]: 할인 전 판매가
+                        - text: 44,100원
+                      - generic [ref=f115e6589]:
+                        - generic [ref=f115e6591]:
+                          - generic [ref=f115e6592]:
+                            - text: 4%
+                            - generic [ref=f115e6593]: 할인
+                          - generic [ref=f115e6594]: 41,900
+                          - generic [ref=f115e6595]: 원
+                        - generic [ref=f115e6596]:
+                          - generic [ref=f115e6597]: (20g당
+                          - generic [ref=f115e6598]: 41,900원)
+                    - generic [ref=f115e6600]:
+                      - generic [ref=f115e6601]: N내일배송
+                      - generic [ref=f115e6603]: 7.22.(수) 도착
+                    - generic [ref=f115e6604]: 무료배송
+                    - generic [ref=f115e6607]:
+                      - generic [ref=f115e6608]:
+                        - generic [ref=f115e6611]: 별점
+                        - text: "4.65"
+                      - generic [ref=f115e6612]: 리뷰 5,332
+                  - button "다른 옵션 상품보기" [ref=f115e6614] [cursor=pointer]
+              - listitem [ref=f115e6617]:
+                - generic [ref=f115e6618]:
+                  - link "LG생활건강 공식 스토어 우수셀러 새 창에서 열림 엘지생활건강 히말라야 핑크솔트 담은 치약 플로럴 민트 100g, 8개 5% 할인 할인 전 판매가 19,900원 최저가 18,900 원 (10g당 236원) 배송비 2,500원 N내일배송 7.22.(수) 도착 별점 4.89 리뷰 4,760 새 창에서 열림" [ref=f115e6619] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/9126652772?nl-query=%EC%B9%98%EC%95%BD&nl-au=0be612178f4347c4880065e2048c2dd0&NaPm=ci%3D0be612178f4347c4880065e2048c2dd0%7Cct%3Dmru6xmoz%7Ctr%3Dnslctg%7Csn%3D186622%7Chk%3Da6bf409c425b43c70729aa0a879c87fe161cefbe
+                    - generic [ref=f115e6620]: 새 창에서 열림
+                  - button "엘지생활건강 히말라야 핑크솔트 담은 치약 플로럴 민트 100g, 8개 찜하기" [ref=f115e6624] [cursor=pointer]
+                  - generic [ref=f115e6629]:
+                    - link "LG생활건강 공식 스토어 우수셀러 새 창에서 열림" [ref=f115e6631] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Flgcaremall&tr=nslctg
+                      - generic [ref=f115e6632]: LG생활건강 공식 스토어
+                      - generic [ref=f115e6633]: 우수셀러
+                      - generic [ref=f115e6637]: 새 창에서 열림
+                    - strong [ref=f115e6638]: 엘지생활건강 히말라야 핑크솔트 담은 치약 플로럴 민트 100g, 8개
+                    - generic [ref=f115e6640]:
+                      - generic [ref=f115e6641]:
+                        - generic [ref=f115e6642]:
+                          - text: 5%
+                          - generic [ref=f115e6643]: 할인
+                        - generic [ref=f115e6644]:
+                          - generic [ref=f115e6645]: 할인 전 판매가
+                          - text: 19,900원
+                      - generic [ref=f115e6646]:
+                        - generic [ref=f115e6648]:
+                          - generic [ref=f115e6649]: 최저가
+                          - generic [ref=f115e6650]: 18,900
+                          - generic [ref=f115e6651]: 원
+                        - generic [ref=f115e6652]:
+                          - generic [ref=f115e6653]: (10g당
+                          - generic [ref=f115e6654]: 236원)
+                        - generic [ref=f115e6655]:
+                          - generic [ref=f115e6656]: 배송비
+                          - generic [ref=f115e6661]: 2,500원
+                    - generic [ref=f115e6663]:
+                      - generic [ref=f115e6664]: N내일배송
+                      - generic [ref=f115e6666]: 7.22.(수) 도착
+                    - generic [ref=f115e6667]:
+                      - generic [ref=f115e6668]:
+                        - generic [ref=f115e6671]: 별점
+                        - text: "4.89"
+                      - generic [ref=f115e6672]: 리뷰 4,760
+                  - button "전체판매자 상품 2 개 더보기" [ref=f115e6674] [cursor=pointer]:
+                    - generic [ref=f115e6675]:
+                      - text: 전체판매자
+                      - generic [ref=f115e6676]: 상품
+                    - generic [ref=f115e6677]:
+                      - generic [ref=f115e6678]: "2"
+                      - generic [ref=f115e6679]: 개
+                    - generic [ref=f115e6682]: 더보기
+              - listitem [ref=f115e6683]:
+                - generic [ref=f115e6684]:
+                  - link "애경본사직영몰 공식 우수셀러 새 창에서 열림 애경산업 2080 덴탈 크리닉 클래식 치약 170g, 10개 52% 할인 할인 전 판매가 35,600원 최저가 16,900 원 (10g당 99원) 무료배송 별점 4.86 리뷰 13,428 새 창에서 열림" [ref=f115e6685] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/5002869102?nl-query=%EC%B9%98%EC%95%BD&nl-au=4643988a474f41169975be261e15015d&NaPm=ci%3D4643988a474f41169975be261e15015d%7Cct%3Dmru6xmoz%7Ctr%3Dnslctg%7Csn%3D1485316%7Chk%3Dea504d93981efa82c4d886f47706e65686053f1d
+                    - generic [ref=f115e6686]: 새 창에서 열림
+                  - button "애경산업 2080 덴탈 크리닉 클래식 치약 170g, 10개 찜하기" [ref=f115e6690] [cursor=pointer]
+                  - generic [ref=f115e6695]:
+                    - link "애경본사직영몰 공식 우수셀러 새 창에서 열림" [ref=f115e6697] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fakofficial&tr=nslctg
+                      - generic [ref=f115e6698]: 애경본사직영몰
+                      - generic [ref=f115e6699]:
+                        - generic [ref=f115e6700]: 공식
+                        - generic [ref=f115e6701]: 우수셀러
+                      - generic [ref=f115e6704]: 새 창에서 열림
+                    - strong [ref=f115e6705]: 애경산업 2080 덴탈 크리닉 클래식 치약 170g, 10개
+                    - generic [ref=f115e6707]:
+                      - generic [ref=f115e6708]:
+                        - generic [ref=f115e6709]:
+                          - text: 52%
+                          - generic [ref=f115e6710]: 할인
+                        - generic [ref=f115e6711]:
+                          - generic [ref=f115e6712]: 할인 전 판매가
+                          - text: 35,600원
+                      - generic [ref=f115e6713]:
+                        - generic [ref=f115e6715]:
+                          - generic [ref=f115e6716]: 최저가
+                          - generic [ref=f115e6717]: 16,900
+                          - generic [ref=f115e6718]: 원
+                        - generic [ref=f115e6719]:
+                          - generic [ref=f115e6720]: (10g당
+                          - generic [ref=f115e6721]: 99원)
+                    - generic [ref=f115e6722]: 무료배송
+                    - generic [ref=f115e6725]:
+                      - generic [ref=f115e6726]:
+                        - generic [ref=f115e6729]: 별점
+                        - text: "4.86"
+                      - generic [ref=f115e6730]: 리뷰 13,428
+                  - button "전체판매자 상품 36 개 더보기" [ref=f115e6732] [cursor=pointer]:
+                    - generic [ref=f115e6733]:
+                      - text: 전체판매자
+                      - generic [ref=f115e6734]: 상품
+                    - generic [ref=f115e6735]:
+                      - generic [ref=f115e6736]: "36"
+                      - generic [ref=f115e6737]: 개
+                    - generic [ref=f115e6740]: 더보기
+              - listitem [ref=f115e6741]:
+                - generic [ref=f115e6742]:
+                  - link "LG생활건강 공식 스토어 공식 우수셀러 새 창에서 열림 페리오 46cm 고불소 불소 입냄새 구취제거 기능성 후레쉬 민트 100g 6개 할인 전 판매가 33,800원 52% 할인 15,900 원 (10g당 265원) N내일배송 7.22.(수) 도착 무료배송 별점 4.88 리뷰 266 새 창에서 열림" [ref=f115e6743] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13544333008?nl-query=%EC%B9%98%EC%95%BD&nl-au=3268f1ac98d94ee1bd2896654e7a667f&NaPm=ci%3D3268f1ac98d94ee1bd2896654e7a667f%7Cct%3Dmru6xmoz%7Ctr%3Dnslsl%7Csn%3D186622%7Chk%3Df4c48888e7826fd9326aa04446a06382fbc85640
+                    - generic [ref=f115e6744]: 새 창에서 열림
+                  - button "페리오 46cm 고불소 불소 입냄새 구취제거 기능성 후레쉬 민트 100g 6개 찜하기" [ref=f115e6748] [cursor=pointer]
+                  - generic [ref=f115e6753]:
+                    - link "LG생활건강 공식 스토어 공식 우수셀러 새 창에서 열림" [ref=f115e6755] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Flgcaremall&tr=nslsl
+                      - generic [ref=f115e6756]: LG생활건강 공식 스토어
+                      - generic [ref=f115e6757]:
+                        - generic [ref=f115e6758]: 공식
+                        - generic [ref=f115e6759]: 우수셀러
+                      - generic [ref=f115e6762]: 새 창에서 열림
+                    - strong [ref=f115e6763]: 페리오 46cm 고불소 불소 입냄새 구취제거 기능성 후레쉬 민트 100g 6개
+                    - generic [ref=f115e6765]:
+                      - generic [ref=f115e6767]:
+                        - generic [ref=f115e6768]: 할인 전 판매가
+                        - text: 33,800원
+                      - generic [ref=f115e6769]:
+                        - generic [ref=f115e6771]:
+                          - generic [ref=f115e6772]:
+                            - text: 52%
+                            - generic [ref=f115e6773]: 할인
+                          - generic [ref=f115e6774]: 15,900
+                          - generic [ref=f115e6775]: 원
+                        - generic [ref=f115e6776]:
+                          - generic [ref=f115e6777]: (10g당
+                          - generic [ref=f115e6778]: 265원)
+                    - generic [ref=f115e6780]:
+                      - generic [ref=f115e6781]: N내일배송
+                      - generic [ref=f115e6783]: 7.22.(수) 도착
+                    - generic [ref=f115e6784]: 무료배송
+                    - generic [ref=f115e6787]:
+                      - generic [ref=f115e6788]:
+                        - generic [ref=f115e6791]: 별점
+                        - text: "4.88"
+                      - generic [ref=f115e6792]: 리뷰 266
+              - listitem [ref=f115e6793]
+              - listitem [ref=f115e6795]:
+                - generic [ref=f115e6796]:
+                  - link "LG생활건강 공식 스토어 공식 우수셀러 새 창에서 열림 엘지생활건강 페리오 뉴 후레쉬 알파 치약 170g, 20개 22% 할인 할인 전 판매가 25,600원 최저가 19,900 원 (10g당 59원) N내일배송 7.22.(수) 도착 무료배송 별점 4.83 리뷰 2,521 새 창에서 열림" [ref=f115e6797] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/9673953627?nl-query=%EC%B9%98%EC%95%BD&nl-au=bd8e2b662cdb42febb8be3bdcad295e8&NaPm=ci%3Dbd8e2b662cdb42febb8be3bdcad295e8%7Cct%3Dmru6xmp0%7Ctr%3Dnslctg%7Csn%3D186622%7Chk%3D0449f77ee15a66f36f9802e55fabd8c772e94aa7
+                    - generic [ref=f115e6798]: 새 창에서 열림
+                  - button "엘지생활건강 페리오 뉴 후레쉬 알파 치약 170g, 20개 찜하기" [ref=f115e6802] [cursor=pointer]
+                  - generic [ref=f115e6807]:
+                    - link "LG생활건강 공식 스토어 공식 우수셀러 새 창에서 열림" [ref=f115e6809] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Flgcaremall&tr=nslctg
+                      - generic [ref=f115e6810]: LG생활건강 공식 스토어
+                      - generic [ref=f115e6811]:
+                        - generic [ref=f115e6812]: 공식
+                        - generic [ref=f115e6813]: 우수셀러
+                      - generic [ref=f115e6816]: 새 창에서 열림
+                    - strong [ref=f115e6817]: 엘지생활건강 페리오 뉴 후레쉬 알파 치약 170g, 20개
+                    - generic [ref=f115e6819]:
+                      - generic [ref=f115e6820]:
+                        - generic [ref=f115e6821]:
+                          - text: 22%
+                          - generic [ref=f115e6822]: 할인
+                        - generic [ref=f115e6823]:
+                          - generic [ref=f115e6824]: 할인 전 판매가
+                          - text: 25,600원
+                      - generic [ref=f115e6825]:
+                        - generic [ref=f115e6827]:
+                          - generic [ref=f115e6828]: 최저가
+                          - generic [ref=f115e6829]: 19,900
+                          - generic [ref=f115e6830]: 원
+                        - generic [ref=f115e6831]:
+                          - generic [ref=f115e6832]: (10g당
+                          - generic [ref=f115e6833]: 59원)
+                    - generic [ref=f115e6835]:
+                      - generic [ref=f115e6836]: N내일배송
+                      - generic [ref=f115e6838]: 7.22.(수) 도착
+                    - generic [ref=f115e6839]: 무료배송
+                    - generic [ref=f115e6842]:
+                      - generic [ref=f115e6843]:
+                        - generic [ref=f115e6846]: 별점
+                        - text: "4.83"
+                      - generic [ref=f115e6847]: 리뷰 2,521
+                  - button "전체판매자 상품 6 개 더보기" [ref=f115e6849] [cursor=pointer]:
+                    - generic [ref=f115e6850]:
+                      - text: 전체판매자
+                      - generic [ref=f115e6851]: 상품
+                    - generic [ref=f115e6852]:
+                      - generic [ref=f115e6853]: "6"
+                      - generic [ref=f115e6854]: 개
+                    - generic [ref=f115e6857]: 더보기
+              - listitem [ref=f115e6858]:
+                - generic [ref=f115e6859]:
+                  - link "아모레퍼시픽몰 헤어바디 공식 우수셀러 새 창에서 열림 메디안 잇몸/구취 과학 치약 6입 할인 전 판매가 25,800원 48% 할인 13,300 원 (100g당 1,847원) N새벽배송 내일(수) 05시 전 도착 무료배송 별점 4.76 리뷰 9,205 새 창에서 열림" [ref=f115e6860] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/4552518687?nl-query=%EC%B9%98%EC%95%BD&nl-au=ee16ae5027154299a8d223d412cac9f3&NaPm=ci%3Dee16ae5027154299a8d223d412cac9f3%7Cct%3Dmru6xmp0%7Ctr%3Dnslsl%7Csn%3D386039%7Chk%3D938f03c0458499b91066909a7a0d71f8db46f4d3
+                    - generic [ref=f115e6861]: 새 창에서 열림
+                  - button "메디안 잇몸/구취 과학 치약 6입 찜하기" [ref=f115e6865] [cursor=pointer]
+                  - generic [ref=f115e6870]:
+                    - link "아모레퍼시픽몰 헤어바디 공식 우수셀러 새 창에서 열림" [ref=f115e6872] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fap_dailybeauty&tr=nslsl
+                      - generic [ref=f115e6873]: 아모레퍼시픽몰 헤어바디
+                      - generic [ref=f115e6874]:
+                        - generic [ref=f115e6875]: 공식
+                        - generic [ref=f115e6876]: 우수셀러
+                      - generic [ref=f115e6879]: 새 창에서 열림
+                    - strong [ref=f115e6880]: 메디안 잇몸/구취 과학 치약 6입
+                    - generic [ref=f115e6882]:
+                      - generic [ref=f115e6884]:
+                        - generic [ref=f115e6885]: 할인 전 판매가
+                        - text: 25,800원
+                      - generic [ref=f115e6886]:
+                        - generic [ref=f115e6888]:
+                          - generic [ref=f115e6889]:
+                            - text: 48%
+                            - generic [ref=f115e6890]: 할인
+                          - generic [ref=f115e6891]: 13,300
+                          - generic [ref=f115e6892]: 원
+                        - generic [ref=f115e6893]:
+                          - generic [ref=f115e6894]: (100g당
+                          - generic [ref=f115e6895]: 1,847원)
+                    - generic [ref=f115e6897]:
+                      - generic [ref=f115e6898]: N새벽배송
+                      - generic [ref=f115e6900]: 내일(수) 05시 전 도착
+                    - generic [ref=f115e6901]: 무료배송
+                    - generic [ref=f115e6904]:
+                      - generic [ref=f115e6905]:
+                        - generic [ref=f115e6908]: 별점
+                        - text: "4.76"
+                      - generic [ref=f115e6909]: 리뷰 9,205
+              - listitem [ref=f115e6910]:
+                - generic [ref=f115e6911]:
+                  - link "아모레25 우수셀러 새 창에서 열림 아모레퍼시픽 메디안 치석 케어 93% 오리지널 치약 120g, 7개 최저가 13,950 원 (10g당 166원) 오늘출발 15:00까지 주문 시 무료배송 별점 4.83 리뷰 1,249 새 창에서 열림" [ref=f115e6912] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/235631876?nl-query=%EC%B9%98%EC%95%BD&nl-au=c5187ffca6df4bf4bedc22c5a310d517&NaPm=ci%3Dc5187ffca6df4bf4bedc22c5a310d517%7Cct%3Dmru6xmp0%7Ctr%3Dnslctg%7Csn%3D221356%7Chk%3D8024b8aa32a33521acc9e52f70039a656d4aa71d
+                    - generic [ref=f115e6913]: 새 창에서 열림
+                  - button "아모레퍼시픽 메디안 치석 케어 93% 오리지널 치약 120g, 7개 찜하기" [ref=f115e6917] [cursor=pointer]
+                  - generic [ref=f115e6922]:
+                    - link "아모레25 우수셀러 새 창에서 열림" [ref=f115e6924] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Famore25&tr=nslctg
+                      - generic [ref=f115e6925]: 아모레25
+                      - generic [ref=f115e6926]: 우수셀러
+                      - generic [ref=f115e6930]: 새 창에서 열림
+                    - strong [ref=f115e6931]: 아모레퍼시픽 메디안 치석 케어 93% 오리지널 치약 120g, 7개
+                    - generic [ref=f115e6934]:
+                      - generic [ref=f115e6936]:
+                        - generic [ref=f115e6937]: 최저가
+                        - generic [ref=f115e6938]: 13,950
+                        - generic [ref=f115e6939]: 원
+                      - generic [ref=f115e6940]:
+                        - generic [ref=f115e6941]: (10g당
+                        - generic [ref=f115e6942]: 166원)
+                    - generic [ref=f115e6944]:
+                      - generic [ref=f115e6945]: 오늘출발
+                      - generic [ref=f115e6946]: 15:00까지 주문 시
+                    - generic [ref=f115e6947]: 무료배송
+                    - generic [ref=f115e6950]:
+                      - generic [ref=f115e6951]:
+                        - generic [ref=f115e6954]: 별점
+                        - text: "4.83"
+                      - generic [ref=f115e6955]: 리뷰 1,249
+                  - button "전체판매자 상품 1 개 더보기" [ref=f115e6957] [cursor=pointer]:
+                    - generic [ref=f115e6958]:
+                      - text: 전체판매자
+                      - generic [ref=f115e6959]: 상품
+                    - generic [ref=f115e6960]:
+                      - generic [ref=f115e6961]: "1"
+                      - generic [ref=f115e6962]: 개
+                    - generic [ref=f115e6965]: 더보기
+              - listitem [ref=f115e6966]:
+                - generic [ref=f115e6967]:
+                  - link "안트코스 우수셀러 새 창에서 열림 암웨이 글리스터 프로액션 컴플리트 치약 200g, 4개 최저가 22,400 원 (10g당 280원) 배송비 3,000원 오늘출발 16:00까지 주문 시 별점 4.85 리뷰 826 새 창에서 열림" [ref=f115e6968] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/2051715856?nl-query=%EC%B9%98%EC%95%BD&nl-au=dc89ba6333bb4fdcbbd1733e895a9af5&NaPm=ci%3Ddc89ba6333bb4fdcbbd1733e895a9af5%7Cct%3Dmru6xmp0%7Ctr%3Dnslctg%7Csn%3D495769%7Chk%3D4866b1ea1188b97f98dae08069483fc336ac7113
+                    - generic [ref=f115e6969]: 새 창에서 열림
+                  - button "암웨이 글리스터 프로액션 컴플리트 치약 200g, 4개 찜하기" [ref=f115e6973] [cursor=pointer]
+                  - generic [ref=f115e6978]:
+                    - link "안트코스 우수셀러 새 창에서 열림" [ref=f115e6980] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fantcos&tr=nslctg
+                      - generic [ref=f115e6981]: 안트코스
+                      - generic [ref=f115e6982]: 우수셀러
+                      - generic [ref=f115e6986]: 새 창에서 열림
+                    - strong [ref=f115e6987]: 암웨이 글리스터 프로액션 컴플리트 치약 200g, 4개
+                    - generic [ref=f115e6990]:
+                      - generic [ref=f115e6992]:
+                        - generic [ref=f115e6993]: 최저가
+                        - generic [ref=f115e6994]: 22,400
+                        - generic [ref=f115e6995]: 원
+                      - generic [ref=f115e6996]:
+                        - generic [ref=f115e6997]: (10g당
+                        - generic [ref=f115e6998]: 280원)
+                      - generic [ref=f115e6999]:
+                        - generic [ref=f115e7000]: 배송비
+                        - generic [ref=f115e7005]: 3,000원
+                    - generic [ref=f115e7007]:
+                      - generic [ref=f115e7008]: 오늘출발
+                      - generic [ref=f115e7009]: 16:00까지 주문 시
+                    - generic [ref=f115e7010]:
+                      - generic [ref=f115e7011]:
+                        - generic [ref=f115e7014]: 별점
+                        - text: "4.85"
+                      - generic [ref=f115e7015]: 리뷰 826
+                  - button "전체판매자 상품 30 개 더보기" [ref=f115e7017] [cursor=pointer]:
+                    - generic [ref=f115e7018]:
+                      - text: 전체판매자
+                      - generic [ref=f115e7019]: 상품
+                    - generic [ref=f115e7020]:
+                      - generic [ref=f115e7021]: "30"
+                      - generic [ref=f115e7022]: 개
+                    - generic [ref=f115e7025]: 더보기
+              - listitem [ref=f115e7026]:
+                - generic [ref=f115e7027]:
+                  - link "굿바이 코코 새 창에서 열림 NEOCOSMED 센소다인 멀티케어 치약 100g, 5개 최저가 20,590 원 (100g당 4,118원) 오늘출발 14:00까지 주문 시 무료배송 별점 4.82 리뷰 575 새 창에서 열림" [ref=f115e7028] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13117026346?nl-query=%EC%B9%98%EC%95%BD&nl-au=ba85408b67f944a79555eaf6dffa6f37&NaPm=ci%3Dba85408b67f944a79555eaf6dffa6f37%7Cct%3Dmru6xmp1%7Ctr%3Dnslctg%7Csn%3D12442143%7Chk%3D89a9c929e52d98d5650ac49605c7b4cd6ec2edd1
+                    - generic [ref=f115e7029]: 새 창에서 열림
+                  - button "NEOCOSMED 센소다인 멀티케어 치약 100g, 5개 찜하기" [ref=f115e7033] [cursor=pointer]
+                  - generic [ref=f115e7038]:
+                    - link "굿바이 코코 새 창에서 열림" [ref=f115e7040] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fgoodbuycommerce&tr=nslctg
+                      - generic [ref=f115e7041]: 굿바이 코코
+                      - generic [ref=f115e7044]: 새 창에서 열림
+                    - strong [ref=f115e7045]: NEOCOSMED 센소다인 멀티케어 치약 100g, 5개
+                    - generic [ref=f115e7048]:
+                      - generic [ref=f115e7050]:
+                        - generic [ref=f115e7051]: 최저가
+                        - generic [ref=f115e7052]: 20,590
+                        - generic [ref=f115e7053]: 원
+                      - generic [ref=f115e7054]:
+                        - generic [ref=f115e7055]: (100g당
+                        - generic [ref=f115e7056]: 4,118원)
+                    - generic [ref=f115e7058]:
+                      - generic [ref=f115e7059]: 오늘출발
+                      - generic [ref=f115e7060]: 14:00까지 주문 시
+                    - generic [ref=f115e7061]: 무료배송
+                    - generic [ref=f115e7064]:
+                      - generic [ref=f115e7065]:
+                        - generic [ref=f115e7068]: 별점
+                        - text: "4.82"
+                      - generic [ref=f115e7069]: 리뷰 575
+                  - button "전체판매자 상품 248 개 더보기" [ref=f115e7071] [cursor=pointer]:
+                    - generic [ref=f115e7072]:
+                      - text: 전체판매자
+                      - generic [ref=f115e7073]: 상품
+                    - generic [ref=f115e7074]:
+                      - generic [ref=f115e7075]: "248"
+                      - generic [ref=f115e7076]: 개
+                    - generic [ref=f115e7079]: 더보기
+            - list [ref=f115e7080]:
+              - listitem [ref=f115e7081]
+              - listitem [ref=f115e7090]
+              - listitem [ref=f115e7099]
+              - listitem [ref=f115e7108]
+              - listitem [ref=f115e7117]
+              - listitem [ref=f115e7126]
+              - listitem [ref=f115e7135]
+              - listitem [ref=f115e7144]
+              - listitem [ref=f115e7153]
+              - listitem [ref=f115e7162]
+    - button "맨위로가기" [ref=f115e7176] [cursor=pointer]
+  - alert [ref=f115e7180]

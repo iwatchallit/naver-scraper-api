@@ -1,0 +1,1543 @@
+{
+  "generatedAt": "2026-07-21T05:46:22.871Z",
+  "baseUrl": "http://127.0.0.1:3000",
+  "inputFile": "testdata/corpus-urls.spigen-next.txt",
+  "totals": {
+    "all": 189,
+    "live": 3,
+    "stale": 0,
+    "challenge": 0,
+    "timeout": 0,
+    "infra": 0,
+    "other": 186
+  },
+  "buckets": {
+    "live": [
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180048",
+        "ok": true,
+        "status": 200,
+        "latencyMs": 8051,
+        "errorCode": null,
+        "bucket": "live"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180605",
+        "ok": true,
+        "status": 200,
+        "latencyMs": 10515,
+        "errorCode": null,
+        "bucket": "live"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181921",
+        "ok": true,
+        "status": 200,
+        "latencyMs": 9250,
+        "errorCode": null,
+        "bucket": "live"
+      }
+    ],
+    "stale": [],
+    "challenge": [],
+    "timeout": [],
+    "infra": [],
+    "other": [
+      {
+        "url": "https://brand.naver.com/spigen/products/13059178688",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 9204,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059178877",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 8945,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179048",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4011,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179188",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4013,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179271",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4013,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179377",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4013,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179488",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4008,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179548",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4007,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179588",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4007,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179605",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4006,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179638",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 10472,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179668",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 9823,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179677",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4006,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179678",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4007,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179683",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4015,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179686",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4001,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179687",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4003,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179688",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4003,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179689",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4010,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179690",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4008,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179693",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 10828,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179698",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 11045,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179708",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4004,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179738",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4003,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179771",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4001,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179777",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4002,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179788",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4008,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179827",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4012,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179848",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4016,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179857",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4012,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179867",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 10984,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179872",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 10395,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179875",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4001,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179876",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4001,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179877",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4002,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179878",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4003,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179879",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4010,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179882",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4013,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179887",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4003,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179888",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4002,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179897",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 11341,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179927",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 11151,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179948",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4004,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179977",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4004,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059179998",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4005,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180028",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4006,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180038",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4012,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180043",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4011,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180046",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4010,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180047",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4012,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180049",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 11566,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180050",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4015,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180053",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4009,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180058",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4005,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180068",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4000,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180071",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 12185,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180077",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4013,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180098",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4008,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180105",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4000,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180148",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 12636,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180171",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4006,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180188",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4013,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180221",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4006,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180248",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4002,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180251",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 12534,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180261",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4010,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180266",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4005,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180269",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4000,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180270",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 13539,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180271",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4007,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180272",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4001,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180273",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4004,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180276",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4006,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180281",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 12640,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180291",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4015,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180321",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4011,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180371",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4014,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180377",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4017,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180405",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 13435,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180471",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4012,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180505",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4010,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180548",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4012,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180555",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4015,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180585",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 12021,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180595",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4012,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180600",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4016,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180603",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4001,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180604",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4001,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180606",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4009,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180607",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4008,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180610",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4008,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180615",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 13720,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180625",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4012,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180655",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4003,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180688",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4010,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180705",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 12798,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180771",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4016,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180805",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4004,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180877",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4007,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059180921",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4007,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181048",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4005,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181105",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 12208,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181271",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4003,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181421",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4011,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181605",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 12568,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181721",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4013,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181821",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4010,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181825",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4012,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181871",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4010,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181901",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4007,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181911",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 12428,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181916",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4006,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181919",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4004,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181920",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4004,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181922",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4010,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181923",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4007,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181926",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4001,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181931",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4002,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181941",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4004,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059181971",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 12772,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182021",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 11450,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182121",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4003,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182325",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4007,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182421",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4003,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182625",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4007,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182725",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4007,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182741",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4013,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182775",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4013,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182805",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4003,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182815",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 13013,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182820",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 11272,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182823",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4002,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182824",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4009,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182825",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4006,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182826",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4015,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182827",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4006,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182830",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4010,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182835",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4009,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182845",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4007,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182875",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 11977,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182921",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 12324,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059182925",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4000,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183025",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4003,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183241",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4009,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183325",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4004,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183541",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4010,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183641",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4007,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183691",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4004,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183721",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4000,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183731",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 11113,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183736",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 11944,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183739",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4003,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183740",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4008,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183741",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4012,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183742",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4008,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183743",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4002,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183746",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4004,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183751",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4006,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183761",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4008,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183791",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 10274,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183825",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 11197,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183841",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4001,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059183941",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4015,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059184241",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4009,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059184741",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4005,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059188741",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4006,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189241",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4006,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189541",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4011,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189641",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 11831,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189691",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 11542,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189721",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4006,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189731",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4005,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189736",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4008,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189739",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4015,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189740",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4010,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189741",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4009,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189742",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4009,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189743",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 11204,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189746",
+        "ok": false,
+        "status": 502,
+        "latencyMs": 11541,
+        "errorCode": "NAVER_INVALID_UPSTREAM_JSON",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189751",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4006,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189761",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4002,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189791",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4008,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189841",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4002,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059189941",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4007,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059190241",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4009,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      },
+      {
+        "url": "https://brand.naver.com/spigen/products/13059190741",
+        "ok": false,
+        "status": 503,
+        "latencyMs": 4008,
+        "errorCode": "NAVER_QUEUE_TIMEOUT",
+        "bucket": "other"
+      }
+    ]
+  },
+  "notes": [
+    "live: success responses that are safe to keep in benchmark/challenge lists",
+    "stale: unavailable/suspended/invalid targets",
+    "challenge: upstream anti-bot challenge pages",
+    "timeout: scraper did not capture product details within budget",
+    "infra: sidecar/proxy/request transport failures"
+  ]
+}

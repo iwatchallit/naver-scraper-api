@@ -32,6 +32,8 @@ Fastify service that captures SmartStore product payloads (`benefits` and `produ
 - Optional local proxy adapter (if evaluator requires proxied egress)
 - Optional `ngrok` account and CLI for public local tunnel
 
+If you want to reuse a legitimate logged-in Naver session, save a Playwright storage state file once and set `NAVER_STORAGE_STATE_PATH` to that file. The scraper will load it into each new browser context.
+
 ## Setup
 
 ```powershell
@@ -48,6 +50,8 @@ Update `.env`:
   - `PROXY_SERVER=http://127.0.0.1:8899`
   - `PROXY_USERNAME=your_username`
   - `PROXY_PASSWORD=your_password`
+- Optional authenticated session reuse:
+  - `NAVER_STORAGE_STATE_PATH=artifacts/naver-auth/storage-state.json`
 
 ## Local Run (API + Sidecar + Proxy + Ngrok)
 
@@ -65,19 +69,27 @@ Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" 
 
 3. Optional: start proxy adapter on `127.0.0.1:8899`.
 
-4. Start API service (port `3000` by default):
+4. If the site requires a normal login session, save it once:
+
+```powershell
+npm run auth:save
+```
+
+Complete the login in the opened browser, press Enter in the terminal, and keep the resulting storage-state file on disk.
+
+5. Start API service (port `3000` by default):
 
 ```powershell
 npm run dev
 ```
 
-5. Expose API publicly with ngrok (only API port 3000):
+6. Expose API publicly with ngrok (only API port 3000):
 
 ```powershell
 ngrok http 3000
 ```
 
-6. Share the `https://*.ngrok-free.app` endpoint with evaluator.
+7. Share the `https://*.ngrok-free.app` endpoint with evaluator.
 
 Important:
 - Never expose CDP port `9222` publicly.
@@ -136,8 +148,10 @@ npm run test:integration
 ## Performance Harness
 
 ```powershell
+npm run benchmark:seed-corpus
 npm run benchmark:baseline
 npm run benchmark:corpus
+npm run benchmark:triage
 npm run benchmark:soak
 ```
 
@@ -147,6 +161,14 @@ Environment knobs:
   - `BASELINE_EXPECTED_COUNT` (default `100`)
 - Corpus:
   - `CORPUS_URL_FILE`
+- Seed corpus:
+  - `CANDIDATE_URL_FILE` (default `testdata/corpus-candidates.txt`)
+  - `CANDIDATE_INCLUDE_SMARTSTORE_MAIN` (default `false`)
+- Triage:
+  - `TRIAGE_CONCURRENCY` (default `3`)
+  - `TRIAGE_REPORT_FILE` (default `artifacts/corpus-triage/report.json`)
+  - `TRIAGE_LIVE_FILE` (default `testdata/corpus-urls.live.txt`)
+  - `TRIAGE_STALE_FILE` (default `testdata/corpus-urls.stale.txt`)
 - Soak:
   - `SOAK_URL_FILE`
   - `SOAK_DURATION_SEC` (default `3600`)
@@ -221,6 +243,32 @@ flowchart LR
 - If `PROXY_SERVER` is unset, readiness reports `proxyConfigured=false`.
 - If `PROXY_SERVER` is set but unreachable, `/naver` maps to `NAVER_PROXY_UNAVAILABLE`.
 - Credentials are redacted in capture diagnostics.
+- If the upstream proxy returns `Auth_303` or `credential verification failed`, the proxy provider or credentials are the blocker, not the scraper.
+
+### Local Proxy Adapter
+
+If you need a local adapter in front of the upstream Korean proxy, run:
+
+```powershell
+$env:PROXY_SERVER='http://6n8xhsmh.as.thordata.net:9999'
+$env:PROXY_USERNAME='td-customer-mrscraperTrial-country-kr'
+$env:PROXY_PASSWORD='P3nNRQ8C2'
+npm run proxy:adapter
+```
+
+Then point the API at `http://127.0.0.1:8899` instead of the upstream proxy URL.
+
+### Proxy Provider Candidates
+
+The current trial proxy failed credential verification. The recommended replacement is **Webshare** because it has a free plan, supports both HTTP and SOCKS5, and exposes the proxy list through a dashboard/API.
+
+Use this pattern:
+
+- `PROXY_SERVER=http://127.0.0.1:8899`
+- `PROXY_USERNAME=<your Webshare username>`
+- `PROXY_PASSWORD=<your Webshare password or API key>`
+
+If you want country targeting, append the country code to the username using Webshare's documented pattern, then keep the local adapter in front of it.
 
 ## Additional Operator Docs
 

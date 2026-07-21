@@ -107,9 +107,19 @@ If /naver returns NAVER_PROXY_UNAVAILABLE:
 
 If /naver returns NAVER_PROXY_AUTH_FAILED:
 - Re-check PROXY_USERNAME and PROXY_PASSWORD values.
+- If the upstream proxy responds with `Auth_303` or `credential verification failed`, the provider credentials are invalid for this target. Swap providers or refresh the account credentials before retrying.
 
 If /naver returns NAVER_CAPTURE_TIMEOUT:
 - Retry once with another known-valid SmartStore URL.
+
+If the proxy adapter works on plain HTTP but fails on SmartStore HTTPS:
+- Treat that as an upstream proxy/provider problem first.
+- Test a different provider or a fresh account before changing scraper logic.
+
+Recommended provider for the next attempt:
+- Webshare free plan or paid residential/ISP plan
+- Use the local adapter on `127.0.0.1:8899`
+- Prefer HTTP proxy transport for the first pass, since the adapter already handles it cleanly
 
 ## 9) Optional quick no-proxy test (single command)
 

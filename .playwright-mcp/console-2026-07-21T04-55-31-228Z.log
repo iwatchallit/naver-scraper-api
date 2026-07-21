@@ -1,0 +1,40 @@
+[     899ms] [WARNING] setPolicyInfo {versionInfo: Object, sdkInfo: Object, sentryInfo: Object} @ https://ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js:0
+[    1449ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/pay-member/check:0
+[    1451ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/delivery-address/verified:0
+[    1451ms] [ERROR] t: 해당 회원은 배송지정보 이용에 동의하지 않았습니다.
+    at throwError (https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:1:3559271) undefined @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[    1462ms] [ERROR] o {pathname: undefined, responseTime: 133ms, thresholdTime: 500ms} @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[    1578ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/pay-member/check:0
+[    1618ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/delivery-address/verified:0
+[    1619ms] [ERROR] t: 해당 회원은 배송지정보 이용에 동의하지 않았습니다.
+    at throwError (https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:1:3559271) undefined @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[    1619ms] [ERROR] o {pathname: undefined, responseTime: 183ms, thresholdTime: 500ms} @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[   12391ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://smartstore.naver.com/nowmro/products/13341559288?site_preference=device&NaPm=ct%3Dmru6ka1v%7Cci%3Dshopn%7Ctr%3Dnshfum%7Chk%3D5cccf18cb76f12307ceb7314fc91d66bedcf9852%7Ctrx%3Dundefined:0
+[   69679ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/pay-member/check:0
+[   69680ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/delivery-address/verified:0
+[   69680ms] [ERROR] t: 해당 회원은 배송지정보 이용에 동의하지 않았습니다.
+    at throwError (https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:1:3559271) undefined @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[   69681ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/pay-member/check:0
+[   69681ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/delivery-address/verified:0
+[   69681ms] [ERROR] t: 해당 회원은 배송지정보 이용에 동의하지 않았습니다.
+    at throwError (https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:1:3559271) undefined @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[   69707ms] [ERROR] o {pathname: undefined, responseTime: 23ms, thresholdTime: 500ms} @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[   69708ms] [ERROR] o {pathname: undefined, responseTime: 24ms, thresholdTime: 500ms} @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[   76655ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://smartstore.naver.com/ocoo/products/4791494570?site_preference=device&NaPm=ct%3Dmru6lnm6%7Cci%3Dshopn%7Ctr%3Dnshfum%7Chk%3D74f5ebd495c297c2612c4799d1cb2e2236b9a00d%7Ctrx%3Dundefined:0
+[   80429ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/pay-member/check:0
+[   80429ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/delivery-address/verified:0
+[   80430ms] [ERROR] t: 해당 회원은 배송지정보 이용에 동의하지 않았습니다.
+    at throwError (https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:1:3559271) undefined @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[   80431ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/pay-member/check:0
+[   80431ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/delivery-address/verified:0
+[   80431ms] [ERROR] t: 해당 회원은 배송지정보 이용에 동의하지 않았습니다.
+    at throwError (https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:1:3559271) undefined @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[   80454ms] [ERROR] o {pathname: undefined, responseTime: 23ms, thresholdTime: 500ms} @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[   80455ms] [ERROR] o {pathname: undefined, responseTime: 25ms, thresholdTime: 500ms} @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[   80525ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vertical-api.shopping.naver.com/v3/web/v1/delivery-address/verified:0
+[   80526ms] [ERROR] t: 해당 회원은 배송지정보 이용에 동의하지 않았습니다.
+    at throwError (https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:1:3559271) undefined @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[   80534ms] [ERROR] o {pathname: undefined, responseTime: 20ms, thresholdTime: 500ms} @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[   80666ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://vertical-api.shopping.naver.com/v3/web/v1/home/layouts/store-curation?isOptOut=false:0
+[   80667ms] [ERROR] o {pathname: undefined, responseTime: 181ms, thresholdTime: 500ms} @ https://shopv.pstatic.net/web/r/20260716161838/_next/static/chunks/pages/_app-3d40b5ba288a9a5c.js:0
+[   93771ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://smartstore.naver.com/urvanluna/products/13644322487?site_preference=device&NaPm=ct%3Dmru6m0t4%7Cci%3Dshopn%7Ctr%3Dnshfum%7Chk%3Db3c8c48a79592337063569def22e57a06387fe87%7Ctrx%3Dundefined:0

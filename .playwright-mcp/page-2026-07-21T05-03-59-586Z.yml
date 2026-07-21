@@ -1,0 +1,895 @@
+- generic [active] [ref=f80e1]:
+  - generic [ref=f80e3]:
+    - generic [ref=f80e7]:
+      - generic:
+        - link "메인 메뉴로 바로가기" [ref=f80e8] [cursor=pointer]:
+          - /url: "#lnb"
+        - link "본문으로 바로가기" [ref=f80e10] [cursor=pointer]:
+          - /url: "#content"
+      - generic [ref=f80e14]:
+        - generic [ref=f80e15]:
+          - generic [ref=f80e16]:
+            - link "NAVER" [ref=f80e17] [cursor=pointer]:
+              - /url: https://www.naver.com
+            - link "네이버페이" [ref=f80e21] [cursor=pointer]:
+              - /url: https://pay.naver.com/pc?page=1
+          - generic [ref=f80e26]:
+            - strong [ref=f80e27]: 사용자 링크
+            - list [ref=f80e28]:
+              - listitem [ref=f80e29]:
+                - link "내 프로필 이미지 opt 내정보 보기" [ref=f80e31] [cursor=pointer]:
+                  - /url: javascript:;
+                  - img "내 프로필 이미지" [ref=f80e32]
+                  - generic [ref=f80e33]: opt
+                  - emphasis [ref=f80e34]: 내정보 보기
+              - listitem [ref=f80e35]:
+                - link "네이버톡" [ref=f80e36] [cursor=pointer]:
+                  - /url: https://talks.naver.com/?frm=pcgnb&anchor=&category=
+              - listitem [ref=f80e39]:
+                - link "알림" [ref=f80e40] [cursor=pointer]:
+                  - /url: https://m.notify.naver.com/?from=pcmain
+              - listitem [ref=f80e43]:
+                - link "메일" [ref=f80e44] [cursor=pointer]:
+                  - /url: https://mail.naver.com
+              - listitem [ref=f80e47]:
+                - link "서비스 더보기" [ref=f80e48] [cursor=pointer]:
+                  - /url: javascript:;
+        - generic [ref=f80e51]:
+          - heading [level=1] [ref=f80e52]:
+            - link "네이버플러스 스토어" [ref=f80e53] [cursor=pointer]:
+              - /url: https://shopping.naver.com/ns/home
+          - generic [ref=f80e61]:
+            - heading "검색영역" [level=2] [ref=f80e62]
+            - generic [ref=f80e67]:
+              - textbox "검색어 입력" [ref=f80e68]:
+                - /placeholder: 상품명 또는 브랜드 입력
+              - button "검색레이어 펼치기" [ref=f80e69] [cursor=pointer]
+              - button "검색" [ref=f80e73] [cursor=pointer]
+          - generic [ref=f80e78]:
+            - button "카테고리" [ref=f80e80] [cursor=pointer]
+            - link "마이쇼핑" [ref=f80e84] [cursor=pointer]
+            - link "장바구니" [ref=f80e88] [cursor=pointer]:
+              - /url: https://shopping.naver.com/cart?frm=gnb&prevUrl=https%3A%2F%2Fshopping.naver.com%2Fns%2Fhome%3F
+        - list [ref=f80e94]:
+          - listitem [ref=f80e95]:
+            - link "홈 선택됨 NONE" [ref=f80e96] [cursor=pointer]:
+              - /url: https://shopping.naver.com/ns/home
+              - generic [ref=f80e97]:
+                - text: 홈
+                - generic [ref=f80e98]: 선택됨
+              - emphasis:
+                - generic [ref=f80e99]: NONE
+          - listitem [ref=f80e100]:
+            - link "오늘끝딜" [ref=f80e101] [cursor=pointer]:
+              - /url: https://shopping.naver.com/promotion
+          - listitem [ref=f80e103]:
+            - link "컬리N마트" [ref=f80e104] [cursor=pointer]:
+              - /url: https://shopping.naver.com/kurlynmart/home
+          - listitem [ref=f80e106]:
+            - link "베스트" [ref=f80e107] [cursor=pointer]:
+              - /url: https://snxbest.naver.com/home
+          - listitem [ref=f80e109]:
+            - link "슈퍼적립 NONE" [ref=f80e110] [cursor=pointer]:
+              - /url: https://shopping.naver.com/super-point/home
+              - generic [ref=f80e111]: 슈퍼적립
+              - emphasis:
+                - generic [ref=f80e112]: NONE
+          - listitem [ref=f80e113]:
+            - link "쇼핑 라이브" [ref=f80e114] [cursor=pointer]:
+              - /url: https://shoppinglive.naver.com/home
+          - listitem [ref=f80e119]:
+            - link "지금배달" [ref=f80e120] [cursor=pointer]:
+              - /url: https://shopping.naver.com/market/home
+          - listitem [ref=f80e122]:
+            - link "선물샵" [ref=f80e123] [cursor=pointer]:
+              - /url: https://shopping.naver.com/gift/home
+          - listitem [ref=f80e125]:
+            - link "패션타운 NONE" [ref=f80e126] [cursor=pointer]:
+              - /url: https://shopping.naver.com/window/main/fashion-group
+              - generic [ref=f80e127]: 패션타운
+              - emphasis:
+                - generic [ref=f80e128]: NONE
+          - listitem [ref=f80e129]:
+            - link "N배송" [ref=f80e130] [cursor=pointer]:
+              - /url: https://shopping.naver.com/logistics/home
+          - listitem [ref=f80e132]:
+            - link "푸드윈도" [ref=f80e133] [cursor=pointer]:
+              - /url: https://shopping.naver.com/fresh/directfarm/home
+          - listitem [ref=f80e135]:
+            - link "하이엔드" [ref=f80e136] [cursor=pointer]:
+              - /url: https://shopping.naver.com/highend/home
+          - listitem [ref=f80e138]:
+            - link "노크잇 NEW" [ref=f80e139] [cursor=pointer]:
+              - /url: https://shopping.naver.com/knockit/home
+              - generic [ref=f80e140]: 노크잇
+              - emphasis [ref=f80e141]:
+                - generic [ref=f80e144]: NEW
+          - listitem [ref=f80e145]:
+            - link "기획전" [ref=f80e146] [cursor=pointer]:
+              - /url: https://shopping.naver.com/plan2/p/index.naver
+    - generic [ref=f80e152]:
+      - generic [ref=f80e155]:
+        - generic [ref=f80e157]:
+          - generic [ref=f80e158]: 전체 페이지 40 중 현재 페이지 1
+          - generic [ref=f80e161]:
+            - button "이전" [ref=f80e162] [cursor=pointer]
+            - button "다음" [ref=f80e167] [cursor=pointer]
+          - button "자동 재생" [ref=f80e171] [cursor=pointer]
+        - list [ref=f80e176]:
+          - listitem [ref=f80e177]:
+            - generic [ref=f80e178]:
+              - img "실시간 랭킹 지금 1등 상품 찾기 인기 상품 랭킹으로 만나보세요!" [ref=f80e180]
+              - generic [ref=f80e181]:
+                - strong [ref=f80e182]:
+                  - generic [ref=f80e183]: 실시간 랭킹
+                  - generic [ref=f80e184]: 지금 1등 상품 찾기
+                - paragraph [ref=f80e185]: 인기 상품 랭킹으로 만나보세요!
+              - link "실시간 랭킹 지금 1등 상품 찾기 인기 상품 랭킹으로 만나보세요! 실시간 랭킹 지금 1등 상품 찾기 인기 상품 랭킹으로 만나보세요! 자세히 보러 가기" [ref=f80e186] [cursor=pointer]:
+                - /url: https://shopping.naver.com/promotion?type=RANKING
+                - generic [ref=f80e187]: 자세히 보러 가기
+          - listitem [ref=f80e188]:
+            - generic [ref=f80e189]:
+              - img "TOP브랜드 초특가전 오늘의 대표브랜드 켈로그" [ref=f80e191]
+              - generic [ref=f80e192]:
+                - strong [ref=f80e193]:
+                  - generic [ref=f80e194]: TOP브랜드 초특가전
+                - paragraph [ref=f80e195]: 오늘의 대표브랜드 켈로그
+                - list [ref=f80e196]:
+                  - listitem [ref=f80e197]:
+                    - img "[N배송] 동원참치 라이트 살코기 150g 10캔 (7종 택1)" [ref=f80e199]
+                  - listitem [ref=f80e200]:
+                    - img "켈로그 콘푸로스트 다크초코 2팩 +콘푸로스트 1팩(+썸머백 홀로그램)" [ref=f80e202]
+              - link "TOP브랜드 초특가전 오늘의 대표브랜드 켈로그 TOP브랜드 초특가전 오늘의 대표브랜드 켈로그 [N배송] 동원참치 라이트 살코기 150g 10캔 (7종 택1) 켈로그 콘푸로스트 다크초코 2팩 +콘푸로스트 1팩(+썸머백 홀로그램) 자세히 보러 가기" [ref=f80e203] [cursor=pointer]:
+                - /url: https://mkt.naver.com/p1/atrb?channel_id=newsp_pchome&campaign_id=2603-shopping-016&target=https%3A%2F%2Fshopping.naver.com%2Ffesta%2Fonsale%2F699ceb9398f1530c6f40ef49%3Fdtm_source%3Dnewsp_pchome%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2603-shopping-016
+                - generic [ref=f80e204]: 자세히 보러 가기
+          - listitem [ref=f80e205]:
+            - generic [ref=f80e206]:
+              - img "매일 11시, 오늘끝딜 무료배송에 최대 혜택까지!" [ref=f80e208]
+              - generic [ref=f80e209]:
+                - strong [ref=f80e210]:
+                  - generic [ref=f80e211]: 매일 11시, 오늘끝딜
+                - paragraph [ref=f80e212]: 무료배송에 최대 혜택까지!
+                - list [ref=f80e213]:
+                  - listitem [ref=f80e214]:
+                    - img "일리윤 세라마이드 아토 선로션 180ml" [ref=f80e216]
+                  - listitem [ref=f80e217]:
+                    - img "쉬슬러 초고농축 보타닉 섬유유연제 2.1L 2개[36036399]" [ref=f80e219]
+              - link "매일 11시, 오늘끝딜 무료배송에 최대 혜택까지! 매일 11시, 오늘끝딜 무료배송에 최대 혜택까지! 일리윤 세라마이드 아토 선로션 180ml 쉬슬러 초고농축 보타닉 섬유유연제 2.1L 2개[36036399] 자세히 보러 가기" [ref=f80e220] [cursor=pointer]:
+                - /url: https://shopping.naver.com/promotion
+                - generic [ref=f80e221]: 자세히 보러 가기
+          - listitem [ref=f80e222]:
+            - generic [ref=f80e223]:
+              - img "7월 13일부터 31일까지 레저 서머 페스타 여름 레저 혜택 총집합" [ref=f80e225]
+              - generic [ref=f80e226]:
+                - strong [ref=f80e227]:
+                  - generic [ref=f80e228]: 레저 서머 페스타
+                - paragraph [ref=f80e229]: 여름 레저 혜택 총집합
+                - list [ref=f80e230]:
+                  - listitem [ref=f80e231]:
+                    - img "이치언리븐 해먹튜브 물놀이 대형 파도타기 튜브 워터해먹 플로팅 매트리스" [ref=f80e233]
+                  - listitem [ref=f80e234]:
+                    - img "이츠라이프 침대 튜브 대형 보트 워터 베드 해먹 초등학생 성인 어린이 물놀이 용품 감성" [ref=f80e236]
+              - link "7월 13일부터 31일까지 레저 서머 페스타 여름 레저 혜택 총집합 레저 서머 페스타 여름 레저 혜택 총집합 이치언리븐 해먹튜브 물놀이 대형 파도타기 튜브 워터해먹 플로팅 매트리스 이츠라이프 침대 튜브 대형 보트 워터 베드 해먹 초등학생 성인 어린이 물놀이 용품 감성 자세히 보러 가기" [ref=f80e237] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/play/6a4c927953d5496f9618cc27
+                - generic [ref=f80e238]: 자세히 보러 가기
+          - listitem [ref=f80e239]:
+            - generic [ref=f80e240]:
+              - img "생필품 슈퍼위크 슈퍼적립부터 할인 특가까지" [ref=f80e242]
+              - generic [ref=f80e243]:
+                - img "생필품 슈퍼위크" [ref=f80e245]
+                - paragraph [ref=f80e246]: 슈퍼적립부터 할인 특가까지
+                - list [ref=f80e247]:
+                  - listitem [ref=f80e248]:
+                    - img "여성 질유산균 질건강 리스펙타 프로바이오틱스 비타민D 아연 30캡슐, 3개" [ref=f80e250]
+                  - listitem [ref=f80e251]:
+                    - img "여성 질유산균 질건강 리스펙타 프로바이오틱스 비타민D 아연 30캡슐, 1개" [ref=f80e253]
+              - link "생필품 슈퍼위크 슈퍼적립부터 할인 특가까지 생필품 슈퍼위크 슈퍼적립부터 할인 특가까지 여성 질유산균 질건강 리스펙타 프로바이오틱스 비타민D 아연 30캡슐, 3개 여성 질유산균 질건강 리스펙타 프로바이오틱스 비타민D 아연 30캡슐, 1개 자세히 보러 가기" [ref=f80e254] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/6a462f3c14fad950a9a013d9
+                - generic [ref=f80e255]: 자세히 보러 가기
+          - listitem [ref=f80e256]:
+            - generic [ref=f80e257]:
+              - img "여행용품 대전 선착순 20퍼센트 쿠폰에 더하여 일부 할인 5퍼센트" [ref=f80e259]
+              - generic [ref=f80e260]:
+                - strong [ref=f80e261]:
+                  - generic [ref=f80e262]: 여행용품 대전
+                - paragraph [ref=f80e263]: 선착순 20% 쿠폰+일부 5%
+                - list [ref=f80e264]:
+                  - listitem [ref=f80e265]:
+                    - img "팩세이프 V 힙색 슬링백 유럽 여행 힙팩 도난방지 가방 RFID스캔차단 웨이스트백 힙색 크로스백 바이브100" [ref=f80e267]
+                  - listitem [ref=f80e268]:
+                    - img "팩세이프 스타일세이프 슬링백 유럽여행 RFID스캔차단 도난방지 크로스백" [ref=f80e270]
+              - link "여행용품 대전 선착순 20퍼센트 쿠폰에 더하여 일부 할인 5퍼센트 여행용품 대전 선착순 20% 쿠폰+일부 5% 팩세이프 V 힙색 슬링백 유럽 여행 힙팩 도난방지 가방 RFID스캔차단 웨이스트백 힙색 크로스백 바이브100 팩세이프 스타일세이프 슬링백 유럽여행 RFID스캔차단 도난방지 크로스백 자세히 보러 가기" [ref=f80e271] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/brand/6a152d6b753872753391a60d
+                - generic [ref=f80e272]: 자세히 보러 가기
+          - listitem [ref=f80e273]:
+            - generic [ref=f80e274]:
+              - img "뷰티 적립 위크 단 일주일만 역대급 포인트 혜택" [ref=f80e276]
+              - generic [ref=f80e277]:
+                - strong [ref=f80e278]:
+                  - generic [ref=f80e279]: 뷰티 적립 위크
+                - paragraph [ref=f80e280]: 단 일주일만, 역대급 포인트 혜택
+                - list [ref=f80e281]:
+                  - listitem [ref=f80e282]:
+                    - img "NEW 비오템X UV 디펜스 30ml 세트 (+비오템X UV 디펜스 10ml 증정)" [ref=f80e284]
+                  - listitem [ref=f80e285]:
+                    - img "[슈퍼적립]더페이스샵 fmgt 파워퍼펙션 BB 크림 40g (SPF 37, PA++)" [ref=f80e287]
+              - link "뷰티 적립 위크 단 일주일만 역대급 포인트 혜택 뷰티 적립 위크 단 일주일만, 역대급 포인트 혜택 NEW 비오템X UV 디펜스 30ml 세트 (+비오템X UV 디펜스 10ml 증정) [슈퍼적립]더페이스샵 fmgt 파워퍼펙션 BB 크림 40g (SPF 37, PA++) 자세히 보러 가기" [ref=f80e288] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/beauty/6a509d28ed642b19b9c234ee
+                - generic [ref=f80e289]: 자세히 보러 가기
+          - listitem [ref=f80e290]:
+            - generic [ref=f80e291]:
+              - img "7월 20일부터 26일까지 헬시페스타 핫서머 건강 앤드 다이어트식품 특가" [ref=f80e293]
+              - generic [ref=f80e294]:
+                - img "헬시페스타" [ref=f80e296]
+                - paragraph [ref=f80e297]: 핫서머 건강&다이어트식품 특가
+                - list [ref=f80e298]:
+                  - listitem [ref=f80e299]:
+                    - img "국내산 통째로 갈아만든 ABC쥬스 100ml 30포 생착즙" [ref=f80e301]
+                  - listitem [ref=f80e302]:
+                    - img "[3+1] 뉴트리모어 퍼펙트 솔루션 프로바이오틱스 포 맘 임산부 수유부 생유산균 30캡슐, 4개" [ref=f80e304]
+              - link "7월 20일부터 26일까지 헬시페스타 핫서머 건강 앤드 다이어트식품 특가 헬시페스타 핫서머 건강&다이어트식품 특가 국내산 통째로 갈아만든 ABC쥬스 100ml 30포 생착즙 [3+1] 뉴트리모어 퍼펙트 솔루션 프로바이오틱스 포 맘 임산부 수유부 생유산균 30캡슐, 4개 자세히 보러 가기" [ref=f80e305] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/healthy/6a447bf809f4815aacb833cf
+                - generic [ref=f80e306]: 자세히 보러 가기
+          - listitem [ref=f80e307]:
+            - generic [ref=f80e308]:
+              - img "7월 바캉스 특별전 단 7일간 선착순 10% 쿠폰" [ref=f80e310]
+              - generic [ref=f80e311]:
+                - strong [ref=f80e312]:
+                  - generic [ref=f80e313]: 7월 바캉스 특별전
+                - paragraph [ref=f80e314]: 단 7일간 선착순 10% 쿠폰
+                - list [ref=f80e315]:
+                  - listitem [ref=f80e316]:
+                    - img "[배럴] 맨 에센셜 4부 레깅스 쇼츠 블랙 (B4SMWLP101BLK)" [ref=f80e318]
+                  - listitem [ref=f80e319]:
+                    - img "데상트골프 [정상가 119000 / 30%OFF] 남여공용 라운드 반팔 티셔츠" [ref=f80e321]
+              - link "7월 바캉스 특별전 단 7일간 선착순 10% 쿠폰 7월 바캉스 특별전 단 7일간 선착순 10% 쿠폰 [배럴] 맨 에센셜 4부 레깅스 쇼츠 블랙 (B4SMWLP101BLK) 데상트골프 [정상가 119000 / 30%OFF] 남여공용 라운드 반팔 티셔츠 자세히 보러 가기" [ref=f80e322] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/brand/6a544afcdd145e1e72446696
+                - generic [ref=f80e323]: 자세히 보러 가기
+          - listitem [ref=f80e324]:
+            - generic [ref=f80e325]:
+              - img "지금 필요한 필수템 핫 서머 이너웨어 앤드 애슬레저" [ref=f80e327]
+              - generic [ref=f80e328]:
+                - strong [ref=f80e329]:
+                  - generic [ref=f80e330]: 지금 필요한 필수템
+                - paragraph [ref=f80e331]: 핫 서머 이너웨어&애슬레저
+                - list [ref=f80e332]:
+                  - listitem [ref=f80e333]:
+                    - img "[하성민기업] 2026 뉴컬러 라이트윙 심리스 브라 4매입 세트 2type (BR-151,152)" [ref=f80e335]
+                  - listitem [ref=f80e336]:
+                    - img "[하성민기업] 심플 레이스 브라 1+1 레이어드 얇은끈 (BR-038)" [ref=f80e338]
+              - link "지금 필요한 필수템 핫 서머 이너웨어 앤드 애슬레저 지금 필요한 필수템 핫 서머 이너웨어&애슬레저 [하성민기업] 2026 뉴컬러 라이트윙 심리스 브라 4매입 세트 2type (BR-151,152) [하성민기업] 심플 레이스 브라 1+1 레이어드 얇은끈 (BR-038) 자세히 보러 가기" [ref=f80e339] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/brand/6a2fb8f7c0854713ebb81683
+                - generic [ref=f80e340]: 자세히 보러 가기
+          - listitem [ref=f80e341]:
+            - generic [ref=f80e342]:
+              - img "7월 13일부터 26일까지 요즘 많이 찾는 TV앤모니터 프로모션 검증된 인기 모델만 모았습니다" [ref=f80e344]
+              - generic [ref=f80e345]:
+                - strong [ref=f80e346]:
+                  - generic [ref=f80e347]: 많이 찾는 TV&모니터
+                - paragraph [ref=f80e348]: 검증된 인기 모델 선착순 쿠폰 혜택
+                - list [ref=f80e349]:
+                  - listitem [ref=f80e350]:
+                    - img "와이드무빙뷰 화이트에디션 삼탠바이미V3 셋트 QLED 109cm(43인치) UHD 4K 스마트 이동식 TV 유압식 높이조절 중소바이미 자가설치" [ref=f80e352]
+                  - listitem [ref=f80e353]:
+                    - img "와이드무빙뷰 화이트에디션 삼탠바이미V3 셋트 QLED 81cm(32인치) FHD 스마트 이동식 TV 유압식 높이조절 중소바이미 자가설치" [ref=f80e355]
+              - link "7월 13일부터 26일까지 요즘 많이 찾는 TV앤모니터 프로모션 검증된 인기 모델만 모았습니다 많이 찾는 TV&모니터 검증된 인기 모델 선착순 쿠폰 혜택 와이드무빙뷰 화이트에디션 삼탠바이미V3 셋트 QLED 109cm(43인치) UHD 4K 스마트 이동식 TV 유압식 높이조절 중소바이미 자가설치 와이드무빙뷰 화이트에디션 삼탠바이미V3 셋트 QLED 81cm(32인치) FHD 스마트 이동식 TV 유압식 높이조절 중소바이미 자가설치 자세히 보러 가기" [ref=f80e356] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/play/6a227913109e0f3ccfa4450a
+                - generic [ref=f80e357]: 자세히 보러 가기
+          - listitem [ref=f80e358]:
+            - generic [ref=f80e359]:
+              - img "엘지럭키 페스타 무더위를 날릴 역대급 혜택" [ref=f80e361]
+              - generic [ref=f80e362]:
+                - strong [ref=f80e363]:
+                  - generic [ref=f80e364]: 엘지럭키 페스타
+                - paragraph [ref=f80e365]: 무더위를 날릴 역대급 혜택
+                - list [ref=f80e366]:
+                  - listitem [ref=f80e367]:
+                    - img "[총용량 200ml][더블] 빌리프 아쿠아 밤 프로즌 크림 75ml, 2개" [ref=f80e369]
+                  - listitem [ref=f80e370]:
+                    - img "[슈퍼적립] 더페이스샵 미감수 브라이트 클렌징 폼 160ml, 3개" [ref=f80e372]
+              - link "엘지럭키 페스타 무더위를 날릴 역대급 혜택 엘지럭키 페스타 무더위를 날릴 역대급 혜택 [총용량 200ml][더블] 빌리프 아쿠아 밤 프로즌 크림 75ml, 2개 [슈퍼적립] 더페이스샵 미감수 브라이트 클렌징 폼 160ml, 3개 자세히 보러 가기" [ref=f80e373] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/6a4dde30dd145e1e724288af
+                - generic [ref=f80e374]: 자세히 보러 가기
+          - listitem [ref=f80e375]:
+            - generic [ref=f80e376]:
+              - img "고기페스타 선착순 이십프로 쿠폰 다운받으세요" [ref=f80e378]
+              - generic [ref=f80e379]:
+                - strong [ref=f80e380]:
+                  - generic [ref=f80e381]: 고기페스타
+                - paragraph [ref=f80e382]: 선착순 20% 쿠폰 다운받으세요
+                - list [ref=f80e383]:
+                  - listitem [ref=f80e384]:
+                    - img "우대갈비 1kg la갈비 소고기 소갈비 토마호크 캠핑 음식 스테이크" [ref=f80e386]
+                  - listitem [ref=f80e387]:
+                    - img "냉장 갈비 500g 소갈비 소갈비살 늑간살" [ref=f80e389]
+              - link "고기페스타 선착순 이십프로 쿠폰 다운받으세요 고기페스타 선착순 20% 쿠폰 다운받으세요 우대갈비 1kg la갈비 소고기 소갈비 토마호크 캠핑 음식 스테이크 냉장 갈비 500g 소갈비 소갈비살 늑간살 자세히 보러 가기" [ref=f80e390] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/food/6a447bd309f4815aacb833cd
+                - generic [ref=f80e391]: 자세히 보러 가기
+          - listitem [ref=f80e392]:
+            - generic [ref=f80e393]:
+              - img "7월 13일부터 26일까지 쿨링 가전 페스타 시원한 가격 여름 가전 초특가전" [ref=f80e395]
+              - generic [ref=f80e396]:
+                - strong [ref=f80e397]:
+                  - generic [ref=f80e398]: 쿨링 가전 페스타
+                - paragraph [ref=f80e399]: 시원한 가격! 여름 가전 초특가전
+                - list [ref=f80e400]:
+                  - listitem [ref=f80e401]:
+                    - img "위닉스 뽀송 인버터 제습기 22L (DXWE228-OYK)" [ref=f80e403]
+                  - listitem [ref=f80e404]:
+                    - img "루메나 프리미엄 휴대용 무선 냉각선풍기 FAN JET ULTRA PLUS" [ref=f80e406]
+              - link "7월 13일부터 26일까지 쿨링 가전 페스타 시원한 가격 여름 가전 초특가전 쿨링 가전 페스타 시원한 가격! 여름 가전 초특가전 위닉스 뽀송 인버터 제습기 22L (DXWE228-OYK) 루메나 프리미엄 휴대용 무선 냉각선풍기 FAN JET ULTRA PLUS 자세히 보러 가기" [ref=f80e407] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/play/6a2278cdab899338bd3c4f97
+                - generic [ref=f80e408]: 자세히 보러 가기
+          - listitem [ref=f80e409]:
+            - generic [ref=f80e410]:
+              - img "7월 20일부터 27일까지 가구 빅 브랜드 페스타 인기 브랜드 단 8일간의 빅 세일" [ref=f80e412]
+              - generic [ref=f80e413]:
+                - strong [ref=f80e414]:
+                  - generic [ref=f80e415]: 가구 빅 브랜드 페스타
+                - paragraph [ref=f80e416]: 단 8일간의 BIG SALE!
+                - list [ref=f80e417]:
+                  - listitem [ref=f80e418]:
+                    - img "까사미아 캄포 미니 스툴포함, 아이보리, 4인용" [ref=f80e420]
+                  - listitem [ref=f80e421]:
+                    - img "리바트 로넌 1200 책상세트 플랩도어형" [ref=f80e423]
+              - link "7월 20일부터 27일까지 가구 빅 브랜드 페스타 인기 브랜드 단 8일간의 빅 세일 가구 빅 브랜드 페스타 단 8일간의 BIG SALE! 까사미아 캄포 미니 스툴포함, 아이보리, 4인용 리바트 로넌 1200 책상세트 플랩도어형 자세히 보러 가기" [ref=f80e424] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/living/6a3cb10d488dfb059c29f1fd
+                - generic [ref=f80e425]: 자세히 보러 가기
+          - listitem [ref=f80e426]:
+            - generic [ref=f80e427]:
+              - img "7월 13일부터 26일까지 잇템 발굴단 디지털 인기 상품을 한눈에" [ref=f80e429]
+              - generic [ref=f80e430]:
+                - strong [ref=f80e431]:
+                  - generic [ref=f80e432]: IT템 발굴단
+                - paragraph [ref=f80e433]: 디지털 인기 상품을 한눈에!
+                - list [ref=f80e434]:
+                  - listitem [ref=f80e435]:
+                    - img "70만+한컴/HP 15 인텔 i5 가벼운 업무용 직장인 사무용 대학생 저가 싼 인강용 노트북" [ref=f80e437]
+                  - listitem [ref=f80e438]:
+                    - img "닌텐도 스위치2 휴대용 케이스 필름 포함 가방 파우치" [ref=f80e440]
+              - link "7월 13일부터 26일까지 잇템 발굴단 디지털 인기 상품을 한눈에 IT템 발굴단 디지털 인기 상품을 한눈에! 70만+한컴/HP 15 인텔 i5 가벼운 업무용 직장인 사무용 대학생 저가 싼 인강용 노트북 닌텐도 스위치2 휴대용 케이스 필름 포함 가방 파우치 자세히 보러 가기" [ref=f80e441] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/play/6a227978ab899338bd3c5218
+                - generic [ref=f80e442]: 자세히 보러 가기
+          - listitem [ref=f80e443]:
+            - generic [ref=f80e444]:
+              - img "컬리N마트 장보기위크 내일 아침 도착하는 우리 집 필수템" [ref=f80e446]
+              - generic [ref=f80e447]:
+                - strong [ref=f80e448]:
+                  - generic [ref=f80e449]: 컬리N마트 장보기위크
+                - paragraph [ref=f80e450]: 내일 아침 도착하는 우리 집 필수템
+                - list [ref=f80e451]:
+                  - listitem [ref=f80e452]:
+                    - img "[KF365] 대추방울토마토 750g" [ref=f80e454]
+                  - listitem [ref=f80e455]:
+                    - img "황도 복숭아 1.2kg (4~6입) (후숙 시 당도 우수)" [ref=f80e457]
+              - link "컬리N마트 장보기위크 내일 아침 도착하는 우리 집 필수템 컬리N마트 장보기위크 내일 아침 도착하는 우리 집 필수템 [KF365] 대추방울토마토 750g 황도 복숭아 1.2kg (4~6입) (후숙 시 당도 우수) 자세히 보러 가기" [ref=f80e458] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/6a4620c614fad950a9a002c8
+                - generic [ref=f80e459]: 자세히 보러 가기
+          - listitem [ref=f80e460]:
+            - generic [ref=f80e461]:
+              - img "엠디가 엄선한 7월 베스트 뷰티템" [ref=f80e463]
+              - generic [ref=f80e466]:
+                - img "네이버픽" [ref=f80e468]
+                - paragraph [ref=f80e469]: MD가 엄선한 7월 베스트 뷰티템
+                - list [ref=f80e470]:
+                  - listitem [ref=f80e471]:
+                    - img "[7월 네이버PICK] 포어마이징 벨벳 피니쉬 선스크린 50ml" [ref=f80e473]
+                  - listitem [ref=f80e474]:
+                    - img "[7월 네이버 PICK] FEEV 하이퍼-핏 글램 드롭 3.3g" [ref=f80e476]
+              - link "엠디가 엄선한 7월 베스트 뷰티템 네이버픽 MD가 엄선한 7월 베스트 뷰티템 [7월 네이버PICK] 포어마이징 벨벳 피니쉬 선스크린 50ml [7월 네이버 PICK] FEEV 하이퍼-핏 글램 드롭 3.3g 자세히 보러 가기" [ref=f80e477] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/beauty/6996ea7f98f1530c6f403b99
+                - generic [ref=f80e478]: 자세히 보러 가기
+          - listitem [ref=f80e479]:
+            - generic [ref=f80e480]:
+              - img "롯데아울렛 슈퍼위크 인기 브랜드 최대 할인 혜택" [ref=f80e482]
+              - generic [ref=f80e483]:
+                - strong [ref=f80e484]:
+                  - generic [ref=f80e485]: 롯데아울렛 슈퍼위크
+                - paragraph [ref=f80e486]: 인기 브랜드+최대 할인 혜택
+                - list [ref=f80e487]:
+                  - listitem [ref=f80e488]:
+                    - img "[더틸버리] 체크 벨티드 오픈카라 블라우스 GTS6N0BL561" [ref=f80e490]
+                  - listitem [ref=f80e491]:
+                    - img "[더틸버리] 체크 라운드넥 플레어원피스 Gts5n0op141" [ref=f80e493]
+              - link "롯데아울렛 슈퍼위크 인기 브랜드 최대 할인 혜택 롯데아울렛 슈퍼위크 인기 브랜드+최대 할인 혜택 [더틸버리] 체크 벨티드 오픈카라 블라우스 GTS6N0BL561 [더틸버리] 체크 라운드넥 플레어원피스 Gts5n0op141 자세히 보러 가기" [ref=f80e494] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/6a28d0c321ed5056edd35da0
+                - generic [ref=f80e495]: 자세히 보러 가기
+          - listitem [ref=f80e496]:
+            - generic [ref=f80e497]:
+              - img "라이프위크 매일 오픈 선착순 10퍼센트 쿠폰" [ref=f80e499]
+              - generic [ref=f80e500]:
+                - strong [ref=f80e501]:
+                  - generic [ref=f80e502]: 라이프위크
+                - paragraph [ref=f80e503]: 매일 오픈 선착순 10% 쿠폰
+                - list [ref=f80e504]:
+                  - listitem [ref=f80e505]:
+                    - img "오센티코 오가닉 비건 수건 고중량 40수 수건 페이스 타월 선물세트, 3장" [ref=f80e507]
+                  - listitem [ref=f80e508]:
+                    - img "[냉감X알러지케어] 마틸라X캐치티니핑 셀루오실크-쿨 알러지케어 냉감 여름키즈차렵이불 JR" [ref=f80e510]
+              - link "라이프위크 매일 오픈 선착순 10퍼센트 쿠폰 라이프위크 매일 오픈 선착순 10% 쿠폰 오센티코 오가닉 비건 수건 고중량 40수 수건 페이스 타월 선물세트, 3장 [냉감X알러지케어] 마틸라X캐치티니핑 셀루오실크-쿨 알러지케어 냉감 여름키즈차렵이불 JR 자세히 보러 가기" [ref=f80e511] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/living/6a4352f309f4815aacb72444
+                - generic [ref=f80e512]: 자세히 보러 가기
+          - listitem [ref=f80e513]:
+            - generic [ref=f80e514]:
+              - img "스포츠 패션위크 7월 여름 러닝룩 특가 혜택" [ref=f80e516]
+              - generic [ref=f80e517]:
+                - strong [ref=f80e518]:
+                  - generic [ref=f80e519]: 스포츠 패션위크
+                - paragraph [ref=f80e520]: 7월 여름 러닝룩 특가 혜택
+                - list [ref=f80e521]:
+                  - listitem [ref=f80e522]:
+                    - img "[아키클래식] 발 편한 운동화 범퍼 트레이너 2개 구매 시 자동 추가할인" [ref=f80e524]
+                  - listitem [ref=f80e525]:
+                    - img "[아키클래식] 듀얼 쿠셔닝 그라나다 여름샌들" [ref=f80e527]
+              - link "스포츠 패션위크 7월 여름 러닝룩 특가 혜택 스포츠 패션위크 7월 여름 러닝룩 특가 혜택 [아키클래식] 발 편한 운동화 범퍼 트레이너 2개 구매 시 자동 추가할인 [아키클래식] 듀얼 쿠셔닝 그라나다 여름샌들 자세히 보러 가기" [ref=f80e528] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/brand/6a4b3e7053d5496f961844d9
+                - generic [ref=f80e529]: 자세히 보러 가기
+          - listitem [ref=f80e530]:
+            - generic [ref=f80e531]:
+              - img "7월 네플스 온리 네플스에서만 만날 수 있는 단독상품!" [ref=f80e533]
+              - generic [ref=f80e534]:
+                - strong [ref=f80e535]:
+                  - generic [ref=f80e536]: 7월 네플스 Only
+                - paragraph [ref=f80e537]: 네플스에서만 만날 수 있는 단독상품!
+                - list [ref=f80e538]:
+                  - listitem [ref=f80e539]:
+                    - img "[네이버단독 기획제품] 엘라스틴 퍼퓸드리추얼 탈모 약산성 퍼퓸 샴푸 옥토버 포레스트 우디 베르가못향 915ml + 리필 800ml" [ref=f80e541]
+                  - listitem [ref=f80e542]:
+                    - img "일리윤 세라마이드 아토 6.0 탑투토 올인원 워시 500ml+500ml리필 몬치치 한정에디션 (+스티커)" [ref=f80e544]
+              - link "7월 네플스 온리 네플스에서만 만날 수 있는 단독상품! 7월 네플스 Only 네플스에서만 만날 수 있는 단독상품! [네이버단독 기획제품] 엘라스틴 퍼퓸드리추얼 탈모 약산성 퍼퓸 샴푸 옥토버 포레스트 우디 베르가못향 915ml + 리필 800ml 일리윤 세라마이드 아토 6.0 탑투토 올인원 워시 500ml+500ml리필 몬치치 한정에디션 (+스티커) 자세히 보러 가기" [ref=f80e545] [cursor=pointer]:
+                - /url: https://mkt.naver.com/p1/atrb?channel_id=newsp_pchome&campaign_id=2605-shopping-032&target=https%3A%2F%2Fshopping.naver.com%2Ffesta%2Fonsale%2F69c0f4d23ede1c1ad4289684%3Fdtm_source%3Dnewsp_pchome%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2605-shopping-032
+                - generic [ref=f80e546]: 자세히 보러 가기
+          - listitem [ref=f80e547]:
+            - generic [ref=f80e548]:
+              - img "농부가 바로팜 신선 농산물 20% 할인 기획전" [ref=f80e550]
+              - generic [ref=f80e551]:
+                - strong [ref=f80e552]:
+                  - generic [ref=f80e553]: 농부가 바로팜
+                - paragraph [ref=f80e554]: 신선 농산물 20% 할인 기획전
+                - list [ref=f80e555]:
+                  - listitem [ref=f80e556]:
+                    - img "1kg 3개 선물세트(백미, 7분도) 25년 고시히카리 햅쌀/ 당일도정 특등급/소포장" [ref=f80e558]
+                  - listitem [ref=f80e559]:
+                    - img "고기얌 불오돌뼈 250g 국내산 매운 양념 캠핑 혼술 안주" [ref=f80e561]
+              - link "농부가 바로팜 신선 농산물 20% 할인 기획전 농부가 바로팜 신선 농산물 20% 할인 기획전 1kg 3개 선물세트(백미, 7분도) 25년 고시히카리 햅쌀/ 당일도정 특등급/소포장 고기얌 불오돌뼈 250g 국내산 매운 양념 캠핑 혼술 안주 자세히 보러 가기" [ref=f80e562] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/6a3cc9c7ae53687c6e168944
+                - generic [ref=f80e563]: 자세히 보러 가기
+          - listitem [ref=f80e564]:
+            - generic [ref=f80e565]:
+              - img "7월 21일 핏펫 브랜드데이 단 하루 최대 68퍼센트 특가" [ref=f80e567]
+              - generic [ref=f80e568]:
+                - strong [ref=f80e569]:
+                  - generic [ref=f80e570]: 핏펫 브랜드데이
+                - paragraph [ref=f80e571]: 단 하루 UP TO 68% 특가!
+                - list [ref=f80e572]:
+                  - listitem [ref=f80e573]:
+                    - img "강아지 여름옷 댄 텔레토비 쿨 슬리브리스 쿨나시 냉감 기능성 조끼 고양이 티셔츠" [ref=f80e575]
+                  - listitem [ref=f80e576]:
+                    - img "강아지 슬링백 이동가방 앞가방 산책가방 고양이 이동장 기내용 댄 허그백" [ref=f80e578]
+              - link "7월 21일 핏펫 브랜드데이 단 하루 최대 68퍼센트 특가 핏펫 브랜드데이 단 하루 UP TO 68% 특가! 강아지 여름옷 댄 텔레토비 쿨 슬리브리스 쿨나시 냉감 기능성 조끼 고양이 티셔츠 강아지 슬링백 이동가방 앞가방 산책가방 고양이 이동장 기내용 댄 허그백 자세히 보러 가기" [ref=f80e579] [cursor=pointer]:
+                - /url: https://brand.naver.com/inflow/outlink/url?url=https%3A%2F%2Fbrand.naver.com%2Ffitpet%2Fshoppingstory%2Fdetail%3Fid%3D5002837255&tr=nsh&trx=5002837255
+                - generic [ref=f80e580]: 자세히 보러 가기
+          - listitem [ref=f80e581]:
+            - generic [ref=f80e582]:
+              - img "스파오 패밀리 최대 64퍼센트 역대급 특가전" [ref=f80e584]
+              - generic [ref=f80e585]:
+                - strong [ref=f80e586]:
+                  - generic [ref=f80e587]: 스파오 패밀리
+                - paragraph [ref=f80e588]: 브랜드데이 단 하루 최대 혜택
+                - list [ref=f80e589]:
+                  - listitem [ref=f80e590]:
+                    - img "[N배송]콜라보 반팔 티셔츠 모음 (가나디,산리오,담곰이,먼작귀,망곰이,리락쿠마,짱구,트위티)" [ref=f80e592]
+                  - listitem [ref=f80e593]:
+                    - img "[N배송] 스파오 콜라보 반팔 파자마 모음 (가나디,산리오,먼작귀,망곰이,담곰이,리락쿠마,짱구,해리포터,몰티즈)" [ref=f80e595]
+              - link "스파오 패밀리 최대 64퍼센트 역대급 특가전 스파오 패밀리 브랜드데이 단 하루 최대 혜택 [N배송]콜라보 반팔 티셔츠 모음 (가나디,산리오,담곰이,먼작귀,망곰이,리락쿠마,짱구,트위티) [N배송] 스파오 콜라보 반팔 파자마 모음 (가나디,산리오,먼작귀,망곰이,담곰이,리락쿠마,짱구,해리포터,몰티즈) 자세히 보러 가기" [ref=f80e596] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/brand/6a30aedd8990096bb33d8bbc
+                - generic [ref=f80e597]: 자세히 보러 가기
+          - listitem [ref=f80e598]:
+            - generic [ref=f80e599]:
+              - img "최대 58% 네이버 배송 역대급 특가전" [ref=f80e601]
+              - generic [ref=f80e604]:
+                - strong [ref=f80e605]:
+                  - generic [ref=f80e606]: 헨켈홈케어
+                - paragraph [ref=f80e607]: 브랜드데이 단하루! 최대 58% 특가
+                - list [ref=f80e608]:
+                  - listitem [ref=f80e609]:
+                    - img "[퍼실300ml증정] 퍼실 마이크로 효소 라벤더 2.5L(용기) 2개 겸용" [ref=f80e611]
+                  - listitem [ref=f80e612]:
+                    - img "[퍼실300ml증정] 헨켈 캡슐세제 퍼실 디스크 26개입 2개 실내건조" [ref=f80e614]
+              - link "최대 58% 네이버 배송 역대급 특가전 헨켈홈케어 브랜드데이 단하루! 최대 58% 특가 [퍼실300ml증정] 퍼실 마이크로 효소 라벤더 2.5L(용기) 2개 겸용 [퍼실300ml증정] 헨켈 캡슐세제 퍼실 디스크 26개입 2개 실내건조 자세히 보러 가기" [ref=f80e615] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/living/6a3094be21ed5056edd5e18f
+                - generic [ref=f80e616]: 자세히 보러 가기
+          - listitem [ref=f80e617]:
+            - generic [ref=f80e618]:
+              - img "갸스비 브랜드데이 단 하루 최대 58퍼센트 특가" [ref=f80e620]
+              - generic [ref=f80e621]:
+                - strong [ref=f80e622]:
+                  - generic [ref=f80e623]: 갸스비 브랜드데이
+                - paragraph [ref=f80e624]: 단 하루 UP TO 58% 특가
+                - list [ref=f80e625]:
+                  - listitem [ref=f80e626]:
+                    - img "갸스비 헤어스타일링 스프레이 울트라 터프 215ml 1개+1개" [ref=f80e628]
+                  - listitem [ref=f80e629]:
+                    - img "[1+1] 갸스비 셋앤킵 헤어스프레이 남성여성하드스프레이 앞머리고정픽서 263ml" [ref=f80e631]
+              - link "갸스비 브랜드데이 단 하루 최대 58퍼센트 특가 갸스비 브랜드데이 단 하루 UP TO 58% 특가 갸스비 헤어스타일링 스프레이 울트라 터프 215ml 1개+1개 [1+1] 갸스비 셋앤킵 헤어스프레이 남성여성하드스프레이 앞머리고정픽서 263ml 자세히 보러 가기" [ref=f80e632] [cursor=pointer]:
+                - /url: https://brand.naver.com/inflow/outlink/url?url=https%3A%2F%2Fbrand.naver.com%2Fgatsby_official%2Fshoppingstory%2Fdetail%3Fid%3D5002810871&tr=nsh&trx=5002810871
+                - generic [ref=f80e633]: 자세히 보러 가기
+          - listitem [ref=f80e634]:
+            - generic [ref=f80e635]:
+              - img "7월 21일 대한민국농수산 브랜드데이 단 하루 이 가격" [ref=f80e637]
+              - generic [ref=f80e638]:
+                - strong [ref=f80e639]:
+                  - generic [ref=f80e640]: 대한민국농수산
+                - paragraph [ref=f80e641]: 브랜드데이 최대 64% 역대급 특가
+                - list [ref=f80e642]:
+                  - listitem [ref=f80e643]:
+                    - img "평양 냉면 물냉면 1인분 메밀" [ref=f80e645]
+                  - listitem [ref=f80e646]:
+                    - img "소고기 육포 20g 간식 안주 마른안주" [ref=f80e648]
+              - link "7월 21일 대한민국농수산 브랜드데이 단 하루 이 가격 대한민국농수산 브랜드데이 최대 64% 역대급 특가 평양 냉면 물냉면 1인분 메밀 소고기 육포 20g 간식 안주 마른안주 자세히 보러 가기" [ref=f80e649] [cursor=pointer]:
+                - /url: https://brand.naver.com/inflow/outlink/url?url=https%3A%2F%2Fbrand.naver.com%2Fkoreasusan1%2Fshoppingstory%2Fdetail%3Fid%3D5002818782&tr=nsh&trx=5002818782
+                - generic [ref=f80e650]: 자세히 보러 가기
+          - listitem [ref=f80e651]:
+            - generic [ref=f80e652]:
+              - img "살림백서 신상위크 고체탈취제 단독 선공개" [ref=f80e654]
+              - generic [ref=f80e655]:
+                - strong [ref=f80e656]:
+                  - generic [ref=f80e657]: 살림백서 신상위크
+                - paragraph [ref=f80e658]: 고체탈취제 단독 선공개!
+                - list [ref=f80e659]:
+                  - listitem [ref=f80e660]:
+                    - img "살림백서 데오 에어 프레쉬 실내 고체탈취제 350g 런드리허그코튼 집안 화장실 냄새 제거" [ref=f80e662]
+                  - listitem [ref=f80e663]:
+                    - img "살림백서 데오 에어 프레쉬 차량용 고체탈취제 250g 런드리 허그코튼향 자동차 실내 공기 냄새 제거" [ref=f80e665]
+              - link "살림백서 신상위크 고체탈취제 단독 선공개 살림백서 신상위크 고체탈취제 단독 선공개! 살림백서 데오 에어 프레쉬 실내 고체탈취제 350g 런드리허그코튼 집안 화장실 냄새 제거 살림백서 데오 에어 프레쉬 차량용 고체탈취제 250g 런드리 허그코튼향 자동차 실내 공기 냄새 제거 자세히 보러 가기" [ref=f80e666] [cursor=pointer]:
+                - /url: https://brand.naver.com/inflow/outlink/url?url=https%3A%2F%2Fbrand.naver.com%2Fhomekeeping%2Fshoppingstory%2Fdetail%3Fid%3D5002834398&tr=nsh&trx=5002834398
+                - generic [ref=f80e667]: 자세히 보러 가기
+          - listitem [ref=f80e668]:
+            - generic [ref=f80e669]:
+              - img "엘지 트윈스 마뗑킴 노크잇 단독 발매 특별 이벤트" [ref=f80e671]
+              - generic [ref=f80e672]:
+                - img "엘지 트윈스 마뗑킴" [ref=f80e674]
+                - paragraph [ref=f80e675]: 노크잇 단독 발매 특별 이벤트
+              - link "엘지 트윈스 마뗑킴 노크잇 단독 발매 특별 이벤트 엘지 트윈스 마뗑킴 노크잇 단독 발매 특별 이벤트 자세히 보러 가기" [ref=f80e676] [cursor=pointer]:
+                - /url: https://mkt.naver.com/p1/atrb?channel_id=newsp_pchome&campaign_id=2606-knockit-001&material=LGMK&target=https%3A%2F%2Fshopping.naver.com%2Ffesta%2Fonsale%2F6a2a69b621ed5056edd42d09%3Fdtm_detail%3DLGMK%26dtm_source%3Dnewsp_pchome%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2606-knockit-001
+                - generic [ref=f80e677]: 자세히 보러 가기
+          - listitem [ref=f80e678]:
+            - generic [ref=f80e679]:
+              - img "슈퍼적립 COOL 여름 필수템 10% 더 적립" [ref=f80e681]
+              - generic [ref=f80e682]:
+                - img "슈퍼적립" [ref=f80e684]
+                - paragraph [ref=f80e685]: COOL 여름 필수템 10% 더 적립
+              - link "슈퍼적립 COOL 여름 필수템 10% 더 적립 슈퍼적립 COOL 여름 필수템 10% 더 적립 자세히 보러 가기" [ref=f80e686] [cursor=pointer]:
+                - /url: https://mkt.naver.com/p1/atrb?channel_id=newsp_pchome&campaign_id=2502-shopping-008&material=260720_furniture&target=https%3A%2F%2Fshopping.naver.com%2Fsuper-point%2Fhome%3Fdtm_detail%3D260720_furniture%26dtm_source%3Dnewsp_pchome%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2502-shopping-008
+                - generic [ref=f80e687]: 자세히 보러 가기
+          - listitem [ref=f80e688]:
+            - generic [ref=f80e689]:
+              - img "베스트 어워즈 상반기 결산 라이브 최대 혜택 GET" [ref=f80e691]
+              - generic [ref=f80e692]:
+                - img "베스트 어워즈" [ref=f80e694]
+                - paragraph [ref=f80e695]: 상반기 결산 라이브 최대 혜택 GET
+              - link "베스트 어워즈 상반기 결산 라이브 최대 혜택 GET 베스트 어워즈 상반기 결산 라이브 최대 혜택 GET 자세히 보러 가기" [ref=f80e696] [cursor=pointer]:
+                - /url: https://shoppinglive.naver.com/exhibition/4036
+                - generic [ref=f80e697]: 자세히 보러 가기
+          - listitem [ref=f80e698]:
+            - generic [ref=f80e699]:
+              - img "SUMMER CLEARANCE 특가로 만나는 노크잇 인기 상품" [ref=f80e701]
+              - generic [ref=f80e702]:
+                - strong [ref=f80e703]:
+                  - generic [ref=f80e704]: 서머 클리어런스
+                  - generic [ref=f80e705]: 베스트 아이템
+                - paragraph [ref=f80e706]: 특가로 만나는 노크잇 인기 상품
+              - link "SUMMER CLEARANCE 특가로 만나는 노크잇 인기 상품 서머 클리어런스 베스트 아이템 특가로 만나는 노크잇 인기 상품 자세히 보러 가기" [ref=f80e707] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/6a3cab3a488dfb059c29eb02
+                - generic [ref=f80e708]: 자세히 보러 가기
+          - listitem [ref=f80e709]:
+            - generic [ref=f80e710]:
+              - img "N+스토어가 플리마켓을 열어요 브랜드 리퍼부터 빈티지까지" [ref=f80e712]
+              - generic [ref=f80e713]:
+                - strong [ref=f80e714]:
+                  - generic [ref=f80e715]: N+스토어가
+                  - generic [ref=f80e716]: 플리마켓을 열어요
+                - paragraph [ref=f80e717]: 브랜드 리퍼부터 빈티지까지
+              - link "N+스토어가 플리마켓을 열어요 브랜드 리퍼부터 빈티지까지 N+스토어가 플리마켓을 열어요 브랜드 리퍼부터 빈티지까지 자세히 보러 가기" [ref=f80e718] [cursor=pointer]:
+                - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcshophome&campaign_id=2607-fleamarket-001&target=https%3A%2F%2Ffleamarket.naver.com%2Fsmartstore%3Fdtm_source%3Dnaver_pcshophome%26dtm_medium%3Dmktatrb_sh%26dtm_campaign%3D2607-fleamarket-001
+                - generic [ref=f80e719]: 자세히 보러 가기
+          - listitem [ref=f80e720]:
+            - generic [ref=f80e721]:
+              - img "가까워서 더 자주 근거리 여행지 일본/동남아/중화권 티켓&투어 한번에" [ref=f80e723]
+              - generic [ref=f80e724]:
+                - strong [ref=f80e725]:
+                  - generic [ref=f80e726]: 가까워서 더 자주
+                  - generic [ref=f80e727]: 근거리 여행지
+                - paragraph [ref=f80e728]: 일본/동남아/중화권 티켓&투어 한번에
+              - link "가까워서 더 자주 근거리 여행지 일본/동남아/중화권 티켓&투어 한번에 가까워서 더 자주 근거리 여행지 일본/동남아/중화권 티켓&투어 한번에 자세히 보러 가기" [ref=f80e729] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/6a2144224f04d33473c755ce
+                - generic [ref=f80e730]: 자세히 보러 가기
+          - listitem [ref=f80e731]:
+            - generic [ref=f80e732]:
+              - img "7월 1일부터 7월 31일까지 애플 베스트 컬렉션 최대 15퍼센트 할인" [ref=f80e734]
+              - generic [ref=f80e735]:
+                - strong [ref=f80e736]:
+                  - generic [ref=f80e737]: 휴가는 설레게,
+                  - generic [ref=f80e738]: 혜택은 더 크게.
+                - paragraph [ref=f80e739]: Apple 최대 15% 할인
+              - link "7월 1일부터 7월 31일까지 애플 베스트 컬렉션 최대 15퍼센트 할인 휴가는 설레게, 혜택은 더 크게. Apple 최대 15% 할인 자세히 보러 가기" [ref=f80e740] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/play/69c39c4a3ede1c1ad4296853
+                - generic [ref=f80e741]: 자세히 보러 가기
+          - listitem [ref=f80e742]:
+            - generic [ref=f80e743]:
+              - img "이번달 나의 리워드는? 참여하고 확인하기 목표금액 달성 시 최대 3만P" [ref=f80e745]
+              - generic [ref=f80e746]:
+                - strong [ref=f80e747]:
+                  - generic [ref=f80e748]: 이번달 나의 리워드는?
+                  - generic [ref=f80e749]: 참여하고 확인하기
+                - paragraph [ref=f80e750]: 목표금액 달성 시 최대 3만P
+              - link "이번달 나의 리워드는? 참여하고 확인하기 목표금액 달성 시 최대 3만P 이번달 나의 리워드는? 참여하고 확인하기 목표금액 달성 시 최대 3만P 자세히 보러 가기" [ref=f80e751] [cursor=pointer]:
+                - /url: https://mkt.naver.com/p1/atrb?channel_id=newsp_pchome&campaign_id=2607-shopping-006&target=https%3A%2F%2Fmkt.naver.com%2Fplusmission%3Fdtm_source%3Dnewsp_pchome%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2607-shopping-006
+                - generic [ref=f80e752]: 자세히 보러 가기
+          - listitem [ref=f80e753]:
+            - generic [ref=f80e754]:
+              - img "노크잇 열어보면 전부 내 취향, 노크잇" [ref=f80e756]
+              - generic [ref=f80e757]:
+                - img "노크잇" [ref=f80e759]
+                - paragraph [ref=f80e760]: 열어보면 전부 내 취향, 노크잇
+              - link "노크잇 열어보면 전부 내 취향, 노크잇 노크잇 열어보면 전부 내 취향, 노크잇 자세히 보러 가기" [ref=f80e761] [cursor=pointer]:
+                - /url: https://mkt.naver.com/p1/atrb?channel_id=newsp_pchome&campaign_id=2606-knockit-001&target=https%3A%2F%2Fshopping.naver.com%2Ffesta%2Fonsale%2F69f07fde5e4c53612200c5f3%3Fdtm_source%3Dnewsp_pchome%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2606-knockit-001
+                - generic [ref=f80e762]: 자세히 보러 가기
+          - listitem [ref=f80e763]:
+            - generic [ref=f80e764]:
+              - img "지친 일상을 벗어날 여름휴가 특집 상품! 럭키드로우로 0원 응모하세요" [ref=f80e766]
+              - generic [ref=f80e767]:
+                - strong [ref=f80e768]:
+                  - generic [ref=f80e769]: 지친 일상을 벗어날
+                  - generic [ref=f80e770]: 여름휴가 특집 상품!
+                - paragraph [ref=f80e771]: 럭키드로우로 0원 응모하세요
+              - link "지친 일상을 벗어날 여름휴가 특집 상품! 럭키드로우로 0원 응모하세요 지친 일상을 벗어날 여름휴가 특집 상품! 럭키드로우로 0원 응모하세요 자세히 보러 가기" [ref=f80e772] [cursor=pointer]:
+                - /url: https://mkt.naver.com/p1/atrb?channel_id=shoppinghometopbanner&campaign_id=2607-shopping-027&material=2607draw&target=https%3A%2F%2Fmkt.naver.com%2Fluckydraw%2Flifestyle_app%3Fdtm_detail%3D2607draw%26dtm_source%3Dshoppinghometopbanner%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2607-shopping-027
+                - generic [ref=f80e773]: 자세히 보러 가기
+          - listitem [ref=f80e774]:
+            - generic [ref=f80e775]:
+              - img "그냥 사면 1%, 멤버십이면 5% 멤버십 시작하고 혜택받기" [ref=f80e777]
+              - generic [ref=f80e778]:
+                - strong [ref=f80e779]:
+                  - generic [ref=f80e780]: 그냥 사면 1%,
+                  - generic [ref=f80e781]: 멤버십이면 5%
+                - paragraph [ref=f80e782]: 멤버십 시작하고 혜택받기
+              - link "그냥 사면 1%, 멤버십이면 5% 멤버십 시작하고 혜택받기 그냥 사면 1%, 멤버십이면 5% 멤버십 시작하고 혜택받기 자세히 보러 가기" [ref=f80e783] [cursor=pointer]:
+                - /url: https://nid.naver.com/membership/join?dtm_source=naver_pcshophome&dtm_medium=display&dtm_campaign=pointC&scrollTo=save
+                - generic [ref=f80e784]: 자세히 보러 가기
+      - list [ref=f80e788]:
+        - listitem [ref=f80e789]:
+          - link "실시간랭킹" [ref=f80e790] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2602-shopping-013&material=260721&target=https%3A%2F%2Fshopping.naver.com%2Fpromotion%3Ftype%3DRANKING%26dtm_detail%3D260721%26dtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2602-shopping-013
+        - listitem [ref=f80e793]:
+          - link "뷰티적립+" [ref=f80e794] [cursor=pointer]:
+            - /url: https://shopping.naver.com/festa/onsale/brand/6a3dd8248d177939f9705ca5
+        - listitem [ref=f80e797]:
+          - link "오늘리워드" [ref=f80e798] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2606-shopping-018&target=https%3A%2F%2Fcampaign.shopping.naver.com%2Freward%3Fdtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2606-shopping-018
+        - listitem [ref=f80e801]:
+          - link "오늘끝딜" [ref=f80e802] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2602-shopping-013&material=13527136926&target=https%3A%2F%2Fshopping.naver.com%2Fpromotion%3Ftype%3DWAFFLE%26index%3D0%26dtm_detail%3D13527136926%26dtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2602-shopping-013
+        - listitem [ref=f80e805]:
+          - link "컬리N마트" [ref=f80e806] [cursor=pointer]:
+            - /url: https://shopping.naver.com/kurlynmart/home
+        - listitem [ref=f80e809]:
+          - link "슈퍼특가" [ref=f80e810] [cursor=pointer]:
+            - /url: https://shopping.naver.com/festa/onsale/brand/6a1d2799978cd6559d5b86da
+        - listitem [ref=f80e813]:
+          - link "스토어랭킹" [ref=f80e814] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2512-shopping-024&target=https%3A%2F%2Fmkt.naver.com%2Fstore_discovery%3Fdtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2512-shopping-024
+        - listitem [ref=f80e817]:
+          - link "N여행핫딜" [ref=f80e818] [cursor=pointer]:
+            - /url: https://shopping.naver.com/festa/onsale/692848786f1afd11fcaf4ce4
+        - listitem [ref=f80e821]:
+          - link "쇼핑라이브" [ref=f80e822] [cursor=pointer]:
+            - /url: https://shoppinglive.naver.com/home
+        - listitem [ref=f80e825]:
+          - link "N배송" [ref=f80e826] [cursor=pointer]:
+            - /url: https://shopping.naver.com/logistics/home
+        - listitem [ref=f80e829]:
+          - link "하이엔드" [ref=f80e830] [cursor=pointer]:
+            - /url: https://shopping.naver.com/highend/home
+        - listitem [ref=f80e833]:
+          - link "슈퍼적립" [ref=f80e834] [cursor=pointer]:
+            - /url: https://shopping.naver.com/super-point/home
+        - listitem [ref=f80e837]:
+          - link "N플리마켓" [ref=f80e838] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2607-fleamarket-001&target=https%3A%2F%2Ffleamarket.naver.com%2Fsmartstore%3Fdtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2607-fleamarket-001
+        - listitem [ref=f80e841]:
+          - link "선물샵" [ref=f80e842] [cursor=pointer]:
+            - /url: https://shopping.naver.com/gift/home
+      - generic [ref=f80e846]:
+        - list [ref=f80e851]:
+          - listitem [ref=f80e852]
+          - listitem [ref=f80e854]
+          - listitem [ref=f80e856]
+          - listitem [ref=f80e858]
+          - listitem [ref=f80e860]
+          - listitem [ref=f80e862]
+          - listitem [ref=f80e864]
+          - listitem [ref=f80e866]
+        - generic [ref=f80e868]:
+          - list [ref=f80e870]:
+            - listitem [ref=f80e871]
+            - listitem [ref=f80e882]
+            - listitem [ref=f80e893]
+            - listitem [ref=f80e904]
+            - listitem [ref=f80e915]
+            - listitem [ref=f80e926]
+            - listitem [ref=f80e937]
+            - listitem [ref=f80e948]
+            - listitem [ref=f80e959]
+            - listitem [ref=f80e970]
+            - listitem [ref=f80e981]
+            - listitem [ref=f80e992]
+          - generic [ref=f80e1004]:
+            - button "이전" [ref=f80e1005] [cursor=pointer]
+            - generic [ref=f80e1009]:
+              - generic [ref=f80e1010]:
+                - generic [ref=f80e1011]: 현재 페이지
+                - text: "1"
+              - text: /
+              - generic [ref=f80e1012]: 전체 페이지
+              - text: "1"
+            - button "다음" [ref=f80e1013] [cursor=pointer]
+      - generic [ref=f80e1018]:
+        - generic [ref=f80e1019]:
+          - heading "오늘의 행사 놓치지 마세요!" [level=3] [ref=f80e1020]
+          - link "전체보기" [ref=f80e1022] [cursor=pointer]:
+            - /url: https://shopping.naver.com/promotion?type=RANKING
+        - list [ref=f80e1027]:
+          - listitem [ref=f80e1028]:
+            - generic [ref=f80e1029]:
+              - strong [ref=f80e1034]: 신상위크
+              - strong [ref=f80e1036]: MLB 베이식 스몰 로고 티셔츠 공개
+              - link "신상위크 MLB 베이식 스몰 로고 티셔츠 공개 상세페이지 바로가기" [ref=f80e1037] [cursor=pointer]:
+                - /url: https://m.brand.naver.com/mlb/shoppingstory/detail?id=5002838052
+                - generic [ref=f80e1038]: 상세페이지 바로가기
+          - listitem [ref=f80e1039]:
+            - generic [ref=f80e1040]:
+              - strong [ref=f80e1045]:
+                - emphasis [ref=f80e1046]: 아울렛가
+                - text: 로엠 브이넥 원피스 6만 원대
+              - link "아울렛가 로엠 브이넥 원피스 6만 원대 상세페이지 바로가기" [ref=f80e1047] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/6a28d0c321ed5056edd35da0?layerId=L_260708150201801&first=13587520434
+                - generic [ref=f80e1048]: 상세페이지 바로가기
+          - listitem [ref=f80e1049]:
+            - generic [ref=f80e1050]:
+              - strong [ref=f80e1055]:
+                - emphasis [ref=f80e1056]: 무배
+                - text: 마틸라X캐치 티니핑 이불 41%↓
+              - link "무배 마틸라X캐치 티니핑 이불 41%↓ 상세페이지 바로가기" [ref=f80e1057] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/living/6a4352f309f4815aacb72444?layerId=L_10_260630142311218&bubble=0&first=13412718042
+                - generic [ref=f80e1058]: 상세페이지 바로가기
+          - listitem [ref=f80e1059]:
+            - generic [ref=f80e1060]:
+              - strong [ref=f80e1065]: 투데이Pick
+              - strong [ref=f80e1067]: 오늘만 ~80%↓ 루브르파리
+              - link "투데이Pick 오늘만 ~80%↓ 루브르파리 상세페이지 바로가기" [ref=f80e1068] [cursor=pointer]:
+                - /url: https://fashionpick.shopping.naver.com/m/brandday/142801/580436?mainMenu=NPS_TODAYPICK_GIRL
+                - generic [ref=f80e1069]: 상세페이지 바로가기
+          - listitem [ref=f80e1070]:
+            - generic [ref=f80e1071]:
+              - strong [ref=f80e1076]: 오늘끝딜
+              - strong [ref=f80e1078]: 닥터포헤어 딥 쿨링 샴푸 2개 반짝 딜
+              - link "오늘끝딜 닥터포헤어 딥 쿨링 샴푸 2개 반짝 딜 상세페이지 바로가기" [ref=f80e1079] [cursor=pointer]:
+                - /url: https://shopping.naver.com/promotion?type=WAFFLE&index=0&layerId=L_260715180217110&first=10609109377
+                - generic [ref=f80e1080]: 상세페이지 바로가기
+          - listitem [ref=f80e1081]:
+            - generic [ref=f80e1082]:
+              - strong [ref=f80e1087]: 쇼핑LIVE
+              - strong [ref=f80e1089]: 바비 브라운 비타민 베이스 SALE
+              - link "쇼핑LIVE 바비 브라운 비타민 베이스 SALE 상세페이지 바로가기" [ref=f80e1090] [cursor=pointer]:
+                - /url: https://shoppinglive.naver.com/exhibition/3345?first=1943547&firstContentType=BROADCAST
+                - generic [ref=f80e1091]: 상세페이지 바로가기
+          - listitem [ref=f80e1092]:
+            - generic [ref=f80e1093]:
+              - strong [ref=f80e1098]: 기간한정
+              - strong [ref=f80e1100]: 마이클코어스 서머 클리어런스 ~90%↓
+              - link "기간한정 마이클코어스 서머 클리어런스 ~90%↓ 상세페이지 바로가기" [ref=f80e1101] [cursor=pointer]:
+                - /url: https://m.brand.naver.com/michaelkorskorea/shoppingstory/detail?id=5002782539&channelUid=2sWDzmdjWsJXFHHc8wjhF
+                - generic [ref=f80e1102]: 상세페이지 바로가기
+          - listitem [ref=f80e1103]:
+            - generic [ref=f80e1104]:
+              - strong [ref=f80e1109]:
+                - emphasis [ref=f80e1110]: NEW
+                - text: 살림백서 고체 탈취제 출시 특가
+              - link "NEW 살림백서 고체 탈취제 출시 특가 상세페이지 바로가기" [ref=f80e1111] [cursor=pointer]:
+                - /url: https://m.brand.naver.com/homekeeping/shoppingstory/detail?id=5002834398
+                - generic [ref=f80e1112]: 상세페이지 바로가기
+          - listitem [ref=f80e1113]:
+            - generic [ref=f80e1114]:
+              - strong [ref=f80e1119]: 브랜드DAY
+              - strong [ref=f80e1121]: 스파오패밀리 하루 3번 선착순 쿠폰
+              - link "브랜드DAY 스파오패밀리 하루 3번 선착순 쿠폰 상세페이지 바로가기" [ref=f80e1122] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/brand/6a30aedd8990096bb33d8bbc
+                - generic [ref=f80e1123]: 상세페이지 바로가기
+          - listitem [ref=f80e1124]:
+            - generic [ref=f80e1125]:
+              - strong [ref=f80e1130]: 헬시페스타
+              - strong [ref=f80e1132]: 3+1 뉴트리모어 생유산균 42%↓
+              - link "헬시페스타 3+1 뉴트리모어 생유산균 42%↓ 상세페이지 바로가기" [ref=f80e1133] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/healthy/6a447bf809f4815aacb833cf?layerId=L_260714103634876&first=12627444651
+                - generic [ref=f80e1134]: 상세페이지 바로가기
+          - listitem [ref=f80e1135]:
+            - generic [ref=f80e1136]:
+              - strong [ref=f80e1141]:
+                - emphasis [ref=f80e1142]: ~55%↓
+                - text: 헨켈홈케어 다시없는 역대급 가격
+              - link "~55%↓ 헨켈홈케어 다시없는 역대급 가격 상세페이지 바로가기" [ref=f80e1143] [cursor=pointer]:
+                - /url: https://shopping.naver.com/festa/onsale/living/6a3094be21ed5056edd5e18f
+                - generic [ref=f80e1144]: 상세페이지 바로가기
+          - listitem [ref=f80e1145]:
+            - generic [ref=f80e1146]:
+              - strong [ref=f80e1151]: 자정까지
+              - strong [ref=f80e1153]: 핏펫 전 상품 ~68%↓+바우처 적립
+              - link "자정까지 핏펫 전 상품 ~68%↓+바우처 적립 상세페이지 바로가기" [ref=f80e1154] [cursor=pointer]:
+                - /url: https://m.brand.naver.com/fitpet/shoppingstory/detail?id=5002837255
+                - generic [ref=f80e1155]: 상세페이지 바로가기
+      - generic [ref=f80e1157]:
+        - button "opt 님만을 위한 맞춤 추천 도움말 보기" [ref=f80e1159] [cursor=pointer]:
+          - emphasis [ref=f80e1160]: opt
+          - generic [ref=f80e1161]: 님만을 위한 맞춤 추천
+          - generic [ref=f80e1165]: 도움말 보기
+        - button "켜기" [ref=f80e1167] [cursor=pointer]
+    - generic [ref=f80e1171]:
+      - generic [ref=f80e1172]:
+        - heading "하위영역" [level=2] [ref=f80e1173]
+        - generic [ref=f80e1174]:
+          - link "네이버 이용약관" [ref=f80e1175] [cursor=pointer]:
+            - /url: http://www.naver.com/rules/service.html
+          - link "네이버페이 이용약관" [ref=f80e1176] [cursor=pointer]:
+            - /url: https://new-m.pay.naver.com/member/terms-policy/npay-usage
+          - link [ref=f80e1177] [cursor=pointer]:
+            - /url: http://www.naver.com/rules/privacy.html
+            - strong [ref=f80e1178]: 개인정보처리방침
+          - link "법적고지 및 주의사항" [ref=f80e1179] [cursor=pointer]:
+            - /url: https://shopping.naver.com/help/legal-basis
+          - link "입점안내" [ref=f80e1180] [cursor=pointer]:
+            - /url: http://join.shopping.naver.com/index.nhn
+          - link "쇼핑윈도 노출안내" [ref=f80e1181] [cursor=pointer]:
+            - /url: https://sell.smartstore.naver.com/#/home/about?tipModal=WINDOW_EXPOSURE&tap=style
+          - link "쇼핑파트너센터" [ref=f80e1182] [cursor=pointer]:
+            - /url: https://center.shopping.naver.com/
+          - link "스마트스토어센터" [ref=f80e1183] [cursor=pointer]:
+            - /url: https://sell.storefarm.naver.com/#/home/about
+          - link "안전거래센터" [ref=f80e1184] [cursor=pointer]:
+            - /url: https://safety.shopping.naver.com
+          - link "전자금융거래약관" [ref=f80e1185] [cursor=pointer]:
+            - /url: https://new-m.pay.naver.com/member/terms-policy/finance
+          - link "쇼핑&페이 고객센터" [ref=f80e1186] [cursor=pointer]:
+            - /url: https://help.pay.naver.com/index.nhn
+        - paragraph [ref=f80e1187]: 네이버㈜는 통신판매중개자이며, 통신판매의 당사자가 아닙니다. 상품, 상품정보, 거래에 관한 의무와 책임은 판매자에게 있습니다.
+        - generic [ref=f80e1188]:
+          - generic [ref=f80e1189]:
+            - generic [ref=f80e1190]: "사업자등록번호 : 220-81-62517"
+            - generic [ref=f80e1191]: "통신판매업신고번호 : 제2006-경기성남-0692호"
+            - generic [ref=f80e1192]: "대표이사 : 최수연"
+            - link "사업자등록정보확인" [ref=f80e1193] [cursor=pointer]:
+              - /url: http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2208162517
+            - generic [ref=f80e1194]:
+              - text: "이메일 :"
+              - link "helpcustomer@naver.com" [ref=f80e1195] [cursor=pointer]:
+                - /url: mailto:helpcustomer@naver.com
+          - generic [ref=f80e1196]:
+            - generic [ref=f80e1197]: "주소 : 경기도 성남시 분당구 정자일로 95, NAVER 1784, 13561"
+            - link [ref=f80e1199] [cursor=pointer]:
+              - /url: https://help.pay.naver.com/mail/form.help
+              - strong [ref=f80e1200]: 1:1 문의 바로가기
+            - generic [ref=f80e1201]: "호스팅 서비스 제공 : NAVER Cloud"
+          - generic [ref=f80e1202]:
+            - generic [ref=f80e1203]: 쇼핑&페이 구매자 고객센터 1588-3819
+            - generic [ref=f80e1204]: 네이버 대표전화 1588-3820
+            - generic [ref=f80e1205]: 네이버플러스 멤버십 전용 고객센터 1599-1399
+        - paragraph [ref=f80e1206]:
+          - link "NAVER" [ref=f80e1207] [cursor=pointer]:
+            - /url: http://www.naver.com
+          - text: Copyright ©
+          - strong [ref=f80e1209]:
+            - link "NAVER Corp." [ref=f80e1210] [cursor=pointer]:
+              - /url: http://www.navercorp.com/ko/index.nhn
+          - text: All Rights Reserved.
+      - button "맨위로가기" [ref=f80e1213] [cursor=pointer]
+  - alert [ref=f80e1217]

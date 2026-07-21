@@ -1,0 +1,14 @@
+# non-live targets
+# generated at 2026-07-21T05:40:02.768Z
+
+# stale: 0
+
+# challenge: 0
+
+# timeout: 0
+
+# infra: 0
+
+# other: 1
+https://brand.naver.com/spigen/products/13059180048 # code=NAVER_QUEUE_TIMEOUT status=503
+

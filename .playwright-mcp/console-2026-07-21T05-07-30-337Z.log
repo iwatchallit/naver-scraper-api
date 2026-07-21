@@ -1,0 +1,86 @@
+[    1639ms] [WARNING] MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 visible listeners added. Use emitter.setMaxListeners() to increase limit
+    at h (https://editor-static.pstatic.net/v/basic/1.73.1/se.viewer.js:6:27262)
+    at t.<anonymous> (https://editor-static.pstatic.net/v/basic/1.73.1/se.viewer.js:6:29831)
+    at new t (https://editor-static.pstatic.net/v/basic/1.73.1/se.24.6bf71b05.js:1:2126)
+    at https://editor-static.pstatic.net/v/basic/1.73.1/se.viewer.js:12:53355 @ https://static-resource-smartstore.pstatic.net/brandstore/p/static/20260721104235/js/7893.773df45b.js:0
+[    1639ms] [WARNING] MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 invisible listeners added. Use emitter.setMaxListeners() to increase limit
+    at h (https://editor-static.pstatic.net/v/basic/1.73.1/se.viewer.js:6:27262)
+    at t.<anonymous> (https://editor-static.pstatic.net/v/basic/1.73.1/se.viewer.js:6:29831)
+    at new t (https://editor-static.pstatic.net/v/basic/1.73.1/se.24.6bf71b05.js:1:2161)
+    at https://editor-static.pstatic.net/v/basic/1.73.1/se.viewer.js:12:53355 @ https://static-resource-smartstore.pstatic.net/brandstore/p/static/20260721104235/js/7893.773df45b.js:0
+[   20456ms] [WARNING] "circular" and "bound" option cannot be used together, ignoring bound. @ https://static-resource-smartstore.pstatic.net/brandstore/p/static/20260721104235/js/7893.773df45b.js:0
+[   25302ms] FlickingError: Index "0" is out of range: should be between 0 and -1.
+    at new n (https://static-resource-smartstore.pstatic.net/brandstore/p/static/20260721104235/js/5763.a2217815.chunk.js:1:55346)
+    at n.moveTo (https://static-resource-smartstore.pstatic.net/brandstore/p/static/20260721104235/js/5763.a2217815.chunk.js:1:130772)
+    at n.value (https://static-resource-smartstore.pstatic.net/brandstore/p/static/20260721104235/js/5763.a2217815.chunk.js:1:137024)
+    at https://static-resource-smartstore.pstatic.net/brandstore/p/static/20260721104235/js/8372.2fd1a489.chunk.js:1:1562160
+    at https://static-resource-smartstore.pstatic.net/brandstore/p/static/20260721104235/js/8372.2fd1a489.chunk.js:1:1565955
+    at n (https://static-resource-smartstore.pstatic.net/brandstore/p/static/20260721104235/js/7893.773df45b.js:1:342807)
+[   25663ms] [WARNING] "circular" and "bound" option cannot be used together, ignoring bound. @ https://static-resource-smartstore.pstatic.net/brandstore/p/static/20260721104235/js/7893.773df45b.js:0
+[   25863ms] [WARNING] "circular" and "bound" option cannot be used together, ignoring bound. @ https://static-resource-smartstore.pstatic.net/brandstore/p/static/20260721104235/js/7893.773df45b.js:0
+[ 2194237ms] [ERROR] Failed to load resource: the server responded with a status of 490 () @ https://smartstore.naver.com/urvanluna/products/13644322487:0
+[ 2194545ms] [WARNING] The provided value 'undefined' is not a valid enum value of type XMLHttpRequestResponseType. @ https://ncpt.naver.com/v1/wcpt/m/challenge/wtm_captcha_v2.js?v=20260529:0
+[ 2194721ms] [WARNING] The provided value 'undefined' is not a valid enum value of type XMLHttpRequestResponseType. @ https://ncpt.naver.com/v1/wcpt/m/challenge/wtm_captcha_v2.js?v=20260529:0
+[ 2203087ms] [WARNING] The provided value 'undefined' is not a valid enum value of type XMLHttpRequestResponseType. @ https://ncpt.naver.com/v1/wcpt/m/challenge/wtm_captcha_v2.js?v=20260529:0
+[ 2204195ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://smartstore.naver.com/i/v2/channels/306OAVWZKi1qVcLW5TxYs/product-benefits/13644322487:0
+[ 2204242ms] [ERROR] api error occurred {status: 429, baseURL: undefined, url: /i/v2/channels/306OAVWZKi1qVcLW5TxYs/product-benefits/13644322487, method: post, params: undefined} @ https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:0
+[ 2205212ms] [WARNING] MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 visible listeners added. Use emitter.setMaxListeners() to increase limit
+    at h (https://editor-static.pstatic.net/v/basic/1.73.1/se.viewer.js:6:27262)
+    at t.<anonymous> (https://editor-static.pstatic.net/v/basic/1.73.1/se.viewer.js:6:29831)
+    at new t (https://editor-static.pstatic.net/v/basic/1.73.1/se.24.6bf71b05.js:1:2126)
+    at https://editor-static.pstatic.net/v/basic/1.73.1/se.viewer.js:12:53355 @ https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:0
+[ 2205212ms] [WARNING] MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 invisible listeners added. Use emitter.setMaxListeners() to increase limit
+    at h (https://editor-static.pstatic.net/v/basic/1.73.1/se.viewer.js:6:27262)
+    at t.<anonymous> (https://editor-static.pstatic.net/v/basic/1.73.1/se.viewer.js:6:29831)
+    at new t (https://editor-static.pstatic.net/v/basic/1.73.1/se.24.6bf71b05.js:1:2161)
+    at https://editor-static.pstatic.net/v/basic/1.73.1/se.viewer.js:12:53355 @ https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:0
+[ 2211791ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://smartstore.naver.com/urvanluna/products/:0
+[ 2211903ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at co (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:62355)
+    at xu (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:135861)
+    at bc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123273)
+    at vc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123201)
+    at yc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123064)
+    at ic (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:118168)
+    at S (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1233948)
+    at MessagePort.C (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1234482)
+[ 2211903ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at co (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:62475)
+    at xu (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:135861)
+    at bc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123273)
+    at vc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123201)
+    at yc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123064)
+    at ic (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:118168)
+    at S (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1233948)
+    at MessagePort.C (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1234482)
+[ 2211904ms] Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at xu (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:135547)
+    at bc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123273)
+    at vc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123201)
+    at yc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:123064)
+    at oc (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:119844)
+    at ic (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:118395)
+    at S (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1233948)
+    at MessagePort.C (https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:1:1234482)
+[ 2212028ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://smartstore.naver.com/i/v2/channels/306OAVWZKi1qVcLW5TxYs/categories/category-config/config:0
+[ 2212038ms] [ERROR] api error occurred {status: 429, baseURL: undefined, url: /i/v2/channels/306OAVWZKi1qVcLW5TxYs/categories/category-config/config, method: get, params: undefined} @ https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:0
+[ 2212039ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://smartstore.naver.com/i/v2/channels/306OAVWZKi1qVcLW5TxYs/smart-stores/special-products:0
+[ 2212052ms] [ERROR] api error occurred {status: 429, baseURL: undefined, url: /i/v2/channels/306OAVWZKi1qVcLW5TxYs/smart-stores/special-products, method: get, params: undefined} @ https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:0
+[ 2212053ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://smartstore.naver.com/i/v2/channels/306OAVWZKi1qVcLW5TxYs/display-configs/menu-settings:0
+[ 2212062ms] [ERROR] api error occurred {status: 429, baseURL: undefined, url: /i/v2/channels/306OAVWZKi1qVcLW5TxYs/display-configs/menu-settings, method: get, params: undefined} @ https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:0
+[ 2212158ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://smartstore.naver.com/i/v2/channels/306OAVWZKi1qVcLW5TxYs/categories/tree/null:0
+[ 2212162ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://smartstore.naver.com/i/v2/channels/306OAVWZKi1qVcLW5TxYs/categories/first-categories/null:0
+[ 2212174ms] [ERROR] api error occurred {status: 429, baseURL: undefined, url: /i/v2/channels/306OAVWZKi1qVcLW5TxYs/categories/first-categories/null, method: get, params: undefined} @ https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:0
+[ 2212176ms] [ERROR] api error occurred {status: 429, baseURL: undefined, url: /i/v2/channels/306OAVWZKi1qVcLW5TxYs/categories/tree/null, method: get, params: undefined} @ https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:0
+[ 2212191ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://smartstore.naver.com/i/v2/channels/306OAVWZKi1qVcLW5TxYs/category-menus/valid-menu/product?storeExhibitionType=SMART_STORE:0
+[ 2212200ms] [ERROR] api error occurred {status: 429, baseURL: undefined, url: /i/v2/channels/306OAVWZKi1qVcLW5TxYs/category-menus/valid-menu/product, method: get, params: Object} @ https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:0
+[ 2212264ms] Uncaught TypeError: Cannot set properties of null (setting 'href')
+    at setLoginUrl (https://ssl.pstatic.net/static.gn/templates/gnb_utf8.nhn?2026072112:930:26)
+    at showGNB (https://ssl.pstatic.net/static.gn/templates/gnb_utf8.nhn?2026072112:959:1)
+    at <anonymous> (https://static.nid.naver.com/getLoginStatus?callback=showGNB&charset=utf-8&svc=storefarm&template=gnb_utf8&one_naver=undefined:0:1)
+[ 2215678ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://smartstore.naver.com/i/v2/channels/306OAVWZKi1qVcLW5TxYs/product-benefits:0
+[ 2215684ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://smartstore.naver.com/i/v2/channels/306OAVWZKi1qVcLW5TxYs/product-benefits:0
+[ 2215692ms] [ERROR] api error occurred {status: 429, baseURL: undefined, url: /i/v2/channels/306OAVWZKi1qVcLW5TxYs/product-benefits, method: post, params: undefined} @ https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:0
+[ 2215694ms] [ERROR] api error occurred {status: 429, baseURL: undefined, url: /i/v2/channels/306OAVWZKi1qVcLW5TxYs/product-benefits, method: post, params: undefined} @ https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:0
+[ 2215694ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://smartstore.naver.com/i/v2/channels/306OAVWZKi1qVcLW5TxYs/product-benefits:0
+[ 2215731ms] [ERROR] api error occurred {status: 429, baseURL: undefined, url: /i/v2/channels/306OAVWZKi1qVcLW5TxYs/product-benefits, method: post, params: undefined} @ https://static-resource-smartstore.pstatic.net/smartstore/p/static/20260721104235/js/4898.0445f4b7.js:0

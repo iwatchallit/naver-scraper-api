@@ -1,0 +1,60 @@
+{
+  "origin": "https://www.naver.com",
+  "href": "https://www.naver.com/",
+  "title": "NAVER",
+  "cookies": [
+    {
+      "name": "NAC",
+      "value": "5ncxBIBwtmPm"
+    },
+    {
+      "name": "NACT",
+      "value": "1"
+    },
+    {
+      "name": "NNB",
+      "value": "XGYWKT6W7FPGU"
+    },
+    {
+      "name": "SRT30",
+      "value": "1784609238"
+    },
+    {
+      "name": "SRT5",
+      "value": "1784609238"
+    },
+    {
+      "name": "nid_inf",
+      "value": "-1252972524"
+    },
+    {
+      "name": "NID_SES",
+      "value": "AAABf5/T4wufQU/2L+99Z9sgBEG7mAEewys/Ypr/t/5jWqs6ioVnrQlfesnrGVhSdzgC0zG8R2LkYde4UePYNVUudPNufOv7MlpwWb3krqbSZlB19rpiRQmNx+Kwl1jOtL9b6pXb3yOIvh/453GVTdvXIpAvxFIfdtAI9/C039AGF4hT56DEQAHp07ssPoKUjZg1m+sllq/T4i7CwLlJgpk7++2ocdpD3abgWApWJHx9n/rqQ9LL76281bS+hTlxuZEqpfDk9UmdVcZeJV254y6MSPyr3pVH9wCzKTXDWJKz8aO6KY4xP3gfNCrpa4DcLxuWTqjguUoFNqIK9p3IZPFehLjLqLubBUKbsvYbpEsi6QKYhfK+/iMGfXaUjGaWz3yrCLq4JNVDwTAMnG07OE0THLvgmiJ5RVNsMh7MlG6TeRd1zMWs7OJ+cY853b82petWoF6lzXVshVAlk2mEwPi7ofURafJtpM6IAytSYKlUfFfizJ5rdnWPeNFCAC+JE6yuYg=="
+    },
+    {
+      "name": "NM_srt_chzzk",
+      "value": "1"
+    },
+    {
+      "name": "cto_bundle",
+      "value": "N9B8p18xbkxVM0VHS0RYRjF0bGNSWnhwQ2ZvYVQ5JTJGQ3dNJTJCMjdsOHB5MGNNVmtvSzdNMGZJJTJGWmVmZUNJTElTUUJlViUyQnRqaVU1Q3BhUTdxODgyUHhMVmNIYkhicEUlMkJSZTJvRWNiRUU3cUUlMkZKTlZmNzhsRWI2c3hWSXByem9vUkt1RFNWa05JZUNYU1RqelFNUyUyRnV1MGhTbWlxQSUzRCUzRA"
+    },
+    {
+      "name": "tooltip_paging_close",
+      "value": "1"
+    },
+    {
+      "name": "NM_media_current",
+      "value": "PC-MEDIA-NEWS"
+    }
+  ],
+  "localStorage": {
+    "glad_loader_policy_info": "{\"regDate\":\"2026-07-21T04:50:16.270Z\",\"data\":{\"versionInfo\":{\"policyVersion\":\"260623.01\",\"loaderVersion\":\"1.6.1\",\"sdkVersion\":\"3.10.6\"},\"sdkInfo\":{},\"sentryInfo\":{\"enableSentry\":true,\"config\":{\"sampleRate\":0.001}}}}",
+    "whaleBottomBannerHideUntil": "1784653200000",
+    "gfp_uuid_iv": "646563b7-0390-4729-ba2c-cb9c4a84eb3a"
+  },
+  "sessionStorage": {
+    "__tmp_____persist___": "___persist___",
+    "state___persist___": "{\"depths\":[\"https://www.naver.com/\"],\"lastUrl\":\"https://www.naver.com/\"}"
+  }
+}

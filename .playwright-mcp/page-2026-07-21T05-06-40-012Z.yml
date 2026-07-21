@@ -1,0 +1,2672 @@
+- generic [active] [ref=f127e1]:
+  - generic [ref=f127e2]:
+    - generic [ref=f127e9]:
+      - link "본문으로 바로가기" [ref=f127e10] [cursor=pointer]:
+        - /url: "#content"
+      - generic [ref=f127e14]:
+        - generic [ref=f127e15]:
+          - generic [ref=f127e16]:
+            - link "NAVER" [ref=f127e17] [cursor=pointer]:
+              - /url: https://www.naver.com
+            - link "네이버페이" [ref=f127e21] [cursor=pointer]:
+              - /url: https://pay.naver.com/pc?page=1
+          - generic [ref=f127e26]:
+            - strong [ref=f127e27]: 사용자 링크
+            - list [ref=f127e28]:
+              - listitem [ref=f127e29]:
+                - link "내 프로필 이미지 opt 내정보 보기" [ref=f127e31] [cursor=pointer]:
+                  - /url: javascript:;
+                  - img "내 프로필 이미지" [ref=f127e32]
+                  - generic [ref=f127e33]: opt
+                  - emphasis [ref=f127e34]: 내정보 보기
+              - listitem [ref=f127e35]:
+                - link "네이버톡" [ref=f127e36] [cursor=pointer]:
+                  - /url: https://talks.naver.com/?frm=pcgnb&anchor=&category=
+              - listitem [ref=f127e39]:
+                - link "알림" [ref=f127e40] [cursor=pointer]:
+                  - /url: https://m.notify.naver.com/?from=pcmain
+              - listitem [ref=f127e43]:
+                - link "메일" [ref=f127e44] [cursor=pointer]:
+                  - /url: https://mail.naver.com
+              - listitem [ref=f127e47]:
+                - link "서비스 더보기" [ref=f127e48] [cursor=pointer]:
+                  - /url: javascript:;
+        - generic [ref=f127e51]:
+          - heading [level=1] [ref=f127e52]:
+            - link "네이버플러스 스토어" [ref=f127e53] [cursor=pointer]:
+              - /url: https://shopping.naver.com/ns/home
+          - generic [ref=f127e61]:
+            - heading "검색영역" [level=2] [ref=f127e62]
+            - generic [ref=f127e67]:
+              - textbox "검색어 입력" [ref=f127e68]:
+                - /placeholder: 상품명 또는 브랜드 입력
+                - text: 휴대폰 케이스
+              - button "입력 내용 삭제" [ref=f127e69] [cursor=pointer]
+              - button "검색레이어 펼치기" [ref=f127e74] [cursor=pointer]
+              - button "검색" [ref=f127e78] [cursor=pointer]
+          - link "네이버 가격비교 검색에서 더보기" [ref=f127e83] [cursor=pointer]:
+            - /url: https://search.shopping.naver.com/search/all?query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4
+            - generic [ref=f127e89]: 네이버 가격비교
+            - text: 검색에서 더보기
+          - generic [ref=f127e90]:
+            - button "카테고리" [ref=f127e92] [cursor=pointer]
+            - link "마이쇼핑" [ref=f127e96] [cursor=pointer]
+            - link "장바구니" [ref=f127e100] [cursor=pointer]:
+              - /url: https://shopping.naver.com/cart?frm=gnb&prevUrl=https%3A%2F%2Fsearch.shopping.naver.com%2Fns%2Fsearch%3Fquery%3D%25ED%259C%25B4%25EB%258C%2580%25ED%258F%25B0%2520%25EC%25BC%2580%25EC%259D%25B4%25EC%258A%25A4%26prevQuery%3D%25EC%25B9%2598%25EC%2595%25BD
+    - generic [ref=f127e106]:
+      - strong [ref=f127e107]: 연관
+      - generic [ref=f127e108]:
+        - list [ref=f127e111]:
+          - listitem [ref=f127e112]:
+            - link "카드휴대폰케이스 카드휴대폰케이스" [ref=f127e113] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EC%B9%B4%EB%93%9C%ED%9C%B4%EB%8C%80%ED%8F%B0%EC%BC%80%EC%9D%B4%EC%8A%A4&queryType=r1
+              - img "카드휴대폰케이스" [ref=f127e115]
+              - generic [ref=f127e116]: 카드휴대폰케이스
+          - listitem [ref=f127e117]:
+            - link "가죽 휴대폰 케이스 가죽 휴대폰 케이스" [ref=f127e118] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EA%B0%80%EC%A3%BD%20%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&queryType=r1
+              - img "가죽 휴대폰 케이스" [ref=f127e120]
+              - generic [ref=f127e121]: 가죽 휴대폰 케이스
+          - listitem [ref=f127e122]:
+            - link "휴대폰케이스s23 휴대폰케이스s23" [ref=f127e123] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%ED%9C%B4%EB%8C%80%ED%8F%B0%EC%BC%80%EC%9D%B4%EC%8A%A4s23&queryType=r1
+              - img "휴대폰케이스s23" [ref=f127e125]
+              - generic [ref=f127e126]: 휴대폰케이스s23
+          - listitem [ref=f127e127]:
+            - link "휴대폰케이스지갑 휴대폰케이스지갑" [ref=f127e128] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%ED%9C%B4%EB%8C%80%ED%8F%B0%EC%BC%80%EC%9D%B4%EC%8A%A4%EC%A7%80%EA%B0%91&queryType=r1
+              - img "휴대폰케이스지갑" [ref=f127e130]
+              - generic [ref=f127e131]: 휴대폰케이스지갑
+          - listitem [ref=f127e132]:
+            - link "s26플러스 휴대폰케이스" [ref=f127e133] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=s26%ED%94%8C%EB%9F%AC%EC%8A%A4%20%ED%9C%B4%EB%8C%80%ED%8F%B0%EC%BC%80%EC%9D%B4%EC%8A%A4&queryType=r1
+          - listitem [ref=f127e135]:
+            - link "휴대폰케이스s21 휴대폰케이스s21" [ref=f127e136] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%ED%9C%B4%EB%8C%80%ED%8F%B0%EC%BC%80%EC%9D%B4%EC%8A%A4s21&queryType=r1
+              - img "휴대폰케이스s21" [ref=f127e138]
+              - generic [ref=f127e139]: 휴대폰케이스s21
+          - listitem [ref=f127e140]:
+            - link "휴대폰케이스s26울트라 휴대폰케이스s26울트라" [ref=f127e141] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%ED%9C%B4%EB%8C%80%ED%8F%B0%EC%BC%80%EC%9D%B4%EC%8A%A4s26%EC%9A%B8%ED%8A%B8%EB%9D%BC&queryType=r1
+              - img "휴대폰케이스s26울트라" [ref=f127e143]
+              - generic [ref=f127e144]: 휴대폰케이스s26울트라
+          - listitem [ref=f127e145]:
+            - link "휴대폰 케이스 s25 휴대폰 케이스 s25" [ref=f127e146] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4%20s25&queryType=r1
+              - img "휴대폰 케이스 s25" [ref=f127e148]
+              - generic [ref=f127e149]: 휴대폰 케이스 s25
+          - listitem [ref=f127e150]:
+            - link "휴대폰케이스s24 휴대폰케이스s24" [ref=f127e151] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%ED%9C%B4%EB%8C%80%ED%8F%B0%EC%BC%80%EC%9D%B4%EC%8A%A4s24&queryType=r1
+              - img "휴대폰케이스s24" [ref=f127e153]
+              - generic [ref=f127e154]: 휴대폰케이스s24
+          - listitem [ref=f127e155]:
+            - link "목걸이휴대폰케이스 목걸이휴대폰케이스" [ref=f127e156] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EB%AA%A9%EA%B1%B8%EC%9D%B4%ED%9C%B4%EB%8C%80%ED%8F%B0%EC%BC%80%EC%9D%B4%EC%8A%A4&queryType=r1
+              - img "목걸이휴대폰케이스" [ref=f127e158]
+              - generic [ref=f127e159]: 목걸이휴대폰케이스
+          - listitem [ref=f127e160]:
+            - link "등산용 휴대폰케이스 등산용 휴대폰케이스" [ref=f127e161] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EB%93%B1%EC%82%B0%EC%9A%A9%20%ED%9C%B4%EB%8C%80%ED%8F%B0%EC%BC%80%EC%9D%B4%EC%8A%A4&queryType=r1
+              - img "등산용 휴대폰케이스" [ref=f127e163]
+              - generic [ref=f127e164]: 등산용 휴대폰케이스
+          - listitem [ref=f127e165]:
+            - link "s26 플러스 케이스 s26 플러스 케이스" [ref=f127e166] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=s26%20%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%BC%80%EC%9D%B4%EC%8A%A4&queryType=r1
+              - img "s26 플러스 케이스" [ref=f127e168]
+              - generic [ref=f127e169]: s26 플러스 케이스
+          - listitem [ref=f127e170]:
+            - link "아이폰 케이스 아이폰 케이스" [ref=f127e171] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EC%95%84%EC%9D%B4%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&queryType=r1
+              - img "아이폰 케이스" [ref=f127e173]
+              - generic [ref=f127e174]: 아이폰 케이스
+          - listitem [ref=f127e175]:
+            - link "갤럭시 케이스 갤럭시 케이스" [ref=f127e176] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EA%B0%A4%EB%9F%AD%EC%8B%9C%20%EC%BC%80%EC%9D%B4%EC%8A%A4&queryType=r1
+              - img "갤럭시 케이스" [ref=f127e178]
+              - generic [ref=f127e179]: 갤럭시 케이스
+          - listitem [ref=f127e180]:
+            - link "갤럭시 s26 울트라 케이스 갤럭시 s26 울트라 케이스" [ref=f127e181] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EA%B0%A4%EB%9F%AD%EC%8B%9C%20s26%20%EC%9A%B8%ED%8A%B8%EB%9D%BC%20%EC%BC%80%EC%9D%B4%EC%8A%A4&queryType=r1
+              - img "갤럭시 s26 울트라 케이스" [ref=f127e183]
+              - generic [ref=f127e184]: 갤럭시 s26 울트라 케이스
+        - button "다음 리스트 보기" [ref=f127e185] [cursor=pointer]
+    - generic [ref=f127e190]:
+      - heading "휴대폰 케이스 검색결과" [level=2] [ref=f127e191]
+      - generic [ref=f127e194]:
+        - heading "필터 도구" [level=3] [ref=f127e195]
+        - generic [ref=f127e196]:
+          - generic [ref=f127e197]:
+            - strong [ref=f127e199]: 공통추천
+            - list [ref=f127e203]:
+              - listitem [ref=f127e204]:
+                - generic [ref=f127e206] [cursor=pointer]:
+                  - checkbox "슈퍼적립" [ref=f127e207]
+                  - img "슈퍼적립" [ref=f127e209]
+              - listitem [ref=f127e210]:
+                - generic [ref=f127e211]:
+                  - generic [ref=f127e212] [cursor=pointer]:
+                    - checkbox "공식브랜드" [ref=f127e213]
+                    - generic [ref=f127e215]: 공식브랜드
+                  - button "도움말" [ref=f127e218] [cursor=pointer]
+              - listitem [ref=f127e223]:
+                - generic [ref=f127e224]:
+                  - generic [ref=f127e225] [cursor=pointer]:
+                    - checkbox "공식인증" [ref=f127e226]
+                    - generic [ref=f127e228]: 공식인증
+                  - button "도움말" [ref=f127e231] [cursor=pointer]
+              - listitem [ref=f127e236]:
+                - generic [ref=f127e238] [cursor=pointer]:
+                  - checkbox "무료배송" [ref=f127e239]
+                  - generic [ref=f127e241]: 무료배송
+              - listitem [ref=f127e242]:
+                - generic [ref=f127e244] [cursor=pointer]:
+                  - checkbox "배송비 포함" [ref=f127e245]
+                  - generic [ref=f127e247]: 배송비 포함
+              - listitem [ref=f127e248]:
+                - generic [ref=f127e250] [cursor=pointer]:
+                  - checkbox "별점 4.8 이상" [ref=f127e251]
+                  - generic [ref=f127e255]: 별점
+                  - generic [ref=f127e256]: 4.8 이상
+              - listitem [ref=f127e257]:
+                - generic [ref=f127e259] [cursor=pointer]:
+                  - checkbox "노크잇" [ref=f127e260]
+                  - generic [ref=f127e262]: 노크잇
+          - generic [ref=f127e265]:
+            - strong [ref=f127e267]: 공통빠른배송
+            - list [ref=f127e271]:
+              - listitem [ref=f127e272]:
+                - generic [ref=f127e273]:
+                  - generic [ref=f127e274] [cursor=pointer]:
+                    - checkbox "N배송 빠르게 받기" [ref=f127e275]
+                    - generic [ref=f127e277]:
+                      - generic [ref=f127e278]: N배송
+                      - generic [ref=f127e280]: 빠르게 받기
+                  - button "도움말" [ref=f127e283] [cursor=pointer]
+              - listitem [ref=f127e288]:
+                - generic [ref=f127e290] [cursor=pointer]:
+                  - checkbox "오늘출발" [ref=f127e291]
+                  - generic [ref=f127e293]: 오늘출발
+          - generic [ref=f127e294]:
+            - generic [ref=f127e295]:
+              - strong [ref=f127e296]: 브랜드
+              - button "도움말" [ref=f127e299] [cursor=pointer]
+            - generic [ref=f127e304]:
+              - generic [ref=f127e305]:
+                - generic [ref=f127e306]: 브랜드 검색하기
+                - textbox "브랜드 검색하기" [ref=f127e307]:
+                  - /placeholder: 브랜드 입력
+              - generic [ref=f127e312]: 인기 브랜드
+              - generic [ref=f127e315]:
+                - list [ref=f127e316]:
+                  - listitem [ref=f127e317]:
+                    - generic [ref=f127e319] [cursor=pointer]:
+                      - checkbox "갤럭시" [ref=f127e320]
+                      - generic [ref=f127e322]: 갤럭시
+                  - listitem [ref=f127e323]:
+                    - generic [ref=f127e325] [cursor=pointer]:
+                      - checkbox "슈피겐" [ref=f127e326]
+                      - generic [ref=f127e328]: 슈피겐
+                  - listitem [ref=f127e329]:
+                    - generic [ref=f127e331] [cursor=pointer]:
+                      - checkbox "신지모루" [ref=f127e332]
+                      - generic [ref=f127e334]: 신지모루
+                  - listitem [ref=f127e335]:
+                    - generic [ref=f127e337] [cursor=pointer]:
+                      - checkbox "UAG" [ref=f127e338]
+                      - generic [ref=f127e340]: UAG
+                  - listitem [ref=f127e341]:
+                    - generic [ref=f127e343] [cursor=pointer]:
+                      - checkbox "링케" [ref=f127e344]
+                      - generic [ref=f127e346]: 링케
+                  - listitem [ref=f127e347]:
+                    - generic [ref=f127e349] [cursor=pointer]:
+                      - checkbox "나하로" [ref=f127e350]
+                      - generic [ref=f127e352]: 나하로
+                  - listitem [ref=f127e353]:
+                    - generic [ref=f127e355] [cursor=pointer]:
+                      - checkbox "발레나블루" [ref=f127e356]
+                      - generic [ref=f127e358]: 발레나블루
+                - button "브랜드 모두보기" [ref=f127e360] [cursor=pointer]
+          - generic [ref=f127e363]:
+            - strong [ref=f127e365]: 스펙형태
+            - generic [ref=f127e368]:
+              - list [ref=f127e369]:
+                - listitem [ref=f127e370]:
+                  - generic [ref=f127e372] [cursor=pointer]:
+                    - checkbox "범퍼형" [ref=f127e373]
+                    - generic [ref=f127e375]: 범퍼형
+                - listitem [ref=f127e376]:
+                  - generic [ref=f127e378] [cursor=pointer]:
+                    - checkbox "지갑형" [ref=f127e379]
+                    - generic [ref=f127e381]: 지갑형
+                - listitem [ref=f127e382]:
+                  - generic [ref=f127e384] [cursor=pointer]:
+                    - checkbox "하드형" [ref=f127e385]
+                    - generic [ref=f127e387]: 하드형
+                - listitem [ref=f127e388]:
+                  - generic [ref=f127e390] [cursor=pointer]:
+                    - checkbox "포켓수납" [ref=f127e391]
+                    - generic [ref=f127e393]: 포켓수납
+                - listitem [ref=f127e394]:
+                  - generic [ref=f127e396] [cursor=pointer]:
+                    - checkbox "후면부착형" [ref=f127e397]
+                    - generic [ref=f127e399]: 후면부착형
+                - listitem [ref=f127e400]:
+                  - generic [ref=f127e402] [cursor=pointer]:
+                    - checkbox "플립형" [ref=f127e403]
+                    - generic [ref=f127e405]: 플립형
+                - listitem [ref=f127e406]:
+                  - generic [ref=f127e408] [cursor=pointer]:
+                    - checkbox "스탠드형" [ref=f127e409]
+                    - generic [ref=f127e411]: 스탠드형
+              - button "스펙 모두보기" [ref=f127e413] [cursor=pointer]
+          - generic [ref=f127e416]:
+            - strong [ref=f127e418]: 스펙재질
+            - generic [ref=f127e421]:
+              - list [ref=f127e422]:
+                - listitem [ref=f127e423]:
+                  - generic [ref=f127e425] [cursor=pointer]:
+                    - checkbox "가죽" [ref=f127e426]
+                    - generic [ref=f127e428]: 가죽
+                - listitem [ref=f127e429]:
+                  - generic [ref=f127e431] [cursor=pointer]:
+                    - checkbox "폴리카보네이트(PC)+TPU" [ref=f127e432]
+                    - generic [ref=f127e434]: 폴리카보네이트(PC)+TPU
+                - listitem [ref=f127e435]:
+                  - generic [ref=f127e437] [cursor=pointer]:
+                    - checkbox "폴리카보네이트(PC)" [ref=f127e438]
+                    - generic [ref=f127e440]: 폴리카보네이트(PC)
+                - listitem [ref=f127e441]:
+                  - generic [ref=f127e443] [cursor=pointer]:
+                    - checkbox "TPU" [ref=f127e444]
+                    - generic [ref=f127e446]: TPU
+                - listitem [ref=f127e447]:
+                  - generic [ref=f127e449] [cursor=pointer]:
+                    - checkbox "젤리" [ref=f127e450]
+                    - generic [ref=f127e452]: 젤리
+                - listitem [ref=f127e453]:
+                  - generic [ref=f127e455] [cursor=pointer]:
+                    - checkbox "실리콘" [ref=f127e456]
+                    - generic [ref=f127e458]: 실리콘
+                - listitem [ref=f127e459]:
+                  - generic [ref=f127e461] [cursor=pointer]:
+                    - checkbox "플라스틱" [ref=f127e462]
+                    - generic [ref=f127e464]: 플라스틱
+              - button "스펙 모두보기" [ref=f127e466] [cursor=pointer]
+          - generic [ref=f127e469]:
+            - strong [ref=f127e471]: 스펙디자인
+            - generic [ref=f127e474]:
+              - list [ref=f127e475]:
+                - listitem [ref=f127e476]:
+                  - generic [ref=f127e478] [cursor=pointer]:
+                    - checkbox "투명" [ref=f127e479]
+                    - generic [ref=f127e481]: 투명
+                - listitem [ref=f127e482]:
+                  - generic [ref=f127e484] [cursor=pointer]:
+                    - checkbox "무지" [ref=f127e485]
+                    - generic [ref=f127e487]: 무지
+                - listitem [ref=f127e488]:
+                  - generic [ref=f127e490] [cursor=pointer]:
+                    - checkbox "패턴" [ref=f127e491]
+                    - generic [ref=f127e493]: 패턴
+                - listitem [ref=f127e494]:
+                  - generic [ref=f127e496] [cursor=pointer]:
+                    - checkbox "캐릭터" [ref=f127e497]
+                    - generic [ref=f127e499]: 캐릭터
+                - listitem [ref=f127e500]:
+                  - generic [ref=f127e502] [cursor=pointer]:
+                    - checkbox "프린팅" [ref=f127e503]
+                    - generic [ref=f127e505]: 프린팅
+                - listitem [ref=f127e506]:
+                  - generic [ref=f127e508] [cursor=pointer]:
+                    - checkbox "커스텀" [ref=f127e509]
+                    - generic [ref=f127e511]: 커스텀
+                - listitem [ref=f127e512]:
+                  - generic [ref=f127e514] [cursor=pointer]:
+                    - checkbox "일러스트" [ref=f127e515]
+                    - generic [ref=f127e517]: 일러스트
+              - button "스펙 모두보기" [ref=f127e519] [cursor=pointer]
+          - generic [ref=f127e522]:
+            - strong [ref=f127e524]: 스펙무게
+            - list [ref=f127e528]:
+              - listitem [ref=f127e529]:
+                - generic [ref=f127e531] [cursor=pointer]:
+                  - checkbox "0g~20g" [ref=f127e532]
+                  - generic [ref=f127e534]: 0g~20g
+              - listitem [ref=f127e535]:
+                - generic [ref=f127e537] [cursor=pointer]:
+                  - checkbox "20.1g~40g" [ref=f127e538]
+                  - generic [ref=f127e540]: 20.1g~40g
+              - listitem [ref=f127e541]:
+                - generic [ref=f127e543] [cursor=pointer]:
+                  - checkbox "40.1g~" [ref=f127e544]
+                  - generic [ref=f127e546]: 40.1g~
+          - generic [ref=f127e547]:
+            - strong [ref=f127e549]: 스펙수납
+            - list [ref=f127e553]:
+              - listitem [ref=f127e554]:
+                - generic [ref=f127e556] [cursor=pointer]:
+                  - checkbox "카드" [ref=f127e557]
+                  - generic [ref=f127e559]: 카드
+              - listitem [ref=f127e560]:
+                - generic [ref=f127e562] [cursor=pointer]:
+                  - checkbox "보조포켓" [ref=f127e563]
+                  - generic [ref=f127e565]: 보조포켓
+              - listitem [ref=f127e566]:
+                - generic [ref=f127e568] [cursor=pointer]:
+                  - checkbox "지폐" [ref=f127e569]
+                  - generic [ref=f127e571]: 지폐
+              - listitem [ref=f127e572]:
+                - generic [ref=f127e574] [cursor=pointer]:
+                  - checkbox "열쇠" [ref=f127e575]
+                  - generic [ref=f127e577]: 열쇠
+              - listitem [ref=f127e578]:
+                - generic [ref=f127e580] [cursor=pointer]:
+                  - checkbox "메모리카드" [ref=f127e581]
+                  - generic [ref=f127e583]: 메모리카드
+              - listitem [ref=f127e584]:
+                - generic [ref=f127e586] [cursor=pointer]:
+                  - checkbox "S펜" [ref=f127e587]
+                  - generic [ref=f127e589]: S펜
+              - listitem [ref=f127e590]:
+                - generic [ref=f127e592] [cursor=pointer]:
+                  - checkbox "이어폰" [ref=f127e593]
+                  - generic [ref=f127e595]: 이어폰
+          - generic [ref=f127e596]:
+            - strong [ref=f127e598]: 행사
+            - list [ref=f127e600]:
+              - listitem [ref=f127e601]:
+                - generic [ref=f127e603] [cursor=pointer]:
+                  - checkbox "라이브" [ref=f127e604]
+                  - img "라이브" [ref=f127e606]
+              - listitem [ref=f127e607]:
+                - generic [ref=f127e609] [cursor=pointer]:
+                  - checkbox "슈퍼적립" [ref=f127e610]
+                  - img "슈퍼적립" [ref=f127e612]
+              - listitem [ref=f127e613]:
+                - generic [ref=f127e615] [cursor=pointer]:
+                  - checkbox "슈퍼특가" [ref=f127e616]
+                  - img "슈퍼특가" [ref=f127e618]
+            - generic [ref=f127e620] [cursor=pointer]:
+              - checkbox "전체선택" [ref=f127e621]
+              - generic [ref=f127e625]: 전체선택
+          - generic [ref=f127e626]:
+            - generic [ref=f127e627]:
+              - strong [ref=f127e628]: 가격
+              - button "도움말" [ref=f127e631] [cursor=pointer]
+            - generic [ref=f127e636]:
+              - generic [ref=f127e637]:
+                - generic [ref=f127e639] [cursor=pointer]:
+                  - generic [ref=f127e640]: 필터 최소 가격
+                  - textbox "필터 최소 가격" [ref=f127e641]:
+                    - /placeholder: "10"
+                - generic [ref=f127e642]: ~
+                - generic [ref=f127e644] [cursor=pointer]:
+                  - generic [ref=f127e645]: 필터 최대 가격
+                  - textbox "필터 최대 가격" [ref=f127e646]:
+                    - /placeholder: 999,999,990
+                - button "검색" [disabled]
+              - list [ref=f127e649]:
+                - listitem [ref=f127e650]:
+                  - generic [ref=f127e652] [cursor=pointer]:
+                    - radio "8천원 ~ 1만2천원" [ref=f127e653]
+                    - generic [ref=f127e655]: 8천원 ~ 1만2천원
+                - listitem [ref=f127e656]:
+                  - generic [ref=f127e658] [cursor=pointer]:
+                    - radio "2만원 ~ 3만원 HIT" [ref=f127e659]
+                    - generic [ref=f127e661]: 2만원 ~ 3만원
+                    - generic [ref=f127e662]: HIT
+                - listitem [ref=f127e663]:
+                  - generic [ref=f127e665] [cursor=pointer]:
+                    - radio "3만원 ~ 5만원" [ref=f127e666]
+                    - generic [ref=f127e668]: 3만원 ~ 5만원
+                - listitem [ref=f127e669]:
+                  - generic [ref=f127e671] [cursor=pointer]:
+                    - radio "5만원 ~ 7만원" [ref=f127e672]
+                    - generic [ref=f127e674]: 5만원 ~ 7만원
+          - generic [ref=f127e675]:
+            - generic [ref=f127e676]:
+              - strong [ref=f127e677]: 혜택
+              - button "도움말" [ref=f127e680] [cursor=pointer]
+            - list [ref=f127e686]:
+              - listitem [ref=f127e687]:
+                - generic [ref=f127e689] [cursor=pointer]:
+                  - checkbox "무료교환반품" [ref=f127e690]
+                  - generic [ref=f127e692]: 무료교환반품
+          - generic [ref=f127e694]:
+            - strong [ref=f127e696]: 카테고리
+            - menu [ref=f127e697]:
+              - menuitem "전체" [ref=f127e698] [cursor=pointer]
+              - menuitem "디지털/가전" [ref=f127e699] [cursor=pointer]
+              - button "하위 카테고리" [ref=f127e700] [cursor=pointer]
+          - generic [ref=f127e704]:
+            - strong [ref=f127e706]: 색상
+            - generic [ref=f127e707]:
+              - list [ref=f127e708]:
+                - listitem [ref=f127e709]:
+                  - generic [ref=f127e711] [cursor=pointer]:
+                    - checkbox "블랙" [ref=f127e712]
+                    - generic [ref=f127e715]: 블랙
+                - listitem [ref=f127e716]:
+                  - generic [ref=f127e718] [cursor=pointer]:
+                    - checkbox "그레이" [ref=f127e719]
+                    - generic [ref=f127e722]: 그레이
+                - listitem [ref=f127e723]:
+                  - generic [ref=f127e725] [cursor=pointer]:
+                    - checkbox "화이트" [ref=f127e726]
+                    - generic [ref=f127e729]: 화이트
+                - listitem [ref=f127e730]:
+                  - generic [ref=f127e732] [cursor=pointer]:
+                    - checkbox "레드" [ref=f127e733]
+                    - generic [ref=f127e736]: 레드
+                - listitem [ref=f127e737]:
+                  - generic [ref=f127e739] [cursor=pointer]:
+                    - checkbox "브라운" [ref=f127e740]
+                    - generic [ref=f127e743]: 브라운
+                - listitem [ref=f127e744]:
+                  - generic [ref=f127e746] [cursor=pointer]:
+                    - checkbox "오렌지" [ref=f127e747]
+                    - generic [ref=f127e750]: 오렌지
+                - listitem [ref=f127e751]:
+                  - generic [ref=f127e753] [cursor=pointer]:
+                    - checkbox "골드" [ref=f127e754]
+                    - generic [ref=f127e757]: 골드
+              - button "색상 모두보기" [ref=f127e759] [cursor=pointer]
+          - generic [ref=f127e762]:
+            - generic [ref=f127e763]:
+              - generic [ref=f127e764]:
+                - strong [ref=f127e766]: 상품타입해외직구상품
+                - list [ref=f127e770]:
+                  - listitem [ref=f127e771]:
+                    - generic [ref=f127e773] [cursor=pointer]:
+                      - radio "전체" [checked] [ref=f127e774]
+                      - generic [ref=f127e776]: 전체
+                  - listitem [ref=f127e777]:
+                    - generic [ref=f127e779] [cursor=pointer]:
+                      - radio "해외직구만" [ref=f127e780]
+                      - generic [ref=f127e782]: 해외직구만
+                  - listitem [ref=f127e783]:
+                    - generic [ref=f127e785] [cursor=pointer]:
+                      - radio "해외직구 제외" [ref=f127e786]
+                      - generic [ref=f127e788]: 해외직구 제외
+              - generic [ref=f127e789]:
+                - strong [ref=f127e791]: 상품타입중고상품
+                - list [ref=f127e795]:
+                  - listitem [ref=f127e796]:
+                    - generic [ref=f127e798] [cursor=pointer]:
+                      - radio "전체" [checked] [ref=f127e799]
+                      - generic [ref=f127e801]: 전체
+                  - listitem [ref=f127e802]:
+                    - generic [ref=f127e804] [cursor=pointer]:
+                      - radio "중고상품만" [ref=f127e805]
+                      - generic [ref=f127e807]: 중고상품만
+                  - listitem [ref=f127e808]:
+                    - generic [ref=f127e810] [cursor=pointer]:
+                      - radio "중고상품 제외" [ref=f127e811]
+                      - generic [ref=f127e813]: 중고상품 제외
+            - generic [ref=f127e814]:
+              - generic [ref=f127e815]:
+                - checkbox "설정한 필터를 저장합니다." [disabled] [ref=f127e816] [cursor=pointer]
+                - generic [ref=f127e818]: 설정한 필터를 저장합니다.
+              - button "도움말" [ref=f127e821] [cursor=pointer]
+          - generic [ref=f127e826]:
+            - strong [ref=f127e828]: 배송유형
+            - list [ref=f127e830]:
+              - listitem [ref=f127e831]:
+                - generic [ref=f127e833] [cursor=pointer]:
+                  - checkbox "희망일배송" [ref=f127e834]
+                  - generic [ref=f127e836]: 희망일배송
+              - listitem [ref=f127e837]:
+                - generic [ref=f127e839] [cursor=pointer]:
+                  - checkbox "정기구독" [ref=f127e840]
+                  - generic [ref=f127e842]: 정기구독
+          - generic [ref=f127e843]:
+            - strong [ref=f127e845]: 판매처
+            - list [ref=f127e847]:
+              - listitem [ref=f127e848]:
+                - generic [ref=f127e850] [cursor=pointer]:
+                  - checkbox "백화점" [ref=f127e851]
+                  - generic [ref=f127e853]: 백화점
+              - listitem [ref=f127e854]:
+                - generic [ref=f127e856] [cursor=pointer]:
+                  - checkbox "네이버 지금배달" [ref=f127e857]
+                  - generic [ref=f127e859]: 네이버 지금배달
+              - listitem [ref=f127e860]:
+                - generic [ref=f127e862] [cursor=pointer]:
+                  - checkbox "HIGHEND" [ref=f127e863]
+                  - generic [ref=f127e865]: HIGHEND
+      - generic [ref=f127e866]:
+        - generic [ref=f127e868]:
+          - heading "opt 님을 위한 브랜드 혜택" [level=3] [ref=f127e869]:
+            - generic [ref=f127e870]: opt
+            - text: 님을 위한 브랜드 혜택
+          - generic [ref=f127e872]:
+            - tablist [ref=f127e875]:
+              - tab "슈피겐 슈피겐 공식 전체고객 쿠폰" [selected] [ref=f127e876] [cursor=pointer]:
+                - img "슈피겐" [ref=f127e878]
+                - generic [ref=f127e879]:
+                  - generic [ref=f127e880]:
+                    - generic [ref=f127e881]: 슈피겐
+                    - generic [ref=f127e882]: 공식
+                  - generic [ref=f127e888]: 전체고객 쿠폰
+              - tab "엘라고 엘라고 공식 알림받기 쿠폰" [ref=f127e889] [cursor=pointer]:
+                - img "엘라고" [ref=f127e891]
+                - generic [ref=f127e892]:
+                  - generic [ref=f127e893]:
+                    - generic [ref=f127e894]: 엘라고
+                    - generic [ref=f127e895]: 공식
+                  - generic [ref=f127e901]: 알림받기 쿠폰
+              - tab "어프어프 어프어프 공식 첫 구매 쿠폰" [ref=f127e902] [cursor=pointer]:
+                - img "어프어프" [ref=f127e904]
+                - generic [ref=f127e905]:
+                  - generic [ref=f127e906]:
+                    - generic [ref=f127e907]: 어프어프
+                    - generic [ref=f127e908]: 공식
+                  - generic [ref=f127e914]: 첫 구매 쿠폰
+              - tab "페스티버 페스티버 공식 알림받기 쿠폰" [ref=f127e915] [cursor=pointer]:
+                - img "페스티버" [ref=f127e917]
+                - generic [ref=f127e918]:
+                  - generic [ref=f127e919]:
+                    - generic [ref=f127e920]: 페스티버
+                    - generic [ref=f127e921]: 공식
+                  - generic [ref=f127e927]: 알림받기 쿠폰
+              - tab "SLBS SLBS 공식 전체고객 쿠폰" [ref=f127e928] [cursor=pointer]:
+                - img "SLBS" [ref=f127e930]
+                - generic [ref=f127e931]:
+                  - generic [ref=f127e932]:
+                    - generic [ref=f127e933]: SLBS
+                    - generic [ref=f127e934]: 공식
+                  - generic [ref=f127e940]: 전체고객 쿠폰
+              - tab "하이온 공식스토어 하이온 공식스토어 알림받기 쿠폰" [ref=f127e941] [cursor=pointer]:
+                - img "하이온 공식스토어" [ref=f127e943]
+                - generic [ref=f127e944]:
+                  - generic [ref=f127e945]: 하이온 공식스토어
+                  - generic [ref=f127e947]: 알림받기 쿠폰
+              - tab "아이몰 스토어 아이몰 스토어 전체고객 쿠폰" [ref=f127e948] [cursor=pointer]:
+                - img "아이몰 스토어" [ref=f127e950]
+                - generic [ref=f127e951]:
+                  - generic [ref=f127e952]: 아이몰 스토어
+                  - generic [ref=f127e954]: 전체고객 쿠폰
+              - tab "슈퍼디비전 슈퍼디비전 첫 구매 쿠폰" [ref=f127e955] [cursor=pointer]:
+                - img "슈퍼디비전" [ref=f127e957]
+                - generic [ref=f127e958]:
+                  - generic [ref=f127e959]: 슈퍼디비전
+                  - generic [ref=f127e961]: 첫 구매 쿠폰
+            - button "다음 리스트 보기" [ref=f127e962] [cursor=pointer]
+          - tabpanel [ref=f127e967]:
+            - list [ref=f127e970]:
+              - listitem [ref=f127e971]:
+                - generic [ref=f127e972]:
+                  - link "슈퍼적립 25W 충전 슈피겐 갤럭시 맥세이프 케이스 울트라하이브리드맥핏 클리어화이트, 갤럭시S26 울트라 할인 전 판매가 29,900원 6% 할인 27,900 원 배송비 3,000원 별점 4.87 리뷰 15,516 새 창에서 열림" [ref=f127e973] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13059180605?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=fed6ea22723546ac8222cfbc4f0141e0&NaPm=ci%3Dfed6ea22723546ac8222cfbc4f0141e0%7Cct%3Dmru6ycjx%7Ctr%3Dnslcrm%7Csn%3D165941%7Chk%3D594c1d7a1f2576d7f8789d0cd1223bd7e6dbe001
+                    - generic [ref=f127e974]: 새 창에서 열림
+                  - generic [ref=f127e975]:
+                    - img "슈퍼적립" [ref=f127e979]
+                    - button "25W 충전 슈피겐 갤럭시 맥세이프 케이스 울트라하이브리드맥핏 클리어화이트, 갤럭시S26 울트라 찜하기" [ref=f127e981] [cursor=pointer]
+                  - generic [ref=f127e986]:
+                    - strong [ref=f127e987]: 25W 충전 슈피겐 갤럭시 맥세이프 케이스 울트라하이브리드맥핏 클리어화이트, 갤럭시S26 울트라
+                    - generic [ref=f127e989]:
+                      - generic [ref=f127e991]:
+                        - generic [ref=f127e992]: 할인 전 판매가
+                        - text: 29,900원
+                      - generic [ref=f127e993]:
+                        - generic [ref=f127e995]:
+                          - generic [ref=f127e996]:
+                            - text: 6%
+                            - generic [ref=f127e997]: 할인
+                          - generic [ref=f127e998]: 27,900
+                          - generic [ref=f127e999]: 원
+                        - generic [ref=f127e1000]:
+                          - generic [ref=f127e1001]: 배송비
+                          - generic [ref=f127e1006]: 3,000원
+                    - generic [ref=f127e1007]:
+                      - generic [ref=f127e1008]:
+                        - generic [ref=f127e1011]: 별점
+                        - text: "4.87"
+                      - generic [ref=f127e1012]: 리뷰 15,516
+              - listitem [ref=f127e1013]:
+                - generic [ref=f127e1014]:
+                  - link "N내일배송 슈피겐 투명 케이스 울트라하이브리드 갤럭시S26 울트라, PC/TPU, 크리스탈클리어 24,900 원 배송비 3,000원 별점 4.88 리뷰 17,212 새 창에서 열림" [ref=f127e1015] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13059180271?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=74836f5597c742fda31adb51dbe91048&NaPm=ci%3D74836f5597c742fda31adb51dbe91048%7Cct%3Dmru6ycjy%7Ctr%3Dnslcrm%7Csn%3D165941%7Chk%3Debae24645e49546030c2ea5b14d11edd93111a74
+                    - generic [ref=f127e1016]: 새 창에서 열림
+                  - generic [ref=f127e1017]:
+                    - generic: N내일배송
+                    - button "슈피겐 투명 케이스 울트라하이브리드 갤럭시S26 울트라, PC/TPU, 크리스탈클리어 찜하기" [ref=f127e1023] [cursor=pointer]
+                  - generic [ref=f127e1028]:
+                    - strong [ref=f127e1029]: 슈피겐 투명 케이스 울트라하이브리드 갤럭시S26 울트라, PC/TPU, 크리스탈클리어
+                    - generic [ref=f127e1032]:
+                      - generic [ref=f127e1034]:
+                        - generic [ref=f127e1035]: 24,900
+                        - generic [ref=f127e1036]: 원
+                      - generic [ref=f127e1037]:
+                        - generic [ref=f127e1038]: 배송비
+                        - generic [ref=f127e1043]: 3,000원
+                    - generic [ref=f127e1044]:
+                      - generic [ref=f127e1045]:
+                        - generic [ref=f127e1048]: 별점
+                        - text: "4.88"
+                      - generic [ref=f127e1049]: 리뷰 17,212
+              - listitem [ref=f127e1050]:
+                - generic [ref=f127e1051]:
+                  - link "슈퍼적립 Qi2 25W 인증 갤럭시 맥세이프 케이스 초슬림 카본 에어스킨아라미드 맥핏 갤럭시S26 울트라, 아라미드, 블랙 할인 전 판매가 49,000원 6% 할인 45,900 원 배송비 3,000원 별점 4.84 리뷰 1,332 새 창에서 열림" [ref=f127e1052] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13059180048?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=de75046c71d54fd6aeac5e1b6e00c749&NaPm=ci%3Dde75046c71d54fd6aeac5e1b6e00c749%7Cct%3Dmru6ycjy%7Ctr%3Dnslcrm%7Csn%3D165941%7Chk%3D953c83183d688391bcae0f2d0cfed4e7cd744193
+                    - generic [ref=f127e1053]: 새 창에서 열림
+                  - generic [ref=f127e1054]:
+                    - img "슈퍼적립" [ref=f127e1058]
+                    - button "Qi2 25W 인증 갤럭시 맥세이프 케이스 초슬림 카본 에어스킨아라미드 맥핏 갤럭시S26 울트라, 아라미드, 블랙 찜하기" [ref=f127e1060] [cursor=pointer]
+                  - generic [ref=f127e1065]:
+                    - strong [ref=f127e1066]: Qi2 25W 인증 갤럭시 맥세이프 케이스 초슬림 카본 에어스킨아라미드 맥핏 갤럭시S26 울트라, 아라미드, 블랙
+                    - generic [ref=f127e1068]:
+                      - generic [ref=f127e1070]:
+                        - generic [ref=f127e1071]: 할인 전 판매가
+                        - text: 49,000원
+                      - generic [ref=f127e1072]:
+                        - generic [ref=f127e1074]:
+                          - generic [ref=f127e1075]:
+                            - text: 6%
+                            - generic [ref=f127e1076]: 할인
+                          - generic [ref=f127e1077]: 45,900
+                          - generic [ref=f127e1078]: 원
+                        - generic [ref=f127e1079]:
+                          - generic [ref=f127e1080]: 배송비
+                          - generic [ref=f127e1085]: 3,000원
+                    - generic [ref=f127e1086]:
+                      - generic [ref=f127e1087]:
+                        - generic [ref=f127e1090]: 별점
+                        - text: "4.84"
+                      - generic [ref=f127e1091]: 리뷰 1,332
+              - listitem [ref=f127e1092]:
+                - generic [ref=f127e1093]:
+                  - link "N내일배송 슈피겐 투명 케이스 울트라하이브리드 갤럭시S26, PC/TPU, 크리스탈클리어 24,900 원 배송비 3,000원 별점 4.88 리뷰 17,212 새 창에서 열림" [ref=f127e1094] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13059189741?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=b97ebb4ef5ef4b09853f4c7bcf760cd5&NaPm=ci%3Db97ebb4ef5ef4b09853f4c7bcf760cd5%7Cct%3Dmru6ycjy%7Ctr%3Dnslcrm%7Csn%3D165941%7Chk%3D549e541ba5e7b9f8bb7f67ebf71c23f21d74d32b
+                    - generic [ref=f127e1095]: 새 창에서 열림
+                  - generic [ref=f127e1096]:
+                    - generic: N내일배송
+                    - button "슈피겐 투명 케이스 울트라하이브리드 갤럭시S26, PC/TPU, 크리스탈클리어 찜하기" [ref=f127e1102] [cursor=pointer]
+                  - generic [ref=f127e1107]:
+                    - strong [ref=f127e1108]: 슈피겐 투명 케이스 울트라하이브리드 갤럭시S26, PC/TPU, 크리스탈클리어
+                    - generic [ref=f127e1111]:
+                      - generic [ref=f127e1113]:
+                        - generic [ref=f127e1114]: 24,900
+                        - generic [ref=f127e1115]: 원
+                      - generic [ref=f127e1116]:
+                        - generic [ref=f127e1117]: 배송비
+                        - generic [ref=f127e1122]: 3,000원
+                    - generic [ref=f127e1123]:
+                      - generic [ref=f127e1124]:
+                        - generic [ref=f127e1127]: 별점
+                        - text: "4.88"
+                      - generic [ref=f127e1128]: 리뷰 17,212
+            - button "다음 리스트 보기" [ref=f127e1129] [cursor=pointer]
+          - button "슈피겐 20% 쿠폰 받기" [ref=f127e1136] [cursor=pointer]:
+            - generic [ref=f127e1137]:
+              - generic [ref=f127e1138]: 슈피겐
+              - text: 20% 쿠폰 받기
+        - generic [ref=f127e1141]:
+          - list [ref=f127e1142]:
+            - listitem [ref=f127e1143]:
+              - generic [ref=f127e1144]:
+                - generic [ref=f127e1145]:
+                  - text: 추천순
+                  - generic [ref=f127e1146]: 선택됨
+                - button "추천순도움말" [ref=f127e1149] [cursor=pointer]
+              - button "추천순 선택됨" [ref=f127e1154] [cursor=pointer]
+            - listitem [ref=f127e1155]:
+              - generic [ref=f127e1156]: 낮은 가격순
+              - button "낮은 가격순" [ref=f127e1158] [cursor=pointer]
+            - listitem [ref=f127e1159]:
+              - generic [ref=f127e1160]: 높은 가격순
+              - button "높은 가격순" [ref=f127e1162] [cursor=pointer]
+            - listitem [ref=f127e1163]:
+              - generic [ref=f127e1164]: 판매 많은순
+              - button "판매 많은순" [ref=f127e1166] [cursor=pointer]
+            - listitem [ref=f127e1167]:
+              - generic [ref=f127e1168]:
+                - generic [ref=f127e1169]: 리뷰 많은순
+                - button "리뷰 많은순도움말" [ref=f127e1172] [cursor=pointer]
+              - button "리뷰 많은순" [ref=f127e1177] [cursor=pointer]
+            - listitem [ref=f127e1178]:
+              - generic [ref=f127e1179]:
+                - generic [ref=f127e1180]: 신상품순
+                - button "신상품순도움말" [ref=f127e1183] [cursor=pointer]
+              - button "신상품순" [ref=f127e1188] [cursor=pointer]
+          - generic [ref=f127e1191]:
+            - generic [ref=f127e1192]:
+              - generic [ref=f127e1193]: 배송지
+              - strong [ref=f127e1197]: 서울시 강남구
+              - generic [ref=f127e1198]: 도착기준
+            - button "주소등록" [ref=f127e1199] [cursor=pointer]
+        - generic [ref=f127e1204]:
+          - heading "상품목록" [level=3] [ref=f127e1205]
+          - generic [ref=f127e1206]:
+            - list [ref=f127e1207]:
+              - listitem [ref=f127e1208]:
+                - generic [ref=f127e1209]:
+                  - link "광고 제루크 우수셀러 새 창에서 열림 제루크 초슬림 경량 힌지보호 군용등급 풀커버 맥세이프 폴더블 케이스 블랙, 갤럭시Z 폴드8 할인 전 판매가 39,900원 25% 할인 29,900 원 배송비 3,000원 N새벽배송 내일(수) 05시 전 도착 별점 4.74 리뷰 487 새 창에서 열림" [ref=f127e1210] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/1ZnTGb8b0dos7rjDaMdVkw5cvb4yWREj6QDoFPVt2ziADTEegDjQY_-N_eX5_i561Qa_lBq536tNtVkfpZMnxiklIFB3g6dtBH2HWs_CuoMxY2PfJZvpL_mpCE5CMJE0K4ETeNsS9IxpH8ZVbqXbEce-icvwFuREfyk_-FY3LXCt7-bVHwH-fEXoBUBKLfZMRH6b9ZeIEA1makrkxK1fbP_LZRzhSZHnME7RUU66kUkXp6j3lSEwaaYFLb6b2uFfTEDrdOcC93adjeGlPhu8FoHwOFmXxcJPKvbINcIu3gQwknWOcbP4xCjkARB2-LsiViW543KWtCI4srJqo7TYVbPdp1kXqwGOKBYx6WavEKUvcJW2hle6TplVhvu8o2D03N4vnVNC24MCZEkyqpNvrmQFe0eE1NhdDBhdjoYRJAg6cNDHrVKSEzntxOrFjzjZgoUM7LL9UAXCbGB2O85NvSv1rLqLMiAVjJl7vzA-nq9dUHndvWHR2OjDtDcOIrrxjPeOnwES9hhh7RcMtSRfkipF_chJLnvJEZ1zdtNXCVSTeSRsUVAgMEeY-Tl6rM0O0ig41NaKNYRwJTOuTE_BAw==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f127e1211]: 새 창에서 열림
+                  - button "제루크 초슬림 경량 힌지보호 군용등급 풀커버 맥세이프 폴더블 케이스 블랙, 갤럭시Z 폴드8 찜하기" [ref=f127e1215] [cursor=pointer]
+                  - generic [ref=f127e1220]:
+                    - generic [ref=f127e1221]:
+                      - button "광고" [ref=f127e1224] [cursor=pointer]
+                      - link "제루크 우수셀러 새 창에서 열림" [ref=f127e1231] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/1ZnTGb8b0dos7rjDaMdVkw5cvb4yWREj6QDoFPVt2ziADTEegDjQY_-N_eX5_i561Qa_lBq536tNtVkfpZMnxiklIFB3g6dtBH2HWs_CuoMxY2PfJZvpL_mpCE5CMJE0K4ETeNsS9IxpH8ZVbqXbEce-icvwFuREfyk_-FY3LXCt7-bVHwH-fEXoBUBKLfZMRH6b9ZeIEA1makrkxK1fbP_LZRzhSZHnME7RUU66kUkXp6j3lSEwaaYFLb6b2uFfTEDrdOcC93adjeGlPhu8FoHwOFmXxcJPKvbINcIu3gQwknWOcbP4xCjkARB2-LsiViW543KWtCI4srJqo7TYVbPdp1kXqwGOKBYx6WavEKUvcJW2hle6TplVhvu8o2D03N4vnVNC24MCZEkyqpNvrmQFe0eE1NhdDBhdjoYRJAg6cNDHrVKSEzntxOrFjzjZgoUM7LL9UAXCbGB2O85NvSv1rLqLMiAVjJl7vzA-nq9dUHndvWHR2OjDtDcOIrrxjPeOnwES9hhh7RcMtSRfkipF_chJLnvJEZ1zdtNXCVSTeSRsUVAgMEeY-Tl6rM0O0ig41NaKNYRwJTOuTE_BAw==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f127e1232]: 제루크
+                        - generic [ref=f127e1233]: 우수셀러
+                        - generic [ref=f127e1237]: 새 창에서 열림
+                    - strong [ref=f127e1238]: 제루크 초슬림 경량 힌지보호 군용등급 풀커버 맥세이프 폴더블 케이스 블랙, 갤럭시Z 폴드8
+                    - generic [ref=f127e1240]:
+                      - generic [ref=f127e1242]:
+                        - generic [ref=f127e1243]: 할인 전 판매가
+                        - text: 39,900원
+                      - generic [ref=f127e1244]:
+                        - generic [ref=f127e1246]:
+                          - generic [ref=f127e1247]:
+                            - text: 25%
+                            - generic [ref=f127e1248]: 할인
+                          - generic [ref=f127e1249]: 29,900
+                          - generic [ref=f127e1250]: 원
+                        - generic [ref=f127e1251]:
+                          - generic [ref=f127e1252]: 배송비
+                          - generic [ref=f127e1257]: 3,000원
+                    - generic [ref=f127e1259]:
+                      - generic [ref=f127e1260]: N새벽배송
+                      - generic [ref=f127e1262]: 내일(수) 05시 전 도착
+                    - generic [ref=f127e1263]:
+                      - generic [ref=f127e1264]:
+                        - generic [ref=f127e1267]: 별점
+                        - text: "4.74"
+                      - generic [ref=f127e1268]: 리뷰 487
+              - listitem [ref=f127e1269]:
+                - generic [ref=f127e1270]:
+                  - link "광고 제루크 우수셀러 새 창에서 열림 제루크 초슬림 경량 힌지보호 군용등급 풀커버 맥세이프 폴더블 케이스 블랙, 갤럭시Z 폴드8 울트라 할인 전 판매가 39,900원 25% 할인 29,900 원 배송비 3,000원 N새벽배송 내일(수) 05시 전 도착 별점 4.74 리뷰 487 새 창에서 열림" [ref=f127e1271] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/UDD6hOChq-8xWQcQfLq73-raHVpkvHgj-ZYox5UguyDW2hXo__jt7kFQc6fEfcKYW9CYh9CH0rXz-l3LT-3iYZGe7mjmVq3wic8DiGIhQukrm4AmG8ohVWqgZ0aJmti2EWs_ffO9Ij_yt7CnUl2DmfX0otkb_oCJlNR_8vKDHRHf6-adtFzCDfSmeylbvOzNwv4eNzrEq5c2zerysJEHceCq8ccqUSaVEDJ2VJBahS_HTpNhdl3VjwrxmdlyYq1gwDT4Gt9ntT3MSaoiV9JeS2pD0DjpXA_MO09HcHplmDh_CpGk4rxeJbEV-nHdsARR2psmYXVEIuWLv70GLJWiUEJIzdFwwAnHLDejmqglYoZJRQBYYsoyHNmkCIJ63o_8DOgdtURVW4zfP7-0L32TMjIG2ByS8wLFdk_HQjFd7-A__ZFh2w3jsQhjWQ80_r4AW_-yQuv6o5ugQ07QfumKhJW2M9sTsgr1iuYMzwKbTzefTOt47aWuASTv0OCraF7s1ePOvl7qXTbnqIVF8xcKCypt4I9p_ovH7geM4QmnTThF5dePUZ9thYksvBwjz0gjsiFfdLTFNw68pke-MZJfKA==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f127e1272]: 새 창에서 열림
+                  - button "제루크 초슬림 경량 힌지보호 군용등급 풀커버 맥세이프 폴더블 케이스 블랙, 갤럭시Z 폴드8 울트라 찜하기" [ref=f127e1276] [cursor=pointer]
+                  - generic [ref=f127e1281]:
+                    - generic [ref=f127e1282]:
+                      - button "광고" [ref=f127e1285] [cursor=pointer]
+                      - link "제루크 우수셀러 새 창에서 열림" [ref=f127e1292] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/UDD6hOChq-8xWQcQfLq73-raHVpkvHgj-ZYox5UguyDW2hXo__jt7kFQc6fEfcKYW9CYh9CH0rXz-l3LT-3iYZGe7mjmVq3wic8DiGIhQukrm4AmG8ohVWqgZ0aJmti2EWs_ffO9Ij_yt7CnUl2DmfX0otkb_oCJlNR_8vKDHRHf6-adtFzCDfSmeylbvOzNwv4eNzrEq5c2zerysJEHceCq8ccqUSaVEDJ2VJBahS_HTpNhdl3VjwrxmdlyYq1gwDT4Gt9ntT3MSaoiV9JeS2pD0DjpXA_MO09HcHplmDh_CpGk4rxeJbEV-nHdsARR2psmYXVEIuWLv70GLJWiUEJIzdFwwAnHLDejmqglYoZJRQBYYsoyHNmkCIJ63o_8DOgdtURVW4zfP7-0L32TMjIG2ByS8wLFdk_HQjFd7-A__ZFh2w3jsQhjWQ80_r4AW_-yQuv6o5ugQ07QfumKhJW2M9sTsgr1iuYMzwKbTzefTOt47aWuASTv0OCraF7s1ePOvl7qXTbnqIVF8xcKCypt4I9p_ovH7geM4QmnTThF5dePUZ9thYksvBwjz0gjsiFfdLTFNw68pke-MZJfKA==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f127e1293]: 제루크
+                        - generic [ref=f127e1294]: 우수셀러
+                        - generic [ref=f127e1298]: 새 창에서 열림
+                    - strong [ref=f127e1299]: 제루크 초슬림 경량 힌지보호 군용등급 풀커버 맥세이프 폴더블 케이스 블랙, 갤럭시Z 폴드8 울트라
+                    - generic [ref=f127e1301]:
+                      - generic [ref=f127e1303]:
+                        - generic [ref=f127e1304]: 할인 전 판매가
+                        - text: 39,900원
+                      - generic [ref=f127e1305]:
+                        - generic [ref=f127e1307]:
+                          - generic [ref=f127e1308]:
+                            - text: 25%
+                            - generic [ref=f127e1309]: 할인
+                          - generic [ref=f127e1310]: 29,900
+                          - generic [ref=f127e1311]: 원
+                        - generic [ref=f127e1312]:
+                          - generic [ref=f127e1313]: 배송비
+                          - generic [ref=f127e1318]: 3,000원
+                    - generic [ref=f127e1320]:
+                      - generic [ref=f127e1321]: N새벽배송
+                      - generic [ref=f127e1323]: 내일(수) 05시 전 도착
+                    - generic [ref=f127e1324]:
+                      - generic [ref=f127e1325]:
+                        - generic [ref=f127e1328]: 별점
+                        - text: "4.74"
+                      - generic [ref=f127e1329]: 리뷰 487
+              - listitem [ref=f127e1330]:
+                - generic [ref=f127e1331]:
+                  - link "광고 엘라고 공식 새 창에서 열림 [1+1] 엘라고 갤럭시 S25 플러스 울트라 실리콘 케이스 할인 전 판매가 52,000원 31% 할인 35,500 원 N내일배송 7.22.(수) 도착 무료배송 별점 4.85 리뷰 199 새 창에서 열림" [ref=f127e1332] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/8SZEWmUI9HsiCkBwarj52Ff-xBynzmbzBJSTo2g5hFHFyrapPNs18qRFuOZRN7QEosQDJbMDNQ84zSJugn3dBtB3kanRmSD63NAnLEPiQjFuiiF-cjC09MGFsEiAc-O3vg31w5rpRSbH9X8Xr5wbshi7CJdKww5zGXUHd8KpM0l-PzK0jQHV7dcVnPX3lW2Hki8TC2KRQNjCVUltkxBok3SFE75Ma74IYvomj8CV4zuhtBJhIWdNcBOUxDhT_5vhs1mLC-RWYXyyUciZHkdhuZz-7ZVtMtHfuPTWDrSBKInoeLrGhPqEFV3z5R-wD1zamERIaN71wmScdzdtXNfbcQ-ccXILEElipoMmSL8hRG6CirwGY5nKuYjuZ7tVATwV8lqKBhEAQISHaU0tRabn6M469kYNMLp_AD8MqZ6v9ZjUw5CGgzVwS8sUsEPb83FrixxlqJfw7hMW7vKArhgVutrvE3H9gZhlFS7iA9jCOW4JqIZXOSaS5b4uy1By1SmSYAs9-J2UnfE9jOTNQJXAjD4iem07-SnVZKU5ZPmfq4orAiBNBCuRlKfZlF545stwktgcQzZwDVJS5v_NrX5OKQ==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f127e1333]: 새 창에서 열림
+                  - button "[1+1] 엘라고 갤럭시 S25 플러스 울트라 실리콘 케이스 찜하기" [ref=f127e1337] [cursor=pointer]
+                  - generic [ref=f127e1342]:
+                    - generic [ref=f127e1343]:
+                      - button "광고" [ref=f127e1346] [cursor=pointer]
+                      - link "엘라고 공식 새 창에서 열림" [ref=f127e1353] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/8SZEWmUI9HsiCkBwarj52Ff-xBynzmbzBJSTo2g5hFHFyrapPNs18qRFuOZRN7QEosQDJbMDNQ84zSJugn3dBtB3kanRmSD63NAnLEPiQjFuiiF-cjC09MGFsEiAc-O3vg31w5rpRSbH9X8Xr5wbshi7CJdKww5zGXUHd8KpM0l-PzK0jQHV7dcVnPX3lW2Hki8TC2KRQNjCVUltkxBok3SFE75Ma74IYvomj8CV4zuhtBJhIWdNcBOUxDhT_5vhs1mLC-RWYXyyUciZHkdhuZz-7ZVtMtHfuPTWDrSBKInoeLrGhPqEFV3z5R-wD1zamERIaN71wmScdzdtXNfbcQ-ccXILEElipoMmSL8hRG6CirwGY5nKuYjuZ7tVATwV8lqKBhEAQISHaU0tRabn6M469kYNMLp_AD8MqZ6v9ZjUw5CGgzVwS8sUsEPb83FrixxlqJfw7hMW7vKArhgVutrvE3H9gZhlFS7iA9jCOW4JqIZXOSaS5b4uy1By1SmSYAs9-J2UnfE9jOTNQJXAjD4iem07-SnVZKU5ZPmfq4orAiBNBCuRlKfZlF545stwktgcQzZwDVJS5v_NrX5OKQ==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f127e1354]: 엘라고
+                        - generic [ref=f127e1355]: 공식
+                        - generic [ref=f127e1359]: 새 창에서 열림
+                    - strong [ref=f127e1360]: "[1+1] 엘라고 갤럭시 S25 플러스 울트라 실리콘 케이스"
+                    - generic [ref=f127e1362]:
+                      - generic [ref=f127e1364]:
+                        - generic [ref=f127e1365]: 할인 전 판매가
+                        - text: 52,000원
+                      - generic [ref=f127e1368]:
+                        - generic [ref=f127e1369]:
+                          - text: 31%
+                          - generic [ref=f127e1370]: 할인
+                        - generic [ref=f127e1371]: 35,500
+                        - generic [ref=f127e1372]: 원
+                    - generic [ref=f127e1374]:
+                      - generic [ref=f127e1375]: N내일배송
+                      - generic [ref=f127e1377]: 7.22.(수) 도착
+                    - generic [ref=f127e1378]: 무료배송
+                    - generic [ref=f127e1381]:
+                      - generic [ref=f127e1382]:
+                        - generic [ref=f127e1385]: 별점
+                        - text: "4.85"
+                      - generic [ref=f127e1386]: 리뷰 199
+              - listitem [ref=f127e1387]:
+                - generic [ref=f127e1388]:
+                  - link "광고 끼움 우수셀러 새 창에서 열림 끼움 아이폰17 맥세이프카드케이스 카드2장 19,800 원 오늘출발 18:00까지 주문 시 무료배송 별점 4.56 리뷰 43 새 창에서 열림" [ref=f127e1389] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/Qw1z12Dcz8RzkYAqkoeaTTsJJE0WUpMx9EntbPvtGDnsNoFzNT7K4ImIrKzFlQE2qXPDjfE0zjoZD_PcSiwJTvdWMS6HAS84tAxd3n6gd4eYhomfgEQu81r7Z8656OVp78gw6fJfothh1mX-s9Cmb4jSlXupZnkHdeu5zLBd76OWf7rPEfwfmO4oIjgvhxfL56K_Ci9lK2s9AGAgw4lPhYG-d21DADgotQNuQHPOK19esE2v4YZP1vjd-Abp8ak27j7rjOkiCYNU01oYsUJ-kX2yKkQCvVx2A9edpWG2rjbYXx3gmacOAmLvjYUlsmo_eVxTLkYsbVSTNESZ91UXY-0zqjCi2vEddYU5duCMFQs7BAu3o7bZUdO2hmcoj5ID5XkyPnKo1URQ9ta5qp8TrQ==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f127e1390]: 새 창에서 열림
+                  - button "끼움 아이폰17 맥세이프카드케이스 카드2장 찜하기" [ref=f127e1394] [cursor=pointer]
+                  - generic [ref=f127e1399]:
+                    - generic [ref=f127e1400]:
+                      - button "광고" [ref=f127e1403] [cursor=pointer]
+                      - link "끼움 우수셀러 새 창에서 열림" [ref=f127e1410] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/Qw1z12Dcz8RzkYAqkoeaTTsJJE0WUpMx9EntbPvtGDnsNoFzNT7K4ImIrKzFlQE2qXPDjfE0zjoZD_PcSiwJTvdWMS6HAS84tAxd3n6gd4eYhomfgEQu81r7Z8656OVp78gw6fJfothh1mX-s9Cmb4jSlXupZnkHdeu5zLBd76OWf7rPEfwfmO4oIjgvhxfL56K_Ci9lK2s9AGAgw4lPhYG-d21DADgotQNuQHPOK19esE2v4YZP1vjd-Abp8ak27j7rjOkiCYNU01oYsUJ-kX2yKkQCvVx2A9edpWG2rjbYXx3gmacOAmLvjYUlsmo_eVxTLkYsbVSTNESZ91UXY-0zqjCi2vEddYU5duCMFQs7BAu3o7bZUdO2hmcoj5ID5XkyPnKo1URQ9ta5qp8TrQ==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f127e1411]: 끼움
+                        - generic [ref=f127e1412]: 우수셀러
+                        - generic [ref=f127e1416]: 새 창에서 열림
+                    - strong [ref=f127e1417]: 끼움 아이폰17 맥세이프카드케이스 카드2장
+                    - generic [ref=f127e1422]:
+                      - generic [ref=f127e1423]: 19,800
+                      - generic [ref=f127e1424]: 원
+                    - generic [ref=f127e1426]:
+                      - generic [ref=f127e1427]: 오늘출발
+                      - generic [ref=f127e1428]: 18:00까지 주문 시
+                    - generic [ref=f127e1429]: 무료배송
+                    - generic [ref=f127e1432]:
+                      - generic [ref=f127e1433]:
+                        - generic [ref=f127e1436]: 별점
+                        - text: "4.56"
+                      - generic [ref=f127e1437]: 리뷰 43
+              - listitem [ref=f127e1438]:
+                - generic [ref=f127e1439]:
+                  - link "슈퍼적립 슈퍼적립 광고 슈피겐 공식 새 창에서 열림 슈피겐 갤럭시 맥세이프 케이스 울트라하이브리드 맥핏 라이트블루, 갤럭시S26 울트라 6% 할인 할인 전 판매가 29,900원 최저가 27,900 원 배송비 3,000원 멤버십 시작 시 최대 4,185원 포인트 적립 N내일배송 7.22.(수) 도착 별점 4.87 리뷰 15,516 새 창에서 열림" [ref=f127e1440] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13059180605?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=78d699312c8b472b8fa50519c216fab6&NaPm=ci%3D78d699312c8b472b8fa50519c216fab6%7Cct%3Dmru6ycjz%7Ctr%3Dnslctg%7Csn%3D165941%7Chk%3D869b2939d68cce259bcaa36fa410e61ebbd112d5
+                    - generic [ref=f127e1441]: 새 창에서 열림
+                  - generic [ref=f127e1442]:
+                    - img "슈퍼적립" [ref=f127e1446]
+                    - button "슈피겐 갤럭시 맥세이프 케이스 울트라하이브리드 맥핏 라이트블루, 갤럭시S26 울트라 찜하기" [ref=f127e1448] [cursor=pointer]
+                  - generic [ref=f127e1453]:
+                    - generic [ref=f127e1454]:
+                      - button "슈퍼적립 광고" [ref=f127e1457] [cursor=pointer]
+                      - link "슈피겐 공식 새 창에서 열림" [ref=f127e1462] [cursor=pointer]:
+                        - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fspigen&tr=nslctg
+                        - generic [ref=f127e1463]: 슈피겐
+                        - generic [ref=f127e1464]: 공식
+                        - generic [ref=f127e1468]: 새 창에서 열림
+                    - strong [ref=f127e1469]: 슈피겐 갤럭시 맥세이프 케이스 울트라하이브리드 맥핏 라이트블루, 갤럭시S26 울트라
+                    - generic [ref=f127e1471]:
+                      - generic [ref=f127e1472]:
+                        - generic [ref=f127e1473]:
+                          - text: 6%
+                          - generic [ref=f127e1474]: 할인
+                        - generic [ref=f127e1475]:
+                          - generic [ref=f127e1476]: 할인 전 판매가
+                          - text: 29,900원
+                      - generic [ref=f127e1477]:
+                        - generic [ref=f127e1479]:
+                          - generic [ref=f127e1480]: 최저가
+                          - generic [ref=f127e1481]: 27,900
+                          - generic [ref=f127e1482]: 원
+                        - generic [ref=f127e1483]:
+                          - generic [ref=f127e1484]: 배송비
+                          - generic [ref=f127e1489]: 3,000원
+                    - generic [ref=f127e1490]:
+                      - generic [ref=f127e1491]: 멤버십 시작 시
+                      - generic [ref=f127e1492]:
+                        - generic [ref=f127e1493]: 최대 4,185원
+                        - generic [ref=f127e1494]: 포인트 적립
+                    - generic [ref=f127e1496]:
+                      - generic [ref=f127e1497]: N내일배송
+                      - generic [ref=f127e1499]: 7.22.(수) 도착
+                    - generic [ref=f127e1500]:
+                      - generic [ref=f127e1501]:
+                        - generic [ref=f127e1504]: 별점
+                        - text: "4.87"
+                      - generic [ref=f127e1505]: 리뷰 15,516
+                  - button "전체판매자 상품 2 개 더보기" [ref=f127e1507] [cursor=pointer]:
+                    - generic [ref=f127e1508]:
+                      - text: 전체판매자
+                      - generic [ref=f127e1509]: 상품
+                    - generic [ref=f127e1510]:
+                      - generic [ref=f127e1511]: "2"
+                      - generic [ref=f127e1512]: 개
+                    - generic [ref=f127e1515]: 더보기
+              - listitem [ref=f127e1516]:
+                - generic [ref=f127e1517]:
+                  - link "슈퍼적립 슈퍼적립 광고 슈피겐 공식 새 창에서 열림 슈피겐 Qi2 인증 갤럭시 맥세이프 케이스 초슬림 카본 에어스킨아라미드 맥핏 블랙, 갤럭시S26 울트라 6% 할인 할인 전 판매가 49,000원 최저가 45,900 원 배송비 3,000원 멤버십 시작 시 최대 6,885원 포인트 적립 N내일배송 7.22.(수) 도착 별점 4.84 리뷰 1,332 새 창에서 열림" [ref=f127e1518] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13059180048?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=276e018bf9f947d1a4edd44cb89614ff&NaPm=ci%3D276e018bf9f947d1a4edd44cb89614ff%7Cct%3Dmru6yck0%7Ctr%3Dnslctg%7Csn%3D165941%7Chk%3D4128f9378afc54d552d90864f34e496f65d0de68
+                    - generic [ref=f127e1519]: 새 창에서 열림
+                  - generic [ref=f127e1520]:
+                    - img "슈퍼적립" [ref=f127e1524]
+                    - button "슈피겐 Qi2 인증 갤럭시 맥세이프 케이스 초슬림 카본 에어스킨아라미드 맥핏 블랙, 갤럭시S26 울트라 찜하기" [ref=f127e1526] [cursor=pointer]
+                  - generic [ref=f127e1531]:
+                    - generic [ref=f127e1532]:
+                      - button "슈퍼적립 광고" [ref=f127e1535] [cursor=pointer]
+                      - link "슈피겐 공식 새 창에서 열림" [ref=f127e1540] [cursor=pointer]:
+                        - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fspigen&tr=nslctg
+                        - generic [ref=f127e1541]: 슈피겐
+                        - generic [ref=f127e1542]: 공식
+                        - generic [ref=f127e1546]: 새 창에서 열림
+                    - strong [ref=f127e1547]: 슈피겐 Qi2 인증 갤럭시 맥세이프 케이스 초슬림 카본 에어스킨아라미드 맥핏 블랙, 갤럭시S26 울트라
+                    - generic [ref=f127e1549]:
+                      - generic [ref=f127e1550]:
+                        - generic [ref=f127e1551]:
+                          - text: 6%
+                          - generic [ref=f127e1552]: 할인
+                        - generic [ref=f127e1553]:
+                          - generic [ref=f127e1554]: 할인 전 판매가
+                          - text: 49,000원
+                      - generic [ref=f127e1555]:
+                        - generic [ref=f127e1557]:
+                          - generic [ref=f127e1558]: 최저가
+                          - generic [ref=f127e1559]: 45,900
+                          - generic [ref=f127e1560]: 원
+                        - generic [ref=f127e1561]:
+                          - generic [ref=f127e1562]: 배송비
+                          - generic [ref=f127e1567]: 3,000원
+                    - generic [ref=f127e1568]:
+                      - generic [ref=f127e1569]: 멤버십 시작 시
+                      - generic [ref=f127e1570]:
+                        - generic [ref=f127e1571]: 최대 6,885원
+                        - generic [ref=f127e1572]: 포인트 적립
+                    - generic [ref=f127e1574]:
+                      - generic [ref=f127e1575]: N내일배송
+                      - generic [ref=f127e1577]: 7.22.(수) 도착
+                    - generic [ref=f127e1578]:
+                      - generic [ref=f127e1579]:
+                        - generic [ref=f127e1582]: 별점
+                        - text: "4.84"
+                      - generic [ref=f127e1583]: 리뷰 1,332
+                  - button "전체판매자 상품 1 개 더보기" [ref=f127e1585] [cursor=pointer]:
+                    - generic [ref=f127e1586]:
+                      - text: 전체판매자
+                      - generic [ref=f127e1587]: 상품
+                    - generic [ref=f127e1588]:
+                      - generic [ref=f127e1589]: "1"
+                      - generic [ref=f127e1590]: 개
+                    - generic [ref=f127e1593]: 더보기
+              - listitem [ref=f127e1594]:
+                - generic [ref=f127e1595]:
+                  - link "아이몰 스토어 공식 우수셀러 새 창에서 열림 아이몰 슬림 마그네틱 힌지 보호 풀커버 휴대폰 케이스 블랙, 갤럭시Z 폴드7 37% 할인 할인 전 판매가 44,160원 최저가 27,620 원 오늘출발 14:00까지 주문 시 무료배송 별점 4.78 리뷰 2,321 새 창에서 열림" [ref=f127e1596] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/12075277456?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=6759e08f86f349a986f313267d14f834&NaPm=ci%3D6759e08f86f349a986f313267d14f834%7Cct%3Dmru6yck0%7Ctr%3Dnslctg%7Csn%3D309927%7Chk%3D82a78a886d83dd54560de99eef6af89284b940a1
+                    - generic [ref=f127e1597]: 새 창에서 열림
+                  - button "아이몰 슬림 마그네틱 힌지 보호 풀커버 휴대폰 케이스 블랙, 갤럭시Z 폴드7 찜하기" [ref=f127e1601] [cursor=pointer]
+                  - generic [ref=f127e1606]:
+                    - link "아이몰 스토어 공식 우수셀러 새 창에서 열림" [ref=f127e1608] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fi-mall&tr=nslctg
+                      - generic [ref=f127e1609]: 아이몰 스토어
+                      - generic [ref=f127e1610]:
+                        - generic [ref=f127e1611]: 공식
+                        - generic [ref=f127e1612]: 우수셀러
+                      - generic [ref=f127e1615]: 새 창에서 열림
+                    - strong [ref=f127e1616]: 아이몰 슬림 마그네틱 힌지 보호 풀커버 휴대폰 케이스 블랙, 갤럭시Z 폴드7
+                    - generic [ref=f127e1618]:
+                      - generic [ref=f127e1619]:
+                        - generic [ref=f127e1620]:
+                          - text: 37%
+                          - generic [ref=f127e1621]: 할인
+                        - generic [ref=f127e1622]:
+                          - generic [ref=f127e1623]: 할인 전 판매가
+                          - text: 44,160원
+                      - generic [ref=f127e1626]:
+                        - generic [ref=f127e1627]: 최저가
+                        - generic [ref=f127e1628]: 27,620
+                        - generic [ref=f127e1629]: 원
+                    - generic [ref=f127e1631]:
+                      - generic [ref=f127e1632]: 오늘출발
+                      - generic [ref=f127e1633]: 14:00까지 주문 시
+                    - generic [ref=f127e1634]: 무료배송
+                    - generic [ref=f127e1637]:
+                      - generic [ref=f127e1638]:
+                        - generic [ref=f127e1641]: 별점
+                        - text: "4.78"
+                      - generic [ref=f127e1642]: 리뷰 2,321
+                  - button "전체판매자 상품 5 개 더보기" [ref=f127e1644] [cursor=pointer]:
+                    - generic [ref=f127e1645]:
+                      - text: 전체판매자
+                      - generic [ref=f127e1646]: 상품
+                    - generic [ref=f127e1647]:
+                      - generic [ref=f127e1648]: "5"
+                      - generic [ref=f127e1649]: 개
+                    - generic [ref=f127e1652]: 더보기
+              - listitem [ref=f127e1653]:
+                - generic [ref=f127e1654]:
+                  - link "나하로 공식 우수셀러 새 창에서 열림 나하로 맥세이프 아머 하이브리드 케이스 블랙, 갤럭시S26 울트라 30% 할인 할인 전 판매가 32,300원 최저가 22,300 원 오늘출발 14:30까지 주문 시 무료배송 별점 4.8 리뷰 20,786 새 창에서 열림" [ref=f127e1655] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13099465592?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=7847f5fc5d3040199a3690fe87df23d0&NaPm=ci%3D7847f5fc5d3040199a3690fe87df23d0%7Cct%3Dmru6yck0%7Ctr%3Dnslctg%7Csn%3D375909%7Chk%3D8903dbedd97957708b53a1151ef3857be3eb07af
+                    - generic [ref=f127e1656]: 새 창에서 열림
+                  - button "나하로 맥세이프 아머 하이브리드 케이스 블랙, 갤럭시S26 울트라 찜하기" [ref=f127e1660] [cursor=pointer]
+                  - generic [ref=f127e1665]:
+                    - link "나하로 공식 우수셀러 새 창에서 열림" [ref=f127e1667] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fharo77&tr=nslctg
+                      - generic [ref=f127e1668]: 나하로
+                      - generic [ref=f127e1669]:
+                        - generic [ref=f127e1670]: 공식
+                        - generic [ref=f127e1671]: 우수셀러
+                      - generic [ref=f127e1674]: 새 창에서 열림
+                    - strong [ref=f127e1675]: 나하로 맥세이프 아머 하이브리드 케이스 블랙, 갤럭시S26 울트라
+                    - generic [ref=f127e1677]:
+                      - generic [ref=f127e1678]:
+                        - generic [ref=f127e1679]:
+                          - text: 30%
+                          - generic [ref=f127e1680]: 할인
+                        - generic [ref=f127e1681]:
+                          - generic [ref=f127e1682]: 할인 전 판매가
+                          - text: 32,300원
+                      - generic [ref=f127e1685]:
+                        - generic [ref=f127e1686]: 최저가
+                        - generic [ref=f127e1687]: 22,300
+                        - generic [ref=f127e1688]: 원
+                    - generic [ref=f127e1690]:
+                      - generic [ref=f127e1691]: 오늘출발
+                      - generic [ref=f127e1692]: 14:30까지 주문 시
+                    - generic [ref=f127e1693]: 무료배송
+                    - generic [ref=f127e1696]:
+                      - generic [ref=f127e1697]:
+                        - generic [ref=f127e1700]: 별점
+                        - text: "4.8"
+                      - generic [ref=f127e1701]: 리뷰 20,786
+                  - button "전체판매자 상품 1 개 더보기" [ref=f127e1703] [cursor=pointer]:
+                    - generic [ref=f127e1704]:
+                      - text: 전체판매자
+                      - generic [ref=f127e1705]: 상품
+                    - generic [ref=f127e1706]:
+                      - generic [ref=f127e1707]: "1"
+                      - generic [ref=f127e1708]: 개
+                    - generic [ref=f127e1711]: 더보기
+              - listitem [ref=f127e1712]:
+                - generic [ref=f127e1713]:
+                  - link "아이몰 스토어 공식 우수셀러 새 창에서 열림 아이몰 언더워터 잠수왕 방수케이스 투명, 아이폰14 프로 맥스 47% 할인 할인 전 판매가 53,000원 최저가 27,800 원 오늘출발 14:00까지 주문 시 무료배송 별점 4.81 리뷰 8,749 새 창에서 열림" [ref=f127e1714] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/8212050011?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=332811c21aa649eb947a7a0a7600ab13&NaPm=ci%3D332811c21aa649eb947a7a0a7600ab13%7Cct%3Dmru6yck0%7Ctr%3Dnslctg%7Csn%3D309927%7Chk%3Dccabbf652be2295b4414f13f97a60836266adfdf
+                    - generic [ref=f127e1715]: 새 창에서 열림
+                  - button "아이몰 언더워터 잠수왕 방수케이스 투명, 아이폰14 프로 맥스 찜하기" [ref=f127e1719] [cursor=pointer]
+                  - generic [ref=f127e1724]:
+                    - link "아이몰 스토어 공식 우수셀러 새 창에서 열림" [ref=f127e1726] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fi-mall&tr=nslctg
+                      - generic [ref=f127e1727]: 아이몰 스토어
+                      - generic [ref=f127e1728]:
+                        - generic [ref=f127e1729]: 공식
+                        - generic [ref=f127e1730]: 우수셀러
+                      - generic [ref=f127e1733]: 새 창에서 열림
+                    - strong [ref=f127e1734]: 아이몰 언더워터 잠수왕 방수케이스 투명, 아이폰14 프로 맥스
+                    - generic [ref=f127e1736]:
+                      - generic [ref=f127e1737]:
+                        - generic [ref=f127e1738]:
+                          - text: 47%
+                          - generic [ref=f127e1739]: 할인
+                        - generic [ref=f127e1740]:
+                          - generic [ref=f127e1741]: 할인 전 판매가
+                          - text: 53,000원
+                      - generic [ref=f127e1744]:
+                        - generic [ref=f127e1745]: 최저가
+                        - generic [ref=f127e1746]: 27,800
+                        - generic [ref=f127e1747]: 원
+                    - generic [ref=f127e1749]:
+                      - generic [ref=f127e1750]: 오늘출발
+                      - generic [ref=f127e1751]: 14:00까지 주문 시
+                    - generic [ref=f127e1752]: 무료배송
+                    - generic [ref=f127e1755]:
+                      - generic [ref=f127e1756]:
+                        - generic [ref=f127e1759]: 별점
+                        - text: "4.81"
+                      - generic [ref=f127e1760]: 리뷰 8,749
+                  - button "전체판매자 상품 5 개 더보기" [ref=f127e1762] [cursor=pointer]:
+                    - generic [ref=f127e1763]:
+                      - text: 전체판매자
+                      - generic [ref=f127e1764]: 상품
+                    - generic [ref=f127e1765]:
+                      - generic [ref=f127e1766]: "5"
+                      - generic [ref=f127e1767]: 개
+                    - generic [ref=f127e1770]: 더보기
+              - listitem [ref=f127e1771]:
+                - generic [ref=f127e1772]:
+                  - link "광고 아이몰 스토어 공식 새 창에서 열림 대만족 1만리뷰 갤럭시 힌지보호 Z플립7케이스 할인 전 판매가 44,160원 37% 할인 27,620 원 오늘출발 14:00까지 주문 시 무료배송 별점 4.85 리뷰 1,632 새 창에서 열림" [ref=f127e1773] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/oPM1MgEtoy-5CkqbxF2LpN-M1wr7h3rYfaKhHySBkuqemI0Ot2tQRMn9AApHdoY6m1nLjyPjVrml-XRD_cRNgLjYghNXwvHrzW3TRRTwwDkd6PwXt86xdjeCit07CkggIxSBhpXZZjCU0TayzVcjUNz0nvz5-pVr-fma_-XsJEnbdGHzcDni_viG74Utqe4rDCCsGRLApKQzBJnORlczdDbRoLWiGWFjX3jE1RHOTWV2yeUSjOrfz93yUSr7-vujw9u5vh6edglRwtVQfH1vedf3YJuTP9UzcLa3kiCvlrnFe4P0FWI07P1Urr0i4n3BwKlcdcLKbDbmII9hP83m-MeU0wBhtB_08UUIR1dOBdYsV_5CgCDTC4pgFOb8AlA9rVh53iUI88Ygr07Fk6-ucuzflGKvcWnByag5DnuuIj6StVqUNJ9HOcmhs4P8A8dcKQIoZ9QugFEGYD_Gwh0pOK_7hyxl_gAvWNOEP6-6QX7COxh_t8svVHm9WuoDT2KZ6aH91OiRXxfqgB0trAZVBWWBdPy82Qp6eepTe3pqO1mwcfLSPBkevG1ObIprwu3nwqWI1m6sj9_I6rW1ubiXiA==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f127e1774]: 새 창에서 열림
+                  - button "대만족 1만리뷰 갤럭시 힌지보호 Z플립7케이스 찜하기" [ref=f127e1778] [cursor=pointer]
+                  - generic [ref=f127e1783]:
+                    - generic [ref=f127e1784]:
+                      - button "광고" [ref=f127e1787] [cursor=pointer]
+                      - link "아이몰 스토어 공식 새 창에서 열림" [ref=f127e1794] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/oPM1MgEtoy-5CkqbxF2LpN-M1wr7h3rYfaKhHySBkuqemI0Ot2tQRMn9AApHdoY6m1nLjyPjVrml-XRD_cRNgLjYghNXwvHrzW3TRRTwwDkd6PwXt86xdjeCit07CkggIxSBhpXZZjCU0TayzVcjUNz0nvz5-pVr-fma_-XsJEnbdGHzcDni_viG74Utqe4rDCCsGRLApKQzBJnORlczdDbRoLWiGWFjX3jE1RHOTWV2yeUSjOrfz93yUSr7-vujw9u5vh6edglRwtVQfH1vedf3YJuTP9UzcLa3kiCvlrnFe4P0FWI07P1Urr0i4n3BwKlcdcLKbDbmII9hP83m-MeU0wBhtB_08UUIR1dOBdYsV_5CgCDTC4pgFOb8AlA9rVh53iUI88Ygr07Fk6-ucuzflGKvcWnByag5DnuuIj6StVqUNJ9HOcmhs4P8A8dcKQIoZ9QugFEGYD_Gwh0pOK_7hyxl_gAvWNOEP6-6QX7COxh_t8svVHm9WuoDT2KZ6aH91OiRXxfqgB0trAZVBWWBdPy82Qp6eepTe3pqO1mwcfLSPBkevG1ObIprwu3nwqWI1m6sj9_I6rW1ubiXiA==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f127e1795]: 아이몰 스토어
+                        - generic [ref=f127e1796]: 공식
+                        - generic [ref=f127e1800]: 새 창에서 열림
+                    - strong [ref=f127e1801]: 대만족 1만리뷰 갤럭시 힌지보호 Z플립7케이스
+                    - generic [ref=f127e1803]:
+                      - generic [ref=f127e1805]:
+                        - generic [ref=f127e1806]: 할인 전 판매가
+                        - text: 44,160원
+                      - generic [ref=f127e1809]:
+                        - generic [ref=f127e1810]:
+                          - text: 37%
+                          - generic [ref=f127e1811]: 할인
+                        - generic [ref=f127e1812]: 27,620
+                        - generic [ref=f127e1813]: 원
+                    - generic [ref=f127e1815]:
+                      - generic [ref=f127e1816]: 오늘출발
+                      - generic [ref=f127e1817]: 14:00까지 주문 시
+                    - generic [ref=f127e1818]: 무료배송
+                    - generic [ref=f127e1821]:
+                      - generic [ref=f127e1822]:
+                        - generic [ref=f127e1825]: 별점
+                        - text: "4.85"
+                      - generic [ref=f127e1826]: 리뷰 1,632
+              - listitem [ref=f127e1827]:
+                - generic [ref=f127e1828]:
+                  - link "YOGER 공식 우수셀러 새 창에서 열림 요거 투명 젤리 케이스 갤럭시S26 76% 할인 할인 전 판매가 29,670원 최저가 6,900 원 N내일배송 7.22.(수) 도착 무료배송 별점 4.87 리뷰 554 새 창에서 열림" [ref=f127e1829] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13058453519?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=5845a24b09e941c49139bc6c6dbe83a6&NaPm=ci%3D5845a24b09e941c49139bc6c6dbe83a6%7Cct%3Dmru6yck1%7Ctr%3Dnslctg%7Csn%3D293926%7Chk%3Dea9263c0ecedee092f9c1af2aee88f53b7fff30e
+                    - generic [ref=f127e1830]: 새 창에서 열림
+                  - button "요거 투명 젤리 케이스 갤럭시S26 찜하기" [ref=f127e1834] [cursor=pointer]
+                  - generic [ref=f127e1839]:
+                    - link "YOGER 공식 우수셀러 새 창에서 열림" [ref=f127e1841] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fmoducase&tr=nslctg
+                      - generic [ref=f127e1842]: YOGER
+                      - generic [ref=f127e1843]:
+                        - generic [ref=f127e1844]: 공식
+                        - generic [ref=f127e1845]: 우수셀러
+                      - generic [ref=f127e1848]: 새 창에서 열림
+                    - strong [ref=f127e1849]: 요거 투명 젤리 케이스 갤럭시S26
+                    - generic [ref=f127e1851]:
+                      - generic [ref=f127e1852]:
+                        - generic [ref=f127e1853]:
+                          - text: 76%
+                          - generic [ref=f127e1854]: 할인
+                        - generic [ref=f127e1855]:
+                          - generic [ref=f127e1856]: 할인 전 판매가
+                          - text: 29,670원
+                      - generic [ref=f127e1859]:
+                        - generic [ref=f127e1860]: 최저가
+                        - generic [ref=f127e1861]: 6,900
+                        - generic [ref=f127e1862]: 원
+                    - generic [ref=f127e1864]:
+                      - generic [ref=f127e1865]: N내일배송
+                      - generic [ref=f127e1867]: 7.22.(수) 도착
+                    - generic [ref=f127e1868]: 무료배송
+                    - generic [ref=f127e1871]:
+                      - generic [ref=f127e1872]:
+                        - generic [ref=f127e1875]: 별점
+                        - text: "4.87"
+                      - generic [ref=f127e1876]: 리뷰 554
+                  - button "전체판매자 상품 1 개 더보기" [ref=f127e1878] [cursor=pointer]:
+                    - generic [ref=f127e1879]:
+                      - text: 전체판매자
+                      - generic [ref=f127e1880]: 상품
+                    - generic [ref=f127e1881]:
+                      - generic [ref=f127e1882]: "1"
+                      - generic [ref=f127e1883]: 개
+                    - generic [ref=f127e1886]: 더보기
+              - listitem [ref=f127e1887]:
+                - generic [ref=f127e1888]:
+                  - link "슈퍼적립 슈피겐 공식 우수셀러 새 창에서 열림 슈피겐 에어핏 프로 맥핏 케이스 블랙, 갤럭시Z 폴드7 6% 할인 할인 전 판매가 65,000원 최저가 60,900 원 멤버십 시작 시 최대 9,135원 포인트 적립 N내일배송 7.22.(수) 도착 무료배송 별점 4.83 리뷰 5,286 새 창에서 열림" [ref=f127e1889] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/12017642120?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=c27373f90b364e92ac0da50b0b6e91a8&NaPm=ci%3Dc27373f90b364e92ac0da50b0b6e91a8%7Cct%3Dmru6yck1%7Ctr%3Dnslctg%7Csn%3D165941%7Chk%3D3155e3bc434b14ce9cc83be8a789d9bf2666af10
+                    - generic [ref=f127e1890]: 새 창에서 열림
+                  - generic [ref=f127e1891]:
+                    - img "슈퍼적립" [ref=f127e1895]
+                    - button "슈피겐 에어핏 프로 맥핏 케이스 블랙, 갤럭시Z 폴드7 찜하기" [ref=f127e1897] [cursor=pointer]
+                  - generic [ref=f127e1902]:
+                    - link "슈피겐 공식 우수셀러 새 창에서 열림" [ref=f127e1904] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fspigen&tr=nslctg
+                      - generic [ref=f127e1905]: 슈피겐
+                      - generic [ref=f127e1906]:
+                        - generic [ref=f127e1907]: 공식
+                        - generic [ref=f127e1908]: 우수셀러
+                      - generic [ref=f127e1911]: 새 창에서 열림
+                    - strong [ref=f127e1912]: 슈피겐 에어핏 프로 맥핏 케이스 블랙, 갤럭시Z 폴드7
+                    - generic [ref=f127e1914]:
+                      - generic [ref=f127e1915]:
+                        - generic [ref=f127e1916]:
+                          - text: 6%
+                          - generic [ref=f127e1917]: 할인
+                        - generic [ref=f127e1918]:
+                          - generic [ref=f127e1919]: 할인 전 판매가
+                          - text: 65,000원
+                      - generic [ref=f127e1922]:
+                        - generic [ref=f127e1923]: 최저가
+                        - generic [ref=f127e1924]: 60,900
+                        - generic [ref=f127e1925]: 원
+                    - generic [ref=f127e1926]:
+                      - generic [ref=f127e1927]: 멤버십 시작 시
+                      - generic [ref=f127e1928]:
+                        - generic [ref=f127e1929]: 최대 9,135원
+                        - generic [ref=f127e1930]: 포인트 적립
+                    - generic [ref=f127e1932]:
+                      - generic [ref=f127e1933]: N내일배송
+                      - generic [ref=f127e1935]: 7.22.(수) 도착
+                    - generic [ref=f127e1936]: 무료배송
+                    - generic [ref=f127e1939]:
+                      - generic [ref=f127e1940]:
+                        - generic [ref=f127e1943]: 별점
+                        - text: "4.83"
+                      - generic [ref=f127e1944]: 리뷰 5,286
+                  - button "전체판매자 상품 3 개 더보기" [ref=f127e1946] [cursor=pointer]:
+                    - generic [ref=f127e1947]:
+                      - text: 전체판매자
+                      - generic [ref=f127e1948]: 상품
+                    - generic [ref=f127e1949]:
+                      - generic [ref=f127e1950]: "3"
+                      - generic [ref=f127e1951]: 개
+                    - generic [ref=f127e1954]: 더보기
+              - listitem [ref=f127e1955]:
+                - generic [ref=f127e1956]:
+                  - link "슈퍼적립 슈피겐 공식 우수셀러 새 창에서 열림 슈피겐 Qi2 갤럭시 맥세이프 케이스 에어스킨하이브리드 맥핏, 갤럭시S26 울트라 10% 할인 할인 전 판매가 32,900원 최저가 29,610 원 배송비 3,000원 멤버십 시작 시 최대 4,441원 포인트 적립 N내일배송 7.22.(수) 도착 별점 4.89 리뷰 4,937 새 창에서 열림" [ref=f127e1957] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13059179688?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=2e926b2303da4766a15d7ec2ac11dedd&NaPm=ci%3D2e926b2303da4766a15d7ec2ac11dedd%7Cct%3Dmru6yck1%7Ctr%3Dnslctg%7Csn%3D165941%7Chk%3Dab96f2a01fd6e01d7af9d6826da4fe0e74ca4705
+                    - generic [ref=f127e1958]: 새 창에서 열림
+                  - generic [ref=f127e1959]:
+                    - img "슈퍼적립" [ref=f127e1963]
+                    - button "슈피겐 Qi2 갤럭시 맥세이프 케이스 에어스킨하이브리드 맥핏, 갤럭시S26 울트라 찜하기" [ref=f127e1965] [cursor=pointer]
+                  - generic [ref=f127e1970]:
+                    - link "슈피겐 공식 우수셀러 새 창에서 열림" [ref=f127e1972] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fspigen&tr=nslctg
+                      - generic [ref=f127e1973]: 슈피겐
+                      - generic [ref=f127e1974]:
+                        - generic [ref=f127e1975]: 공식
+                        - generic [ref=f127e1976]: 우수셀러
+                      - generic [ref=f127e1979]: 새 창에서 열림
+                    - strong [ref=f127e1980]: 슈피겐 Qi2 갤럭시 맥세이프 케이스 에어스킨하이브리드 맥핏, 갤럭시S26 울트라
+                    - generic [ref=f127e1982]:
+                      - generic [ref=f127e1983]:
+                        - generic [ref=f127e1984]:
+                          - text: 10%
+                          - generic [ref=f127e1985]: 할인
+                        - generic [ref=f127e1986]:
+                          - generic [ref=f127e1987]: 할인 전 판매가
+                          - text: 32,900원
+                      - generic [ref=f127e1988]:
+                        - generic [ref=f127e1990]:
+                          - generic [ref=f127e1991]: 최저가
+                          - generic [ref=f127e1992]: 29,610
+                          - generic [ref=f127e1993]: 원
+                        - generic [ref=f127e1994]:
+                          - generic [ref=f127e1995]: 배송비
+                          - generic [ref=f127e2000]: 3,000원
+                    - generic [ref=f127e2001]:
+                      - generic [ref=f127e2002]: 멤버십 시작 시
+                      - generic [ref=f127e2003]:
+                        - generic [ref=f127e2004]: 최대 4,441원
+                        - generic [ref=f127e2005]: 포인트 적립
+                    - generic [ref=f127e2007]:
+                      - generic [ref=f127e2008]: N내일배송
+                      - generic [ref=f127e2010]: 7.22.(수) 도착
+                    - generic [ref=f127e2011]:
+                      - generic [ref=f127e2012]:
+                        - generic [ref=f127e2015]: 별점
+                        - text: "4.89"
+                      - generic [ref=f127e2016]: 리뷰 4,937
+                  - button "전체판매자 상품 1 개 더보기" [ref=f127e2018] [cursor=pointer]:
+                    - generic [ref=f127e2019]:
+                      - text: 전체판매자
+                      - generic [ref=f127e2020]: 상품
+                    - generic [ref=f127e2021]:
+                      - generic [ref=f127e2022]: "1"
+                      - generic [ref=f127e2023]: 개
+                    - generic [ref=f127e2026]: 더보기
+              - listitem [ref=f127e2027]:
+                - generic [ref=f127e2028]:
+                  - link "광고 제루크 우수셀러 새 창에서 열림 제루크 일체형 강력자력 맥세이프 힌지보호 풀커버 폴더블 케이스 블랙, 갤럭시Z 폴드8 할인 전 판매가 42,900원 46% 할인 22,900 원 배송비 3,000원 오늘출발 16:00까지 주문 시 별점 4.68 리뷰 686 새 창에서 열림" [ref=f127e2029] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/BGHGtlxR_5PHZIivA-HvyhsDLKM3SVQBj14NAfw-GIlwS5mT7gkJc59SmWRpIAqzSQKrfqxpnwdXiE2zZuAZLDaFnEXmV2P2nCDLIcYskNHnr6cyALuwXcd5ZuCTYjU3m5WrR5D29SefLZE6cDk0iKz4p1lXb4_8L72cyxbtKPhyEU090pOPe6Es0J7bauwXiE4KMd-I_wn92ywqnVktStdjb5Z14n77Zwl-h8T-6uI2A_Nlp4hjasWZIZZmMopMVnefLlg-0_mJHoMeFC8xYNJXXIMVgUb7V2ecgBP9PTn6Ed7LLSZVLXvNLggEjDHJN9y1b3tX5d4PQIvrjjpV2ajf-6HHIWTN__VwVVRPF-SDyyRMCU-Ubmce0htfsFutiGW2DzZgkK1b4pXCJVgS9I1I35sl7kSdrCUc8dVl8wKCQOf-axWThV03teEeORHX67o6uvihJiroD1c3lohHuubXVGD9Xen7bdqTKr9e1XKQd9JxA_ObmrQd2b6XWW5eSOu7m3F8kBQLaoFC2ARi821n5mCJdOnKL_PCyeKqG8zvPG44M3z4ZDFIX110qOQv78GQ3qYt9Vtxee6L_0t99w==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f127e2030]: 새 창에서 열림
+                  - button "제루크 일체형 강력자력 맥세이프 힌지보호 풀커버 폴더블 케이스 블랙, 갤럭시Z 폴드8 찜하기" [ref=f127e2034] [cursor=pointer]
+                  - generic [ref=f127e2039]:
+                    - generic [ref=f127e2040]:
+                      - button "광고" [ref=f127e2043] [cursor=pointer]
+                      - link "제루크 우수셀러 새 창에서 열림" [ref=f127e2050] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/BGHGtlxR_5PHZIivA-HvyhsDLKM3SVQBj14NAfw-GIlwS5mT7gkJc59SmWRpIAqzSQKrfqxpnwdXiE2zZuAZLDaFnEXmV2P2nCDLIcYskNHnr6cyALuwXcd5ZuCTYjU3m5WrR5D29SefLZE6cDk0iKz4p1lXb4_8L72cyxbtKPhyEU090pOPe6Es0J7bauwXiE4KMd-I_wn92ywqnVktStdjb5Z14n77Zwl-h8T-6uI2A_Nlp4hjasWZIZZmMopMVnefLlg-0_mJHoMeFC8xYNJXXIMVgUb7V2ecgBP9PTn6Ed7LLSZVLXvNLggEjDHJN9y1b3tX5d4PQIvrjjpV2ajf-6HHIWTN__VwVVRPF-SDyyRMCU-Ubmce0htfsFutiGW2DzZgkK1b4pXCJVgS9I1I35sl7kSdrCUc8dVl8wKCQOf-axWThV03teEeORHX67o6uvihJiroD1c3lohHuubXVGD9Xen7bdqTKr9e1XKQd9JxA_ObmrQd2b6XWW5eSOu7m3F8kBQLaoFC2ARi821n5mCJdOnKL_PCyeKqG8zvPG44M3z4ZDFIX110qOQv78GQ3qYt9Vtxee6L_0t99w==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f127e2051]: 제루크
+                        - generic [ref=f127e2052]: 우수셀러
+                        - generic [ref=f127e2056]: 새 창에서 열림
+                    - strong [ref=f127e2057]: 제루크 일체형 강력자력 맥세이프 힌지보호 풀커버 폴더블 케이스 블랙, 갤럭시Z 폴드8
+                    - generic [ref=f127e2059]:
+                      - generic [ref=f127e2061]:
+                        - generic [ref=f127e2062]: 할인 전 판매가
+                        - text: 42,900원
+                      - generic [ref=f127e2063]:
+                        - generic [ref=f127e2065]:
+                          - generic [ref=f127e2066]:
+                            - text: 46%
+                            - generic [ref=f127e2067]: 할인
+                          - generic [ref=f127e2068]: 22,900
+                          - generic [ref=f127e2069]: 원
+                        - generic [ref=f127e2070]:
+                          - generic [ref=f127e2071]: 배송비
+                          - generic [ref=f127e2076]: 3,000원
+                    - generic [ref=f127e2078]:
+                      - generic [ref=f127e2079]: 오늘출발
+                      - generic [ref=f127e2080]: 16:00까지 주문 시
+                    - generic [ref=f127e2081]:
+                      - generic [ref=f127e2082]:
+                        - generic [ref=f127e2085]: 별점
+                        - text: "4.68"
+                      - generic [ref=f127e2086]: 리뷰 686
+              - listitem [ref=f127e2087]:
+                - generic [ref=f127e2088]:
+                  - link "맥앤블랙 공식 우수셀러 새 창에서 열림 맥앤블랙 2배자력 맥세이프 케이스 풀커버 범퍼 생폰 젤리 투명, 아이폰16 프로 할인 전 판매가 17,500원 14% 할인 14,900 원 N내일배송 7.22.(수) 도착 무료배송 무료교환반품 별점 4.89 리뷰 4,370 새 창에서 열림" [ref=f127e2089] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/11280728046?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=0eb6051b0a864c66a8d0bb0ce619f52c&NaPm=ci%3D0eb6051b0a864c66a8d0bb0ce619f52c%7Cct%3Dmru6yck2%7Ctr%3Dnslsl%7Csn%3D11810914%7Chk%3D8097b8a465b8289236ceef61f5b0fd90e3db7c12
+                    - generic [ref=f127e2090]: 새 창에서 열림
+                  - button "맥앤블랙 2배자력 맥세이프 케이스 풀커버 범퍼 생폰 젤리 투명, 아이폰16 프로 찜하기" [ref=f127e2094] [cursor=pointer]
+                  - generic [ref=f127e2099]:
+                    - link "맥앤블랙 공식 우수셀러 새 창에서 열림" [ref=f127e2101] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fmag-black&tr=nslsl
+                      - generic [ref=f127e2102]: 맥앤블랙
+                      - generic [ref=f127e2103]:
+                        - generic [ref=f127e2104]: 공식
+                        - generic [ref=f127e2105]: 우수셀러
+                      - generic [ref=f127e2108]: 새 창에서 열림
+                    - strong [ref=f127e2109]: 맥앤블랙 2배자력 맥세이프 케이스 풀커버 범퍼 생폰 젤리 투명, 아이폰16 프로
+                    - generic [ref=f127e2111]:
+                      - generic [ref=f127e2113]:
+                        - generic [ref=f127e2114]: 할인 전 판매가
+                        - text: 17,500원
+                      - generic [ref=f127e2117]:
+                        - generic [ref=f127e2118]:
+                          - text: 14%
+                          - generic [ref=f127e2119]: 할인
+                        - generic [ref=f127e2120]: 14,900
+                        - generic [ref=f127e2121]: 원
+                    - generic [ref=f127e2123]:
+                      - generic [ref=f127e2124]: N내일배송
+                      - generic [ref=f127e2126]: 7.22.(수) 도착
+                    - generic [ref=f127e2128]:
+                      - generic [ref=f127e2129]: 무료배송
+                      - generic [ref=f127e2130]: 무료교환반품
+                    - generic [ref=f127e2131]:
+                      - generic [ref=f127e2132]:
+                        - generic [ref=f127e2135]: 별점
+                        - text: "4.89"
+                      - generic [ref=f127e2136]: 리뷰 4,370
+                  - button "다른 옵션 상품보기" [ref=f127e2138] [cursor=pointer]
+              - listitem [ref=f127e2141]
+              - listitem [ref=f127e2143]:
+                - generic [ref=f127e2144]:
+                  - link "슈퍼적립 슈피겐 공식 우수셀러 새 창에서 열림 슈피겐 QI2 맥세이프 케이스 울트라하이브리드 맥핏 클리어화이트, 갤럭시S25 울트라 6% 할인 할인 전 판매가 29,900원 최저가 27,900 원 배송비 3,000원 멤버십 시작 시 최대 4,185원 포인트 적립 N내일배송 7.22.(수) 도착 별점 4.87 리뷰 15,516 새 창에서 열림" [ref=f127e2145] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/11338794544?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=bcedce67357c481c99e432469790489f&NaPm=ci%3Dbcedce67357c481c99e432469790489f%7Cct%3Dmru6yck2%7Ctr%3Dnslctg%7Csn%3D165941%7Chk%3Dad9c86e47a51abe6d6f58da27cd42f86aa58a785
+                    - generic [ref=f127e2146]: 새 창에서 열림
+                  - generic [ref=f127e2147]:
+                    - img "슈퍼적립" [ref=f127e2151]
+                    - button "슈피겐 QI2 맥세이프 케이스 울트라하이브리드 맥핏 클리어화이트, 갤럭시S25 울트라 찜하기" [ref=f127e2153] [cursor=pointer]
+                  - generic [ref=f127e2158]:
+                    - link "슈피겐 공식 우수셀러 새 창에서 열림" [ref=f127e2160] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fspigen&tr=nslctg
+                      - generic [ref=f127e2161]: 슈피겐
+                      - generic [ref=f127e2162]:
+                        - generic [ref=f127e2163]: 공식
+                        - generic [ref=f127e2164]: 우수셀러
+                      - generic [ref=f127e2167]: 새 창에서 열림
+                    - strong [ref=f127e2168]: 슈피겐 QI2 맥세이프 케이스 울트라하이브리드 맥핏 클리어화이트, 갤럭시S25 울트라
+                    - generic [ref=f127e2170]:
+                      - generic [ref=f127e2171]:
+                        - generic [ref=f127e2172]:
+                          - text: 6%
+                          - generic [ref=f127e2173]: 할인
+                        - generic [ref=f127e2174]:
+                          - generic [ref=f127e2175]: 할인 전 판매가
+                          - text: 29,900원
+                      - generic [ref=f127e2176]:
+                        - generic [ref=f127e2178]:
+                          - generic [ref=f127e2179]: 최저가
+                          - generic [ref=f127e2180]: 27,900
+                          - generic [ref=f127e2181]: 원
+                        - generic [ref=f127e2182]:
+                          - generic [ref=f127e2183]: 배송비
+                          - generic [ref=f127e2188]: 3,000원
+                    - generic [ref=f127e2189]:
+                      - generic [ref=f127e2190]: 멤버십 시작 시
+                      - generic [ref=f127e2191]:
+                        - generic [ref=f127e2192]: 최대 4,185원
+                        - generic [ref=f127e2193]: 포인트 적립
+                    - generic [ref=f127e2195]:
+                      - generic [ref=f127e2196]: N내일배송
+                      - generic [ref=f127e2198]: 7.22.(수) 도착
+                    - generic [ref=f127e2199]:
+                      - generic [ref=f127e2200]:
+                        - generic [ref=f127e2203]: 별점
+                        - text: "4.87"
+                      - generic [ref=f127e2204]: 리뷰 15,516
+                  - button "전체판매자 상품 1 개 더보기" [ref=f127e2206] [cursor=pointer]:
+                    - generic [ref=f127e2207]:
+                      - text: 전체판매자
+                      - generic [ref=f127e2208]: 상품
+                    - generic [ref=f127e2209]:
+                      - generic [ref=f127e2210]: "1"
+                      - generic [ref=f127e2211]: 개
+                    - generic [ref=f127e2214]: 더보기
+              - listitem [ref=f127e2215]:
+                - generic [ref=f127e2216]:
+                  - link "슈피겐 공식 우수셀러 새 창에서 열림 슈피겐 갤럭시S26 울트라 투명 케이스 울트라하이브리드, TPU+PC, 크리스탈클리어 최저가 24,900 원 배송비 3,000원 N내일배송 7.22.(수) 도착 별점 4.88 리뷰 17,212 새 창에서 열림" [ref=f127e2217] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13059180271?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=3cb3c1a2d86b402da57c6111ab429ddb&NaPm=ci%3D3cb3c1a2d86b402da57c6111ab429ddb%7Cct%3Dmru6yck2%7Ctr%3Dnslctg%7Csn%3D165941%7Chk%3D3a6c19129d63246cdcf8d4230408b716e4221509
+                    - generic [ref=f127e2218]: 새 창에서 열림
+                  - button "슈피겐 갤럭시S26 울트라 투명 케이스 울트라하이브리드, TPU+PC, 크리스탈클리어 찜하기" [ref=f127e2222] [cursor=pointer]
+                  - generic [ref=f127e2227]:
+                    - link "슈피겐 공식 우수셀러 새 창에서 열림" [ref=f127e2229] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fspigen&tr=nslctg
+                      - generic [ref=f127e2230]: 슈피겐
+                      - generic [ref=f127e2231]:
+                        - generic [ref=f127e2232]: 공식
+                        - generic [ref=f127e2233]: 우수셀러
+                      - generic [ref=f127e2236]: 새 창에서 열림
+                    - strong [ref=f127e2237]: 슈피겐 갤럭시S26 울트라 투명 케이스 울트라하이브리드, TPU+PC, 크리스탈클리어
+                    - generic [ref=f127e2240]:
+                      - generic [ref=f127e2242]:
+                        - generic [ref=f127e2243]: 최저가
+                        - generic [ref=f127e2244]: 24,900
+                        - generic [ref=f127e2245]: 원
+                      - generic [ref=f127e2246]:
+                        - generic [ref=f127e2247]: 배송비
+                        - generic [ref=f127e2252]: 3,000원
+                    - generic [ref=f127e2254]:
+                      - generic [ref=f127e2255]: N내일배송
+                      - generic [ref=f127e2257]: 7.22.(수) 도착
+                    - generic [ref=f127e2258]:
+                      - generic [ref=f127e2259]:
+                        - generic [ref=f127e2262]: 별점
+                        - text: "4.88"
+                      - generic [ref=f127e2263]: 리뷰 17,212
+                  - button "전체판매자 상품 1 개 더보기" [ref=f127e2265] [cursor=pointer]:
+                    - generic [ref=f127e2266]:
+                      - text: 전체판매자
+                      - generic [ref=f127e2267]: 상품
+                    - generic [ref=f127e2268]:
+                      - generic [ref=f127e2269]: "1"
+                      - generic [ref=f127e2270]: 개
+                    - generic [ref=f127e2273]: 더보기
+              - listitem [ref=f127e2274]:
+                - generic [ref=f127e2275]:
+                  - link "맥앤블랙 공식 우수셀러 새 창에서 열림 맥앤블랙 2배자력 맥세이프 케이스 핸드폰 범퍼 자석 투명, 갤럭시S24 울트라 할인 전 판매가 17,500원 14% 할인 14,900 원 N내일배송 7.22.(수) 도착 무료배송 무료교환반품 별점 4.86 리뷰 19,807 새 창에서 열림" [ref=f127e2276] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/11277947924?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=74420d1e622e411e93d82d87efccc5ec&NaPm=ci%3D74420d1e622e411e93d82d87efccc5ec%7Cct%3Dmru6yck2%7Ctr%3Dnslsl%7Csn%3D11810914%7Chk%3D602dd121f88a7005916c53dcaadec006adddad69
+                    - generic [ref=f127e2277]: 새 창에서 열림
+                  - button "맥앤블랙 2배자력 맥세이프 케이스 핸드폰 범퍼 자석 투명, 갤럭시S24 울트라 찜하기" [ref=f127e2281] [cursor=pointer]
+                  - generic [ref=f127e2286]:
+                    - link "맥앤블랙 공식 우수셀러 새 창에서 열림" [ref=f127e2288] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fmag-black&tr=nslsl
+                      - generic [ref=f127e2289]: 맥앤블랙
+                      - generic [ref=f127e2290]:
+                        - generic [ref=f127e2291]: 공식
+                        - generic [ref=f127e2292]: 우수셀러
+                      - generic [ref=f127e2295]: 새 창에서 열림
+                    - strong [ref=f127e2296]: 맥앤블랙 2배자력 맥세이프 케이스 핸드폰 범퍼 자석 투명, 갤럭시S24 울트라
+                    - generic [ref=f127e2298]:
+                      - generic [ref=f127e2300]:
+                        - generic [ref=f127e2301]: 할인 전 판매가
+                        - text: 17,500원
+                      - generic [ref=f127e2304]:
+                        - generic [ref=f127e2305]:
+                          - text: 14%
+                          - generic [ref=f127e2306]: 할인
+                        - generic [ref=f127e2307]: 14,900
+                        - generic [ref=f127e2308]: 원
+                    - generic [ref=f127e2310]:
+                      - generic [ref=f127e2311]: N내일배송
+                      - generic [ref=f127e2313]: 7.22.(수) 도착
+                    - generic [ref=f127e2315]:
+                      - generic [ref=f127e2316]: 무료배송
+                      - generic [ref=f127e2317]: 무료교환반품
+                    - generic [ref=f127e2318]:
+                      - generic [ref=f127e2319]:
+                        - generic [ref=f127e2322]: 별점
+                        - text: "4.86"
+                      - generic [ref=f127e2323]: 리뷰 19,807
+                  - button "다른 옵션 상품보기" [ref=f127e2325] [cursor=pointer]
+              - listitem [ref=f127e2328]:
+                - generic [ref=f127e2329]:
+                  - link "광고 끼움 우수셀러 새 창에서 열림 안누래지는,아이폰17프로맥스 얇은 케이스 끼움 15,900 원 오늘출발 18:00까지 주문 시 무료배송 별점 4.72 리뷰 13,366 새 창에서 열림" [ref=f127e2330] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/92VUT1KFKVLx0LqbFPz9fWsSzAugr1wnWgZSJ2ctwJqBjGt65v_tvZqLWs7P54mi1xTeGH0QWTqJ1n5e2tMv9vKDvdL0elsotS74UZAhaOonTgSDuKKAxrW-VNOOdbS6RTWJE9WtbcYiIC9j6EpXP3b3MUaivTBFgIQrwTKDbmsBn6HO2dvoR_UzU8VY_deEPE-T5b6-Jh2t2akyHWHb8E13BefScsJpWeuDY0Je10DWX1qU7U3mA0jj4nZiwy8tiuAquY-EYYQQCAPjBjY6r38JkmItC8Kax-1snOt8ki1UmhM96tfgATTvL1A6c3_qakbmS8UbmRA-5_Z1-L98v33K4-ifkFd9Ee7PdO0i0sgRSSPAckzk1vbY2ED_-M9ow8YimnXsTVzjMioNO0dfMA==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f127e2331]: 새 창에서 열림
+                  - button "안누래지는,아이폰17프로맥스 얇은 케이스 끼움 찜하기" [ref=f127e2335] [cursor=pointer]
+                  - generic [ref=f127e2340]:
+                    - generic [ref=f127e2341]:
+                      - button "광고" [ref=f127e2344] [cursor=pointer]
+                      - link "끼움 우수셀러 새 창에서 열림" [ref=f127e2351] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/92VUT1KFKVLx0LqbFPz9fWsSzAugr1wnWgZSJ2ctwJqBjGt65v_tvZqLWs7P54mi1xTeGH0QWTqJ1n5e2tMv9vKDvdL0elsotS74UZAhaOonTgSDuKKAxrW-VNOOdbS6RTWJE9WtbcYiIC9j6EpXP3b3MUaivTBFgIQrwTKDbmsBn6HO2dvoR_UzU8VY_deEPE-T5b6-Jh2t2akyHWHb8E13BefScsJpWeuDY0Je10DWX1qU7U3mA0jj4nZiwy8tiuAquY-EYYQQCAPjBjY6r38JkmItC8Kax-1snOt8ki1UmhM96tfgATTvL1A6c3_qakbmS8UbmRA-5_Z1-L98v33K4-ifkFd9Ee7PdO0i0sgRSSPAckzk1vbY2ED_-M9ow8YimnXsTVzjMioNO0dfMA==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f127e2352]: 끼움
+                        - generic [ref=f127e2353]: 우수셀러
+                        - generic [ref=f127e2357]: 새 창에서 열림
+                    - strong [ref=f127e2358]: 안누래지는,아이폰17프로맥스 얇은 케이스 끼움
+                    - generic [ref=f127e2363]:
+                      - generic [ref=f127e2364]: 15,900
+                      - generic [ref=f127e2365]: 원
+                    - generic [ref=f127e2367]:
+                      - generic [ref=f127e2368]: 오늘출발
+                      - generic [ref=f127e2369]: 18:00까지 주문 시
+                    - generic [ref=f127e2370]: 무료배송
+                    - generic [ref=f127e2373]:
+                      - generic [ref=f127e2374]:
+                        - generic [ref=f127e2377]: 별점
+                        - text: "4.72"
+                      - generic [ref=f127e2378]: 리뷰 13,366
+              - listitem [ref=f127e2379]:
+                - generic [ref=f127e2380]:
+                  - link "슈퍼적립 슈피겐 공식 우수셀러 새 창에서 열림 슈피겐 울트라 하이브리드 케이스 크리스탈클리어, 아이폰17 8% 할인 할인 전 판매가 24,900원 최저가 22,900 원 배송비 3,000원 멤버십 시작 시 최대 3,435원 포인트 적립 N내일배송 7.22.(수) 도착 별점 4.88 리뷰 10,609 새 창에서 열림" [ref=f127e2381] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/12319459968?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=fb85e7eb54084c77aff76d26be5e2f7e&NaPm=ci%3Dfb85e7eb54084c77aff76d26be5e2f7e%7Cct%3Dmru6yddx%7Ctr%3Dnslctg%7Csn%3D165941%7Chk%3Dffcaa92767c752905a8f5c44a1f937408c9a79e9
+                    - generic [ref=f127e2382]: 새 창에서 열림
+                  - generic [ref=f127e2383]:
+                    - img "슈퍼적립" [ref=f127e2387]
+                    - button "슈피겐 울트라 하이브리드 케이스 크리스탈클리어, 아이폰17 찜하기" [ref=f127e2389] [cursor=pointer]
+                  - generic [ref=f127e2394]:
+                    - link "슈피겐 공식 우수셀러 새 창에서 열림" [ref=f127e2396] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fspigen&tr=nslctg
+                      - generic [ref=f127e2397]: 슈피겐
+                      - generic [ref=f127e2398]:
+                        - generic [ref=f127e2399]: 공식
+                        - generic [ref=f127e2400]: 우수셀러
+                      - generic [ref=f127e2403]: 새 창에서 열림
+                    - strong [ref=f127e2404]: 슈피겐 울트라 하이브리드 케이스 크리스탈클리어, 아이폰17
+                    - generic [ref=f127e2406]:
+                      - generic [ref=f127e2407]:
+                        - generic [ref=f127e2408]:
+                          - text: 8%
+                          - generic [ref=f127e2409]: 할인
+                        - generic [ref=f127e2410]:
+                          - generic [ref=f127e2411]: 할인 전 판매가
+                          - text: 24,900원
+                      - generic [ref=f127e2412]:
+                        - generic [ref=f127e2414]:
+                          - generic [ref=f127e2415]: 최저가
+                          - generic [ref=f127e2416]: 22,900
+                          - generic [ref=f127e2417]: 원
+                        - generic [ref=f127e2418]:
+                          - generic [ref=f127e2419]: 배송비
+                          - generic [ref=f127e2424]: 3,000원
+                    - generic [ref=f127e2425]:
+                      - generic [ref=f127e2426]: 멤버십 시작 시
+                      - generic [ref=f127e2427]:
+                        - generic [ref=f127e2428]: 최대 3,435원
+                        - generic [ref=f127e2429]: 포인트 적립
+                    - generic [ref=f127e2431]:
+                      - generic [ref=f127e2432]: N내일배송
+                      - generic [ref=f127e2434]: 7.22.(수) 도착
+                    - generic [ref=f127e2435]:
+                      - generic [ref=f127e2436]:
+                        - generic [ref=f127e2439]: 별점
+                        - text: "4.88"
+                      - generic [ref=f127e2440]: 리뷰 10,609
+                  - button "전체판매자 상품 2 개 더보기" [ref=f127e2442] [cursor=pointer]:
+                    - generic [ref=f127e2443]:
+                      - text: 전체판매자
+                      - generic [ref=f127e2444]: 상품
+                    - generic [ref=f127e2445]:
+                      - generic [ref=f127e2446]: "2"
+                      - generic [ref=f127e2447]: 개
+                    - generic [ref=f127e2450]: 더보기
+              - listitem [ref=f127e2451]:
+                - generic [ref=f127e2452]:
+                  - link "슈피겐 공식 우수셀러 새 창에서 열림 슈피겐 투명 케이스 울트라하이브리드 갤럭시S26, PC/TPU, 크리스탈클리어 24,900 원 배송비 3,000원 N내일배송 7.22.(수) 도착 별점 4.88 리뷰 17,212 새 창에서 열림" [ref=f127e2453] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13059189741?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=3d8faa49fc014263a40f8c3e5b758f42&NaPm=ci%3D3d8faa49fc014263a40f8c3e5b758f42%7Cct%3Dmru6yddx%7Ctr%3Dnslsl%7Csn%3D165941%7Chk%3D1f420ab1dd52cea2f6f0c2da12d3ceace16cfbd9
+                    - generic [ref=f127e2454]: 새 창에서 열림
+                  - button "슈피겐 투명 케이스 울트라하이브리드 갤럭시S26, PC/TPU, 크리스탈클리어 찜하기" [ref=f127e2458] [cursor=pointer]
+                  - generic [ref=f127e2463]:
+                    - link "슈피겐 공식 우수셀러 새 창에서 열림" [ref=f127e2465] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fspigen&tr=nslsl
+                      - generic [ref=f127e2466]: 슈피겐
+                      - generic [ref=f127e2467]:
+                        - generic [ref=f127e2468]: 공식
+                        - generic [ref=f127e2469]: 우수셀러
+                      - generic [ref=f127e2472]: 새 창에서 열림
+                    - strong [ref=f127e2473]: 슈피겐 투명 케이스 울트라하이브리드 갤럭시S26, PC/TPU, 크리스탈클리어
+                    - generic [ref=f127e2476]:
+                      - generic [ref=f127e2478]:
+                        - generic [ref=f127e2479]: 24,900
+                        - generic [ref=f127e2480]: 원
+                      - generic [ref=f127e2481]:
+                        - generic [ref=f127e2482]: 배송비
+                        - generic [ref=f127e2487]: 3,000원
+                    - generic [ref=f127e2489]:
+                      - generic [ref=f127e2490]: N내일배송
+                      - generic [ref=f127e2492]: 7.22.(수) 도착
+                    - generic [ref=f127e2493]:
+                      - generic [ref=f127e2494]:
+                        - generic [ref=f127e2497]: 별점
+                        - text: "4.88"
+                      - generic [ref=f127e2498]: 리뷰 17,212
+              - listitem [ref=f127e2499]:
+                - generic [ref=f127e2500]:
+                  - link "광고 마로롱 새 창에서 열림 주문 제작 맥세이프 케이스 20,500 원 오늘출발 12:00까지 주문 시 무료배송 별점 4.85 리뷰 541 새 창에서 열림" [ref=f127e2501] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/hOSFrkQJO0oZjIuiPoe8dspVTGtg-2Nny1rJhM8VKXQmzPn1zOi4iaLflVyX-SRFg4_F4p7rowTbMYJ-kYJrvOV_jQcTePHjSA7P471KbQ-IFUsLKtZJu4LLnewrn3D_kvTsPdA7jFCRjkWIODfvqJA-VFzGnWnYRgQSkVqXSgQGK1Do8kDLj5sXk1HiJzl9u5CpjoHK_R3o0DsaXzTU9pwQs_duRENrzp0ZPrdQyiaINdrzjHrGY7hWZBvScYpT7RLrzcQECqTCvG4FmQuV4PoGUnopcJum9Fea0RIuPQdCsBpQjORtUpZUMZ8E8RIDX8alJ3M8F3ilpJs5vExTOl9JmwA8rbDVskFnq1ebZWUYE7sgEKg5CxttJ8uSjGq-LbWCbzuDqzxoxBL4QI0hmg==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f127e2502]: 새 창에서 열림
+                  - button "주문 제작 맥세이프 케이스 찜하기" [ref=f127e2506] [cursor=pointer]
+                  - generic [ref=f127e2511]:
+                    - generic [ref=f127e2512]:
+                      - button "광고" [ref=f127e2515] [cursor=pointer]
+                      - link "마로롱 새 창에서 열림" [ref=f127e2522] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/hOSFrkQJO0oZjIuiPoe8dspVTGtg-2Nny1rJhM8VKXQmzPn1zOi4iaLflVyX-SRFg4_F4p7rowTbMYJ-kYJrvOV_jQcTePHjSA7P471KbQ-IFUsLKtZJu4LLnewrn3D_kvTsPdA7jFCRjkWIODfvqJA-VFzGnWnYRgQSkVqXSgQGK1Do8kDLj5sXk1HiJzl9u5CpjoHK_R3o0DsaXzTU9pwQs_duRENrzp0ZPrdQyiaINdrzjHrGY7hWZBvScYpT7RLrzcQECqTCvG4FmQuV4PoGUnopcJum9Fea0RIuPQdCsBpQjORtUpZUMZ8E8RIDX8alJ3M8F3ilpJs5vExTOl9JmwA8rbDVskFnq1ebZWUYE7sgEKg5CxttJ8uSjGq-LbWCbzuDqzxoxBL4QI0hmg==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f127e2523]: 마로롱
+                        - generic [ref=f127e2526]: 새 창에서 열림
+                    - strong [ref=f127e2527]: 주문 제작 맥세이프 케이스
+                    - generic [ref=f127e2532]:
+                      - generic [ref=f127e2533]: 20,500
+                      - generic [ref=f127e2534]: 원
+                    - generic [ref=f127e2536]:
+                      - generic [ref=f127e2537]: 오늘출발
+                      - generic [ref=f127e2538]: 12:00까지 주문 시
+                    - generic [ref=f127e2539]: 무료배송
+                    - generic [ref=f127e2542]:
+                      - generic [ref=f127e2543]:
+                        - generic [ref=f127e2546]: 별점
+                        - text: "4.85"
+                      - generic [ref=f127e2547]: 리뷰 541
+              - listitem [ref=f127e2548]:
+                - link "기획전 주식회사 코르딕스 여행용품대전 07.20.~07.26. 기획전 바로가기 새 창에서 열림" [ref=f127e2549] [cursor=pointer]:
+                  - /url: https://shopping.naver.com/festa/onsale/brand/6a152d6b753872753391a60d
+                  - generic [ref=f127e2550]: 기획전
+                  - generic [ref=f127e2553]:
+                    - generic [ref=f127e2554]: 주식회사 코르딕스
+                    - strong [ref=f127e2555]: 여행용품대전
+                    - generic [ref=f127e2556]: 07.20.~07.26.
+                    - generic [ref=f127e2557]: 기획전 바로가기
+                  - generic [ref=f127e2561]: 새 창에서 열림
+              - listitem [ref=f127e2562]:
+                - generic [ref=f127e2563]:
+                  - link "맥앤블랙 공식 우수셀러 새 창에서 열림 맥앤블랙 2배자력 맥세이프 케이스 핸드폰 범퍼 자석 투명, 갤럭시S26 울트라 할인 전 판매가 17,500원 14% 할인 14,900 원 N내일배송 7.22.(수) 도착 무료배송 무료교환반품 별점 4.86 리뷰 19,807 새 창에서 열림" [ref=f127e2564] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13171219111?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=b92fa75530184c38b5c24ad4229b273c&NaPm=ci%3Db92fa75530184c38b5c24ad4229b273c%7Cct%3Dmru6yddx%7Ctr%3Dnslsl%7Csn%3D11810914%7Chk%3D60ae773774436c579630f5eed622a8a6e958cd55
+                    - generic [ref=f127e2565]: 새 창에서 열림
+                  - button "맥앤블랙 2배자력 맥세이프 케이스 핸드폰 범퍼 자석 투명, 갤럭시S26 울트라 찜하기" [ref=f127e2569] [cursor=pointer]
+                  - generic [ref=f127e2574]:
+                    - link "맥앤블랙 공식 우수셀러 새 창에서 열림" [ref=f127e2576] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fmag-black&tr=nslsl
+                      - generic [ref=f127e2577]: 맥앤블랙
+                      - generic [ref=f127e2578]:
+                        - generic [ref=f127e2579]: 공식
+                        - generic [ref=f127e2580]: 우수셀러
+                      - generic [ref=f127e2583]: 새 창에서 열림
+                    - strong [ref=f127e2584]: 맥앤블랙 2배자력 맥세이프 케이스 핸드폰 범퍼 자석 투명, 갤럭시S26 울트라
+                    - generic [ref=f127e2586]:
+                      - generic [ref=f127e2588]:
+                        - generic [ref=f127e2589]: 할인 전 판매가
+                        - text: 17,500원
+                      - generic [ref=f127e2592]:
+                        - generic [ref=f127e2593]:
+                          - text: 14%
+                          - generic [ref=f127e2594]: 할인
+                        - generic [ref=f127e2595]: 14,900
+                        - generic [ref=f127e2596]: 원
+                    - generic [ref=f127e2598]:
+                      - generic [ref=f127e2599]: N내일배송
+                      - generic [ref=f127e2601]: 7.22.(수) 도착
+                    - generic [ref=f127e2603]:
+                      - generic [ref=f127e2604]: 무료배송
+                      - generic [ref=f127e2605]: 무료교환반품
+                    - generic [ref=f127e2606]:
+                      - generic [ref=f127e2607]:
+                        - generic [ref=f127e2610]: 별점
+                        - text: "4.86"
+                      - generic [ref=f127e2611]: 리뷰 19,807
+                  - button "다른 옵션 상품보기" [ref=f127e2613] [cursor=pointer]
+              - listitem [ref=f127e2616]:
+                - generic [ref=f127e2617]:
+                  - link "슈퍼적립 슈피겐 공식 우수셀러 새 창에서 열림 슈피겐 Qi2 인증 갤럭시 맥세이프 케이스 초슬림 에어스킨 맥핏 클리어화이트, 갤럭시S26 울트라 6% 할인 할인 전 판매가 29,900원 최저가 27,900 원 배송비 3,000원 멤버십 시작 시 최대 4,185원 포인트 적립 N내일배송 7.22.(수) 도착 별점 4.78 리뷰 7,306 새 창에서 열림" [ref=f127e2618] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13059179877?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=05d36aed2c1540dd95a0f7923cce2168&NaPm=ci%3D05d36aed2c1540dd95a0f7923cce2168%7Cct%3Dmru6yddx%7Ctr%3Dnslctg%7Csn%3D165941%7Chk%3D5f1a4f3b41a5e016e892ac21a27c815c3cd47add
+                    - generic [ref=f127e2619]: 새 창에서 열림
+                  - generic [ref=f127e2620]:
+                    - img "슈퍼적립" [ref=f127e2624]
+                    - button "슈피겐 Qi2 인증 갤럭시 맥세이프 케이스 초슬림 에어스킨 맥핏 클리어화이트, 갤럭시S26 울트라 찜하기" [ref=f127e2626] [cursor=pointer]
+                  - generic [ref=f127e2631]:
+                    - link "슈피겐 공식 우수셀러 새 창에서 열림" [ref=f127e2633] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fspigen&tr=nslctg
+                      - generic [ref=f127e2634]: 슈피겐
+                      - generic [ref=f127e2635]:
+                        - generic [ref=f127e2636]: 공식
+                        - generic [ref=f127e2637]: 우수셀러
+                      - generic [ref=f127e2640]: 새 창에서 열림
+                    - strong [ref=f127e2641]: 슈피겐 Qi2 인증 갤럭시 맥세이프 케이스 초슬림 에어스킨 맥핏 클리어화이트, 갤럭시S26 울트라
+                    - generic [ref=f127e2643]:
+                      - generic [ref=f127e2644]:
+                        - generic [ref=f127e2645]:
+                          - text: 6%
+                          - generic [ref=f127e2646]: 할인
+                        - generic [ref=f127e2647]:
+                          - generic [ref=f127e2648]: 할인 전 판매가
+                          - text: 29,900원
+                      - generic [ref=f127e2649]:
+                        - generic [ref=f127e2651]:
+                          - generic [ref=f127e2652]: 최저가
+                          - generic [ref=f127e2653]: 27,900
+                          - generic [ref=f127e2654]: 원
+                        - generic [ref=f127e2655]:
+                          - generic [ref=f127e2656]: 배송비
+                          - generic [ref=f127e2661]: 3,000원
+                    - generic [ref=f127e2662]:
+                      - generic [ref=f127e2663]: 멤버십 시작 시
+                      - generic [ref=f127e2664]:
+                        - generic [ref=f127e2665]: 최대 4,185원
+                        - generic [ref=f127e2666]: 포인트 적립
+                    - generic [ref=f127e2668]:
+                      - generic [ref=f127e2669]: N내일배송
+                      - generic [ref=f127e2671]: 7.22.(수) 도착
+                    - generic [ref=f127e2672]:
+                      - generic [ref=f127e2673]:
+                        - generic [ref=f127e2676]: 별점
+                        - text: "4.78"
+                      - generic [ref=f127e2677]: 리뷰 7,306
+                  - button "전체판매자 상품 1 개 더보기" [ref=f127e2679] [cursor=pointer]:
+                    - generic [ref=f127e2680]:
+                      - text: 전체판매자
+                      - generic [ref=f127e2681]: 상품
+                    - generic [ref=f127e2682]:
+                      - generic [ref=f127e2683]: "1"
+                      - generic [ref=f127e2684]: 개
+                    - generic [ref=f127e2687]: 더보기
+              - listitem [ref=f127e2688]
+              - listitem [ref=f127e2690]:
+                - generic [ref=f127e2691]:
+                  - link "YOGER 공식 우수셀러 새 창에서 열림 요거 투명 젤리 케이스, 아이폰17 76% 할인 할인 전 판매가 29,670원 최저가 6,900 원 N내일배송 7.22.(수) 도착 무료배송 별점 4.85 리뷰 742 새 창에서 열림" [ref=f127e2692] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/12314740345?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=d8091a4eb7164afab0548d8d87287f65&NaPm=ci%3Dd8091a4eb7164afab0548d8d87287f65%7Cct%3Dmru6yddy%7Ctr%3Dnslctg%7Csn%3D293926%7Chk%3Dbd105cd8fbd6c8976d8ab1fc2926beb8a27d8559
+                    - generic [ref=f127e2693]: 새 창에서 열림
+                  - button "요거 투명 젤리 케이스, 아이폰17 찜하기" [ref=f127e2697] [cursor=pointer]
+                  - generic [ref=f127e2702]:
+                    - link "YOGER 공식 우수셀러 새 창에서 열림" [ref=f127e2704] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fmoducase&tr=nslctg
+                      - generic [ref=f127e2705]: YOGER
+                      - generic [ref=f127e2706]:
+                        - generic [ref=f127e2707]: 공식
+                        - generic [ref=f127e2708]: 우수셀러
+                      - generic [ref=f127e2711]: 새 창에서 열림
+                    - strong [ref=f127e2712]: 요거 투명 젤리 케이스, 아이폰17
+                    - generic [ref=f127e2714]:
+                      - generic [ref=f127e2715]:
+                        - generic [ref=f127e2716]:
+                          - text: 76%
+                          - generic [ref=f127e2717]: 할인
+                        - generic [ref=f127e2718]:
+                          - generic [ref=f127e2719]: 할인 전 판매가
+                          - text: 29,670원
+                      - generic [ref=f127e2722]:
+                        - generic [ref=f127e2723]: 최저가
+                        - generic [ref=f127e2724]: 6,900
+                        - generic [ref=f127e2725]: 원
+                    - generic [ref=f127e2727]:
+                      - generic [ref=f127e2728]: N내일배송
+                      - generic [ref=f127e2730]: 7.22.(수) 도착
+                    - generic [ref=f127e2731]: 무료배송
+                    - generic [ref=f127e2734]:
+                      - generic [ref=f127e2735]:
+                        - generic [ref=f127e2738]: 별점
+                        - text: "4.85"
+                      - generic [ref=f127e2739]: 리뷰 742
+                  - button "전체판매자 상품 1 개 더보기" [ref=f127e2741] [cursor=pointer]:
+                    - generic [ref=f127e2742]:
+                      - text: 전체판매자
+                      - generic [ref=f127e2743]: 상품
+                    - generic [ref=f127e2744]:
+                      - generic [ref=f127e2745]: "1"
+                      - generic [ref=f127e2746]: 개
+                    - generic [ref=f127e2749]: 더보기
+              - listitem [ref=f127e2750]:
+                - generic [ref=f127e2751]:
+                  - link "광고 제루크 우수셀러 새 창에서 열림 제루크 일체형 강력자력 맥세이프 힌지보호 풀커버 폴더블 케이스 블랙, 갤럭시Z 폴드8 울트라 할인 전 판매가 42,900원 46% 할인 22,900 원 배송비 3,000원 오늘출발 16:00까지 주문 시 별점 4.68 리뷰 686 새 창에서 열림" [ref=f127e2752] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/1ZnTGb8b0dos7rjDaMdVkwbX8iHJPeOFHbC3_MdGaQtLSjUa9ve46JOk0KwQ3nWM8OEgWUUdq7AhLOvm_Zbsnj9OlMMrIBvlIuPBVFf5JgQCDmOUuNtzkCKDT5XfN5QpJ0wBeMWsmcnO0qwsEQ1jwutGEL89d7WJtBKJiiOLnKHDE72dFl9ZkJ515IkZKvLR54aTPZwLfZ15L-f1HjJsiCwTyWl6fh6YFGKn4jd3Ccj20cehkm4aDduDDJQ1o_hSnbN98bj-fDjY04D11V8ZWlGxmC-lF8WZaFsuNaEg_JAu1aQHf7DIu7IAhsBHk7_mrzUacXOkWCKsVWWeYFYyvGOuTWfEsJUF0bimbO5TdNgURW4Cf2kkyDvDpyxsobIV6jGH_A7yiTjRnfAxBgQSDg51Gw7_b6Bpj4MKrVesqwuMAJtrZcrr5RR7pY-3hYzVtwiBfZakQyLfnMe2MK2csJ6BBg1aoF5Nlk7Md4gneRRB3NONP4jQNLmVluWbKMTd4KDCWWO3d9UXAZExbaaugbg5YClLYlninjnNjGHubqZ-pl9-YjKdKSqYeVd_7ZegQpmZAkEZccS-SB0btLw62Q==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f127e2753]: 새 창에서 열림
+                  - button "제루크 일체형 강력자력 맥세이프 힌지보호 풀커버 폴더블 케이스 블랙, 갤럭시Z 폴드8 울트라 찜하기" [ref=f127e2757] [cursor=pointer]
+                  - generic [ref=f127e2762]:
+                    - generic [ref=f127e2763]:
+                      - button "광고" [ref=f127e2766] [cursor=pointer]
+                      - link "제루크 우수셀러 새 창에서 열림" [ref=f127e2773] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/1ZnTGb8b0dos7rjDaMdVkwbX8iHJPeOFHbC3_MdGaQtLSjUa9ve46JOk0KwQ3nWM8OEgWUUdq7AhLOvm_Zbsnj9OlMMrIBvlIuPBVFf5JgQCDmOUuNtzkCKDT5XfN5QpJ0wBeMWsmcnO0qwsEQ1jwutGEL89d7WJtBKJiiOLnKHDE72dFl9ZkJ515IkZKvLR54aTPZwLfZ15L-f1HjJsiCwTyWl6fh6YFGKn4jd3Ccj20cehkm4aDduDDJQ1o_hSnbN98bj-fDjY04D11V8ZWlGxmC-lF8WZaFsuNaEg_JAu1aQHf7DIu7IAhsBHk7_mrzUacXOkWCKsVWWeYFYyvGOuTWfEsJUF0bimbO5TdNgURW4Cf2kkyDvDpyxsobIV6jGH_A7yiTjRnfAxBgQSDg51Gw7_b6Bpj4MKrVesqwuMAJtrZcrr5RR7pY-3hYzVtwiBfZakQyLfnMe2MK2csJ6BBg1aoF5Nlk7Md4gneRRB3NONP4jQNLmVluWbKMTd4KDCWWO3d9UXAZExbaaugbg5YClLYlninjnNjGHubqZ-pl9-YjKdKSqYeVd_7ZegQpmZAkEZccS-SB0btLw62Q==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f127e2774]: 제루크
+                        - generic [ref=f127e2775]: 우수셀러
+                        - generic [ref=f127e2779]: 새 창에서 열림
+                    - strong [ref=f127e2780]: 제루크 일체형 강력자력 맥세이프 힌지보호 풀커버 폴더블 케이스 블랙, 갤럭시Z 폴드8 울트라
+                    - generic [ref=f127e2782]:
+                      - generic [ref=f127e2784]:
+                        - generic [ref=f127e2785]: 할인 전 판매가
+                        - text: 42,900원
+                      - generic [ref=f127e2786]:
+                        - generic [ref=f127e2788]:
+                          - generic [ref=f127e2789]:
+                            - text: 46%
+                            - generic [ref=f127e2790]: 할인
+                          - generic [ref=f127e2791]: 22,900
+                          - generic [ref=f127e2792]: 원
+                        - generic [ref=f127e2793]:
+                          - generic [ref=f127e2794]: 배송비
+                          - generic [ref=f127e2799]: 3,000원
+                    - generic [ref=f127e2801]:
+                      - generic [ref=f127e2802]: 오늘출발
+                      - generic [ref=f127e2803]: 16:00까지 주문 시
+                    - generic [ref=f127e2804]:
+                      - generic [ref=f127e2805]:
+                        - generic [ref=f127e2808]: 별점
+                        - text: "4.68"
+                      - generic [ref=f127e2809]: 리뷰 686
+              - listitem [ref=f127e2810]:
+                - generic [ref=f127e2811]:
+                  - link "위크나인 공식 우수셀러 새 창에서 열림 위크나인 방수케이스 휴대폰 스마트폰 워터파크 물놀이 노샘케이스 스트링 둥둥밴드 스트랩 세트 할인 전 판매가 45,800원 42% 할인 26,500 원 N내일배송 7.22.(수) 도착 무료배송 별점 4.77 리뷰 597 새 창에서 열림" [ref=f127e2812] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/12039172721?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=c897af9dd2bd47158c6b3e7640c61581&NaPm=ci%3Dc897af9dd2bd47158c6b3e7640c61581%7Cct%3Dmru6yddy%7Ctr%3Dnslsl%7Csn%3D697309%7Chk%3De8d243d0ed0e3c5f52e04787d22e2a56692ab41a
+                    - generic [ref=f127e2813]: 새 창에서 열림
+                  - button "위크나인 방수케이스 휴대폰 스마트폰 워터파크 물놀이 노샘케이스 스트링 둥둥밴드 스트랩 세트 찜하기" [ref=f127e2817] [cursor=pointer]
+                  - generic [ref=f127e2822]:
+                    - link "위크나인 공식 우수셀러 새 창에서 열림" [ref=f127e2824] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fweek9&tr=nslsl
+                      - generic [ref=f127e2825]: 위크나인
+                      - generic [ref=f127e2826]:
+                        - generic [ref=f127e2827]: 공식
+                        - generic [ref=f127e2828]: 우수셀러
+                      - generic [ref=f127e2831]: 새 창에서 열림
+                    - strong [ref=f127e2832]: 위크나인 방수케이스 휴대폰 스마트폰 워터파크 물놀이 노샘케이스 스트링 둥둥밴드 스트랩 세트
+                    - generic [ref=f127e2834]:
+                      - generic [ref=f127e2836]:
+                        - generic [ref=f127e2837]: 할인 전 판매가
+                        - text: 45,800원
+                      - generic [ref=f127e2840]:
+                        - generic [ref=f127e2841]:
+                          - text: 42%
+                          - generic [ref=f127e2842]: 할인
+                        - generic [ref=f127e2843]: 26,500
+                        - generic [ref=f127e2844]: 원
+                    - generic [ref=f127e2846]:
+                      - generic [ref=f127e2847]: N내일배송
+                      - generic [ref=f127e2849]: 7.22.(수) 도착
+                    - generic [ref=f127e2850]: 무료배송
+                    - generic [ref=f127e2853]:
+                      - generic [ref=f127e2854]:
+                        - generic [ref=f127e2857]: 별점
+                        - text: "4.77"
+                      - generic [ref=f127e2858]: 리뷰 597
+              - listitem [ref=f127e2859]:
+                - generic [ref=f127e2860]:
+                  - link "슈퍼적립 슈피겐 공식 우수셀러 새 창에서 열림 슈피겐 갤럭시 카드 케이스 슬림아머CS 블랙, 갤럭시S26 울트라 할인 전 판매가 25,900원 7% 할인 23,900 원 배송비 3,000원 멤버십 시작 시 최대 3,585원 포인트 적립 N내일배송 7.22.(수) 도착 별점 4.85 리뷰 1,840 새 창에서 열림" [ref=f127e2861] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13059182825?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=3843dd015c4c4bc6b2629f29a43f9893&NaPm=ci%3D3843dd015c4c4bc6b2629f29a43f9893%7Cct%3Dmru6yddy%7Ctr%3Dnslsl%7Csn%3D165941%7Chk%3Dd5c1fd3dabcff4aaf8c98118b7b3ac9db0b2c07b
+                    - generic [ref=f127e2862]: 새 창에서 열림
+                  - generic [ref=f127e2863]:
+                    - img "슈퍼적립" [ref=f127e2867]
+                    - button "슈피겐 갤럭시 카드 케이스 슬림아머CS 블랙, 갤럭시S26 울트라 찜하기" [ref=f127e2869] [cursor=pointer]
+                  - generic [ref=f127e2874]:
+                    - link "슈피겐 공식 우수셀러 새 창에서 열림" [ref=f127e2876] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fspigen&tr=nslsl
+                      - generic [ref=f127e2877]: 슈피겐
+                      - generic [ref=f127e2878]:
+                        - generic [ref=f127e2879]: 공식
+                        - generic [ref=f127e2880]: 우수셀러
+                      - generic [ref=f127e2883]: 새 창에서 열림
+                    - strong [ref=f127e2884]: 슈피겐 갤럭시 카드 케이스 슬림아머CS 블랙, 갤럭시S26 울트라
+                    - generic [ref=f127e2886]:
+                      - generic [ref=f127e2888]:
+                        - generic [ref=f127e2889]: 할인 전 판매가
+                        - text: 25,900원
+                      - generic [ref=f127e2890]:
+                        - generic [ref=f127e2892]:
+                          - generic [ref=f127e2893]:
+                            - text: 7%
+                            - generic [ref=f127e2894]: 할인
+                          - generic [ref=f127e2895]: 23,900
+                          - generic [ref=f127e2896]: 원
+                        - generic [ref=f127e2897]:
+                          - generic [ref=f127e2898]: 배송비
+                          - generic [ref=f127e2903]: 3,000원
+                    - generic [ref=f127e2904]:
+                      - generic [ref=f127e2905]: 멤버십 시작 시
+                      - generic [ref=f127e2906]:
+                        - generic [ref=f127e2907]: 최대 3,585원
+                        - generic [ref=f127e2908]: 포인트 적립
+                    - generic [ref=f127e2910]:
+                      - generic [ref=f127e2911]: N내일배송
+                      - generic [ref=f127e2913]: 7.22.(수) 도착
+                    - generic [ref=f127e2914]:
+                      - generic [ref=f127e2915]:
+                        - generic [ref=f127e2918]: 별점
+                        - text: "4.85"
+                      - generic [ref=f127e2919]: 리뷰 1,840
+              - listitem [ref=f127e2920]:
+                - generic [ref=f127e2921]:
+                  - link "슈퍼적립 슈피겐 공식 우수셀러 새 창에서 열림 슈피겐 갤럭시 카메라 보호 케이스 옵틱아머 블랙, 갤럭시S26 울트라 6% 할인 할인 전 판매가 29,900원 최저가 27,900 원 배송비 3,000원 멤버십 시작 시 최대 4,185원 포인트 적립 N내일배송 7.22.(수) 도착 별점 4.84 리뷰 3,117 새 창에서 열림" [ref=f127e2922] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13059183741?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=faf4d1db5a2e4258bb619db300ef2907&NaPm=ci%3Dfaf4d1db5a2e4258bb619db300ef2907%7Cct%3Dmru6yddy%7Ctr%3Dnslctg%7Csn%3D165941%7Chk%3D9892f5228e9d78464d0a868f20ee821e77813727
+                    - generic [ref=f127e2923]: 새 창에서 열림
+                  - generic [ref=f127e2924]:
+                    - img "슈퍼적립" [ref=f127e2928]
+                    - button "슈피겐 갤럭시 카메라 보호 케이스 옵틱아머 블랙, 갤럭시S26 울트라 찜하기" [ref=f127e2930] [cursor=pointer]
+                  - generic [ref=f127e2935]:
+                    - link "슈피겐 공식 우수셀러 새 창에서 열림" [ref=f127e2937] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fspigen&tr=nslctg
+                      - generic [ref=f127e2938]: 슈피겐
+                      - generic [ref=f127e2939]:
+                        - generic [ref=f127e2940]: 공식
+                        - generic [ref=f127e2941]: 우수셀러
+                      - generic [ref=f127e2944]: 새 창에서 열림
+                    - strong [ref=f127e2945]: 슈피겐 갤럭시 카메라 보호 케이스 옵틱아머 블랙, 갤럭시S26 울트라
+                    - generic [ref=f127e2947]:
+                      - generic [ref=f127e2948]:
+                        - generic [ref=f127e2949]:
+                          - text: 6%
+                          - generic [ref=f127e2950]: 할인
+                        - generic [ref=f127e2951]:
+                          - generic [ref=f127e2952]: 할인 전 판매가
+                          - text: 29,900원
+                      - generic [ref=f127e2953]:
+                        - generic [ref=f127e2955]:
+                          - generic [ref=f127e2956]: 최저가
+                          - generic [ref=f127e2957]: 27,900
+                          - generic [ref=f127e2958]: 원
+                        - generic [ref=f127e2959]:
+                          - generic [ref=f127e2960]: 배송비
+                          - generic [ref=f127e2965]: 3,000원
+                    - generic [ref=f127e2966]:
+                      - generic [ref=f127e2967]: 멤버십 시작 시
+                      - generic [ref=f127e2968]:
+                        - generic [ref=f127e2969]: 최대 4,185원
+                        - generic [ref=f127e2970]: 포인트 적립
+                    - generic [ref=f127e2972]:
+                      - generic [ref=f127e2973]: N내일배송
+                      - generic [ref=f127e2975]: 7.22.(수) 도착
+                    - generic [ref=f127e2976]:
+                      - generic [ref=f127e2977]:
+                        - generic [ref=f127e2980]: 별점
+                        - text: "4.84"
+                      - generic [ref=f127e2981]: 리뷰 3,117
+                  - button "전체판매자 상품 1 개 더보기" [ref=f127e2983] [cursor=pointer]:
+                    - generic [ref=f127e2984]:
+                      - text: 전체판매자
+                      - generic [ref=f127e2985]: 상품
+                    - generic [ref=f127e2986]:
+                      - generic [ref=f127e2987]: "1"
+                      - generic [ref=f127e2988]: 개
+                    - generic [ref=f127e2991]: 더보기
+              - listitem [ref=f127e2992]:
+                - generic [ref=f127e2993]:
+                  - link "광고 끼움 우수셀러 새 창에서 열림 변색없는 카드2장 아이폰16 카드케이스 끼움 15,900 원 오늘출발 18:00까지 주문 시 무료배송 별점 4.82 리뷰 11,061 새 창에서 열림" [ref=f127e2994] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/Qw1z12Dcz8RzkYAqkoeaTRS-RNhuyP3N7KFel1goZcUi2xNdXl7ewEPpyxWayM3z8Crjmpes-D1NZRFdsU1IjL4CFTe8Nx61gQqAkvt2nCFAhVDU5xZigZU1skVM8ruR1Hu54wru2mRpkZ7cqup8KOKau_u1zHFO-h2BtgQIVlO6Kt7azhjTgjtpu2yrxrcYPaLBxIVN_ehT_kbmGMExiM8LR-yUkOkhVrdPrlIxj_viJJ16AI-PwWxo_eciEpZRckABP7wrvzKGLvKGaf4qPdqV5Z0yaM30pt23NB09IFC8qntq06Q7lv1YoC0xWNolAjGAn_p5i-w7qRdl_Jw-wQLGyotnRW83LzkAQs7xp6jD2-xyZ8Xb9TYTKHMjiWCRiCEuNyMZXeRhX91IOnbNGA==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f127e2995]: 새 창에서 열림
+                  - button "변색없는 카드2장 아이폰16 카드케이스 끼움 찜하기" [ref=f127e2999] [cursor=pointer]
+                  - generic [ref=f127e3004]:
+                    - generic [ref=f127e3005]:
+                      - button "광고" [ref=f127e3008] [cursor=pointer]
+                      - link "끼움 우수셀러 새 창에서 열림" [ref=f127e3015] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/Qw1z12Dcz8RzkYAqkoeaTRS-RNhuyP3N7KFel1goZcUi2xNdXl7ewEPpyxWayM3z8Crjmpes-D1NZRFdsU1IjL4CFTe8Nx61gQqAkvt2nCFAhVDU5xZigZU1skVM8ruR1Hu54wru2mRpkZ7cqup8KOKau_u1zHFO-h2BtgQIVlO6Kt7azhjTgjtpu2yrxrcYPaLBxIVN_ehT_kbmGMExiM8LR-yUkOkhVrdPrlIxj_viJJ16AI-PwWxo_eciEpZRckABP7wrvzKGLvKGaf4qPdqV5Z0yaM30pt23NB09IFC8qntq06Q7lv1YoC0xWNolAjGAn_p5i-w7qRdl_Jw-wQLGyotnRW83LzkAQs7xp6jD2-xyZ8Xb9TYTKHMjiWCRiCEuNyMZXeRhX91IOnbNGA==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f127e3016]: 끼움
+                        - generic [ref=f127e3017]: 우수셀러
+                        - generic [ref=f127e3021]: 새 창에서 열림
+                    - strong [ref=f127e3022]: 변색없는 카드2장 아이폰16 카드케이스 끼움
+                    - generic [ref=f127e3027]:
+                      - generic [ref=f127e3028]: 15,900
+                      - generic [ref=f127e3029]: 원
+                    - generic [ref=f127e3031]:
+                      - generic [ref=f127e3032]: 오늘출발
+                      - generic [ref=f127e3033]: 18:00까지 주문 시
+                    - generic [ref=f127e3034]: 무료배송
+                    - generic [ref=f127e3037]:
+                      - generic [ref=f127e3038]:
+                        - generic [ref=f127e3041]: 별점
+                        - text: "4.82"
+                      - generic [ref=f127e3042]: 리뷰 11,061
+              - listitem [ref=f127e3043]:
+                - generic [ref=f127e3044]:
+                  - link "벤딕트 공식몰 공식 우수셀러 새 창에서 열림 벤딕트 맥세이프 핸드폰 케이스 아르맥 그래파이트, 갤럭시S26 울트라 할인 전 판매가 18,000원 45% 할인 9,900 원 배송비 2,500원 N내일배송 7.22.(수) 도착 별점 4.86 리뷰 3,570 새 창에서 열림" [ref=f127e3045] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13100883503?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=ed996f12d0524cc5bd87ec33531e4c38&NaPm=ci%3Ded996f12d0524cc5bd87ec33531e4c38%7Cct%3Dmru6yddz%7Ctr%3Dnslsl%7Csn%3D547857%7Chk%3D0803ee776c5251fe9b14fc4bc9799c146e909fc2
+                    - generic [ref=f127e3046]: 새 창에서 열림
+                  - button "벤딕트 맥세이프 핸드폰 케이스 아르맥 그래파이트, 갤럭시S26 울트라 찜하기" [ref=f127e3050] [cursor=pointer]
+                  - generic [ref=f127e3055]:
+                    - link "벤딕트 공식몰 공식 우수셀러 새 창에서 열림" [ref=f127e3057] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Festcompany&tr=nslsl
+                      - generic [ref=f127e3058]: 벤딕트 공식몰
+                      - generic [ref=f127e3059]:
+                        - generic [ref=f127e3060]: 공식
+                        - generic [ref=f127e3061]: 우수셀러
+                      - generic [ref=f127e3064]: 새 창에서 열림
+                    - strong [ref=f127e3065]: 벤딕트 맥세이프 핸드폰 케이스 아르맥 그래파이트, 갤럭시S26 울트라
+                    - generic [ref=f127e3067]:
+                      - generic [ref=f127e3069]:
+                        - generic [ref=f127e3070]: 할인 전 판매가
+                        - text: 18,000원
+                      - generic [ref=f127e3071]:
+                        - generic [ref=f127e3073]:
+                          - generic [ref=f127e3074]:
+                            - text: 45%
+                            - generic [ref=f127e3075]: 할인
+                          - generic [ref=f127e3076]: 9,900
+                          - generic [ref=f127e3077]: 원
+                        - generic [ref=f127e3078]:
+                          - generic [ref=f127e3079]: 배송비
+                          - generic [ref=f127e3084]: 2,500원
+                    - generic [ref=f127e3086]:
+                      - generic [ref=f127e3087]: N내일배송
+                      - generic [ref=f127e3089]: 7.22.(수) 도착
+                    - generic [ref=f127e3090]:
+                      - generic [ref=f127e3091]:
+                        - generic [ref=f127e3094]: 별점
+                        - text: "4.86"
+                      - generic [ref=f127e3095]: 리뷰 3,570
+                  - button "다른 옵션 상품보기" [ref=f127e3097] [cursor=pointer]
+              - listitem [ref=f127e3100]:
+                - generic [ref=f127e3101]:
+                  - link "슈퍼적립 슈피겐 공식 우수셀러 새 창에서 열림 슈피겐 맥세이프 케이스 울트라하이브리드 맥핏 제로원 화이트, 갤럭시S26 울트라 5% 할인 할인 전 판매가 35,900원 최저가 33,900 원 배송비 3,000원 멤버십 시작 시 최대 5,085원 포인트 적립 N내일배송 7.22.(수) 도착 별점 4.88 리뷰 4,329 새 창에서 열림" [ref=f127e3102] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13059181921?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=2377fbf649154172a3246383336ea8cd&NaPm=ci%3D2377fbf649154172a3246383336ea8cd%7Cct%3Dmru6yddz%7Ctr%3Dnslctg%7Csn%3D165941%7Chk%3D4b7d5331710b3dc815c9314549fa53fe99235cc8
+                    - generic [ref=f127e3103]: 새 창에서 열림
+                  - generic [ref=f127e3104]:
+                    - img "슈퍼적립" [ref=f127e3108]
+                    - button "슈피겐 맥세이프 케이스 울트라하이브리드 맥핏 제로원 화이트, 갤럭시S26 울트라 찜하기" [ref=f127e3110] [cursor=pointer]
+                  - generic [ref=f127e3115]:
+                    - link "슈피겐 공식 우수셀러 새 창에서 열림" [ref=f127e3117] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fspigen&tr=nslctg
+                      - generic [ref=f127e3118]: 슈피겐
+                      - generic [ref=f127e3119]:
+                        - generic [ref=f127e3120]: 공식
+                        - generic [ref=f127e3121]: 우수셀러
+                      - generic [ref=f127e3124]: 새 창에서 열림
+                    - strong [ref=f127e3125]: 슈피겐 맥세이프 케이스 울트라하이브리드 맥핏 제로원 화이트, 갤럭시S26 울트라
+                    - generic [ref=f127e3127]:
+                      - generic [ref=f127e3128]:
+                        - generic [ref=f127e3129]:
+                          - text: 5%
+                          - generic [ref=f127e3130]: 할인
+                        - generic [ref=f127e3131]:
+                          - generic [ref=f127e3132]: 할인 전 판매가
+                          - text: 35,900원
+                      - generic [ref=f127e3133]:
+                        - generic [ref=f127e3135]:
+                          - generic [ref=f127e3136]: 최저가
+                          - generic [ref=f127e3137]: 33,900
+                          - generic [ref=f127e3138]: 원
+                        - generic [ref=f127e3139]:
+                          - generic [ref=f127e3140]: 배송비
+                          - generic [ref=f127e3145]: 3,000원
+                    - generic [ref=f127e3146]:
+                      - generic [ref=f127e3147]: 멤버십 시작 시
+                      - generic [ref=f127e3148]:
+                        - generic [ref=f127e3149]: 최대 5,085원
+                        - generic [ref=f127e3150]: 포인트 적립
+                    - generic [ref=f127e3152]:
+                      - generic [ref=f127e3153]: N내일배송
+                      - generic [ref=f127e3155]: 7.22.(수) 도착
+                    - generic [ref=f127e3156]:
+                      - generic [ref=f127e3157]:
+                        - generic [ref=f127e3160]: 별점
+                        - text: "4.88"
+                      - generic [ref=f127e3161]: 리뷰 4,329
+                  - button "전체판매자 상품 2 개 더보기" [ref=f127e3163] [cursor=pointer]:
+                    - generic [ref=f127e3164]:
+                      - text: 전체판매자
+                      - generic [ref=f127e3165]: 상품
+                    - generic [ref=f127e3166]:
+                      - generic [ref=f127e3167]: "2"
+                      - generic [ref=f127e3168]: 개
+                    - generic [ref=f127e3171]: 더보기
+              - listitem [ref=f127e3172]:
+                - link "기획전 슈피겐 7월 IT템발굴단 07.13.~07.26. 기획전 바로가기 새 창에서 열림" [ref=f127e3173] [cursor=pointer]:
+                  - /url: https://shopping.naver.com/festa/onsale/play/6a227978ab899338bd3c5218
+                  - generic [ref=f127e3174]: 기획전
+                  - generic [ref=f127e3177]:
+                    - generic [ref=f127e3178]: 슈피겐
+                    - strong [ref=f127e3179]: 7월 IT템발굴단
+                    - generic [ref=f127e3180]: 07.13.~07.26.
+                    - generic [ref=f127e3181]: 기획전 바로가기
+                  - generic [ref=f127e3185]: 새 창에서 열림
+              - listitem [ref=f127e3186]:
+                - generic [ref=f127e3187]:
+                  - link "Kimco 새 창에서 열림 가죽 핸드폰 카드 케이스 휴대폰케이스 지갑 선물 할인 전 판매가 49,000원 20% 할인 38,800 원 배송비 3,000원 별점 4.77 리뷰 30 새 창에서 열림" [ref=f127e3188] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/4896808188?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=180c857022b74c2798ef1f16cd432272&NaPm=ci%3D180c857022b74c2798ef1f16cd432272%7Cct%3Dmru6yddz%7Ctr%3Dnslsme%7Csn%3D206889%7Chk%3Db96821ddc955d7d4ffa4c51217db8a33558e4229
+                    - generic [ref=f127e3189]: 새 창에서 열림
+                  - button "가죽 핸드폰 카드 케이스 휴대폰케이스 지갑 선물 찜하기" [ref=f127e3193] [cursor=pointer]
+                  - generic [ref=f127e3198]:
+                    - link "Kimco 새 창에서 열림" [ref=f127e3200] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fmonokimco&tr=nslsme
+                      - generic [ref=f127e3201]: Kimco
+                      - generic [ref=f127e3204]: 새 창에서 열림
+                    - strong [ref=f127e3205]: 가죽 핸드폰 카드 케이스 휴대폰케이스 지갑 선물
+                    - generic [ref=f127e3207]:
+                      - generic [ref=f127e3209]:
+                        - generic [ref=f127e3210]: 할인 전 판매가
+                        - text: 49,000원
+                      - generic [ref=f127e3211]:
+                        - generic [ref=f127e3213]:
+                          - generic [ref=f127e3214]:
+                            - text: 20%
+                            - generic [ref=f127e3215]: 할인
+                          - generic [ref=f127e3216]: 38,800
+                          - generic [ref=f127e3217]: 원
+                        - generic [ref=f127e3218]:
+                          - generic [ref=f127e3219]: 배송비
+                          - generic [ref=f127e3224]: 3,000원
+                    - generic [ref=f127e3225]:
+                      - generic [ref=f127e3226]:
+                        - generic [ref=f127e3229]: 별점
+                        - text: "4.77"
+                      - generic [ref=f127e3230]: 리뷰 30
+              - listitem [ref=f127e3231]
+              - listitem [ref=f127e3233]:
+                - generic [ref=f127e3234]:
+                  - link "광고 제루크 우수셀러 새 창에서 열림 제루크 오토힌지 강화유리 일체형 맥세이프 힌지보호 풀커버 폴더블 케이스 블랙, 갤럭시Z 폴드7 할인 전 판매가 49,800원 40% 할인 29,800 원 배송비 3,000원 오늘출발 16:00까지 주문 시 별점 4.81 리뷰 201 새 창에서 열림" [ref=f127e3235] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/1ZnTGb8b0dos7rjDaMdVk2d6C-htgFBlhYYe2XUx4IYfLTCXuQp1ZJ8ST4AgLnB6Jn4ldnoZ1UhjbXZAKExWx5_HQaDNPFRXcUxld3imgzT3v_8Tb32zggEglVUdBMDQ-ugD3kP9sr_p6CuMyMCXr0UMAbDoya_L5s51lMpfzlcOtAIknyGsYN0tMNEyEoxxSIDL6cvf6rNCJD-S608RW_ABNeue3U5p1PqAwNvK3QXsdkhURLFTZCdLbXd3skoq4L1k_uqm_8gDYfQ1QhNoirDz_ced76ObbDns6WcA-_pPe5B3JUklaZMmK7fdc1PcEHv_3YUGT2UK8E1LkHn8VjJnpaO5t9sC7z5S9bUoz_oJTGXnCvYvPckAFBHl2FP1SaIHqVgVIM1zs-Rm-4NnS1GroCD8IpO1DDUB_7eviogb0dsL18GjpkJyLYSw7-Rb_JtnO7onmSLdQwDLNmjmEyQEaz3ej4dXG60I54T-qx6MdnAf5Kx2ru0yty2FeJR5JFaZ9O8rhOhpgD02CuSDYN9PL9_fPFgPMnhuX9vSHuex0Kbj66Xnaxb5fwntCfYj5dn4mYc4pg44H6Cru3apYg==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f127e3236]: 새 창에서 열림
+                  - button "제루크 오토힌지 강화유리 일체형 맥세이프 힌지보호 풀커버 폴더블 케이스 블랙, 갤럭시Z 폴드7 찜하기" [ref=f127e3240] [cursor=pointer]
+                  - generic [ref=f127e3245]:
+                    - generic [ref=f127e3246]:
+                      - button "광고" [ref=f127e3249] [cursor=pointer]
+                      - link "제루크 우수셀러 새 창에서 열림" [ref=f127e3256] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/1ZnTGb8b0dos7rjDaMdVk2d6C-htgFBlhYYe2XUx4IYfLTCXuQp1ZJ8ST4AgLnB6Jn4ldnoZ1UhjbXZAKExWx5_HQaDNPFRXcUxld3imgzT3v_8Tb32zggEglVUdBMDQ-ugD3kP9sr_p6CuMyMCXr0UMAbDoya_L5s51lMpfzlcOtAIknyGsYN0tMNEyEoxxSIDL6cvf6rNCJD-S608RW_ABNeue3U5p1PqAwNvK3QXsdkhURLFTZCdLbXd3skoq4L1k_uqm_8gDYfQ1QhNoirDz_ced76ObbDns6WcA-_pPe5B3JUklaZMmK7fdc1PcEHv_3YUGT2UK8E1LkHn8VjJnpaO5t9sC7z5S9bUoz_oJTGXnCvYvPckAFBHl2FP1SaIHqVgVIM1zs-Rm-4NnS1GroCD8IpO1DDUB_7eviogb0dsL18GjpkJyLYSw7-Rb_JtnO7onmSLdQwDLNmjmEyQEaz3ej4dXG60I54T-qx6MdnAf5Kx2ru0yty2FeJR5JFaZ9O8rhOhpgD02CuSDYN9PL9_fPFgPMnhuX9vSHuex0Kbj66Xnaxb5fwntCfYj5dn4mYc4pg44H6Cru3apYg==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f127e3257]: 제루크
+                        - generic [ref=f127e3258]: 우수셀러
+                        - generic [ref=f127e3262]: 새 창에서 열림
+                    - strong [ref=f127e3263]: 제루크 오토힌지 강화유리 일체형 맥세이프 힌지보호 풀커버 폴더블 케이스 블랙, 갤럭시Z 폴드7
+                    - generic [ref=f127e3265]:
+                      - generic [ref=f127e3267]:
+                        - generic [ref=f127e3268]: 할인 전 판매가
+                        - text: 49,800원
+                      - generic [ref=f127e3269]:
+                        - generic [ref=f127e3271]:
+                          - generic [ref=f127e3272]:
+                            - text: 40%
+                            - generic [ref=f127e3273]: 할인
+                          - generic [ref=f127e3274]: 29,800
+                          - generic [ref=f127e3275]: 원
+                        - generic [ref=f127e3276]:
+                          - generic [ref=f127e3277]: 배송비
+                          - generic [ref=f127e3282]: 3,000원
+                    - generic [ref=f127e3284]:
+                      - generic [ref=f127e3285]: 오늘출발
+                      - generic [ref=f127e3286]: 16:00까지 주문 시
+                    - generic [ref=f127e3287]:
+                      - generic [ref=f127e3288]:
+                        - generic [ref=f127e3291]: 별점
+                        - text: "4.81"
+                      - generic [ref=f127e3292]: 리뷰 201
+              - listitem [ref=f127e3293]:
+                - generic [ref=f127e3294]:
+                  - link "걸스케이스 새 창에서 열림 걸스케이스 아이폰17 프로 맥스 프리미엄 오렌지 실버 젤리 케이스 할인 전 판매가 20,000원 10% 할인 18,000 원 배송비 3,000원 오늘출발 17:00까지 주문 시 별점 5.0 리뷰 14 새 창에서 열림" [ref=f127e3295] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/12913317916?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=6b2455b30cb147c788e8267362256711&NaPm=ci%3D6b2455b30cb147c788e8267362256711%7Cct%3Dmru6yddz%7Ctr%3Dnslsme%7Csn%3D2483338%7Chk%3D030d49f047f2a17f164154b4821a38ade595c406
+                    - generic [ref=f127e3296]: 새 창에서 열림
+                  - button "걸스케이스 아이폰17 프로 맥스 프리미엄 오렌지 실버 젤리 케이스 찜하기" [ref=f127e3300] [cursor=pointer]
+                  - generic [ref=f127e3305]:
+                    - link "걸스케이스 새 창에서 열림" [ref=f127e3307] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fgirlscase&tr=nslsme
+                      - generic [ref=f127e3308]: 걸스케이스
+                      - generic [ref=f127e3311]: 새 창에서 열림
+                    - strong [ref=f127e3312]: 걸스케이스 아이폰17 프로 맥스 프리미엄 오렌지 실버 젤리 케이스
+                    - generic [ref=f127e3314]:
+                      - generic [ref=f127e3316]:
+                        - generic [ref=f127e3317]: 할인 전 판매가
+                        - text: 20,000원
+                      - generic [ref=f127e3318]:
+                        - generic [ref=f127e3320]:
+                          - generic [ref=f127e3321]:
+                            - text: 10%
+                            - generic [ref=f127e3322]: 할인
+                          - generic [ref=f127e3323]: 18,000
+                          - generic [ref=f127e3324]: 원
+                        - generic [ref=f127e3325]:
+                          - generic [ref=f127e3326]: 배송비
+                          - generic [ref=f127e3331]: 3,000원
+                    - generic [ref=f127e3333]:
+                      - generic [ref=f127e3334]: 오늘출발
+                      - generic [ref=f127e3335]: 17:00까지 주문 시
+                    - generic [ref=f127e3336]:
+                      - generic [ref=f127e3337]:
+                        - generic [ref=f127e3340]: 별점
+                        - text: "5.0"
+                      - generic [ref=f127e3341]: 리뷰 14
+              - listitem [ref=f127e3342]:
+                - generic [ref=f127e3343]:
+                  - link "제트스킨 우수셀러 새 창에서 열림 제트스킨 지문방지 나노슬림 생폰 케이스 반투명 매트 무광 화이트, 아이폰17 할인 전 판매가 14,100원 30% 할인 9,800 원 N내일배송 7.22.(수) 도착 무료배송 무료교환반품 별점 4.76 리뷰 12,485 새 창에서 열림" [ref=f127e3344] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/12393255076?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=383fc5c915f648bf8490391cbf15f260&NaPm=ci%3D383fc5c915f648bf8490391cbf15f260%7Cct%3Dmru6yddz%7Ctr%3Dnslsl%7Csn%3D2425958%7Chk%3Df86f137070f987a35e629c4dfc2822f846e731f8
+                    - generic [ref=f127e3345]: 새 창에서 열림
+                  - button "제트스킨 지문방지 나노슬림 생폰 케이스 반투명 매트 무광 화이트, 아이폰17 찜하기" [ref=f127e3349] [cursor=pointer]
+                  - generic [ref=f127e3354]:
+                    - link "제트스킨 우수셀러 새 창에서 열림" [ref=f127e3356] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fclose-shop&tr=nslsl
+                      - generic [ref=f127e3357]: 제트스킨
+                      - generic [ref=f127e3358]: 우수셀러
+                      - generic [ref=f127e3362]: 새 창에서 열림
+                    - strong [ref=f127e3363]: 제트스킨 지문방지 나노슬림 생폰 케이스 반투명 매트 무광 화이트, 아이폰17
+                    - generic [ref=f127e3365]:
+                      - generic [ref=f127e3367]:
+                        - generic [ref=f127e3368]: 할인 전 판매가
+                        - text: 14,100원
+                      - generic [ref=f127e3371]:
+                        - generic [ref=f127e3372]:
+                          - text: 30%
+                          - generic [ref=f127e3373]: 할인
+                        - generic [ref=f127e3374]: 9,800
+                        - generic [ref=f127e3375]: 원
+                    - generic [ref=f127e3377]:
+                      - generic [ref=f127e3378]: N내일배송
+                      - generic [ref=f127e3380]: 7.22.(수) 도착
+                    - generic [ref=f127e3382]:
+                      - generic [ref=f127e3383]: 무료배송
+                      - generic [ref=f127e3384]: 무료교환반품
+                    - generic [ref=f127e3385]:
+                      - generic [ref=f127e3386]:
+                        - generic [ref=f127e3389]: 별점
+                        - text: "4.76"
+                      - generic [ref=f127e3390]: 리뷰 12,485
+                  - button "다른 옵션 상품보기" [ref=f127e3392] [cursor=pointer]
+              - listitem [ref=f127e3395]:
+                - generic [ref=f127e3396]:
+                  - link "신지몰스토어 인증 우수셀러 새 창에서 열림 신지모루 맥세이프 M 에어클로 Lite 투명 케이스 클리어, 갤럭시S24-S25 공용 할인 전 판매가 9,890원 10% 할인 8,900 원 배송비 2,500원 오늘출발 15:00까지 주문 시 별점 4.83 리뷰 2,228 새 창에서 열림" [ref=f127e3397] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/12417467745?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=9e1d6bdfa1024f7ab51bc7b97ba6139d&NaPm=ci%3D9e1d6bdfa1024f7ab51bc7b97ba6139d%7Cct%3Dmru6yde0%7Ctr%3Dnslsl%7Csn%3D767700%7Chk%3D3b202457b65fb34529328c39e736da6aa034642c
+                    - generic [ref=f127e3398]: 새 창에서 열림
+                  - button "신지모루 맥세이프 M 에어클로 Lite 투명 케이스 클리어, 갤럭시S24-S25 공용 찜하기" [ref=f127e3402] [cursor=pointer]
+                  - generic [ref=f127e3407]:
+                    - link "신지몰스토어 인증 우수셀러 새 창에서 열림" [ref=f127e3409] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fsinjimall_store&tr=nslsl
+                      - generic [ref=f127e3410]: 신지몰스토어
+                      - generic [ref=f127e3411]:
+                        - generic [ref=f127e3412]: 인증
+                        - generic [ref=f127e3413]: 우수셀러
+                      - generic [ref=f127e3416]: 새 창에서 열림
+                    - strong [ref=f127e3417]: 신지모루 맥세이프 M 에어클로 Lite 투명 케이스 클리어, 갤럭시S24-S25 공용
+                    - generic [ref=f127e3419]:
+                      - generic [ref=f127e3421]:
+                        - generic [ref=f127e3422]: 할인 전 판매가
+                        - text: 9,890원
+                      - generic [ref=f127e3423]:
+                        - generic [ref=f127e3425]:
+                          - generic [ref=f127e3426]:
+                            - text: 10%
+                            - generic [ref=f127e3427]: 할인
+                          - generic [ref=f127e3428]: 8,900
+                          - generic [ref=f127e3429]: 원
+                        - generic [ref=f127e3430]:
+                          - generic [ref=f127e3431]: 배송비
+                          - generic [ref=f127e3436]: 2,500원
+                    - generic [ref=f127e3438]:
+                      - generic [ref=f127e3439]: 오늘출발
+                      - generic [ref=f127e3440]: 15:00까지 주문 시
+                    - generic [ref=f127e3441]:
+                      - generic [ref=f127e3442]:
+                        - generic [ref=f127e3445]: 별점
+                        - text: "4.83"
+                      - generic [ref=f127e3446]: 리뷰 2,228
+                  - button "다른 옵션 상품보기" [ref=f127e3448] [cursor=pointer]
+              - listitem [ref=f127e3451]:
+                - generic [ref=f127e3452]:
+                  - link "광고 제루크 우수셀러 새 창에서 열림 제루크 360거치 오토힌지 일체형 맥세이프 힌지보호 풀커버 폴더블 케이스 티타늄골드, 갤럭시Z 폴드6 할인 전 판매가 52,800원 37% 할인 32,800 원 배송비 3,000원 오늘출발 16:00까지 주문 시 별점 4.64 리뷰 162 새 창에서 열림" [ref=f127e3453] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/0J5Bwj8bjQBO3NpL6L5x9qCKIVG6t8L1CRUGDRlniPjwGpzrJw_f1dmgAIdwyllu5z6enHu-mBoyEE0JFmas7rncMnLI7riuWcbNxPwrcPrDD6wvaPh9a58OFsTV1WNZ0e5bXnXQ_m3MD1GbzWCuOlG_vfmSf-jhCmmrKjgDPUzjNpBb7ZPVoYU9STLnIJuDVHtv7EXf3hF7DcvdyPk8OmAYQgYxE8Mns7fMCk4TKwRXmSCjcSFLAjBVL11hisVwT6FqfMiaQkg-ZZtAIYcfTSCQxeQwFXn4bxcoU4mArTYlr_MrHtG8oLACuJHehUTHEbPzbEKf752XQot3OXcUgzrMPNtpk5_Vdsucg5VoFqDFseXyOkRCPwaR47OCQemkMfauyGVHjnuzQF_8xEeBC3eR-W4PrOLZAKEeCHcJJtemqAEiT-ErS5P4y6EGRCsTIyOXqbUVA483M6EQyBzknnHFtRVnBqHOW_m6ML3PVLKBlLGwm4yaic5sxyyhKYCMD76wD4RessdcMH4S7k5G3GM3uyReItI5z7DmnpWxhRoGV8sC8ENRXaNoPqAeISirUATiSv3mLM0AGSc0IzcTLQ==?c=pc.nplusstore.npla&t=0
+                    - generic [ref=f127e3454]: 새 창에서 열림
+                  - button "제루크 360거치 오토힌지 일체형 맥세이프 힌지보호 풀커버 폴더블 케이스 티타늄골드, 갤럭시Z 폴드6 찜하기" [ref=f127e3458] [cursor=pointer]
+                  - generic [ref=f127e3463]:
+                    - generic [ref=f127e3464]:
+                      - button "광고" [ref=f127e3467] [cursor=pointer]
+                      - link "제루크 우수셀러 새 창에서 열림" [ref=f127e3474] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/0J5Bwj8bjQBO3NpL6L5x9qCKIVG6t8L1CRUGDRlniPjwGpzrJw_f1dmgAIdwyllu5z6enHu-mBoyEE0JFmas7rncMnLI7riuWcbNxPwrcPrDD6wvaPh9a58OFsTV1WNZ0e5bXnXQ_m3MD1GbzWCuOlG_vfmSf-jhCmmrKjgDPUzjNpBb7ZPVoYU9STLnIJuDVHtv7EXf3hF7DcvdyPk8OmAYQgYxE8Mns7fMCk4TKwRXmSCjcSFLAjBVL11hisVwT6FqfMiaQkg-ZZtAIYcfTSCQxeQwFXn4bxcoU4mArTYlr_MrHtG8oLACuJHehUTHEbPzbEKf752XQot3OXcUgzrMPNtpk5_Vdsucg5VoFqDFseXyOkRCPwaR47OCQemkMfauyGVHjnuzQF_8xEeBC3eR-W4PrOLZAKEeCHcJJtemqAEiT-ErS5P4y6EGRCsTIyOXqbUVA483M6EQyBzknnHFtRVnBqHOW_m6ML3PVLKBlLGwm4yaic5sxyyhKYCMD76wD4RessdcMH4S7k5G3GM3uyReItI5z7DmnpWxhRoGV8sC8ENRXaNoPqAeISirUATiSv3mLM0AGSc0IzcTLQ==?c=pc.nplusstore.npla&t=0
+                        - generic [ref=f127e3475]: 제루크
+                        - generic [ref=f127e3476]: 우수셀러
+                        - generic [ref=f127e3480]: 새 창에서 열림
+                    - strong [ref=f127e3481]: 제루크 360거치 오토힌지 일체형 맥세이프 힌지보호 풀커버 폴더블 케이스 티타늄골드, 갤럭시Z 폴드6
+                    - generic [ref=f127e3483]:
+                      - generic [ref=f127e3485]:
+                        - generic [ref=f127e3486]: 할인 전 판매가
+                        - text: 52,800원
+                      - generic [ref=f127e3487]:
+                        - generic [ref=f127e3489]:
+                          - generic [ref=f127e3490]:
+                            - text: 37%
+                            - generic [ref=f127e3491]: 할인
+                          - generic [ref=f127e3492]: 32,800
+                          - generic [ref=f127e3493]: 원
+                        - generic [ref=f127e3494]:
+                          - generic [ref=f127e3495]: 배송비
+                          - generic [ref=f127e3500]: 3,000원
+                    - generic [ref=f127e3502]:
+                      - generic [ref=f127e3503]: 오늘출발
+                      - generic [ref=f127e3504]: 16:00까지 주문 시
+                    - generic [ref=f127e3505]:
+                      - generic [ref=f127e3506]:
+                        - generic [ref=f127e3509]: 별점
+                        - text: "4.64"
+                      - generic [ref=f127e3510]: 리뷰 162
+              - listitem [ref=f127e3511]:
+                - generic [ref=f127e3512]:
+                  - link "제트스킨 우수셀러 새 창에서 열림 제트스킨 나노슬림 맥세이프 변색 없는 생폰 케이스 블랙, 아이폰17 할인 전 판매가 21,600원 43% 할인 12,300 원 N내일배송 7.22.(수) 도착 무료배송 무료교환반품 별점 4.79 리뷰 4,132 새 창에서 열림" [ref=f127e3513] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/12393305498?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=618f955774f5403ab95afd119104124c&NaPm=ci%3D618f955774f5403ab95afd119104124c%7Cct%3Dmru6yde0%7Ctr%3Dnslsl%7Csn%3D2425958%7Chk%3Dae4df5ed1b0bbb3ad7d394c322ed6a4fb6666f95
+                    - generic [ref=f127e3514]: 새 창에서 열림
+                  - button "제트스킨 나노슬림 맥세이프 변색 없는 생폰 케이스 블랙, 아이폰17 찜하기" [ref=f127e3518] [cursor=pointer]
+                  - generic [ref=f127e3523]:
+                    - link "제트스킨 우수셀러 새 창에서 열림" [ref=f127e3525] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fclose-shop&tr=nslsl
+                      - generic [ref=f127e3526]: 제트스킨
+                      - generic [ref=f127e3527]: 우수셀러
+                      - generic [ref=f127e3531]: 새 창에서 열림
+                    - strong [ref=f127e3532]: 제트스킨 나노슬림 맥세이프 변색 없는 생폰 케이스 블랙, 아이폰17
+                    - generic [ref=f127e3534]:
+                      - generic [ref=f127e3536]:
+                        - generic [ref=f127e3537]: 할인 전 판매가
+                        - text: 21,600원
+                      - generic [ref=f127e3540]:
+                        - generic [ref=f127e3541]:
+                          - text: 43%
+                          - generic [ref=f127e3542]: 할인
+                        - generic [ref=f127e3543]: 12,300
+                        - generic [ref=f127e3544]: 원
+                    - generic [ref=f127e3546]:
+                      - generic [ref=f127e3547]: N내일배송
+                      - generic [ref=f127e3549]: 7.22.(수) 도착
+                    - generic [ref=f127e3551]:
+                      - generic [ref=f127e3552]: 무료배송
+                      - generic [ref=f127e3553]: 무료교환반품
+                    - generic [ref=f127e3554]:
+                      - generic [ref=f127e3555]:
+                        - generic [ref=f127e3558]: 별점
+                        - text: "4.79"
+                      - generic [ref=f127e3559]: 리뷰 4,132
+                  - button "다른 옵션 상품보기" [ref=f127e3561] [cursor=pointer]
+              - listitem [ref=f127e3564]:
+                - generic [ref=f127e3565]:
+                  - link "엘라고 공식 우수셀러 새 창에서 열림 엘라고 갤럭시 하이브리드 케이스, 갤럭시S26 울트라 9% 할인 할인 전 판매가 21,000원 최저가 19,000 원 N내일배송 7.22.(수) 도착 무료배송 별점 4.85 리뷰 2,438 새 창에서 열림" [ref=f127e3566] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13099365203?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=4401ba89e186440e9efe08606666fa45&NaPm=ci%3D4401ba89e186440e9efe08606666fa45%7Cct%3Dmru6yde0%7Ctr%3Dnslctg%7Csn%3D202791%7Chk%3Da44deec967c721bc54bfaab5f3f9ff48cc4f8000
+                    - generic [ref=f127e3567]: 새 창에서 열림
+                  - button "엘라고 갤럭시 하이브리드 케이스, 갤럭시S26 울트라 찜하기" [ref=f127e3571] [cursor=pointer]
+                  - generic [ref=f127e3576]:
+                    - link "엘라고 공식 우수셀러 새 창에서 열림" [ref=f127e3578] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Felago&tr=nslctg
+                      - generic [ref=f127e3579]: 엘라고
+                      - generic [ref=f127e3580]:
+                        - generic [ref=f127e3581]: 공식
+                        - generic [ref=f127e3582]: 우수셀러
+                      - generic [ref=f127e3585]: 새 창에서 열림
+                    - strong [ref=f127e3586]: 엘라고 갤럭시 하이브리드 케이스, 갤럭시S26 울트라
+                    - generic [ref=f127e3588]:
+                      - generic [ref=f127e3589]:
+                        - generic [ref=f127e3590]:
+                          - text: 9%
+                          - generic [ref=f127e3591]: 할인
+                        - generic [ref=f127e3592]:
+                          - generic [ref=f127e3593]: 할인 전 판매가
+                          - text: 21,000원
+                      - generic [ref=f127e3596]:
+                        - generic [ref=f127e3597]: 최저가
+                        - generic [ref=f127e3598]: 19,000
+                        - generic [ref=f127e3599]: 원
+                    - generic [ref=f127e3601]:
+                      - generic [ref=f127e3602]: N내일배송
+                      - generic [ref=f127e3604]: 7.22.(수) 도착
+                    - generic [ref=f127e3605]: 무료배송
+                    - generic [ref=f127e3608]:
+                      - generic [ref=f127e3609]:
+                        - generic [ref=f127e3612]: 별점
+                        - text: "4.85"
+                      - generic [ref=f127e3613]: 리뷰 2,438
+                  - button "전체판매자 상품 1 개 더보기" [ref=f127e3615] [cursor=pointer]:
+                    - generic [ref=f127e3616]:
+                      - text: 전체판매자
+                      - generic [ref=f127e3617]: 상품
+                    - generic [ref=f127e3618]:
+                      - generic [ref=f127e3619]: "1"
+                      - generic [ref=f127e3620]: 개
+                    - generic [ref=f127e3623]: 더보기
+              - listitem [ref=f127e3624]:
+                - generic [ref=f127e3625]:
+                  - link "신지몰스토어 인증 우수셀러 새 창에서 열림 신지모루 에어쉴드 Lite 카드수납 젤리 휴대폰 케이스 클리어, 갤럭시S26 플러스 할인 전 판매가 4,340원 10% 할인 3,900 원 배송비 2,500원 오늘출발 15:00까지 주문 시 별점 4.8 리뷰 1,300 새 창에서 열림" [ref=f127e3626] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/12968377770?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=521a95b7d84d45bf82b8f158b8ccac59&NaPm=ci%3D521a95b7d84d45bf82b8f158b8ccac59%7Cct%3Dmru6yde0%7Ctr%3Dnslsl%7Csn%3D767700%7Chk%3D2cfbe6bcd7cea042c754eaa8a547778bdd760d3f
+                    - generic [ref=f127e3627]: 새 창에서 열림
+                  - button "신지모루 에어쉴드 Lite 카드수납 젤리 휴대폰 케이스 클리어, 갤럭시S26 플러스 찜하기" [ref=f127e3631] [cursor=pointer]
+                  - generic [ref=f127e3636]:
+                    - link "신지몰스토어 인증 우수셀러 새 창에서 열림" [ref=f127e3638] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fsinjimall_store&tr=nslsl
+                      - generic [ref=f127e3639]: 신지몰스토어
+                      - generic [ref=f127e3640]:
+                        - generic [ref=f127e3641]: 인증
+                        - generic [ref=f127e3642]: 우수셀러
+                      - generic [ref=f127e3645]: 새 창에서 열림
+                    - strong [ref=f127e3646]: 신지모루 에어쉴드 Lite 카드수납 젤리 휴대폰 케이스 클리어, 갤럭시S26 플러스
+                    - generic [ref=f127e3648]:
+                      - generic [ref=f127e3650]:
+                        - generic [ref=f127e3651]: 할인 전 판매가
+                        - text: 4,340원
+                      - generic [ref=f127e3652]:
+                        - generic [ref=f127e3654]:
+                          - generic [ref=f127e3655]:
+                            - text: 10%
+                            - generic [ref=f127e3656]: 할인
+                          - generic [ref=f127e3657]: 3,900
+                          - generic [ref=f127e3658]: 원
+                        - generic [ref=f127e3659]:
+                          - generic [ref=f127e3660]: 배송비
+                          - generic [ref=f127e3665]: 2,500원
+                    - generic [ref=f127e3667]:
+                      - generic [ref=f127e3668]: 오늘출발
+                      - generic [ref=f127e3669]: 15:00까지 주문 시
+                    - generic [ref=f127e3670]:
+                      - generic [ref=f127e3671]:
+                        - generic [ref=f127e3674]: 별점
+                        - text: "4.8"
+                      - generic [ref=f127e3675]: 리뷰 1,300
+                  - button "다른 옵션 상품보기" [ref=f127e3677] [cursor=pointer]
+              - listitem [ref=f127e3680]:
+                - generic [ref=f127e3681]:
+                  - link "제트스킨 우수셀러 새 창에서 열림 제트스킨 나노슬림 풀커버 변색없는 투명케이스 투명 클리어, 갤럭시S26 할인 전 판매가 14,100원 30% 할인 9,800 원 N내일배송 7.22.(수) 도착 무료배송 무료교환반품 별점 4.72 리뷰 5,075 새 창에서 열림" [ref=f127e3682] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13203116113?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=9409dc381864487cb34040aad2ea0f25&NaPm=ci%3D9409dc381864487cb34040aad2ea0f25%7Cct%3Dmru6yde1%7Ctr%3Dnslsl%7Csn%3D2425958%7Chk%3D81a1e9a5dce6cf978be1079a4ddb401ffad74606
+                    - generic [ref=f127e3683]: 새 창에서 열림
+                  - button "제트스킨 나노슬림 풀커버 변색없는 투명케이스 투명 클리어, 갤럭시S26 찜하기" [ref=f127e3687] [cursor=pointer]
+                  - generic [ref=f127e3692]:
+                    - link "제트스킨 우수셀러 새 창에서 열림" [ref=f127e3694] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fclose-shop&tr=nslsl
+                      - generic [ref=f127e3695]: 제트스킨
+                      - generic [ref=f127e3696]: 우수셀러
+                      - generic [ref=f127e3700]: 새 창에서 열림
+                    - strong [ref=f127e3701]: 제트스킨 나노슬림 풀커버 변색없는 투명케이스 투명 클리어, 갤럭시S26
+                    - generic [ref=f127e3703]:
+                      - generic [ref=f127e3705]:
+                        - generic [ref=f127e3706]: 할인 전 판매가
+                        - text: 14,100원
+                      - generic [ref=f127e3709]:
+                        - generic [ref=f127e3710]:
+                          - text: 30%
+                          - generic [ref=f127e3711]: 할인
+                        - generic [ref=f127e3712]: 9,800
+                        - generic [ref=f127e3713]: 원
+                    - generic [ref=f127e3715]:
+                      - generic [ref=f127e3716]: N내일배송
+                      - generic [ref=f127e3718]: 7.22.(수) 도착
+                    - generic [ref=f127e3720]:
+                      - generic [ref=f127e3721]: 무료배송
+                      - generic [ref=f127e3722]: 무료교환반품
+                    - generic [ref=f127e3723]:
+                      - generic [ref=f127e3724]:
+                        - generic [ref=f127e3727]: 별점
+                        - text: "4.72"
+                      - generic [ref=f127e3728]: 리뷰 5,075
+                  - button "다른 옵션 상품보기" [ref=f127e3730] [cursor=pointer]
+              - listitem [ref=f127e3733]:
+                - generic [ref=f127e3734]:
+                  - link "링케 공식 우수셀러 새 창에서 열림 링케 퓨전 카드 케이스 클리어, 갤럭시S26 할인 전 판매가 20,800원 19% 할인 16,800 원 배송비 2,500원 오늘출발 15:00까지 주문 시 별점 4.85 리뷰 7,235 새 창에서 열림" [ref=f127e3735] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13069678126?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=1fb23d5c362a405db6fdc6c5d3127bfc&NaPm=ci%3D1fb23d5c362a405db6fdc6c5d3127bfc%7Cct%3Dmru6yde1%7Ctr%3Dnslsl%7Csn%3D164705%7Chk%3Dbfdf9cc59a8fd7c805f4c33661f2bbe45355eb89
+                    - generic [ref=f127e3736]: 새 창에서 열림
+                  - button "링케 퓨전 카드 케이스 클리어, 갤럭시S26 찜하기" [ref=f127e3740] [cursor=pointer]
+                  - generic [ref=f127e3745]:
+                    - link "링케 공식 우수셀러 새 창에서 열림" [ref=f127e3747] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fringke&tr=nslsl
+                      - generic [ref=f127e3748]: 링케
+                      - generic [ref=f127e3749]:
+                        - generic [ref=f127e3750]: 공식
+                        - generic [ref=f127e3751]: 우수셀러
+                      - generic [ref=f127e3754]: 새 창에서 열림
+                    - strong [ref=f127e3755]: 링케 퓨전 카드 케이스 클리어, 갤럭시S26
+                    - generic [ref=f127e3757]:
+                      - generic [ref=f127e3759]:
+                        - generic [ref=f127e3760]: 할인 전 판매가
+                        - text: 20,800원
+                      - generic [ref=f127e3761]:
+                        - generic [ref=f127e3763]:
+                          - generic [ref=f127e3764]:
+                            - text: 19%
+                            - generic [ref=f127e3765]: 할인
+                          - generic [ref=f127e3766]: 16,800
+                          - generic [ref=f127e3767]: 원
+                        - generic [ref=f127e3768]:
+                          - generic [ref=f127e3769]: 배송비
+                          - generic [ref=f127e3774]: 2,500원
+                    - generic [ref=f127e3776]:
+                      - generic [ref=f127e3777]: 오늘출발
+                      - generic [ref=f127e3778]: 15:00까지 주문 시
+                    - generic [ref=f127e3779]:
+                      - generic [ref=f127e3780]:
+                        - generic [ref=f127e3783]: 별점
+                        - text: "4.85"
+                      - generic [ref=f127e3784]: 리뷰 7,235
+                  - button "다른 옵션 상품보기" [ref=f127e3786] [cursor=pointer]
+              - listitem [ref=f127e3789]
+              - listitem [ref=f127e3791]:
+                - generic [ref=f127e3792]:
+                  - link "제트스킨 우수셀러 새 창에서 열림 제트스킨 나노슬림 맥세이프 변색 없는 생폰 케이스 클리어, 아이폰17 할인 전 판매가 21,600원 43% 할인 12,300 원 N내일배송 7.22.(수) 도착 무료배송 무료교환반품 별점 4.79 리뷰 4,132 새 창에서 열림" [ref=f127e3793] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/12393305504?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=abfae29754ac439a95de622bdfc333f0&NaPm=ci%3Dabfae29754ac439a95de622bdfc333f0%7Cct%3Dmru6yde1%7Ctr%3Dnslsl%7Csn%3D2425958%7Chk%3D152e44b634c6453fed6f2110cbcfd2f0eaf4b505
+                    - generic [ref=f127e3794]: 새 창에서 열림
+                  - button "제트스킨 나노슬림 맥세이프 변색 없는 생폰 케이스 클리어, 아이폰17 찜하기" [ref=f127e3798] [cursor=pointer]
+                  - generic [ref=f127e3803]:
+                    - link "제트스킨 우수셀러 새 창에서 열림" [ref=f127e3805] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fclose-shop&tr=nslsl
+                      - generic [ref=f127e3806]: 제트스킨
+                      - generic [ref=f127e3807]: 우수셀러
+                      - generic [ref=f127e3811]: 새 창에서 열림
+                    - strong [ref=f127e3812]: 제트스킨 나노슬림 맥세이프 변색 없는 생폰 케이스 클리어, 아이폰17
+                    - generic [ref=f127e3814]:
+                      - generic [ref=f127e3816]:
+                        - generic [ref=f127e3817]: 할인 전 판매가
+                        - text: 21,600원
+                      - generic [ref=f127e3820]:
+                        - generic [ref=f127e3821]:
+                          - text: 43%
+                          - generic [ref=f127e3822]: 할인
+                        - generic [ref=f127e3823]: 12,300
+                        - generic [ref=f127e3824]: 원
+                    - generic [ref=f127e3826]:
+                      - generic [ref=f127e3827]: N내일배송
+                      - generic [ref=f127e3829]: 7.22.(수) 도착
+                    - generic [ref=f127e3831]:
+                      - generic [ref=f127e3832]: 무료배송
+                      - generic [ref=f127e3833]: 무료교환반품
+                    - generic [ref=f127e3834]:
+                      - generic [ref=f127e3835]:
+                        - generic [ref=f127e3838]: 별점
+                        - text: "4.79"
+                      - generic [ref=f127e3839]: 리뷰 4,132
+                  - button "다른 옵션 상품보기" [ref=f127e3841] [cursor=pointer]
+              - listitem [ref=f127e3844]:
+                - generic [ref=f127e3845]:
+                  - link "제트스킨 우수셀러 새 창에서 열림 제트스킨 나노슬림 맥세이프 변색 없는 생폰 케이스 화이트, 아이폰17 할인 전 판매가 21,600원 43% 할인 12,300 원 N내일배송 7.22.(수) 도착 무료배송 무료교환반품 별점 4.79 리뷰 4,132 새 창에서 열림" [ref=f127e3846] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/12393305494?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=17e63bb3902a47d7879c733e9c7b7372&NaPm=ci%3D17e63bb3902a47d7879c733e9c7b7372%7Cct%3Dmru6yde1%7Ctr%3Dnslsl%7Csn%3D2425958%7Chk%3Dd4613c4879162cf16b46e18fae40c7dc0087554d
+                    - generic [ref=f127e3847]: 새 창에서 열림
+                  - button "제트스킨 나노슬림 맥세이프 변색 없는 생폰 케이스 화이트, 아이폰17 찜하기" [ref=f127e3851] [cursor=pointer]
+                  - generic [ref=f127e3856]:
+                    - link "제트스킨 우수셀러 새 창에서 열림" [ref=f127e3858] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fclose-shop&tr=nslsl
+                      - generic [ref=f127e3859]: 제트스킨
+                      - generic [ref=f127e3860]: 우수셀러
+                      - generic [ref=f127e3864]: 새 창에서 열림
+                    - strong [ref=f127e3865]: 제트스킨 나노슬림 맥세이프 변색 없는 생폰 케이스 화이트, 아이폰17
+                    - generic [ref=f127e3867]:
+                      - generic [ref=f127e3869]:
+                        - generic [ref=f127e3870]: 할인 전 판매가
+                        - text: 21,600원
+                      - generic [ref=f127e3873]:
+                        - generic [ref=f127e3874]:
+                          - text: 43%
+                          - generic [ref=f127e3875]: 할인
+                        - generic [ref=f127e3876]: 12,300
+                        - generic [ref=f127e3877]: 원
+                    - generic [ref=f127e3879]:
+                      - generic [ref=f127e3880]: N내일배송
+                      - generic [ref=f127e3882]: 7.22.(수) 도착
+                    - generic [ref=f127e3884]:
+                      - generic [ref=f127e3885]: 무료배송
+                      - generic [ref=f127e3886]: 무료교환반품
+                    - generic [ref=f127e3887]:
+                      - generic [ref=f127e3888]:
+                        - generic [ref=f127e3891]: 별점
+                        - text: "4.79"
+                      - generic [ref=f127e3892]: 리뷰 4,132
+                  - button "다른 옵션 상품보기" [ref=f127e3894] [cursor=pointer]
+              - listitem [ref=f127e3897]:
+                - generic [ref=f127e3898]:
+                  - link "슈피겐 공식 우수셀러 새 창에서 열림 아이폰 케이스 투명 울트라하이브리드 크리스탈클리어, 아이폰17 프로 24,900 원 배송비 3,000원 N내일배송 7.22.(수) 도착 별점 4.88 리뷰 10,609 새 창에서 열림" [ref=f127e3899] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/12319466234?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=51b6310824b64bb281b31dc363d9b15f&NaPm=ci%3D51b6310824b64bb281b31dc363d9b15f%7Cct%3Dmru6yde2%7Ctr%3Dnslsl%7Csn%3D165941%7Chk%3D735019fc148c1124a7bc4205af99c0abcd85da71
+                    - generic [ref=f127e3900]: 새 창에서 열림
+                  - button "아이폰 케이스 투명 울트라하이브리드 크리스탈클리어, 아이폰17 프로 찜하기" [ref=f127e3904] [cursor=pointer]
+                  - generic [ref=f127e3909]:
+                    - link "슈피겐 공식 우수셀러 새 창에서 열림" [ref=f127e3911] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fspigen&tr=nslsl
+                      - generic [ref=f127e3912]: 슈피겐
+                      - generic [ref=f127e3913]:
+                        - generic [ref=f127e3914]: 공식
+                        - generic [ref=f127e3915]: 우수셀러
+                      - generic [ref=f127e3918]: 새 창에서 열림
+                    - strong [ref=f127e3919]: 아이폰 케이스 투명 울트라하이브리드 크리스탈클리어, 아이폰17 프로
+                    - generic [ref=f127e3922]:
+                      - generic [ref=f127e3924]:
+                        - generic [ref=f127e3925]: 24,900
+                        - generic [ref=f127e3926]: 원
+                      - generic [ref=f127e3927]:
+                        - generic [ref=f127e3928]: 배송비
+                        - generic [ref=f127e3933]: 3,000원
+                    - generic [ref=f127e3935]:
+                      - generic [ref=f127e3936]: N내일배송
+                      - generic [ref=f127e3938]: 7.22.(수) 도착
+                    - generic [ref=f127e3939]:
+                      - generic [ref=f127e3940]:
+                        - generic [ref=f127e3943]: 별점
+                        - text: "4.88"
+                      - generic [ref=f127e3944]: 리뷰 10,609
+                  - button "다른 옵션 상품보기" [ref=f127e3946] [cursor=pointer]
+              - listitem [ref=f127e3949]:
+                - generic [ref=f127e3950]:
+                  - link "바이디어 우수셀러 새 창에서 열림 1+1 범퍼 에어룸 투명 젤리 케이스 갤럭시S26 할인 전 판매가 7,900원 12% 할인 6,900 원 오늘출발 16:00까지 주문 시 무료배송 별점 4.86 리뷰 99,999+ 새 창에서 열림" [ref=f127e3951] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13092526086?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=a5ff8fd883ec4281a0c2fc66f20029ef&NaPm=ci%3Da5ff8fd883ec4281a0c2fc66f20029ef%7Cct%3Dmru6yde2%7Ctr%3Dnslsl%7Csn%3D314053%7Chk%3Dd13f2ed3942c5cc90026072bb91c5441ff031738
+                    - generic [ref=f127e3952]: 새 창에서 열림
+                  - button "1+1 범퍼 에어룸 투명 젤리 케이스 갤럭시S26 찜하기" [ref=f127e3956] [cursor=pointer]
+                  - generic [ref=f127e3961]:
+                    - link "바이디어 우수셀러 새 창에서 열림" [ref=f127e3963] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbydea&tr=nslsl
+                      - generic [ref=f127e3964]: 바이디어
+                      - generic [ref=f127e3965]: 우수셀러
+                      - generic [ref=f127e3969]: 새 창에서 열림
+                    - strong [ref=f127e3970]: 1+1 범퍼 에어룸 투명 젤리 케이스 갤럭시S26
+                    - generic [ref=f127e3972]:
+                      - generic [ref=f127e3974]:
+                        - generic [ref=f127e3975]: 할인 전 판매가
+                        - text: 7,900원
+                      - generic [ref=f127e3978]:
+                        - generic [ref=f127e3979]:
+                          - text: 12%
+                          - generic [ref=f127e3980]: 할인
+                        - generic [ref=f127e3981]: 6,900
+                        - generic [ref=f127e3982]: 원
+                    - generic [ref=f127e3984]:
+                      - generic [ref=f127e3985]: 오늘출발
+                      - generic [ref=f127e3986]: 16:00까지 주문 시
+                    - generic [ref=f127e3987]: 무료배송
+                    - generic [ref=f127e3990]:
+                      - generic [ref=f127e3991]:
+                        - generic [ref=f127e3994]: 별점
+                        - text: "4.86"
+                      - generic [ref=f127e3995]: 리뷰 99,999+
+                  - button "다른 옵션 상품보기" [ref=f127e3997] [cursor=pointer]
+              - listitem [ref=f127e4000]:
+                - generic [ref=f127e4001]:
+                  - link "맥스가드 새 창에서 열림 1+1 생폰 방탄 범퍼 핸폰 맥세이프 핸드폰 케이스 투명, 갤럭시s26울트라 갤s26U 할인 전 판매가 10,900원 18% 할인 8,900 원 오늘출발 16:00까지 주문 시 무료배송 무료교환반품 별점 4.72 리뷰 5,819 새 창에서 열림" [ref=f127e4002] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13227813089?nl-query=%ED%9C%B4%EB%8C%80%ED%8F%B0%20%EC%BC%80%EC%9D%B4%EC%8A%A4&nl-au=352cc6dca3364f878100bb9343209b1b&NaPm=ci%3D352cc6dca3364f878100bb9343209b1b%7Cct%3Dmru6yde2%7Ctr%3Dnslsl%7Csn%3D12340113%7Chk%3D2fe4ed02311d09ebc6557cb0adb0af7a44b1d9bd
+                    - generic [ref=f127e4003]: 새 창에서 열림
+                  - button "1+1 생폰 방탄 범퍼 핸폰 맥세이프 핸드폰 케이스 투명, 갤럭시s26울트라 갤s26U 찜하기" [ref=f127e4007] [cursor=pointer]
+                  - generic [ref=f127e4012]:
+                    - link "맥스가드 새 창에서 열림" [ref=f127e4014] [cursor=pointer]:
+                      - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fmaxguard&tr=nslsl
+                      - generic [ref=f127e4015]: 맥스가드
+                      - generic [ref=f127e4018]: 새 창에서 열림
+                    - strong [ref=f127e4019]: 1+1 생폰 방탄 범퍼 핸폰 맥세이프 핸드폰 케이스 투명, 갤럭시s26울트라 갤s26U
+                    - generic [ref=f127e4021]:
+                      - generic [ref=f127e4023]:
+                        - generic [ref=f127e4024]: 할인 전 판매가
+                        - text: 10,900원
+                      - generic [ref=f127e4027]:
+                        - generic [ref=f127e4028]:
+                          - text: 18%
+                          - generic [ref=f127e4029]: 할인
+                        - generic [ref=f127e4030]: 8,900
+                        - generic [ref=f127e4031]: 원
+                    - generic [ref=f127e4033]:
+                      - generic [ref=f127e4034]: 오늘출발
+                      - generic [ref=f127e4035]: 16:00까지 주문 시
+                    - generic [ref=f127e4037]:
+                      - generic [ref=f127e4038]: 무료배송
+                      - generic [ref=f127e4039]: 무료교환반품
+                    - generic [ref=f127e4040]:
+                      - generic [ref=f127e4041]:
+                        - generic [ref=f127e4044]: 별점
+                        - text: "4.72"
+                      - generic [ref=f127e4045]: 리뷰 5,819
+                  - button "다른 옵션 상품보기" [ref=f127e4047] [cursor=pointer]
+            - list [ref=f127e4050]:
+              - listitem [ref=f127e4051]
+              - listitem [ref=f127e4060]
+              - listitem [ref=f127e4069]
+              - listitem [ref=f127e4078]
+              - listitem [ref=f127e4087]
+              - listitem [ref=f127e4096]
+              - listitem [ref=f127e4105]
+              - listitem [ref=f127e4114]
+              - listitem [ref=f127e4123]
+              - listitem [ref=f127e4132]
+    - button "맨위로가기" [ref=f127e4146] [cursor=pointer]
+  - alert [ref=f127e4150]

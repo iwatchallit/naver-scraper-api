@@ -1,0 +1,14 @@
+[  386380ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://shopsquare.naver.com') does not match the recipient window's origin ('https://www.naver.com'). @ https://pm.pstatic.net/resources/js/main.fdb73099.js?o=www:1
+[  386381ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://recoshopping.naver.com') does not match the recipient window's origin ('https://www.naver.com'). @ https://pm.pstatic.net/resources/js/main.fdb73099.js?o=www:1
+[  386808ms] [ERROR] [Memo] Invalid memo status. memo list is null @ https://pm.pstatic.net/resources/js/preload.7ebb5d79.js?o=www:1
+[  387037ms] [ERROR] [MyService] Fail to update mail noti. Error: Invalid response result. {"RESULT":"FAIL","COUNT":-3} @ https://pm.pstatic.net/resources/js/preload.7ebb5d79.js?o=www:1
+[ 2189205ms] [ERROR] Fail to create FourColumn. no materials @ https://pm.pstatic.net/resources/js/preload.7ebb5d79.js?o=www:1
+[ 2189258ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://shopsquare.naver.com') does not match the recipient window's origin ('https://www.naver.com'). @ https://pm.pstatic.net/resources/js/main.fdb73099.js?o=www:1
+[ 2189258ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://recoshopping.naver.com') does not match the recipient window's origin ('https://www.naver.com'). @ https://pm.pstatic.net/resources/js/main.fdb73099.js?o=www:1
+[ 2190030ms] [ERROR] [Memo] Invalid memo status. memo list is null @ https://pm.pstatic.net/resources/js/preload.7ebb5d79.js?o=www:1
+[ 2190251ms] [ERROR] [MyService] Fail to update mail noti. Error: Invalid response result. {"RESULT":"FAIL","COUNT":-3} @ https://pm.pstatic.net/resources/js/preload.7ebb5d79.js?o=www:1
+[ 2192537ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://tivan.naver.com/gda/100/?dummy=0.9794553881432237:0
+[ 2789783ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://shopsquare.naver.com') does not match the recipient window's origin ('https://www.naver.com'). @ https://pm.pstatic.net/resources/js/main.fdb73099.js?o=www:1
+[ 2789783ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://recoshopping.naver.com') does not match the recipient window's origin ('https://www.naver.com'). @ https://pm.pstatic.net/resources/js/main.fdb73099.js?o=www:1
+[ 2789998ms] [ERROR] [Memo] Invalid memo status. memo list is null @ https://pm.pstatic.net/resources/js/preload.7ebb5d79.js?o=www:1
+[ 2790226ms] [ERROR] [MyService] Fail to update mail noti. Error: Invalid response result. {"RESULT":"FAIL","COUNT":-3} @ https://pm.pstatic.net/resources/js/preload.7ebb5d79.js?o=www:1

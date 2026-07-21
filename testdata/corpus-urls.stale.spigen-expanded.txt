@@ -1,0 +1,17 @@
+# non-live targets
+# generated at 2026-07-21T05:40:44.717Z
+
+# stale: 0
+
+# challenge: 0
+
+# timeout: 0
+
+# infra: 0
+
+# other: 4
+https://brand.naver.com/spigen/products/13058453519 # code=NAVER_INVALID_UPSTREAM_JSON status=502
+https://brand.naver.com/spigen/products/13099365203 # code=NAVER_QUEUE_TIMEOUT status=503
+https://brand.naver.com/spigen/products/13099465592 # code=NAVER_QUEUE_TIMEOUT status=503
+https://brand.naver.com/spigen/products/13103686932 # code=NAVER_INVALID_UPSTREAM_JSON status=502
+

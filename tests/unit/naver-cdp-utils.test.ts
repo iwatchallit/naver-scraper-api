@@ -16,7 +16,8 @@ const captureOptions: CaptureOptions = {
   jitterMaxMs: 900,
   fingerprintProfiles: [],
   ipSamplingEnabled: false,
-  ipSampleMinIntervalMs: 60000
+  ipSampleMinIntervalMs: 60000,
+  storageStatePath: null
 };
 
 test("endpoint matcher recognizes product details and benefits URLs", () => {
@@ -43,4 +44,12 @@ test("redaction removes credential and endpoint secrets", () => {
   assert.equal(redacted.includes("user-secret"), false);
   assert.equal(redacted.includes("pass-secret"), false);
   assert.equal(redacted.includes("127.0.0.1:9222"), false);
+});
+
+test("page notice classifier recognizes seller suspension pages", () => {
+  const notice = cdpInternalsForTest.detectUpstreamPageNoticeText(
+    "Operations have been suspended due to the seller's circumstances."
+  );
+
+  assert.equal(notice?.code, "NAVER_TARGET_UNAVAILABLE");
 });
