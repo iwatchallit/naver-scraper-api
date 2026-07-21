@@ -480,6 +480,13 @@ function recordSidecarFailure(code: string, message: string) {
   dependencyHealth.sidecar.lastErrorMessage = message;
 }
 
+export const cdpInternalsForTest = {
+  isBenefitsUrl,
+  matchProductDetailsUrl,
+  classifyCaptureError,
+  redactSecrets
+};
+
 async function applyResourceBlocking(page: Page, blockedResourceTypes: string[]) {
   if (blockedResourceTypes.length === 0) {
     return;

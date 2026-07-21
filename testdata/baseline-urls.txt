@@ -1,0 +1,2 @@
+# Replace with at least 100 mixed SmartStore product URLs for evaluator baseline.
+https://smartstore.naver.com/rainbows9030/products/11102379008

@@ -22,7 +22,20 @@ const QUERY_SCHEMA = z.object({
   productUrl: z.string().min(1)
 });
 
-export function buildServer() {
+interface BuildServerDeps {
+  orchestrateCapture: typeof orchestrateCapture;
+  getDependencyHealthSnapshot: typeof getDependencyHealthSnapshot;
+  getQueueSnapshot: typeof getQueueSnapshot;
+}
+
+export function buildServer(overrides?: Partial<BuildServerDeps>) {
+  const deps: BuildServerDeps = {
+    orchestrateCapture: overrides?.orchestrateCapture ?? orchestrateCapture,
+    getDependencyHealthSnapshot:
+      overrides?.getDependencyHealthSnapshot ?? getDependencyHealthSnapshot,
+    getQueueSnapshot: overrides?.getQueueSnapshot ?? getQueueSnapshot
+  };
+
   const app = Fastify({ logger: true });
 
   app.register(sensible);
@@ -36,9 +49,9 @@ export function buildServer() {
   });
 
   app.get("/ready", async (_, reply) => {
-    const deps = getDependencyHealthSnapshot();
-    const queue = getQueueSnapshot();
-    const isReady = deps.sidecar.state !== "unhealthy";
+    const dependencyHealth = deps.getDependencyHealthSnapshot();
+    const queue = deps.getQueueSnapshot();
+    const isReady = dependencyHealth.sidecar.state !== "unhealthy";
 
     if (!isReady) {
       reply.code(503);
@@ -48,19 +61,19 @@ export function buildServer() {
       status: isReady ? "ready" : "not-ready",
       checks: {
         api: "ok",
-        sidecar: deps.sidecar.state,
-        proxyConfigured: deps.proxy.configured,
+        sidecar: dependencyHealth.sidecar.state,
+        proxyConfigured: dependencyHealth.proxy.configured,
         queuePending: queue.pending,
         workerPages: queue.workerPages
       },
       queue,
-      dependencies: deps,
+      dependencies: dependencyHealth,
       timestamp: new Date().toISOString()
     };
   });
 
   app.get("/metrics", async (_, reply) => {
-    const queue = getQueueSnapshot();
+    const queue = deps.getQueueSnapshot();
     trackQueuePending(queue.pending);
     reply.header("Content-Type", METRICS_REGISTRY.contentType);
     return METRICS_REGISTRY.metrics();
@@ -137,7 +150,7 @@ export function buildServer() {
 
     const upstreamStartedAtMs = Date.now();
 
-    const captureResult = await orchestrateCapture(productUrlResult.value);
+    const captureResult = await deps.orchestrateCapture(productUrlResult.value);
     const upstreamMs = Date.now() - upstreamStartedAtMs;
     const latencyMs = Date.now() - requestStartedAtMs;
 

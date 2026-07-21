@@ -1,0 +1,2 @@
+# Replace with mixed URLs for soak run.
+https://smartstore.naver.com/rainbows9030/products/11102379008

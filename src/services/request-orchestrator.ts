@@ -14,7 +14,7 @@ interface QueueWaiter {
   timeoutId: NodeJS.Timeout;
 }
 
-class WorkerPoolQueue {
+export class WorkerPoolQueue {
   private readonly workers: number;
   private active = 0;
   private readonly queue: QueueWaiter[] = [];

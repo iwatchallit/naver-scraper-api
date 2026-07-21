@@ -1,0 +1,2 @@
+# Replace with at least 1000 unique SmartStore product URLs for corpus run.
+https://smartstore.naver.com/rainbows9030/products/11102379008

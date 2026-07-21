@@ -7,7 +7,12 @@
     "dev": "tsx watch src/server.ts",
     "build": "tsc -p tsconfig.json",
     "start": "node dist/server.js",
-    "check": "npm run build"
+    "check": "npm run build",
+    "test:unit": "node --test --import tsx \"tests/unit/**/*.test.ts\"",
+    "test:integration": "node --test --import tsx \"tests/integration/**/*.test.ts\"",
+    "benchmark:baseline": "tsx scripts/perf/baseline.ts",
+    "benchmark:corpus": "tsx scripts/perf/corpus.ts",
+    "benchmark:soak": "tsx scripts/perf/soak.ts"
   },
   "keywords": [],
   "author": "",
