@@ -1,0 +1,30 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mrscrapper-api
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=3000
+    env_file:
+      - .env
+    volumes:
+      - ./.scratch:/usr/src/app/.scratch
+    depends_on:
+      - chromium
+
+  chromium:
+    image: ghcr.io/browserless/chromium:latest
+    container_name: mrscrapper-chromium
+    restart: unless-stopped
+    ports:
+      - "3001:3000"
+    environment:
+      - TOKEN=${CHROME_TOKEN:-}
+      - MAX_CONCURRENT_SESSIONS=5
+      - KEEP_ALIVE=true
+      - WORKSPACE_DIR=/usr/src/app/workspace

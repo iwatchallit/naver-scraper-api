@@ -433,7 +433,7 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
       const status = mapErrorToStatus(captureResult.error.code);
       insertLog(productUrlResult.value.sourceUrl, "error", latencyMs, captureResult.error.message, captureResult.screenshotBase64);
       
-      return reply.code(status).send({
+      return reply.code(status as any).send({
         success: false,
         requestId,
         sourceUrl: productUrlResult.value.sourceUrl,
