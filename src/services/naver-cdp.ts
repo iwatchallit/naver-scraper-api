@@ -94,16 +94,19 @@ export interface CaptureOptions {
   ipSamplingEnabled: boolean;
   ipSampleMinIntervalMs: number;
   storageStatePath: string | null;
+  takeScreenshot?: boolean;
 }
 
 export interface CaptureSuccess {
   ok: true;
   value: NaverCaptureResult;
+  screenshotBase64?: string;
 }
 
 export interface CaptureFailure {
   ok: false;
   error: ApiErrorShape;
+  screenshotBase64?: string;
 }
 
 export type CaptureAttemptResult = CaptureSuccess | CaptureFailure;
@@ -156,8 +159,8 @@ export function getCaptureOptionsFromEnv(): CaptureOptions {
 
   return {
     cdpUrl: process.env.CDP_URL ?? "http://127.0.0.1:9222",
-    navigationTimeoutMs: toPositiveInt(process.env.NAVIGATION_TIMEOUT_MS, 8000),
-    captureGraceMs: toPositiveInt(process.env.CAPTURE_GRACE_MS, 4000),
+    navigationTimeoutMs: toPositiveInt(process.env.NAVIGATION_TIMEOUT_MS, 16000),
+    captureGraceMs: toPositiveInt(process.env.CAPTURE_GRACE_MS, 16000),
     proxyServer,
     proxyUsername,
     proxyPassword,
@@ -222,14 +225,37 @@ export async function captureProductPayloads(
 ): Promise<CaptureAttemptResult> {
   let context: BrowserContext | null = null;
   let page: Page | null = null;
+  let isReusedContext = false;
 
   dependencyHealth.proxy.configured = Boolean(options.proxyServer);
   dependencyHealth.proxy.server = options.proxyServer;
 
   try {
     const fingerprintProfile = selectFingerprintProfile(options.fingerprintProfiles);
-    context = await createContext(options, fingerprintProfile);
+    const browser = await getOrCreateBrowser(options);
+    
+    if (!options.proxyServer && browser.contexts().length > 0) {
+      context = browser.contexts()[0];
+      isReusedContext = true;
+    } else {
+      const storageState = getAvailableStorageStatePath(options.storageStatePath);
+      context = await browser.newContext({
+        proxy: options.proxyServer ? {
+          server: options.proxyServer,
+          username: options.proxyUsername ?? undefined,
+          password: options.proxyPassword ?? undefined
+        } : undefined,
+        storageState: storageState ?? undefined,
+        userAgent: fingerprintProfile.userAgent,
+        locale: fingerprintProfile.locale,
+        timezoneId: fingerprintProfile.timezoneId,
+        viewport: fingerprintProfile.viewport,
+        colorScheme: fingerprintProfile.colorScheme
+      });
+    }
+
     page = await context.newPage();
+    await page.bringToFront().catch(() => undefined);
 
     await applyRequestJitter(options);
     noteFingerprintUsage(fingerprintProfile.id);
@@ -248,27 +274,21 @@ export async function captureProductPayloads(
 
     await sleep(1000);
 
-    const pageNotice = detectUpstreamPageNoticeText((await page.textContent("body")) ?? "");
-    if (pageNotice) {
-      return {
-        ok: false,
-        error: {
-          code: pageNotice.code,
-          message: pageNotice.message
-        }
-      };
-    }
-
-    await waitForCapture(capture, options.captureGraceMs);
+    await Promise.all([
+      waitForCapture(capture, options.captureGraceMs),
+      simulateHumanInteraction(page, capture, options.captureGraceMs)
+    ]);
 
     const noticeAfterCaptureWait = detectUpstreamPageNoticeText((await page.textContent("body")) ?? "");
     if (noticeAfterCaptureWait) {
+      const screenshotBase64 = await safeCaptureScreenshot(page);
       return {
         ok: false,
         error: {
           code: noticeAfterCaptureWait.code,
           message: noticeAfterCaptureWait.message
-        }
+        },
+        screenshotBase64
       };
     }
 
@@ -285,13 +305,15 @@ export async function captureProductPayloads(
     }
 
     if (capture.productDetails.state !== "captured") {
+      const screenshotBase64 = await safeCaptureScreenshot(page);
       if (capture.productDetails.state === "invalid-json") {
         return {
           ok: false,
           error: {
             code: ERROR_CODES.NAVER_INVALID_UPSTREAM_JSON,
             message: "Product details endpoint returned non-JSON content"
-          }
+          },
+          screenshotBase64
         };
       }
 
@@ -300,13 +322,17 @@ export async function captureProductPayloads(
         error: {
           code: ERROR_CODES.NAVER_CAPTURE_TIMEOUT,
           message: buildCaptureTimeoutMessage(diagnostics)
-        }
+        },
+        screenshotBase64
       };
     }
 
+    const finalScreenshot = options.takeScreenshot ? await safeCaptureScreenshot(page) : undefined;
+    
     return {
       ok: true,
-      value: capture
+      value: capture,
+      screenshotBase64: finalScreenshot
     };
   } catch (error) {
     invalidateSidecarConnection();
@@ -316,17 +342,31 @@ export async function captureProductPayloads(
     const message = redactSecrets(rawMessage, options);
 
     recordSidecarFailure(code, message);
+    
+    const screenshotBase64 = page ? await safeCaptureScreenshot(page) : undefined;
 
     return {
       ok: false,
       error: {
         code,
         message: `Failed to capture through CDP sidecar: ${message}`
-      }
+      },
+      screenshotBase64
     };
   } finally {
     await page?.close({ runBeforeUnload: false }).catch(() => undefined);
-    await context?.close().catch(() => undefined);
+    if (context && !isReusedContext) {
+      await context?.close().catch(() => undefined);
+    }
+  }
+}
+
+async function safeCaptureScreenshot(page: Page): Promise<string | undefined> {
+  try {
+    const buffer = await page.screenshot({ type: "jpeg", quality: 50, timeout: 2000 });
+    return buffer.toString("base64");
+  } catch {
+    return undefined;
   }
 }
 
@@ -704,39 +744,6 @@ function isShoppingWindowUrl(url: string): boolean {
   return url.includes("shopping.naver.com/window-products/");
 }
 
-async function createContext(
-  options: CaptureOptions,
-  fingerprintProfile: FingerprintProfile
-): Promise<BrowserContext> {
-  const browser = await getOrCreateBrowser(options);
-  const storageState = getAvailableStorageStatePath(options.storageStatePath);
-
-  if (options.proxyServer) {
-    return browser.newContext({
-      proxy: {
-        server: options.proxyServer,
-        username: options.proxyUsername ?? undefined,
-        password: options.proxyPassword ?? undefined
-      },
-      storageState: storageState ?? undefined,
-      userAgent: fingerprintProfile.userAgent,
-      locale: fingerprintProfile.locale,
-      timezoneId: fingerprintProfile.timezoneId,
-      viewport: fingerprintProfile.viewport,
-      colorScheme: fingerprintProfile.colorScheme
-    });
-  }
-
-  return browser.newContext({
-    storageState: storageState ?? undefined,
-    userAgent: fingerprintProfile.userAgent,
-    locale: fingerprintProfile.locale,
-    timezoneId: fingerprintProfile.timezoneId,
-    viewport: fingerprintProfile.viewport,
-    colorScheme: fingerprintProfile.colorScheme
-  });
-}
-
 async function getOrCreateBrowser(options: CaptureOptions): Promise<Browser> {
   if (sidecarBrowser?.isConnected()) {
     markSidecarHealthy();
@@ -791,6 +798,29 @@ function sleep(delayMs: number): Promise<void> {
   return new Promise((resolve) => {
     setTimeout(resolve, delayMs);
   });
+}
+
+async function simulateHumanInteraction(page: Page, capture: NaverCaptureResult, graceMs: number): Promise<void> {
+  const startedAt = Date.now();
+  try {
+    while (Date.now() - startedAt < graceMs) {
+      if (capture.productDetails.state === "captured" && capture.benefits.state === "captured") {
+        return;
+      }
+
+      const x = Math.floor(Math.random() * 800) + 100;
+      const y = Math.floor(Math.random() * 600) + 100;
+      await page.mouse.move(x, y, { steps: 5 }).catch(() => undefined);
+      
+      if (Math.random() > 0.7) {
+        await page.mouse.wheel(0, Math.floor(Math.random() * 300) - 100).catch(() => undefined);
+      }
+      
+      await sleep(Math.floor(Math.random() * 500) + 200);
+    }
+  } catch {
+    // Ignore errors if page closes
+  }
 }
 
 function selectFingerprintProfile(profiles: FingerprintProfile[]): FingerprintProfile {

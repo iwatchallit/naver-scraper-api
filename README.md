@@ -63,9 +63,16 @@ npm run build
 
 2. Start Chrome CDP sidecar:
 
+**Option A (Headless - Requires Residential Proxy):**
 ```powershell
-Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList '--remote-debugging-port=9222','--user-data-dir=D:\MrScrapper\.tmp\chrome-cdp-profile','about:blank'
+Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList '--headless','--remote-debugging-port=9222','--user-data-dir=D:\MrScrapper\.tmp\chrome-cdp-profile','about:blank'
 ```
+
+**Option B (Headful - No Proxy Needed for Local Testing):**
+```powershell
+Stop-Process -Name chrome -Force -ErrorAction SilentlyContinue; Start-Sleep -Seconds 2; Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList '--remote-debugging-port=9222','--user-data-dir=D:\MrScrapper\.tmp\chrome-cdp-profile'
+```
+*(Leave the white browser window open. Since it's headful, Naver WAF sees it as a legitimate human user. Do NOT configure `PROXY_SERVER` in `.env` if using Option B).*
 
 3. Optional: start proxy adapter on `127.0.0.1:8899`.
 
@@ -94,6 +101,14 @@ ngrok http 3000
 Important:
 - Never expose CDP port `9222` publicly.
 - Keep proxy credentials only in environment variables.
+
+## Web Dashboard (UI)
+
+The application includes a built-in Web UI (Forwarder) for easy testing and demonstration without needing cURL or Postman.
+
+1. Open your browser and navigate to: `http://127.0.0.1:3000/`
+2. Paste any Naver SmartStore Product URL.
+3. Click **Scrape JSON** to execute the capture via the CDP sidecar in real-time.
 
 ## API Usage
 

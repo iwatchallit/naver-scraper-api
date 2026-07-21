@@ -91,12 +91,14 @@ export interface OrchestratedCaptureSuccess {
   ok: true;
   value: CaptureSuccess["value"];
   meta: CaptureRuntimeMeta;
+  screenshotBase64?: string;
 }
 
 export interface OrchestratedCaptureFailure {
   ok: false;
   error: ApiErrorShape;
   meta: CaptureRuntimeMeta;
+  screenshotBase64?: string;
 }
 
 export type OrchestratedCaptureResult = OrchestratedCaptureSuccess | OrchestratedCaptureFailure;
@@ -109,8 +111,8 @@ export function getRequestOrchestrationOptionsFromEnv(): RequestOrchestrationOpt
     workerPages: toPositiveInt(process.env.WORKER_PAGES, 2),
     maxQueueDepth: toPositiveInt(process.env.MAX_QUEUE_DEPTH, 50),
     queueWaitTimeoutMs: toPositiveInt(process.env.QUEUE_WAIT_TIMEOUT_MS, 4000),
-    globalRequestTimeoutMs: toPositiveInt(process.env.GLOBAL_REQUEST_TIMEOUT_MS, 12000),
-    maxAttempts: toPositiveInt(process.env.MAX_ATTEMPTS, 2)
+    globalRequestTimeoutMs: toPositiveInt(process.env.GLOBAL_REQUEST_TIMEOUT_MS, 40000),
+    maxAttempts: toPositiveInt(process.env.MAX_ATTEMPTS, 1)
   };
 }
 
@@ -123,7 +125,8 @@ export function getQueueSnapshot() {
 }
 
 export async function orchestrateCapture(
-  productUrl: NaverProductUrlInfo
+  productUrl: NaverProductUrlInfo,
+  options?: { takeScreenshot?: boolean }
 ): Promise<OrchestratedCaptureResult> {
   const queuedAt = Date.now();
   let release: (() => void) | null = null;
@@ -150,6 +153,9 @@ export async function orchestrateCapture(
   const queueWaitMs = Date.now() - queuedAt;
   const deadlineAt = Date.now() + orchestrationOptions.globalRequestTimeoutMs;
   const captureOptions = getCaptureOptionsFromEnv();
+  if (options?.takeScreenshot !== undefined) {
+    captureOptions.takeScreenshot = options.takeScreenshot;
+  }
   const minimumAttemptBudgetMs = getMinimumAttemptBudgetMs(captureOptions);
   const budgetedAttempts = getBudgetedAttemptCount(
     orchestrationOptions.globalRequestTimeoutMs,
@@ -209,7 +215,8 @@ export async function orchestrateCapture(
           meta: {
             attempts,
             queueWaitMs
-          }
+          },
+          screenshotBase64: result.screenshotBase64
         };
       }
 
@@ -220,7 +227,8 @@ export async function orchestrateCapture(
           meta: {
             attempts,
             queueWaitMs
-          }
+          },
+          screenshotBase64: result.screenshotBase64
         };
       }
     }
