@@ -14,6 +14,7 @@ services:
       - .env
     volumes:
       - ./.scratch:/usr/src/app/.scratch
+      - ./artifacts:/usr/src/app/artifacts
     depends_on:
       - chromium
 
