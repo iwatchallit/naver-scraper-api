@@ -45,6 +45,7 @@ export interface CaptureOptions {
   proxyPassword: string | null;
   cdpConnectRetries: number;
   cdpRetryDelayMs: number;
+  blockedResourceTypes: string[];
 }
 
 export interface CaptureSuccess {
@@ -72,7 +73,8 @@ export function getCaptureOptionsFromEnv(): CaptureOptions {
     proxyUsername,
     proxyPassword,
     cdpConnectRetries: toPositiveInt(process.env.CDP_CONNECT_RETRIES, 2),
-    cdpRetryDelayMs: toPositiveInt(process.env.CDP_RETRY_DELAY_MS, 250)
+    cdpRetryDelayMs: toPositiveInt(process.env.CDP_RETRY_DELAY_MS, 250),
+    blockedResourceTypes: getBlockedResourceTypesFromEnv()
   };
 }
 
@@ -100,6 +102,7 @@ export async function captureProductPayloads(
   try {
     context = await createContext(options);
     page = await context.newPage();
+    await applyResourceBlocking(page, options.blockedResourceTypes);
 
     const capture = createEmptyCaptureResult();
     const diagnostics = createCaptureDiagnostics();
@@ -475,4 +478,33 @@ function recordSidecarFailure(code: string, message: string) {
   dependencyHealth.sidecar.lastErrorAt = new Date().toISOString();
   dependencyHealth.sidecar.lastErrorCode = code;
   dependencyHealth.sidecar.lastErrorMessage = message;
+}
+
+async function applyResourceBlocking(page: Page, blockedResourceTypes: string[]) {
+  if (blockedResourceTypes.length === 0) {
+    return;
+  }
+
+  const blockedSet = new Set(blockedResourceTypes.map((item) => item.toLowerCase()));
+  await page.route("**/*", async (route) => {
+    const type = route.request().resourceType().toLowerCase();
+    if (blockedSet.has(type)) {
+      await route.abort();
+      return;
+    }
+
+    await route.continue();
+  });
+}
+
+function getBlockedResourceTypesFromEnv(): string[] {
+  const raw = normalizeOptionalString(process.env.BLOCKED_RESOURCE_TYPES);
+  if (!raw) {
+    return ["image", "font", "media"];
+  }
+
+  return raw
+    .split(",")
+    .map((item) => item.trim().toLowerCase())
+    .filter((item) => item.length > 0);
 }
