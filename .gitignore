@@ -1,2 +1,6 @@
 .agents/
 docs/
+node_modules/
+dist/
+.tmp/
+.env
