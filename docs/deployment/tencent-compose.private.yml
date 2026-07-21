@@ -1,0 +1,40 @@
+version: "3.9"
+
+services:
+  api:
+    build:
+      context: ../..
+      dockerfile: Dockerfile
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3000
+      CDP_URL: http://chrome-sidecar:9222
+      # Optional proxy settings (inject from secret manager at runtime)
+      # PROXY_SERVER: http://proxy-adapter:8899
+      # PROXY_USERNAME: ${PROXY_USERNAME}
+      # PROXY_PASSWORD: ${PROXY_PASSWORD}
+    ports:
+      - "3000:3000"
+    depends_on:
+      - chrome-sidecar
+    networks:
+      - private_runtime
+
+  chrome-sidecar:
+    image: ghcr.io/browserless/chromium:latest
+    command: ["--remote-debugging-address=0.0.0.0", "--remote-debugging-port=9222"]
+    expose:
+      - "9222"
+    networks:
+      - private_runtime
+
+  # proxy-adapter:
+  #   image: your-private-proxy-adapter-image:latest
+  #   expose:
+  #     - "8899"
+  #   networks:
+  #     - private_runtime
+
+networks:
+  private_runtime:
+    driver: bridge
