@@ -36,6 +36,15 @@ export function getLogs(): ScrapeLogEntry[] {
   }
 }
 
+export function clearLogs(): void {
+  try {
+    ensureDirectoryExists();
+    fs.writeFileSync(LOGS_FILE, JSON.stringify([], null, 2), "utf-8");
+  } catch (error) {
+    console.error("Failed to clear logs:", error);
+  }
+}
+
 export function insertLog(
   url: string,
   status: "success" | "error",

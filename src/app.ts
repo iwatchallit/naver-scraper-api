@@ -18,7 +18,7 @@ import {
   trackRequest
 } from "./services/metrics";
 import { getQueueSnapshot, orchestrateCapture } from "./services/request-orchestrator";
-import { getLogs, insertLog } from "./services/db";
+import { clearLogs, getLogs, insertLog } from "./services/db";
 
 const METRICS_REGISTRY = getMetricsRegistry();
 
@@ -390,7 +390,10 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
         <span>Scrape History</span>
         <span style="font-size: 0.75rem; font-weight: 500; color: var(--text-muted);">(Max 500)</span>
       </div>
-      <button class="drawer-close-btn" id="drawerClose" aria-label="Close Logs">&times;</button>
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <button id="clearLogsBtn" style="background: rgba(244, 63, 94, 0.15); color: #f43f5e; border: 1px solid rgba(244, 63, 94, 0.3); border-radius: 6px; padding: 0.25rem 0.6rem; font-size: 0.75rem; font-weight: 600; cursor: pointer;">Clear Logs</button>
+        <button class="drawer-close-btn" id="drawerClose" aria-label="Close Logs">&times;</button>
+      </div>
     </h2>
     <div id="logsContainer">Loading logs...</div>
   </div>
@@ -425,6 +428,13 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
 
     overlay.addEventListener('click', () => {
       drawer.classList.remove('open');
+    });
+
+    document.getElementById('clearLogsBtn').addEventListener('click', async () => {
+      if (confirm('Are you sure you want to clear all scrape history logs?')) {
+        await fetch('/logs', { method: 'DELETE' });
+        loadLogs();
+      }
     });
 
     document.getElementById('lightboxClose').addEventListener('click', () => {
@@ -550,6 +560,14 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
     return {
       success: true,
       logs: getLogs()
+    };
+  });
+
+  app.delete("/logs", { schema: { hide: true } }, async () => {
+    clearLogs();
+    return {
+      success: true,
+      message: "Logs cleared successfully"
     };
   });
 
