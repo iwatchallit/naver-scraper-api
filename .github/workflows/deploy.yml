@@ -20,7 +20,7 @@ jobs:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USERNAME }}
           password: ${{ secrets.VPS_PASSWORD }}
-          source: "package.json,package-lock.json,src,scripts,docs,prototype,testdata,tests,Dockerfile,docker-compose.yml,tsconfig.json,.env.example,AGENTS.md,DESIGN.md,README.md"
+          source: "package.json,package-lock.json,src,scripts,docs,prototype,testdata,tests,artifacts,Dockerfile,docker-compose.yml,tsconfig.json,.env.example,AGENTS.md,DESIGN.md,README.md"
           target: "~/mrscrapper"
           rm: true
 
@@ -43,12 +43,11 @@ jobs:
             # 2. Go to the project directory
             cd ~/mrscrapper
 
-            # 3. Create .env file if it doesn't exist
-            # Note: We rely on the .env file being set up manually on the server once,
-            # or we can copy .env.example if missing.
+            # 3. Create .env file if it doesn't exist & enable storage state
             if [ ! -f .env ]; then
               echo ".env not found, copying .env.example..."
               cp .env.example .env
+              sed -i 's/# NAVER_STORAGE_STATE_PATH/NAVER_STORAGE_STATE_PATH/' .env
             fi
 
             # 4. Spin up the containers
