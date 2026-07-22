@@ -27,10 +27,13 @@ jobs:
 
       - name: Execute deployment commands
         uses: appleboy/ssh-action@v1.0.3
+        env:
+          ENV_FILE: ${{ secrets.ENV_FILE }}
         with:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USERNAME }}
           password: ${{ secrets.VPS_PASSWORD }}
+          envs: ENV_FILE
           script: |
             # 1. Install Docker and Docker Compose if not installed
             if ! command -v docker &> /dev/null; then
@@ -44,8 +47,11 @@ jobs:
             # 2. Go to the project directory
             cd /home/ubuntu/mrscrapper
 
-            # 3. Create .env file if it doesn't exist & enable storage state + 0.0.0.0 host
-            if [ ! -f .env ]; then
+            # 3. Create .env from ENV_FILE secret if provided, otherwise fallback to .env.example
+            if [ -n "$ENV_FILE" ]; then
+              echo "Writing .env from GitHub ENV_FILE secret..."
+              echo "$ENV_FILE" > .env
+            elif [ ! -f .env ]; then
               echo ".env not found, copying .env.example..."
               cp .env.example .env
               sed -i 's/# NAVER_STORAGE_STATE_PATH/NAVER_STORAGE_STATE_PATH/' .env
