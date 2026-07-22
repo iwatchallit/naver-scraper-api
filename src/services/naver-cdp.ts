@@ -1,5 +1,5 @@
 import { existsSync } from "node:fs";
-import { anonymizeProxy, closeAnonymizedProxy } from "proxy-chain";
+import { Server } from "proxy-chain";
 import { chromium, type Browser, type BrowserContext, type Page, type Response } from "playwright-core";
 import { createEmptyCaptureResult, type NaverCaptureResult } from "../domain/capture";
 import { ERROR_CODES, type ApiErrorShape } from "../domain/errors";
@@ -228,17 +228,23 @@ export async function captureProductPayloads(
   let page: Page | null = null;
   let isReusedContext = false;
 
-  let createdAnonymizedProxyUrl: string | null = null;
+  let proxyServerInstance: Server | null = null;
   let effectiveProxyServer = options.proxyServer;
 
   if (options.proxyServer && options.proxyUsername && options.proxyPassword) {
     try {
-      const u = new URL(options.proxyServer);
-      u.username = options.proxyUsername;
-      u.password = options.proxyPassword;
-      createdAnonymizedProxyUrl = await anonymizeProxy(u.toString());
+      const upstreamUrl = new URL(options.proxyServer);
+      upstreamUrl.username = options.proxyUsername;
+      upstreamUrl.password = options.proxyPassword;
+
+      proxyServerInstance = new Server({
+        port: 0,
+        host: "0.0.0.0",
+        prepareRequestFunction: () => ({ upstreamProxyUrl: upstreamUrl.toString() })
+      });
+      await proxyServerInstance.listen();
       const bridgeHost = process.env.PROXY_BRIDGE_HOST || (existsSync("/.dockerenv") ? "api" : "127.0.0.1");
-      effectiveProxyServer = createdAnonymizedProxyUrl.replace("127.0.0.1", bridgeHost).replace("localhost", bridgeHost);
+      effectiveProxyServer = `http://${bridgeHost}:${proxyServerInstance.port}`;
     } catch {
       effectiveProxyServer = options.proxyServer;
     }
@@ -371,8 +377,8 @@ export async function captureProductPayloads(
     if (context && !isReusedContext) {
       await context?.close().catch(() => undefined);
     }
-    if (createdAnonymizedProxyUrl) {
-      await closeAnonymizedProxy(createdAnonymizedProxyUrl, true).catch(() => undefined);
+    if (proxyServerInstance) {
+      await proxyServerInstance.close(true).catch(() => undefined);
     }
   }
 }
