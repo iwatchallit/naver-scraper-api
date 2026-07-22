@@ -54,6 +54,7 @@ jobs:
 
             # 4. Spin up the containers
             sudo docker compose down
+            sudo chown -R $USER:$USER /home/ubuntu/mrscrapper
             sudo docker compose up -d --build
             
             # 5. Clean up unused images to save disk space
