@@ -265,25 +265,21 @@ flowchart LR
 If you need a local adapter in front of the upstream Korean proxy, run:
 
 ```powershell
-$env:PROXY_SERVER='http://6n8xhsmh.as.thordata.net:9999'
-$env:PROXY_USERNAME='td-customer-mrscraperTrial-country-kr'
-$env:PROXY_PASSWORD='P3nNRQ8C2'
+$env:PROXY_SERVER='http://proxy.mrscraper.com:10000'
+$env:PROXY_USERNAME='<your_proxy_username>'
+$env:PROXY_PASSWORD='<your_proxy_password>'
 npm run proxy:adapter
 ```
 
 Then point the API at `http://127.0.0.1:8899` instead of the upstream proxy URL.
 
-### Proxy Provider Candidates
+### Korea Proxy Integration
 
-The current trial proxy failed credential verification. The recommended replacement is **Webshare** because it has a free plan, supports both HTTP and SOCKS5, and exposes the proxy list through a dashboard/API.
+The scraper supports Korea Residential Proxy credentials via environment variables:
 
-Use this pattern:
-
-- `PROXY_SERVER=http://127.0.0.1:8899`
-- `PROXY_USERNAME=<your Webshare username>`
-- `PROXY_PASSWORD=<your Webshare password or API key>`
-
-If you want country targeting, append the country code to the username using Webshare's documented pattern, then keep the local adapter in front of it.
+- `PROXY_SERVER=http://proxy.mrscraper.com:10000`
+- `PROXY_USERNAME=<your_proxy_username>`
+- `PROXY_PASSWORD=<your_proxy_password>`
 
 ## Additional Operator Docs
 
