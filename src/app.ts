@@ -24,7 +24,7 @@ const METRICS_REGISTRY = getMetricsRegistry();
 
 const QUERY_SCHEMA = z.object({
   productUrl: z.string().min(1),
-  screenshot: z.enum(["true", "false"]).optional().default("false").transform(val => val === "true")
+  screenshot: z.union([z.boolean(), z.string()]).optional().transform(val => val === true || val === "true")
 });
 
 interface BuildServerDeps {
