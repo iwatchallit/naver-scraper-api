@@ -23,8 +23,7 @@ import { clearLogs, getLogs, insertLog } from "./services/db";
 const METRICS_REGISTRY = getMetricsRegistry();
 
 const QUERY_SCHEMA = z.object({
-  productUrl: z.string().min(1),
-  screenshot: z.union([z.boolean(), z.string()]).optional().transform(val => val === true || val === "true")
+  productUrl: z.string().min(1)
 });
 
 interface BuildServerDeps {
@@ -579,8 +578,7 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
         type: "object",
         required: ["productUrl"],
         properties: {
-          productUrl: { type: "string", description: "The full URL of the Naver SmartStore product" },
-          screenshot: { type: "boolean", description: "Whether to return a base64 visual screenshot on success" }
+          productUrl: { type: "string", description: "The full URL of the Naver SmartStore product" }
         }
       },
       response: {
@@ -690,7 +688,7 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
     const upstreamStartedAtMs = Date.now();
 
     const captureResult = await deps.orchestrateCapture(productUrlResult.value, { 
-      takeScreenshot: parsedQuery.data.screenshot 
+      takeScreenshot: false 
     });
     const upstreamMs = Date.now() - upstreamStartedAtMs;
     const latencyMs = Date.now() - requestStartedAtMs;
