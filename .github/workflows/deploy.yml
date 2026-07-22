@@ -21,7 +21,7 @@ jobs:
           username: ${{ secrets.VPS_USERNAME }}
           password: ${{ secrets.VPS_PASSWORD }}
           source: "."
-          target: "~/mrscrapper"
+          target: "/home/ubuntu/mrscrapper"
           rm: true
 
       - name: Execute deployment commands
@@ -41,7 +41,7 @@ jobs:
             fi
 
             # 2. Go to the project directory
-            cd ~/mrscrapper
+            cd /home/ubuntu/mrscrapper
 
             # 3. Create .env file if it doesn't exist & enable storage state + 0.0.0.0 host
             if [ ! -f .env ]; then
