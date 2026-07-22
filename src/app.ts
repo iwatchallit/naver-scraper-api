@@ -59,7 +59,13 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
   });
 
   app.register(fastifySwaggerUi, {
-    routePrefix: "/docs"
+    routePrefix: "/docs",
+    uiConfig: {
+      docExpansion: "list",
+      deepLinking: true,
+      displayRequestDuration: true
+    },
+    staticCSP: true
   });
 
   app.register(async function (app) {
