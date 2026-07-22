@@ -237,7 +237,7 @@ export async function captureProductPayloads(
       u.username = options.proxyUsername;
       u.password = options.proxyPassword;
       createdAnonymizedProxyUrl = await anonymizeProxy(u.toString());
-      const bridgeHost = process.env.PROXY_BRIDGE_HOST || (existsSync("/.dockerenv") ? "watscraper-api" : "127.0.0.1");
+      const bridgeHost = process.env.PROXY_BRIDGE_HOST || (existsSync("/.dockerenv") ? "api" : "127.0.0.1");
       effectiveProxyServer = createdAnonymizedProxyUrl.replace("127.0.0.1", bridgeHost).replace("localhost", bridgeHost);
     } catch {
       effectiveProxyServer = options.proxyServer;
