@@ -43,12 +43,13 @@ jobs:
             # 2. Go to the project directory
             cd ~/mrscrapper
 
-            # 3. Create .env file if it doesn't exist & enable storage state
+            # 3. Create .env file if it doesn't exist & enable storage state + 0.0.0.0 host
             if [ ! -f .env ]; then
               echo ".env not found, copying .env.example..."
               cp .env.example .env
               sed -i 's/# NAVER_STORAGE_STATE_PATH/NAVER_STORAGE_STATE_PATH/' .env
             fi
+            sed -i 's/HOST=127.0.0.1/HOST=0.0.0.0/' .env
 
             # 4. Spin up the containers
             sudo docker compose down
