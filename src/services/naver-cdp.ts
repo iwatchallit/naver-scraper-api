@@ -276,7 +276,8 @@ export async function captureProductPayloads(
       simulateHumanInteraction(page, capture, options.captureGraceMs)
     ]);
 
-    const noticeAfterCaptureWait = detectUpstreamPageNoticeText((await page.textContent("body")) ?? "");
+    const bodyText = await page.textContent("body").catch(() => "");
+    const noticeAfterCaptureWait = detectUpstreamPageNoticeText(bodyText ?? "");
     if (noticeAfterCaptureWait) {
       const screenshotBase64 = await safeCaptureScreenshot(page);
       return {
