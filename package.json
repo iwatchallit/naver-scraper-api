@@ -1,5 +1,5 @@
 {
-  "name": "mrscrapper",
+  "name": "wat-scraper",
   "version": "1.0.0",
   "description": "Naver SmartStore scraper API",
   "main": "dist/server.js",

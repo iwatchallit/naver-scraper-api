@@ -21,9 +21,9 @@ jobs:
           username: ${{ secrets.VPS_USERNAME }}
           password: ${{ secrets.VPS_PASSWORD }}
           script: |
-            mkdir -p /home/ubuntu/mrscrapper
-            sudo chown -R $USER:$USER /home/ubuntu/mrscrapper
-            chmod -R u+w /home/ubuntu/mrscrapper 2>/dev/null || true
+            mkdir -p /home/ubuntu/wat-scraper
+            sudo chown -R $USER:$USER /home/ubuntu/wat-scraper
+            chmod -R u+w /home/ubuntu/wat-scraper 2>/dev/null || true
 
       - name: Copy files to VPS
         uses: appleboy/scp-action@v0.1.7
@@ -32,7 +32,7 @@ jobs:
           username: ${{ secrets.VPS_USERNAME }}
           password: ${{ secrets.VPS_PASSWORD }}
           source: "."
-          target: "/home/ubuntu/mrscrapper"
+          target: "/home/ubuntu/wat-scraper"
           rm: false
           overwrite: true
 
@@ -56,7 +56,7 @@ jobs:
             fi
 
             # 2. Go to the project directory
-            cd /home/ubuntu/mrscrapper
+            cd /home/ubuntu/wat-scraper
 
             # 3. Create .env from ENV_FILE secret if provided, otherwise fallback to .env.example
             if [ -n "$ENV_FILE" ]; then
@@ -71,7 +71,7 @@ jobs:
 
             # 4. Spin up the containers
             sudo docker compose down
-            sudo chown -R $USER:$USER /home/ubuntu/mrscrapper
+            sudo chown -R $USER:$USER /home/ubuntu/wat-scraper
             sudo docker compose up -d --build
             
             # 5. Clean up unused images to save disk space

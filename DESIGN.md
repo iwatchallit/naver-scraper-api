@@ -1,6 +1,6 @@
 ---
 version: 2
-name: "MrScraper Naver Engine & Audit Console"
+name: "WatScraper Naver Engine & Audit Console"
 description: "High-precision dark-mode control deck and REST API documentation system for Naver SmartStore scraping."
 colors:
   surface-obsidian: "#090d16"
@@ -56,7 +56,7 @@ components:
     rounded: "{rounded.radius-md}"
 ---
 
-# MrScrapper Naver Engine — Design System & Architecture
+# WatScraper Naver Engine — Design System & Architecture
 
 ## Creative North Star
 
@@ -131,4 +131,4 @@ A sleek, modern dark theme built for long review sessions and clear status contr
 ```
 
 - **CI/CD Pipeline**: GitHub Actions (`.github/workflows/deploy.yml`) automatically builds and deploys changes on `git push` to Tencent Cloud VPS.
-- **Container Isolation**: Docker Compose orchestrates `mrscrapper-api` and `mrscrapper-chromium` with strict volume mounts for persistent logging (`.scratch`) and session cookies (`artifacts`).
+- **Container Isolation**: Docker Compose orchestrates `watscraper-api` and `watscraper-chromium` with strict volume mounts for persistent logging (`.scratch`) and session cookies (`artifacts`).

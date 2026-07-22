@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: mrscrapper-api
+    container_name: watscraper-api
     restart: unless-stopped
     ports:
       - "3000:3000"
@@ -20,7 +20,7 @@ services:
 
   chromium:
     image: ghcr.io/browserless/chromium:latest
-    container_name: mrscrapper-chromium
+    container_name: watscraper-chromium
     restart: unless-stopped
     ports:
       - "3001:3000"
