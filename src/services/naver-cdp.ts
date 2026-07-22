@@ -1,5 +1,4 @@
 import { existsSync } from "node:fs";
-import { anonymizeProxy, closeAnonymizedProxy } from "proxy-chain";
 import { chromium, type Browser, type BrowserContext, type Page, type Response } from "playwright-core";
 import { createEmptyCaptureResult, type NaverCaptureResult } from "../domain/capture";
 import { ERROR_CODES, type ApiErrorShape } from "../domain/errors";
@@ -228,21 +227,6 @@ export async function captureProductPayloads(
   let page: Page | null = null;
   let isReusedContext = false;
 
-  let createdAnonymizedProxyUrl: string | null = null;
-  let effectiveProxyServer = options.proxyServer;
-
-  if (options.proxyServer && options.proxyUsername && options.proxyPassword) {
-    try {
-      const u = new URL(options.proxyServer);
-      u.username = options.proxyUsername;
-      u.password = options.proxyPassword;
-      createdAnonymizedProxyUrl = await anonymizeProxy(u.toString());
-      effectiveProxyServer = createdAnonymizedProxyUrl;
-    } catch {
-      effectiveProxyServer = options.proxyServer;
-    }
-  }
-
   try {
     const fingerprintProfile = selectFingerprintProfile(options.fingerprintProfiles);
     const browser = await getOrCreateBrowser(options);
@@ -253,8 +237,10 @@ export async function captureProductPayloads(
     } else {
       const storageState = getAvailableStorageStatePath(options.storageStatePath);
       context = await browser.newContext({
-        proxy: effectiveProxyServer ? {
-          server: effectiveProxyServer
+        proxy: options.proxyServer ? {
+          server: options.proxyServer,
+          username: options.proxyUsername ?? undefined,
+          password: options.proxyPassword ?? undefined
         } : undefined,
         storageState: storageState ?? undefined,
         userAgent: fingerprintProfile.userAgent,
@@ -368,9 +354,6 @@ export async function captureProductPayloads(
     await page?.close({ runBeforeUnload: false }).catch(() => undefined);
     if (context && !isReusedContext) {
       await context?.close().catch(() => undefined);
-    }
-    if (createdAnonymizedProxyUrl) {
-      await closeAnonymizedProxy(createdAnonymizedProxyUrl, true).catch(() => undefined);
     }
   }
 }
