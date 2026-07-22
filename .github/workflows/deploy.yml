@@ -20,7 +20,7 @@ jobs:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USERNAME }}
           password: ${{ secrets.VPS_PASSWORD }}
-          source: "package.json,package-lock.json,src,scripts,docs,prototype,testdata,tests,artifacts,Dockerfile,docker-compose.yml,tsconfig.json,.env.example,AGENTS.md,DESIGN.md,README.md"
+          source: "."
           target: "~/mrscrapper"
           rm: true
 
