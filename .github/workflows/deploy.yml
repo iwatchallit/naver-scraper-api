@@ -22,7 +22,8 @@ jobs:
           password: ${{ secrets.VPS_PASSWORD }}
           source: "."
           target: "/home/ubuntu/mrscrapper"
-          rm: true
+          rm: false
+          overwrite: true
 
       - name: Execute deployment commands
         uses: appleboy/ssh-action@v1.0.3
