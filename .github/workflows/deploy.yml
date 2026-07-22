@@ -9,6 +9,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: VCM-Tencent Cloud
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -19,11 +20,9 @@ jobs:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USERNAME }}
           password: ${{ secrets.VPS_PASSWORD }}
-          source: "."
+          source: "package.json,package-lock.json,src,scripts,docs,prototype,testdata,tests,Dockerfile,docker-compose.yml,tsconfig.json,.env.example,AGENTS.md,DESIGN.md,README.md"
           target: "~/mrscrapper"
           rm: true
-          # Exclude heavy folders, secrets, and git history
-          exclude: ".git,node_modules,dist,artifacts/.scratch,artifacts/naver-auth/storage-state.json,.env"
 
       - name: Execute deployment commands
         uses: appleboy/ssh-action@v1.0.3
