@@ -14,6 +14,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Prepare remote permissions
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USERNAME }}
+          password: ${{ secrets.VPS_PASSWORD }}
+          script: |
+            mkdir -p /home/ubuntu/mrscrapper
+            sudo chown -R $USER:$USER /home/ubuntu/mrscrapper
+            chmod -R u+w /home/ubuntu/mrscrapper 2>/dev/null || true
+
       - name: Copy files to VPS
         uses: appleboy/scp-action@v0.1.7
         with:
