@@ -71,59 +71,304 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Naver Scraper Forwarder</title>
+  <title>MrScraper — Naver SmartStore Engine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
   <style>
-    body { font-family: -apple-system, system-ui, sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; background: #f9fafb; color: #111827; }
-    .card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
-    h2 { margin-top: 0; color: #03c75a; }
-    input { width: 100%; padding: 0.75rem; margin-bottom: 1rem; border: 1px solid #d1d5db; border-radius: 6px; box-sizing: border-box; font-size: 1rem; }
-    button { background: #03c75a; color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 6px; cursor: pointer; font-weight: bold; width: 100%; font-size: 1rem; transition: background 0.2s; }
-    button:hover { background: #02b350; }
-    button:disabled { background: #9ca3af; cursor: not-allowed; }
-    pre { background: #1f2937; color: #f3f4f6; padding: 1rem; border-radius: 8px; overflow-x: auto; max-height: 600px; font-size: 0.875rem; }
-    .loading { display: none; margin-top: 1rem; color: #6b7280; font-style: italic; text-align: center; }
+    :root {
+      --bg-obsidian: #090d16;
+      --surface-panel: #111827;
+      --surface-raised: #1f2937;
+      --emerald-mint: #10b981;
+      --emerald-hover: #059669;
+      --electric-cyan: #06b6d4;
+      --text-bright: #f9fafb;
+      --text-muted: #9ca3af;
+      --border-subtle: rgba(255, 255, 255, 0.1);
+      --rose-danger: #ef4444;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem;
+      background-color: var(--bg-obsidian);
+      color: var(--text-bright);
+      line-height: 1.5;
+    }
+    .header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    .brand-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.75rem;
+      font-weight: 800;
+      margin: 0;
+      background: linear-gradient(135deg, #f9fafb 0%, #10b981 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .docs-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      background: rgba(6, 182, 212, 0.12);
+      color: var(--electric-cyan);
+      border: 1px solid rgba(6, 182, 212, 0.3);
+      padding: 0.4rem 0.85rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .docs-badge:hover {
+      background: rgba(6, 182, 212, 0.25);
+      border-color: var(--electric-cyan);
+      transform: translateY(-1px);
+    }
+    .card {
+      background: var(--surface-panel);
+      padding: 2rem;
+      border-radius: 16px;
+      border: 1px solid var(--border-subtle);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+    }
+    .card p {
+      color: var(--text-muted);
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+      font-size: 0.95rem;
+    }
+    input[type="url"] {
+      width: 100%;
+      padding: 0.85rem 1rem;
+      margin-bottom: 1.25rem;
+      background: var(--surface-raised);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      color: var(--text-bright);
+      font-size: 0.95rem;
+      font-family: inherit;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    input[type="url"]:focus {
+      outline: none;
+      border-color: var(--emerald-mint);
+      box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+    }
+    .checkbox-label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      cursor: pointer;
+      user-select: none;
+    }
+    .checkbox-label input {
+      width: 16px;
+      height: 16px;
+      accent-color: var(--emerald-mint);
+      margin-right: 0.75rem;
+    }
+    button.submit-btn {
+      background: linear-gradient(135deg, var(--emerald-mint) 0%, var(--emerald-hover) 100%);
+      color: #04120a;
+      border: none;
+      padding: 0.85rem 1.75rem;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: 700;
+      width: 100%;
+      font-size: 1rem;
+      font-family: 'Outfit', sans-serif;
+      letter-spacing: 0.02em;
+      transition: all 0.2s;
+      box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3);
+    }
+    button.submit-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(16, 185, 129, 0.45);
+    }
+    button.submit-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+    }
+    pre {
+      background: #030712;
+      color: #34d399;
+      padding: 1.25rem;
+      border-radius: 10px;
+      border: 1px solid var(--border-subtle);
+      overflow-x: auto;
+      max-height: 500px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+      margin-top: 1.5rem;
+    }
+    .loading {
+      display: none;
+      margin-top: 1.25rem;
+      color: var(--electric-cyan);
+      font-style: italic;
+      text-align: center;
+      font-size: 0.9rem;
+    }
     
     /* Floating button & Drawer CSS */
-    .fab { position: fixed; bottom: 2rem; right: 2rem; background: #03c75a; color: white; padding: 1rem 1.5rem; border-radius: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); cursor: pointer; z-index: 1001; font-weight: bold; border: none; }
-    .drawer { position: fixed; top: 0; right: -400px; width: 400px; height: 100vh; background: #fff; box-shadow: -4px 0 10px rgba(0,0,0,0.1); transition: right 0.3s ease; z-index: 1000; overflow-y: auto; padding: 2rem; box-sizing: border-box; }
+    .fab {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: var(--emerald-mint);
+      color: #04120a;
+      padding: 0.85rem 1.5rem;
+      border-radius: 30px;
+      box-shadow: 0 10px 25px -5px rgba(16, 185, 129, 0.5);
+      cursor: pointer;
+      z-index: 1001;
+      font-weight: 700;
+      border: none;
+      font-family: 'Outfit', sans-serif;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s;
+    }
+    .fab:hover {
+      transform: scale(1.05);
+      background: #34d399;
+    }
+    .drawer {
+      position: fixed;
+      top: 0;
+      right: -420px;
+      width: 420px;
+      height: 100vh;
+      background: var(--surface-panel);
+      box-shadow: -10px 0 30px rgba(0, 0, 0, 0.7);
+      transition: right 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      z-index: 1000;
+      overflow-y: auto;
+      padding: 2rem 1.5rem;
+      border-left: 1px solid var(--border-subtle);
+    }
     .drawer.open { right: 0; }
-    .drawer-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.4); z-index: 999; }
+    .drawer h2 {
+      font-family: 'Outfit', sans-serif;
+      margin-top: 0;
+      color: var(--text-bright);
+      font-size: 1.35rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .drawer-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(3px);
+      z-index: 999;
+    }
     .drawer.open ~ .drawer-overlay { display: block; }
-    .log-card { border: 1px solid #e5e7eb; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; }
-    .log-card.success { border-left: 4px solid #03c75a; }
-    .log-card.error { border-left: 4px solid #ef4444; }
-    .log-time { font-size: 0.8rem; color: #6b7280; margin-bottom: 0.5rem; }
-    .log-url { font-size: 0.9rem; word-break: break-all; margin-bottom: 0.5rem; color: #111827; }
-    .log-thumb { width: 100%; max-height: 120px; object-fit: cover; border-radius: 4px; cursor: pointer; margin-top: 0.5rem; border: 1px solid #e5e7eb; }
+    .log-card {
+      background: var(--surface-raised);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+    .log-card.success { border-left: 4px solid var(--emerald-mint); }
+    .log-card.error { border-left: 4px solid var(--rose-danger); }
+    .log-time { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.4rem; font-family: 'JetBrains Mono', monospace; }
+    .log-url { font-size: 0.85rem; word-break: break-all; margin-bottom: 0.5rem; color: var(--text-bright); }
+    .log-thumb {
+      width: 100%;
+      max-height: 130px;
+      object-fit: cover;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 0.5rem;
+      border: 1px solid var(--border-subtle);
+      transition: opacity 0.2s;
+    }
+    .log-thumb:hover { opacity: 0.85; }
     
     /* Lightbox Modal */
-    .lightbox { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.9); z-index: 2000; align-items: center; justify-content: center; padding: 2rem; }
+    .lightbox {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.92);
+      backdrop-filter: blur(8px);
+      z-index: 2000;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
     .lightbox.active { display: flex; }
-    .lightbox img { max-width: 100%; max-height: 100%; object-fit: contain; }
-    .lightbox-close { position: absolute; top: 2rem; right: 2rem; color: white; font-size: 2rem; cursor: pointer; }
+    .lightbox img { max-width: 95%; max-height: 90vh; object-fit: contain; border-radius: 8px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8); }
+    .lightbox-close {
+      position: absolute;
+      top: 1.5rem;
+      right: 2rem;
+      color: var(--text-bright);
+      font-size: 2.5rem;
+      cursor: pointer;
+      line-height: 1;
+    }
   </style>
 </head>
 <body>
+  <div class="header-bar">
+    <h1 class="brand-title">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      MrScrapper
+    </h1>
+    <a href="/docs" class="docs-badge" target="_blank">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      Swagger API Docs ↗
+    </a>
+  </div>
+
   <div class="card">
-    <h2>Naver Scraper Dashboard</h2>
-    <p>Paste a Naver SmartStore Product URL below to extract its full JSON details in real-time via the API.</p>
+    <p>Paste any Naver SmartStore or BrandStore Product URL below to extract full JSON payloads and bypass anti-bot challenges in real time.</p>
     <form id="scrapeForm">
       <input type="url" id="productUrl" placeholder="https://brand.naver.com/store/products/123..." required>
-      <label style="display: flex; align-items: center; margin-bottom: 1rem; font-size: 0.9rem; cursor: pointer;">
-        <input type="checkbox" id="takeScreenshot" style="width: auto; margin-right: 0.5rem; margin-bottom: 0;">
-        Take visual screenshot on success (automatically taken on errors)
+      <label class="checkbox-label">
+        <input type="checkbox" id="takeScreenshot">
+        Capture visual screenshot on success (automatically captured on errors)
       </label>
-      <button type="submit" id="submitBtn">Scrape JSON</button>
+      <button type="submit" id="submitBtn" class="submit-btn">Scrape Product JSON</button>
     </form>
-    <div id="loading" class="loading">Scraping Naver... (Bypassing anti-bot, please wait)</div>
-    <img id="screenshot" style="display: none; width: 100%; margin-top: 1rem; border-radius: 8px; border: 1px solid #d1d5db;" alt="Naver Capture Screenshot">
+    <div id="loading" class="loading">⚡ Scraping Naver via CDP Sidecar... (Bypassing anti-bot, please wait)</div>
+    <img id="screenshot" style="display: none; width: 100%; margin-top: 1.25rem; border-radius: 8px; border: 1px solid var(--border-subtle);" alt="Naver Capture Screenshot">
     <pre id="result" style="display: none;"></pre>
   </div>
 
-  <button class="fab" id="fab">View Logs</button>
+  <button class="fab" id="fab">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+    View Logs
+  </button>
   
   <div class="drawer" id="drawer">
-    <h2>Scrape History</h2>
+    <h2>
+      Scrape History
+      <span style="font-size: 0.8rem; font-weight: normal; color: var(--text-muted);">Max 500 logs</span>
+    </h2>
     <div id="logsContainer">Loading logs...</div>
   </div>
   <div class="drawer-overlay" id="overlay"></div>
@@ -155,12 +400,12 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
 
     async function loadLogs() {
       try {
-        logsContainer.innerHTML = 'Loading logs...';
+        logsContainer.innerHTML = '<div style="color: var(--text-muted); font-size: 0.9rem;">Loading logs...</div>';
         const res = await fetch('/logs');
         const data = await res.json();
         
         if (!data.logs || data.logs.length === 0) {
-          logsContainer.innerHTML = '<p>No logs found.</p>';
+          logsContainer.innerHTML = '<p style="color: var(--text-muted);">No logs found.</p>';
           return;
         }
 
@@ -172,7 +417,7 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
           let content = \`
             <div class="log-time">\${new Date(log.timestamp).toLocaleString()} (\${log.latencyMs}ms)</div>
             <div class="log-url">\${log.url}</div>
-            <div style="color: \${log.status === 'success' ? '#03c75a' : '#ef4444'}; font-weight: bold; font-size: 0.9rem;">
+            <div style="color: \${log.status === 'success' ? 'var(--emerald-mint)' : 'var(--rose-danger)'}; font-weight: 600; font-size: 0.85rem;">
               \${log.status.toUpperCase()} \${log.errorMessage ? ': ' + log.errorMessage : ''}
             </div>
           \`;
@@ -185,7 +430,7 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
           logsContainer.appendChild(card);
         });
       } catch (err) {
-        logsContainer.innerHTML = '<p>Error loading logs</p>';
+        logsContainer.innerHTML = '<p style="color: var(--rose-danger);">Error loading logs</p>';
       }
     }
 
