@@ -253,18 +253,37 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
     .drawer {
       position: fixed;
       top: 0;
-      right: -420px;
+      right: -100vw;
       width: 420px;
+      max-width: 100vw;
       height: 100vh;
       background: var(--surface-panel);
       box-shadow: -10px 0 30px rgba(0, 0, 0, 0.7);
       transition: right 0.3s cubic-bezier(0.16, 1, 0.3, 1);
       z-index: 1000;
       overflow-y: auto;
-      padding: 2rem 1.5rem;
+      padding: 1.5rem 1.25rem;
       border-left: 1px solid var(--border-subtle);
     }
     .drawer.open { right: 0; }
+    .drawer-close-btn {
+      background: var(--surface-raised);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+      font-size: 1.25rem;
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .drawer-close-btn:hover {
+      color: var(--text-bright);
+      background: rgba(255, 255, 255, 0.1);
+    }
     .drawer h2 {
       font-family: 'Outfit', sans-serif;
       margin-top: 0;
@@ -366,8 +385,11 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
   
   <div class="drawer" id="drawer">
     <h2>
-      Scrape History
-      <span style="font-size: 0.8rem; font-weight: normal; color: var(--text-muted);">Max 500 logs</span>
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <span>Scrape History</span>
+        <span style="font-size: 0.75rem; font-weight: 500; color: var(--text-muted);">(Max 500)</span>
+      </div>
+      <button class="drawer-close-btn" id="drawerClose" aria-label="Close Logs">&times;</button>
     </h2>
     <div id="logsContainer">Loading logs...</div>
   </div>
@@ -385,9 +407,19 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
     const lightbox = document.getElementById('lightbox');
     const lightboxImg = document.getElementById('lightboxImg');
 
+    const drawerClose = document.getElementById('drawerClose');
+
     document.getElementById('fab').addEventListener('click', async () => {
-      drawer.classList.add('open');
-      await loadLogs();
+      if (drawer.classList.contains('open')) {
+        drawer.classList.remove('open');
+      } else {
+        drawer.classList.add('open');
+        await loadLogs();
+      }
+    });
+
+    drawerClose.addEventListener('click', () => {
+      drawer.classList.remove('open');
     });
 
     overlay.addEventListener('click', () => {
