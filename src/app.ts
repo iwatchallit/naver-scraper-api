@@ -373,14 +373,9 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
     <p>Paste any Naver SmartStore or BrandStore Product URL below to extract full JSON payloads and bypass anti-bot challenges in real time.</p>
     <form id="scrapeForm">
       <input type="url" id="productUrl" placeholder="https://brand.naver.com/store/products/123..." required>
-      <label class="checkbox-label">
-        <input type="checkbox" id="takeScreenshot">
-        Capture visual screenshot on success (automatically captured on errors)
-      </label>
       <button type="submit" id="submitBtn" class="submit-btn">Scrape Product JSON</button>
     </form>
     <div id="loading" class="loading">⚡ Scraping Naver via CDP Sidecar... (Bypassing anti-bot, please wait)</div>
-    <img id="screenshot" style="display: none; width: 100%; margin-top: 1.25rem; border-radius: 8px; border: 1px solid var(--border-subtle);" alt="Naver Capture Screenshot">
     <pre id="result" style="display: none;"></pre>
   </div>
 
@@ -450,21 +445,15 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
         logsContainer.innerHTML = '';
         data.logs.forEach(log => {
           const card = document.createElement('div');
-          card.className = \`log-card \${log.status}\`;
+          card.className = "log-card " + log.status;
+          const statusColor = log.status === 'success' ? 'var(--emerald-mint)' : 'var(--rose-danger)';
+          const msg = log.errorMessage ? ': ' + log.errorMessage : '';
           
-          let content = \`
-            <div class="log-time">\${new Date(log.timestamp).toLocaleString()} (\${log.latencyMs}ms)</div>
-            <div class="log-url">\${log.url}</div>
-            <div style="color: \${log.status === 'success' ? 'var(--emerald-mint)' : 'var(--rose-danger)'}; font-weight: 600; font-size: 0.85rem;">
-              \${log.status.toUpperCase()} \${log.errorMessage ? ': ' + log.errorMessage : ''}
-            </div>
-          \`;
+          card.innerHTML = '<div class="log-time">' + new Date(log.timestamp).toLocaleString() + ' (' + log.latencyMs + 'ms)</div>' +
+            '<div class="log-url">' + log.url + '</div>' +
+            '<div style="color: ' + statusColor + '; font-weight: 600; font-size: 0.85rem;">' +
+            log.status.toUpperCase() + msg + '</div>';
 
-          if (log.screenshotBase64) {
-            content += \`<img src="data:image/jpeg;base64,\${log.screenshotBase64}" class="log-thumb" onclick="openLightbox(this.src)">\`;
-          }
-
-          card.innerHTML = content;
           logsContainer.appendChild(card);
         });
       } catch (err) {
@@ -472,35 +461,21 @@ export function buildServer(overrides?: Partial<BuildServerDeps>) {
       }
     }
 
-    function openLightbox(src) {
-      lightboxImg.src = src;
-      lightbox.classList.add('active');
-    }
-
     document.getElementById('scrapeForm').addEventListener('submit', async (e) => {
       e.preventDefault();
       const url = document.getElementById('productUrl').value;
-      const takeScreenshot = document.getElementById('takeScreenshot').checked;
       const resultEl = document.getElementById('result');
-      const screenshotEl = document.getElementById('screenshot');
       const loadingEl = document.getElementById('loading');
       const btn = document.getElementById('submitBtn');
       
       resultEl.style.display = 'none';
-      screenshotEl.style.display = 'none';
       loadingEl.style.display = 'block';
       btn.disabled = true;
       
       try {
-        const queryParams = new URLSearchParams({ productUrl: url, screenshot: takeScreenshot.toString() });
+        const queryParams = new URLSearchParams({ productUrl: url, screenshot: "false" });
         const response = await fetch('/naver?' + queryParams.toString());
         const data = await response.json();
-        
-        if (data.screenshotBase64) {
-          screenshotEl.src = 'data:image/jpeg;base64,' + data.screenshotBase64;
-          screenshotEl.style.display = 'block';
-          delete data.screenshotBase64; // Remove from JSON payload for cleaner display
-        }
         
         resultEl.textContent = JSON.stringify(data, null, 2);
         resultEl.style.display = 'block';
