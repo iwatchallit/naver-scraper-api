@@ -244,13 +244,13 @@ Policy:
 
 ```mermaid
 flowchart LR
-  Client --> API[Fastify API :3000]
-  API --> Orchestrator[Queue + Retry + Deadline]
-  Orchestrator --> CDP[Playwright CDP Service]
-  CDP --> Chrome[Chrome Sidecar :9222]
-  CDP --> Proxy[Optional Proxy Adapter :8899]
-  API --> Cache[TTL Success Cache]
-  API --> Metrics[/metrics Prometheus]
+  Client --> API["Fastify API :3000"]
+  API --> Orchestrator["Queue + Retry + Deadline"]
+  Orchestrator --> CDP["Playwright CDP Service"]
+  CDP --> Chrome["Chrome Sidecar :9222"]
+  CDP --> Proxy["Optional Proxy Adapter :8899"]
+  API --> Cache["TTL Success Cache"]
+  API --> Metrics["/metrics Prometheus"]
 ```
 
 ## Proxy Handling Notes
